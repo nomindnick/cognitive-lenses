@@ -1,0 +1,1583 @@
+# q2 — Drought surcharge funding low-income rebates (Prop 218)
+
+`Prop 218 / water rates / cost of service` · question id `q2`
+
+> **⚠️ Exploration output — angles, not answers.** This tool surfaces the argument space; it does not state the law. **Every authority cited anywhere below is UNVERIFIED** unless explicitly marked verified by a human or a verifier adapter. Assume citations may be wrong, mischaracterized, or invented until checked.
+
+## The question
+
+The Sierra Vista Municipal Water District (invented) serves ~140,000 people in a chronically drought-stressed service area. After a rate study and a majority-protest hearing that drew protests from ~9% of parcels, the board adopted a "Water Resilience Surcharge": $0.85 per hundred cubic feet on residential usage above Tier 2 (the surcharge falls on roughly the top 22% of residential users), projected to raise $4.1M/year into a restricted fund spent as follows: 55% on turf-replacement and high-efficiency-appliance rebates that prioritize low-income customers; 30% on debt service for a recycled-water plant; 15% on "water ambassador" conservation-education staff.
+
+The rate study concludes that high-tier consumption imposes marginal supply costs roughly 1.6× base-tier costs (peaking capacity, drought-reserve purchases), but it derives the $0.85 figure in part from what it calls "conservation-incentive pricing" rather than strictly from cost allocation, and the district concedes the rebate program mostly benefits customers other than those paying the surcharge. A ratepayer association has sued, alleging the surcharge exceeds the proportional cost of service attributable to the payers' parcels in violation of article XIII D, section 6(b) of the California Constitution, citing Capistrano Taxpayers Association v. City of San Juan Capistrano. The district defends the structure under its conservation mandate (Cal. Const. art. X, § 2; Water Code § 375) and argues that, in the alternative, the surcharge is not a property-related fee at all.
+
+**Asked:** Does the Water Resilience Surcharge violate article XIII D, section 6(b)'s cost-of-service and proportionality requirements? How does Capistrano apply to a tier surcharge that is partly cost-justified (1.6×) and partly incentive-priced, with proceeds partially redistributed as rebates to non-payers? Can article X, section 2's conservation mandate be reconciled with 218, or does 218 win? Is there a colorable argument the surcharge is a tax requiring voter approval (Prop 26), or a non-property-related charge? What is the litigation exposure (refunds, fees) and how could the structure be repaired?
+
+**Delphi proposition:** "A court would invalidate the Water Resilience Surcharge, in whole or in substantial part, as violating the cost-of-service requirements of California Constitution article XIII D, section 6(b)."
+
+**Why it's contested:** Capistrano requires tiered rates to be cost-justified, but post-Capistrano practice tolerates some incentive design; funding rebates for non-payers out of rates looks like redistribution that § 6(b)(3)–(4) forbids, yet conservation pricing has independent constitutional footing in article X, § 2, and the fee/tax/property-related characterization changes the whole analytical frame. Genuine doctrinal tension, unresolved by the California Supreme Court.
+
+## Coverage experiment — panel vs naive passes
+
+*Scored by a Fable-tier judge instructed to be adversarial toward the panel: an angle only counts where a document actually develops it.*
+
+| | Panel (Sonnet workers) | Naive Sonnet | Naive Fable |
+|---|---|---|---|
+| Angles found (of 47 total) | 41 | 26 | 30 |
+| Substantive angles (of 32) | 29 | 23 | 26 |
+
+- **Panel-only substantive angles** (missed by BOTH naive passes): 5
+- Substantive angles the panel found that its own model's naive pass missed: 7
+- Substantive angles the panel MISSED that a naive pass caught: 3
+- Panel noise rate (noise / panel angles): 5%
+
+**Per-lens contribution** (unique substantive = substantive angles only this lens surfaced and no naive pass had):
+
+| Lens | Angles | Substantive | Unique substantive | Noise |
+|---|---|---|---|---|
+| delphi | 15 | 15 | 0 | 0 |
+| dialectic | 23 | 22 | 1 | 0 |
+| premortem | 19 | 16 | 0 | 0 |
+| steelman | 18 | 17 | 1 | 0 |
+| structural | 17 | 10 | 1 | 1 |
+| tetlock | 27 | 22 | 0 | 1 |
+
+
+**Judge's verdict:** Yes, but narrowly and at a poor signal-to-text ratio. Against naive-Sonnet (the fair same-model comparison), the panel adds real value a lawyer would pay for: the restructuring trap, the record-limitation question, the §1021.5 fee defense, the must-verify/citation-instability discipline, and the adversarial discovery framing — roughly five substantive angles plus better-organized cruxes. Against Fable, the ledger is close to even: Fable independently matched almost all of the panel's doctrinal core in a tenth of the words, actually developed the potentially case-dispositive limitations defense and Plantier holding the panel only flagged as its own blind spot, and contributed the penalty-ordinance repair route, the low-income-targeting evidentiary point, and the debt-service-spreading fix that the panel missed entirely. The panel's genuine edge is adversarial-tactical and epistemic (what could go wrong, what can't be trusted), not doctrinal breadth — that edge is worth paying for, but about a third of its unique output is padding, and convergence across lenses demonstrably laundered at least one shared citation error.
+
+**Panel-unique value:** Of the ~15 angles only the panel surfaced, five are genuinely worth a lawyer's money: (1) premortem's restructuring trap — that the universally recommended mid-litigation fix can backfire as an admission and an un-noticed new fee — is the single best panel-unique insight, and it directly contradicts Fable's breezy 'adopt corrected rates ASAP' advice, a tension a real advisor must resolve; (2) dialectic's question whether the district is confined to its adopted record or can rehabilitate the number with post-hoc cost reconstruction at trial, which determines the entire defense strategy; (3) structural's narrow-private-interest counter to §1021.5 fees, a real and commonly litigated fee defense both naive passes missed; (4) the citation-instability finding (three incompatible Coziahr citations, unstable Griffith/Wilde attributions) — in an LLM-drafted memo context this is exactly the discipline that prevents a sanctionable filing, and Fable's confident pinpoint cites plus a one-line generic caveat is strictly worse; (5) steelman's AWWA M1 base-extra-capacity anchor, which is how the redone rate study would actually be defended through experts. The workpaper-sequencing impeachment framing is a genuine increment on Sonnet's workpaper-discovery point. The rest is padding of varying thinness: the §6(b)(4) volitional construction is a long shot already answered by Bighorn; the bond-floor settlement predictor, political-fallout list, plaintiff-class-turnover theory, distributive-fallout observation, and ACWA-amicus dynamics are one-line color a practitioner already carries in their head; the Q4-collapses-into-Q2 note and the subsection-numbering correction are internal bookkeeping dressed as insight.
+
+**Noise:** The panel's own noise audit is candid and largely accurate, which is to its credit, but the aggregated report still carries the residue: the delphi probability apparatus (median 73, range 72–80, three-point net movement over two rounds) and tetlock's pseudo-probabilities on non-propositions add numerical dressing to a directional verdict both naive passes state in one sentence ('very likely invalid at least in part'). The contested item on 'what epistemic policy to apply to Coziahr uncertainty' — three lenses drawing opposite inferences from identical ignorance — is pure process noise for a lawyer. Structural's sociology (candor-punishing incentives, silent-middle financing, class turnover) is structured word-salad relative to the litigation task. More damning than noise: the panel presents as a convergent finding that '§6(b)(5) places the burden on the agency,' propagating an error (the burden sentence is the unnumbered final sentence of §6(b); (b)(5) is the general-governmental-services bar) that naive-Sonnet alone gets right — multi-lens agreement laundered a shared hallucination while tetlock's 'numbering correction' was showcased as a contribution. Finally, the panel's flag-without-analysis pattern (limitations framework, Plantier's holding, spent-fund remedy mechanics — all self-confessed blind spots) inflates apparent coverage: Fable actually analyzed the §53759 defense and called it potentially dispositive, while the panel could only report that three lenses named three conflicting statutes.
+
+## Aggregated argument map (the tool's deliverable)
+
+## 1. Argument map
+
+### Convergent (multiple independent lenses agree)
+
+- The district's "not a property-related fee" fallback is likely foreclosed by *Bighorn-Desert View Water Agency v. Verjil* (unverified) for volumetric retail water charges, forcing the case onto §6(b) merits; *San Buenaventura*'s extraction-charge holding is distinguishable. [delphi, tetlock, dialectic, premortem]
+- The rate study's own language — $0.85 derived "in part" from "conservation-incentive pricing" rather than strict cost allocation — maps directly onto the defect condemned in *Capistrano* (unverified) and functions as an admission the district must explain away. [delphi, tetlock, dialectic, premortem]
+- The 55% rebate tranche, which the district concedes "mostly benefits customers other than those paying the surcharge," is an analytically independent violation theory under §6(b)(1)–(3) — a second, disjunctive path to invalidation separate from the rate-methodology defect. [delphi, tetlock, dialectic, premortem]
+- Article XIII D, §6(b)(5) places the burden of proving compliance on the agency; combined with the district's own record concessions, this converts the district's posture into damage control rather than affirmative justification. [delphi, tetlock, dialectic, steelman]
+- The documented 1.6× marginal-cost differential is a genuine cost anchor that distinguishes this record from *Capistrano*'s and makes partial invalidation/severance more likely than total invalidation — and simultaneously supplies the district's ceiling-based defense. [delphi, tetlock, dialectic, steelman]
+- The single largest unknown is the unquantified dollar gap between $0.85/hcf and what a strict 1.6× derivation would yield; a side-by-side dollar reconstruction (base Tier 2 rate + rate-study workpapers) is the highest-leverage next step. [delphi, tetlock, dialectic, premortem, steelman]
+- Art. X, §2 and Water Code §375 do not authorize charging above actual cost of service; conservation goals are either already served by genuinely cost-based tiering or must be funded through non-fee mechanisms — whether framed as "218 wins" or "no genuine conflict/harmonization," the operative bottom line is the same. [delphi, tetlock, dialectic, steelman, structural]
+- The 30% recycled-water debt-service tranche is the most defensible allocation, on a cost-causation theory tying recycled capacity to discretionary high-tier demand. [delphi, tetlock, dialectic, steelman, structural]
+- Directional bottom line among the lenses that assessed the proposition: more likely than not that a court invalidates the surcharge at least in substantial part (delphi final median 73, range 72–80; tetlock ≈90%+ for at least a partial §6(b) violation and ~5–10% district full-clean; dialectic synthesis "more likely true than false"). [delphi, tetlock, dialectic]
+- Refund exposure plus CCP §1021.5 fee-shifting (unverified) materially raise stakes and settlement value once any part of the claim succeeds. [delphi, tetlock, dialectic, premortem, structural]
+- Converged repair blueprint: cap the surcharge at a documented cost-derived ceiling and strip the incentive-pricing language; move rebates to general fund/grants **or** build a quantified avoided-cost/DSM nexus study; re-target or de-fund the ambassador line; route any above-cost conservation increment through a voter-approved special tax. [tetlock, dialectic, premortem, structural]
+- Surviving the majority-protest hearing (~9% protest) is procedural §6(a) compliance only and does not cure a substantive §6(b) defect, though it may bear on remedy scope and fee awards. [dialectic, steelman, premortem]
+- *Coziahr v. Otay Water District* is cited with three incompatible citations/years across panelists and cannot be treated as load-bearing authority in either direction until verified. [delphi, tetlock, steelman, premortem]
+
+### Contested (lenses genuinely conflict)
+
+- **Is the incentive-pricing admission fatal, or is proportionality "measured in dollars, not adjectives"?** One side: the admission is close to dispositive under §6(b)(5) burden-shifting regardless of arithmetic [delphi (majority), tetlock, premortem]. Other side: §6(b)(3) is a *result* test — if $0.85 sits within the 1.6×-derived ceiling, the language is bad drafting, not a violation [dialectic (antithesis; synthesis leaves this open), steelman, delphi (deference-minority)]. *Nature: unsettled legal question (Capistrano strictness vs. Wilde/Griffith deference line) compounded by a missing fact (the gap size).*
+- **Does the rebate concession foreclose the systemwide-benefit/DSM defense?** One side: the concession forecloses it on this record; the district built no quantified avoided-cost showing [delphi (75/80 panelists), dialectic (synthesis), premortem]. Other side: demand-side management is a recognized cost of service, no case squarely bars rebate-funded programs, and class-level benefit suffices [steelman, dialectic (antithesis), tetlock, delphi (cluster minority)]. *Nature: record-characterization/factual assumption layered on a genuinely unsettled legal question.*
+- **Does partial invalidation satisfy "in substantial part"?** One side: the 55% tranche (plus up to ~70% with the ambassador line) satisfies it standing alone [delphi (high panelist + others), dialectic (synthesis)]. Other side: a realistic outcome range includes a modest trim/remand a fair observer would call a district win, falsifying the proposition [delphi (72–73 cluster), dialectic (antithesis)]. *Nature: interpretive framing of the proposition plus remedy prediction — largely risk tolerance.*
+- **Prop 26 "it's really a tax" theory.** One side: colorable alternative — a §6(b)-noncompliant fee falls outside the Art. XIII C §1(e) exemption and reverts to a tax needing two-thirds approval [dialectic (thesis)]. Other side: XIII C and XIII D are mutually exclusive tracks; a defective fee gets recalculation/refund, not retroactive tax status; plead for safety only, no incremental exposure [dialectic (antithesis/synthesis), tetlock, steelman]. *Nature: legal question; no lens identified controlling authority either way.*
+- **Whether to plead "not a fee" at all.** One side: dead on arrival under *Bighorn* and affirmatively credibility-costing / internally strained [premortem, structural, dialectic]. Other side: non-frivolous and preservable via *Griffith*'s volitional-act distinction and §6(b)(4)'s "immediately available" text [steelman]. *Nature: legal question plus litigation-tactics risk tolerance.*
+- **The 15% "water ambassador" tranche.** One side: likely loss as general-public-benefit spending; a third independent vulnerability [delphi (Theme G), dialectic (thesis; antithesis concedes it as weakest link)]. Other side: comparatively tolerable/more defensible as demand-management spending [tetlock, steelman]. *Nature: legal characterization plus a discoverable fact (staff time-allocation records).*
+- **The 30% debt-service tranche.** One side: strongest component, textbook cost causation [delphi, dialectic (antithesis), steelman, structural]. Other side: a discovery target — if plant sizing was driven by systemwide drought resilience rather than top-tier peak demand, loading 100% of debt service on payers is itself a §6(b)(3) defect [dialectic (thesis)]. *Nature: factual (engineering/demand studies).*
+- **Mid-litigation restructuring.** One side: defensive rate trim/reallocation caps exposure [premortem (assumed position), tetlock, structural]. Other side: done without clean rescission and a fresh §6(a)/Gov. Code §53755 process, it reads as a new fee and an admission, expanding the refund window [premortem (retrospective)]. *Nature: procedural/tactical — turns on execution, not doctrine.*
+- **What to do with the Coziahr uncertainty** (within-panel): symmetric "cuts either way" vs. zero-weight placeholder vs. asymmetric discount weakening the district's deference shield — three epistemic policies drawing opposite directional inferences from identical uncertainty. [delphi] *Nature: risk tolerance/epistemic method, not law or fact.*
+
+### Unique (surfaced by a single lens)
+
+- Q4 (conservation-mandate reconciliation) collapses into Q2 (rate-derivation) — treating them as independent probabilities double-counts the same legal judgment. [tetlock]
+- Whether a corrected/lowered rate counts as a "new or increased" fee under Gov. Code §53750(h)(1) requiring a fresh notice-and-protest cycle. [tetlock]
+- Subsection-numbering correction: the revenue-cap language is §6(b)(1), not (b)(2) — matters for pleading. [tetlock]
+- Whether §6(b) fee actions permit post-hoc cost reconstruction at trial or are limited to the adopted rate-study record — flagged as the open question that determines whether the district can rehabilitate the number. [dialectic]
+- §6(b)(4) "immediately available" textual argument that the *surcharge increment* (voluntary above-baseline consumption) is not imposed as an incident of ownership. [steelman]
+- AWWA M1 Manual "base-extra capacity" methodology as the industry anchor legitimating the 1.6× allocation. [steelman]
+- Prop 26 art. XIII C §1(e)(2) specific-service exception as an independent fallback, and Gov. Code §53759's 120-day limitations period as a refund cap. [steelman]
+- Discovery risk that consultant workpapers show budget-first, cost-story-second sequencing ($4.1M target set before cost causation) — the exact sequencing *Capistrano* criticized. [premortem]
+- Grand jury inquiry / board recall / press-narrative political fallout as a failure mode. [premortem]
+- Bond-covenant pressure as the district's true negotiating floor ("protect debt service; everything else is negotiable"), predicting settlement shape better than doctrine. [structural] (bond downgrade/covenant-shortfall risk itself also caught by [premortem])
+- Non-party low-income rebate beneficiaries bear the cost of any doctrinal fix with no voice in the case; refunds get financed by future uniform rate hikes on the "silent middle." [structural]
+- Plaintiff-class turnover (Tier 3+ membership shifts year to year) erodes association cohesion — delay structurally favors the district. [structural]
+- Perverse doctrinal incentive: the litigation punishes rate-study candor, so consultants statewide will relabel incentive pricing as peaking-cost methodology; the cost-nexus test will increasingly measure drafting skill. [structural]
+- Sector-wide precedent stakes (ACWA-type amicus interest) reduce the odds of quiet settlement; §1021.5 economics push plaintiff's counsel toward published precedent over a rate tweak. [structural]
+- Defense counter to §1021.5 fees: the suit vindicates a narrow private pecuniary interest of high-tier payers, not a broad public benefit. [structural]
+
+## 2. Blind spots
+
+- **Bond/debt-covenant dynamics** — only two lenses saw that 30% of revenue is pledged to debt service and that covenant/rating pressure, not doctrine, likely drives the district's litigation and settlement behavior. The doctrinal lenses treated the 30% tranche purely as a merits question. [premortem, structural]
+- **The restructuring trap** — only premortem gamed out that the universally recommended "fix it now" move can backfire as an admission and as an un-processed new fee; tetlock touched the notice-requirement question without the adversarial framing. [premortem, tetlock]
+- **Workpaper sequencing risk** — only premortem flagged that discovery of a revenue-target-first derivation would impeach the entire 1.6× narrative; other lenses treated the workpapers as a neutral arithmetic source. [premortem]
+- **Distributive and representational fallout** — only structural noted that the program's actual beneficiaries are absent from the case and that the doctrinally "safest" fix is distributively harshest on them. [structural]
+- **Under-explored across ALL lenses (absence noted, no analysis added):** (a) the suit's *timeliness posture* — three lenses name three conflicting candidate limitations frameworks (Gov. Code §53759 120-day [steelman]; CCP §338 / Gov. Code claims presentation [tetlock]; reverse-validation CCP §860 et seq. [dialectic]) and none analyzes which applies or whether this suit is timely; (b) *Plantier* is cited by four lenses purely as a procedural placeholder — no lens examined what it actually holds about exhaustion or the procedural vehicle; (c) remedy mechanics for already-collected, already-spent restricted funds are flagged for verification everywhere but analyzed nowhere.
+
+## 3. For the lawyer
+
+### Worth developing (ranked)
+
+1. **The dollar reconstruction** — compute what $0.85 would be under a strict 1.6× derivation from the base Tier 2 rate and workpapers; every lens independently identified this as the fact that moves the case most, and tetlock names it the decisive crux. [delphi, tetlock, dialectic, premortem, steelman]
+2. **The revenue-use theory (and its counter)** — the 55% rebate tranche is the cleanest independent path to "substantial part," and the district's only real answer is a quantified avoided-cost/DSM nexus study it has not built; whichever side you're on, this is where the case is likely decided. [delphi, tetlock, dialectic, steelman, premortem]
+3. **Pin down the deference line** — verify Coziahr's identity/holding, which Griffith supplies the deference principle, and what Wilde actually holds (burden vs. no-mathematical-precision); the entire residual disagreement about outcome hangs partly on unverified authority. [delphi, tetlock, steelman, structural]
+4. **Restructuring/settlement sequencing** — if repairing, do it with clean rescission and a fresh §6(a) process (and resolve the Gov. Code §53750(h) "increase" question), because the same move done badly expands rather than caps exposure; the bond-covenant floor tells you what the district will actually trade. [premortem, tetlock, structural]
+5. **Recycled-plant engineering/demand records** — the one discovery item that could flip the "safest" 30% tranche in either direction (peak-driven sizing helps the district; systemwide sizing helps plaintiffs). [dialectic, steelman]
+6. **Exposure model** — build a partial-loss-plus-§1021.5 scenario (the failure mode premortem says gets undercounted), including the limitations-period question and the narrow-private-interest fee defense. [premortem, tetlock, dialectic, structural, steelman]
+7. **Kill-or-keep decision on the "not a fee" argument** — three lenses say it costs credibility; one constructs a preservable version; this is a deliberate tactical choice, not a costless hedge. [premortem, structural, dialectic, steelman]
+8. **Ambassador time-allocation records** — a discrete factual item that resolves the third vulnerable tranche cheaply. [dialectic, steelman, delphi]
+
+### Must verify
+
+All of the following are UNVERIFIED as cited by the lenses; several were cited inconsistently across lenses:
+
+- *Capistrano Taxpayers Assn. v. City of San Juan Capistrano* (2015) 235 Cal.App.4th 1493 — pinpoint holding; specifically whether the city had *any* cost study or the court rejected an existing one (the load-bearing process-vs-result distinction). [all lenses]
+- *Coziahr v. Otay Water District* — identity, year, citation, and holding; three incompatible citations offered (2018) 24 Cal.App.5th 850 / (2023) 91 Cal.App.5th 1 / (2024) 103 Cal.App.5th 122. [delphi, tetlock, steelman, premortem]
+- Which *Griffith* supplies the deference/coverage principle: *Griffith v. Pajaro Valley Water Mgmt. Agency* (2013) 220 Cal.App.4th 586 vs. *Griffith v. City of Santa Cruz* (2012) — itself cited inconsistently as 207 Cal.App.4th 1130 and 1064. [delphi, tetlock, dialectic]
+- *Wilde v. City of Dunsmuir* (2020) 9 Cal.5th 1105 — burden-of-proof holding vs. rate-deference holding (panel split on what it stands for). [delphi, structural]
+- *Bighorn-Desert View Water Agency v. Verjil* (2006) 39 Cal.4th 205 — pinpoint scope (party name spelled three ways across lenses). [delphi, tetlock, dialectic, premortem, steelman]
+- *Morgan v. Imperial Irrigation District* (2014) 223 Cal.App.4th 892 — citation and holding; flagged as the district's best precedent. [dialectic, steelman]
+- *Plantier v. Ramona Municipal Water District* (2019) 7 Cal.5th 372 — actual procedural holding and remedy implications. [delphi, tetlock, dialectic, steelman]
+- *City of San Buenaventura v. United Water Conservation Dist.* (2017) 3 Cal.5th 1191; *Richmond v. Shasta* (2004) 32 Cal.4th 409; *City of Palmdale v. Palmdale Water Dist.* (2011) 198 Cal.App.4th 926 (precedential status); *Silicon Valley Taxpayers* (2008) 44 Cal.4th 431 (whether its special/general-benefit rule imports into the fee context); *Jacks v. City of Santa Barbara*; *Schmeer v. County of Los Angeles*; *Zolly v. City of Oakland* (relevance flagged). [dialectic, tetlock, delphi]
+- Exact text/subdivision placement of art. XIII D §6(b)(1)–(5), including the burden clause and which subdivision carries the revenue cap (lenses used (b)(1) and (b)(2) inconsistently). [tetlock, dialectic, delphi]
+- Prop 26 / art. XIII C §1(e) — exact paragraph numbering of the XIII D exemption ((e)(7)) and the specific-service exception ((e)(2)). [dialectic, tetlock, steelman]
+- Limitations/claims framework — conflicting candidates: Gov. Code §53759 (120 days) [steelman]; CCP §338 / Gov. Code §§900 et seq., 935 [tetlock]; reverse validation, CCP §§860 et seq. / Gov. Code §53511 [dialectic]; Gov. Code §§53750–53756.5 refund procedures [dialectic].
+- Gov. Code §53750(h)(1) "new or increased fee" definition; Gov. Code §53755 notice procedure. [tetlock, premortem]
+- Prop 218 ballot-measure severability provision location. [dialectic]
+- Water Code §375 exact text and scope. [steelman, tetlock]
+- §1021.5 fee-award comparables in Prop 218 litigation. [premortem, dialectic, tetlock]
+- Factual predicates: base Tier 2 rate and rate-study workpapers (including derivation sequencing); rebate-beneficiary distribution data; ambassador time-allocation records; recycled-plant engineering/demand studies; bond covenant/pledge terms; suit timing relative to adoption. [tetlock, dialectic, premortem, steelman, structural]
+
+### What looks decisive
+
+- **The dollar gap between $0.85 and the strict 1.6×-derived figure** — every lens that reached the merits identified this as the largest single driver; tetlock formally names it the decisive crux; the dialectic antithesis concedes the whole defense turns on it. [delphi, tetlock, dialectic, premortem, steelman]
+- **The process-vs-result reading of Capistrano/§6(b)(3)** — whether an admitted non-cost derivation is fatal regardless of arithmetic, resolvable by pinpoint verification of Capistrano and confirmation of whether post-hoc cost reconstruction is permitted at trial. [dialectic, delphi, tetlock, steelman]
+- **Whether the rebate concession is treated as dispositive or as one datum** — this alone determines whether "substantial part" is already overdetermined (the delphi high panelist's view) or still fact-dependent (the cluster's view). [delphi, dialectic, steelman]
+- **Coziahr's actual holding** — the one piece of legal research multiple lenses said could materially move the estimate in either direction. [delphi, tetlock]
+
+## 4. Noise audit
+
+- **delphi**: the highest padding-to-signal ratio. Seven panelists reproduce the same three-pillar structure nearly verbatim; the full final-round answers are ~80% redundant with the persistent-disagreement report, and much of the text is meta-commentary about why panelists did or didn't move (net movement: three points over two rounds). The distillate — the persistent-disagreement report and the citation-instability finding on Coziahr/Griffith/Wilde — is genuinely valuable; the bulk is duplicative.
+- **tetlock**: partly structured word-salad at the edges. Q4 is self-admitted double-counting of Q2. Q5's "58%" and especially Q6's "60%" attach probabilities to questions that are not propositions (60% of *what* is never stated) — numerical dressing on advisory content. The recomposition also inserts an unexplained ad hoc adjustment (Q3's 45% discounted to 30%). The gated-tree structure and the decisive-crux identification are real contributions.
+- **dialectic**: substantive throughout, but internally duplicative — thesis, antithesis, and synthesis each carry overlapping repair blueprints and near-identical verification checklists, so roughly a third of the volume is the same content restated three times.
+- **premortem**: tight, low noise, and the source of most of the failure modes no other lens caught.
+- **steelman**: performs its assigned role with modest rhetorical padding; it contributes genuinely distinct material (§6(b)(4) text argument, AWWA M1, §53759, §1(e)(2)) rather than restating the antithesis.
+- **structural**: mostly non-duplicative and the sole source of the non-doctrinal drivers; minor repetition (the "cosmetic compliance/relabeling" point appears twice in slightly different clothes).
+
+## Authorities cited (extracted deterministically, flagged)
+
+| Authority | Kind | Cited by | Status |
+|---|---|---|---|
+| Bighorn-Desert View Water Agency v. Verjil | case | delphi, dialectic, steelman, tetlock | ⚠️ UNVERIFIED — check before relying |
+| Bighorn-Desert View Water Agency v. Vial treats water service charges as property-related fees | case | tetlock | ⚠️ UNVERIFIED — check before relying |
+| Cal.4th 205 and Richmond v. Shasta Community Services Dist | case | dialectic | ⚠️ UNVERIFIED — check before relying |
+| Cal.4th 205 and the reasoning of Capistrano Taxpayers Assn. v. City of San Juan Capistrano | case | dialectic | ⚠️ UNVERIFIED — check before relying |
+| Cal.5th 1191 and Griffith v. Pajaro Valley Water Mgmt | case | tetlock | ⚠️ UNVERIFIED — check before relying |
+| Cal.App.4th 1130 or Griffith v. Pajaro Valley Water Mgmt | case | delphi | ⚠️ UNVERIFIED — check before relying |
+| Capistrano Taxpayers Ass'n v. City of San Juan Capistrano | case | tetlock | ⚠️ UNVERIFIED — check before relying |
+| Capistrano Taxpayers Assn. v. City of San Juan Capistrano | case | delphi, steelman | ⚠️ UNVERIFIED — check before relying |
+| Capistrano Taxpayers Association v. City of San Juan Capistrano | case | delphi | ⚠️ UNVERIFIED — check before relying |
+| City of Palmdale v. Palmdale Water Dist | case | aggregate, delphi, dialectic, naive_fable, premortem | ⚠️ UNVERIFIED — check before relying |
+| City of San Buenaventura v. United Water Conservation Dist | case | aggregate, dialectic, naive_fable, tetlock | ⚠️ UNVERIFIED — check before relying |
+| Confirm Morgan v. Imperial Irrigation District citation | case | dialectic | ⚠️ UNVERIFIED — check before relying |
+| Coziahr v. Otay Water Dist | case | naive_fable | ⚠️ UNVERIFIED — check before relying |
+| Great Oaks Water Co. v. Santa Clara Valley Water Dist | case | naive_sonnet | ⚠️ UNVERIFIED — check before relying |
+| Griffith case over Griffith v. City of Santa Cruz | case | delphi | ⚠️ UNVERIFIED — check before relying |
+| Griffith v. City of Santa Cruz | case | tetlock | ⚠️ UNVERIFIED — check before relying |
+| Griffith v. Pajaro Valley | case | structural | ⚠️ UNVERIFIED — check before relying |
+| Griffith v. Pajaro Valley Water Management Agency | case | dialectic | ⚠️ UNVERIFIED — check before relying |
+| Griffith v. Pajaro Valley Water Mgmt | case | aggregate, premortem | ⚠️ UNVERIFIED — check before relying |
+| I am also declining to lean on Zolly v. City of Oakland | case | delphi | ⚠️ UNVERIFIED — check before relying |
+| I continue to treat Griffith v. Pajaro Valley Water Mgmt | case | delphi | ⚠️ UNVERIFIED — check before relying |
+| Morgan v. Imperial Irrigation Dist | case | naive_fable | ⚠️ UNVERIFIED — check before relying |
+| Need to verify whether Coziahr v. Otay Water District | case | tetlock | ⚠️ UNVERIFIED — check before relying |
+| Plantier v. Ramona Municipal Water Dist | case | dialectic, naive_fable, steelman | ⚠️ UNVERIFIED — check before relying |
+| Plantier v. Ramona Municipal Water District | case | delphi, tetlock | ⚠️ UNVERIFIED — check before relying |
+| Richmond v. Shasta Community Services Dist | case | delphi | ⚠️ UNVERIFIED — check before relying |
+| Richmond v. Shasta-style indirect-benefit frame | case | delphi | ⚠️ UNVERIFIED — check before relying |
+| Richmond v. Shasta-style indirect-benefit theory | case | delphi | ⚠️ UNVERIFIED — check before relying |
+| The panel's inability to agree on Coziahr v. Otay Water District's citation | case | delphi | ⚠️ UNVERIFIED — check before relying |
+| The panel's inability to converge on what Coziahr v. Otay Water District actually holds | case | delphi | ⚠️ UNVERIFIED — check before relying |
+| The unresolved identity of Coziahr v. Otay Water District | case | delphi | ⚠️ UNVERIFIED — check before relying |
+| Under Capistrano Taxpayers Assn. v. City of San Juan Capistrano and its progeny | case | tetlock | ⚠️ UNVERIFIED — check before relying |
+| Verification of Coziahr v. Otay Water District | case | tetlock | ⚠️ UNVERIFIED — check before relying |
+| Verification of Coziahr v. Otay Water District's actual citation | case | delphi | ⚠️ UNVERIFIED — check before relying |
+| Wilde v. City of Dunsmuir | case | delphi, structural | ⚠️ UNVERIFIED — check before relying |
+| art. X § 2 | const | structural | ⚠️ UNVERIFIED — check before relying |
+| Art. X §2 | const | dialectic, tetlock | ⚠️ UNVERIFIED — check before relying |
+| art. X, § 2 | const | delphi, naive_fable, structural | ⚠️ UNVERIFIED — check before relying |
+| art. X, §2 | const | aggregate, delphi, tetlock | ⚠️ UNVERIFIED — check before relying |
+| Art. X, §2) | const | naive_sonnet | ⚠️ UNVERIFIED — check before relying |
+| Art. XIII C §1(e) | const | aggregate | ⚠️ UNVERIFIED — check before relying |
+| art. XIII C §1(e)(2) | const | aggregate, delphi | ⚠️ UNVERIFIED — check before relying |
+| Art. XIII C §1(e)(7)) | const | tetlock | ⚠️ UNVERIFIED — check before relying |
+| art. XIII C, § 1(e) | const | delphi, dialectic | ⚠️ UNVERIFIED — check before relying |
+| art. XIII C, § 1(e)(5)) | const | naive_fable | ⚠️ UNVERIFIED — check before relying |
+| art. XIII C, § 1(e)) | const | naive_fable, steelman | ⚠️ UNVERIFIED — check before relying |
+| art. XIII C, § 2(d)) | const | naive_fable | ⚠️ UNVERIFIED — check before relying |
+| art. XIII C, §1(e) | const | delphi | ⚠️ UNVERIFIED — check before relying |
+| art. XIII C, §1(e)(2) | const | tetlock | ⚠️ UNVERIFIED — check before relying |
+| Art. XIII D § 4 | const | dialectic | ⚠️ UNVERIFIED — check before relying |
+| Art. XIII D §6(a) | const | tetlock | ⚠️ UNVERIFIED — check before relying |
+| Art. XIII D §6(b) | const | tetlock | ⚠️ UNVERIFIED — check before relying |
+| Art. XIII D §6(b)(1) | const | aggregate, tetlock | ⚠️ UNVERIFIED — check before relying |
+| Art. XIII D §6(b)(3) | const | tetlock | ⚠️ UNVERIFIED — check before relying |
+| Art. XIII D §6(b)(4) | const | tetlock | ⚠️ UNVERIFIED — check before relying |
+| Art. XIII D §6(b)(5) | const | tetlock | ⚠️ UNVERIFIED — check before relying |
+| art. XIII D, section 6(b)(5) | const | delphi | ⚠️ UNVERIFIED — check before relying |
+| art. XIII D, § 1 | const | naive_fable | ⚠️ UNVERIFIED — check before relying |
+| art. XIII D, § 3(b) | const | naive_fable | ⚠️ UNVERIFIED — check before relying |
+| art. XIII D, § 6(b) | const | naive_fable | ⚠️ UNVERIFIED — check before relying |
+| art. XIII D, § 6(b)(1) | const | delphi, dialectic | ⚠️ UNVERIFIED — check before relying |
+| art. XIII D, §6(b) | const | delphi | ⚠️ UNVERIFIED — check before relying |
+| art. XIII D, §6(b)(1) | const | delphi | ⚠️ UNVERIFIED — check before relying |
+| art. XIII D, §6(b)(5) | const | delphi | ⚠️ UNVERIFIED — check before relying |
+| article X, section 2 | const | steelman, tetlock | ⚠️ UNVERIFIED — check before relying |
+| Article X, § 2 | const | dialectic, naive_fable, steelman, structural | ⚠️ UNVERIFIED — check before relying |
+| Article X, §2 | const | delphi, naive_sonnet | ⚠️ UNVERIFIED — check before relying |
+| Article XIII C, § 1(e) | const | dialectic | ⚠️ UNVERIFIED — check before relying |
+| article XIII C, § 1(e)(2) | const | steelman | ⚠️ UNVERIFIED — check before relying |
+| Article XIII C, § 1(e)(7) | const | steelman | ⚠️ UNVERIFIED — check before relying |
+| Article XIII C, § 2(d) | const | dialectic | ⚠️ UNVERIFIED — check before relying |
+| Article XIII C, §1(e) | const | naive_sonnet | ⚠️ UNVERIFIED — check before relying |
+| Article XIII C, §2(d) | const | naive_sonnet | ⚠️ UNVERIFIED — check before relying |
+| Article XIII D § 6(a) | const | premortem | ⚠️ UNVERIFIED — check before relying |
+| Article XIII D §6(b) | const | tetlock | ⚠️ UNVERIFIED — check before relying |
+| Article XIII D §6(b)(3) | const | naive_sonnet | ⚠️ UNVERIFIED — check before relying |
+| Article XIII D §6(b)(5) | const | delphi | ⚠️ UNVERIFIED — check before relying |
+| article XIII D, section 6(b) | const | delphi, tetlock | ⚠️ UNVERIFIED — check before relying |
+| Article XIII D, § 2(e) | const | steelman | ⚠️ UNVERIFIED — check before relying |
+| Article XIII D, § 6 | const | dialectic | ⚠️ UNVERIFIED — check before relying |
+| Article XIII D, § 6(b) | const | dialectic, naive_fable, steelman | ⚠️ UNVERIFIED — check before relying |
+| article XIII D, § 6(b)(1) | const | steelman | ⚠️ UNVERIFIED — check before relying |
+| Article XIII D, § 6(b)(3) | const | dialectic, premortem | ⚠️ UNVERIFIED — check before relying |
+| Article XIII D, §6(b) | const | naive_sonnet | ⚠️ UNVERIFIED — check before relying |
+| Article XIII D, §6(b)(5) | const | aggregate, delphi | ⚠️ UNVERIFIED — check before relying |
+| Prop 1 | prop | naive_sonnet | ⚠️ UNVERIFIED — check before relying |
+| Prop 218 | prop | aggregate, delphi, dialectic, naive_fable, naive_sonnet, premortem, steelman, structural, tetlock | ⚠️ UNVERIFIED — check before relying |
+| Prop 26 | prop | aggregate, delphi, dialectic, naive_fable, naive_sonnet, premortem, steelman, structural, tetlock | ⚠️ UNVERIFIED — check before relying |
+| Prop 4 | prop | naive_sonnet | ⚠️ UNVERIFIED — check before relying |
+| Prop. 26 | prop | delphi | ⚠️ UNVERIFIED — check before relying |
+| Proposition 218 | prop | steelman | ⚠️ UNVERIFIED — check before relying |
+| Proposition 26 | prop | steelman, tetlock | ⚠️ UNVERIFIED — check before relying |
+| 103 Cal.App.5th 122 | reporter | aggregate, delphi | ⚠️ UNVERIFIED — check before relying |
+| 103 Cal.App.5th 692 | reporter | naive_fable | ⚠️ UNVERIFIED — check before relying |
+| 13 Cal.5th 858 | reporter | delphi | ⚠️ UNVERIFIED — check before relying |
+| 198 Cal.App.4th 926 | reporter | aggregate, delphi, dialectic, naive_fable, premortem | ⚠️ UNVERIFIED — check before relying |
+| 207 Cal.App.4th 1064 | reporter | tetlock | ⚠️ UNVERIFIED — check before relying |
+| 207 Cal.App.4th 1130 | reporter | aggregate, delphi | ⚠️ UNVERIFIED — check before relying |
+| 213 Cal.App.4th 1310 | reporter | dialectic | ⚠️ UNVERIFIED — check before relying |
+| 220 Cal.App.4th 586 | reporter | aggregate, delphi, dialectic, naive_fable, premortem, steelman, tetlock | ⚠️ UNVERIFIED — check before relying |
+| 223 Cal.App.4th 892 | reporter | aggregate, dialectic, naive_fable, steelman | ⚠️ UNVERIFIED — check before relying |
+| 235 Cal.App.4th 1493 | reporter | aggregate, delphi, dialectic, naive_fable, naive_sonnet, premortem, steelman, tetlock | ⚠️ UNVERIFIED — check before relying |
+| 24 Cal.App.5th 850 | reporter | aggregate, delphi | ⚠️ UNVERIFIED — check before relying |
+| 240 Cal.App.4th 1313 | reporter | naive_sonnet | ⚠️ UNVERIFIED — check before relying |
+| 243 Cal.App.4th 1430 | reporter | naive_fable | ⚠️ UNVERIFIED — check before relying |
+| 3 Cal.5th 1191 | reporter | aggregate, dialectic, naive_fable, tetlock | ⚠️ UNVERIFIED — check before relying |
+| 3 Cal.5th 248 | reporter | dialectic | ⚠️ UNVERIFIED — check before relying |
+| 32 Cal.4th 409 | reporter | aggregate, delphi, dialectic, naive_fable | ⚠️ UNVERIFIED — check before relying |
+| 39 Cal.4th 205 | reporter | aggregate, delphi, dialectic, naive_fable, naive_sonnet, premortem, steelman, tetlock | ⚠️ UNVERIFIED — check before relying |
+| 44 Cal.4th 431 | reporter | aggregate, dialectic, naive_fable, steelman | ⚠️ UNVERIFIED — check before relying |
+| 52 Cal.4th 241 | reporter | naive_fable | ⚠️ UNVERIFIED — check before relying |
+| 56 Cal.4th 613 | reporter | naive_fable | ⚠️ UNVERIFIED — check before relying |
+| 6 Cal.5th 1 | reporter | naive_fable | ⚠️ UNVERIFIED — check before relying |
+| 7 Cal.5th 372 | reporter | aggregate, delphi, dialectic, naive_fable, steelman | ⚠️ UNVERIFIED — check before relying |
+| 9 Cal.5th 1105 | reporter | aggregate, delphi | ⚠️ UNVERIFIED — check before relying |
+| 91 Cal.App.5th 1 | reporter | aggregate, delphi | ⚠️ UNVERIFIED — check before relying |
+| Cal. Water Code § 375 | statute | delphi | ⚠️ UNVERIFIED — check before relying |
+| Gov. Code § 53511 | statute | dialectic | ⚠️ UNVERIFIED — check before relying |
+| Gov. Code § 53750 | statute | premortem | ⚠️ UNVERIFIED — check before relying |
+| Gov. Code § 53755 | statute | premortem | ⚠️ UNVERIFIED — check before relying |
+| Gov. Code § 53759 | statute | naive_fable, steelman | ⚠️ UNVERIFIED — check before relying |
+| Gov. Code § 911.2 | statute | naive_fable | ⚠️ UNVERIFIED — check before relying |
+| Gov. Code §53511 | statute | aggregate | ⚠️ UNVERIFIED — check before relying |
+| Gov. Code §53750(h) | statute | aggregate | ⚠️ UNVERIFIED — check before relying |
+| Gov. Code §53750(h)(1) | statute | aggregate, tetlock | ⚠️ UNVERIFIED — check before relying |
+| Gov. Code §53755 | statute | aggregate | ⚠️ UNVERIFIED — check before relying |
+| Gov. Code §53759 | statute | aggregate, naive_sonnet | ⚠️ UNVERIFIED — check before relying |
+| Gov. Code §66022 | statute | delphi | ⚠️ UNVERIFIED — check before relying |
+| Gov. Code §900 | statute | naive_sonnet | ⚠️ UNVERIFIED — check before relying |
+| Gov. Code §§ 53750 | statute | dialectic | ⚠️ UNVERIFIED — check before relying |
+| Gov. Code §§53750 | statute | aggregate | ⚠️ UNVERIFIED — check before relying |
+| Gov. Code §§900 | statute | aggregate, tetlock | ⚠️ UNVERIFIED — check before relying |
+| Government Code §§ 53750 | statute | dialectic | ⚠️ UNVERIFIED — check before relying |
+| Penal Code § 933 | statute | premortem | ⚠️ UNVERIFIED — check before relying |
+| Water Code § 375 | statute | delphi, dialectic, naive_fable, steelman, structural | ⚠️ UNVERIFIED — check before relying |
+| Water Code §375 | statute | aggregate, delphi, dialectic, naive_sonnet, tetlock | ⚠️ UNVERIFIED — check before relying |
+| Water Code §§ 375 | statute | naive_fable | ⚠️ UNVERIFIED — check before relying |
+| § 1021.5 | statute | dialectic, naive_fable, premortem, structural | ⚠️ UNVERIFIED — check before relying |
+| § 338(a) | statute | dialectic | ⚠️ UNVERIFIED — check before relying |
+| § 375 | statute | delphi, dialectic, naive_fable, steelman, structural | ⚠️ UNVERIFIED — check before relying |
+| § 53511 | statute | dialectic | ⚠️ UNVERIFIED — check before relying |
+| § 53750 | statute | premortem | ⚠️ UNVERIFIED — check before relying |
+| § 53755 | statute | premortem | ⚠️ UNVERIFIED — check before relying |
+| § 53759 | statute | naive_fable, steelman | ⚠️ UNVERIFIED — check before relying |
+| § 911.2 | statute | naive_fable | ⚠️ UNVERIFIED — check before relying |
+| § 933 | statute | premortem | ⚠️ UNVERIFIED — check before relying |
+| §1021.5 | statute | aggregate, naive_sonnet, tetlock | ⚠️ UNVERIFIED — check before relying |
+| §338 | statute | aggregate, tetlock | ⚠️ UNVERIFIED — check before relying |
+| §375 | statute | aggregate, delphi, dialectic, naive_sonnet, tetlock | ⚠️ UNVERIFIED — check before relying |
+| §53511 | statute | aggregate | ⚠️ UNVERIFIED — check before relying |
+| §53750(h) | statute | aggregate | ⚠️ UNVERIFIED — check before relying |
+| §53750(h)(1) | statute | aggregate, tetlock | ⚠️ UNVERIFIED — check before relying |
+| §53755 | statute | aggregate | ⚠️ UNVERIFIED — check before relying |
+| §53759 | statute | aggregate, naive_sonnet | ⚠️ UNVERIFIED — check before relying |
+| §66022 | statute | delphi | ⚠️ UNVERIFIED — check before relying |
+| §860 | statute | aggregate, naive_sonnet | ⚠️ UNVERIFIED — check before relying |
+| §900 | statute | naive_sonnet | ⚠️ UNVERIFIED — check before relying |
+| §§ 375 | statute | naive_fable | ⚠️ UNVERIFIED — check before relying |
+| §§ 53750 | statute | dialectic | ⚠️ UNVERIFIED — check before relying |
+| §§ 860 | statute | dialectic | ⚠️ UNVERIFIED — check before relying |
+| §§53750 | statute | aggregate | ⚠️ UNVERIFIED — check before relying |
+| §§860 | statute | aggregate | ⚠️ UNVERIFIED — check before relying |
+| §§900 | statute | aggregate, tetlock | ⚠️ UNVERIFIED — check before relying |
+
+
+## Naive baselines (the control arm)
+
+<details><summary>Naive single pass — Sonnet 5 (same model as panel workers)</summary>
+
+# The Sierra Vista Water Resilience Surcharge Under Article XIII D, §6(b)
+
+## Bottom line up front
+
+The surcharge is **vulnerable, but not hopeless**, and the vulnerability is largely self-inflicted by the district's own rate study. The 1.6× cost differential, if faithfully translated into a per-unit dollar figure, would almost certainly survive *Capistrano* scrutiny — inclining tiers tied to real marginal supply costs are exactly what that case (and its progeny) permit. But the study's admission that $0.85 is derived "in part" from "conservation-incentive pricing" rather than strictly from cost allocation hands the plaintiffs a large chunk of their §6(b)(3) case, because **the constitutional burden of proof is on the district, not the ratepayers**. Layered on top of that is an independent and probably more serious problem: **the use of the money** (§6(b)(1)–(2)). A 55% rebate program that the district concedes benefits non-payors, and a 15% "ambassador" line that looks like general public education rather than a cost of serving the surcharge payors, look like cross-subsidies of the kind Prop 218 exists to prevent — regardless of whether the $0.85 rate itself is perfectly cost-based. The district's fallback "it's not a property-related fee at all" argument is legally weak (foreclosed by *Bighorn-Desert View*) and, if it somehow won, would make things *worse*, not better, because the surcharge would then have to survive Prop 26 as a tax lacking any voter approval at all.
+
+---
+
+## 1. What Article XIII D, §6(b) actually demands — and who has the burden
+
+Section 6(b) imposes five substantive constraints on any "property-related fee":
+
+1. **6(b)(1)** – revenues from the fee shall not exceed the funds required to provide the property-related service;
+2. **6(b)(2)** – revenues shall not be used for any purpose other than that for which the fee was imposed;
+3. **6(b)(3)** – the amount imposed on any parcel shall not exceed the proportional cost of the service attributable to that parcel;
+4. **6(b)(4)** – no fee for a service not actually used or immediately available to the parcel; and
+5. **6(b)(5)** – no fee for general governmental services available to the public at large in substantially the same manner as to property owners.
+
+Two structural features matter enormously here and are easy to lose sight of in a facts-heavy dispute:
+
+- **Burden-shifting.** The last sentence of §6(b) puts the burden of proof squarely on the agency: *"In any legal action contesting the validity of a fee or charge, the burden shall be on the agency to demonstrate compliance with this article."* This is not ordinary rational-basis deference to legislative rate-setting.
+- **Independent judicial review.** *Capistrano Taxpayers Assn. v. City of San Juan Capistrano* (2015) 235 Cal.App.4th 1493, 1505–1506, expressly declined to review the city's tiered-rate cost allocation for mere "substantial evidence" or reasonableness; it treated the cost-of-service determination as a matter for the court's **independent judgment**. A reviewing court will not defer to the board's rate-study conclusions the way it would defer to, say, a zoning finding.
+
+Combine burden-shifting with independent review, and the district is in a materially worse posture than it would be defending an ordinary municipal ordinance.
+
+---
+
+## 2. Threshold: is this even a "property-related fee"? (The district's alternative argument)
+
+The district's fallback theory — that the surcharge isn't a property-related fee at all — is worth taking seriously as a *pleading* posture but is very likely to lose on the merits.
+
+*Bighorn-Desert View Water Agency v. Verjil* (2006) 39 Cal.4th 205, 217–218, held that fees for ongoing water delivery — including **tiered and excess-use charges** — are property-related fees under Article XIII D because water service is "immediately available" to the parcel and delivered as an incident of property ownership through the metered connection. The Court rejected the argument that usage-based, volumetric components take a charge outside Prop 218 merely because the amount varies with consumption choices. That is precisely the structure here: a per-hundred-cubic-foot surcharge billed through the same metered connection, triggered by usage on the parcel.
+
+Contrast *Great Oaks Water Co. v. Santa Clara Valley Water Dist.* (2015) 240 Cal.App.4th 1313, which held groundwater **extraction** charges on well operators were *not* property-related fees — but that result turned on the charge being imposed on the act of pumping (available to anyone who owns a well, not tied to a parcel's water service), not on delivered retail service. That distinction doesn't transfer here; the district is not analogous to Great Oaks' extraction charge, it is a retail water purveyor billing its own connected customers.
+
+**Conclusion:** the "not a property-related fee" defense is colorable enough to preserve for appeal but should not be relied upon as primary strategy. If a court reaches the question, it will almost certainly apply *Bighorn-Desert View* and hold Article XIII D governs. And — critically — as discussed in Part 6 below, *winning* that argument doesn't help the district; it just moves the fight to Prop 26 tax analysis, where the outcome is likely to be worse.
+
+---
+
+## 3. The cost-of-service problem: how *Capistrano* actually applies
+
+*Capistrano* is frequently over-read as banning conservation-tiered rates outright. It doesn't. The court was explicit that it was **not** holding "that a tiered conservation rate structure is per se unconstitutional," nor that costs can never rise with usage. What it held is narrower and more precise: **a fee may be tiered, and tiers may track conservation goals, but the dollar amount of each tier must be tied to evidence of the actual cost of providing service at that level of usage.** San Juan Capistrano lost because it had *no* cost study connecting its four tiers to real cost differentials — the tiers were essentially budget-based allocations designed to discourage "non-essential" use, untethered to marginal supply cost.
+
+Sierra Vista is in a materially different — and better — position on this specific point, *up to a limit*: the district actually has a cost-of-service study showing that **high-tier consumption imposes marginal costs roughly 1.6× base-tier costs**, attributable to real, well-recognized cost drivers (peaking capacity, drought-reserve acquisition). That is exactly the kind of evidence *Capistrano* said would validate an inclining tier. Later decisions applying *Capistrano* have upheld tiered/seasonal rate structures where the agency could show, with actual cost data, that higher-tier or peak usage drove disproportionately higher supply, treatment, or capacity costs (the line of authority *Coziahr v. Otay Water District* sits in). **The mere fact that a tier is designed with an eye toward conservation does not doom it, so long as the price differential is anchored to a genuine cost differential.**
+
+The problem is what the district's own study says next: the $0.85 figure is derived **"in part"** from "conservation-incentive pricing," not strictly from the cost allocation. That phrase is doing a lot of work against the district:
+
+- If $0.85 per hcf is the number a straightforward translation of the 1.6× differential into dollars would produce, the study wouldn't need to invoke a separate, non-cost rationale to explain it. The candid concession that incentive pricing supplies "part" of the number is effectively an admission that **some identifiable increment of $0.85 exceeds the cost-justified amount.**
+- Under §6(b)(3), that excess increment — even if it's a small fraction of $0.85 — is unconstitutional *as such*, regardless of how sound the conservation policy behind it is. Article X, §2's conservation mandate does not create a freestanding basis for a fee to exceed cost (see Part 5).
+- Because the *district* bears the burden of proof, and the district's *own document* affirmatively describes a non-cost basis for part of the rate, this is close to a self-proving §6(b)(3) violation unless the district can now go back and **quantify** the split — i.e., show precisely what dollar rate the 1.6× marginal-cost ratio alone justifies, and show that figure equals or exceeds $0.85. If it can't, or if the honest answer is that the cost-justified figure is, say, $0.62 and the remaining $0.23 is incentive pricing, that $0.23 increment (times $4.1M/gross revenue proportion) is the fee's most exposed piece.
+
+**Practical litigation point:** plaintiffs' counsel will build their whole case around quoting the district's own study language back to the board. Discovery should focus on whatever workpapers underlie the 1.6× figure and whatever workpapers (if any) show how the board went from "1.6× cost ratio" to "$0.85." If the record doesn't cleanly show that math, the district's proof problem under the constitutional burden-shifting rule is severe.
+
+---
+
+## 4. The revenue-use problem — independent of the rate-setting problem
+
+Even a perfectly cost-justified $0.85 rate does not save the district from a separate, and arguably more damaging, defect: **what the money is spent on.**
+
+**(a) The 55% turf/appliance rebate program.** The district concedes this "mostly benefits customers other than those paying the surcharge." That is about as clean an admission of a §6(b)(2) violation as a fact pattern can produce. §6(b)(2) requires that fee revenue be spent "for [no] purpose other than that for which the fee ... was imposed," and §6(b)(3) requires that the amount charged on a parcel not exceed the cost of *service to that parcel*. Using top-tier payors' dollars to fund rebates flowing predominantly to lower-tier or income-qualified customers is a cross-subsidy — exactly the "wealth transfer between ratepayer classes" concern Prop 218 was adopted to eliminate. A possible defense — that system-wide demand reduction lowers avoided costs for everyone, including the surcharge payors — is not squarely foreclosed but is untested in this context and cuts against the district's own concession in the study. I would not rely on it without a quantified avoided-cost analysis specifically showing that the payors' own bills benefit.
+
+**(b) The 30% recycled-water debt service.** This is the closest call, and it turns on facts not yet in the record. If the recycled-water plant *is* the "drought-reserve" acquisition referenced in the cost study — i.e., capacity specifically sized to serve the peak/high-tier demand that the 1.6× multiplier is measuring — then funding its debt service from the surcharge has a genuine cost-causation nexus and is defensible. If, instead, the plant serves the whole system (e.g., all customers benefit from the drought resilience and supply diversification it provides, or its capacity isn't specifically attributable to top-tier peaking), then requiring the top 22% of users to fund 100% of its debt service is disproportionate under §6(b)(3): other customer classes that also benefit from system reliability should share that capital cost through generally applicable rates. **This needs an engineering/capacity-allocation study tying a specific percentage of plant capacity to top-tier peak demand before the district can defend this line item with confidence.**
+
+**(c) The 15% "water ambassador" staff.** To the extent these employees perform activities that constitute the cost of administering the tiered rate or providing conservation assistance that reduces the *payors'* own usage/bills (leak audits, billing assistance, individualized water-budget consultations for surcharge customers), that's a defensible cost of service. To the extent they perform general public education and outreach benefiting the service area broadly, that looks like a public-benefit program of the kind properly funded from the general fund or a broadly applicable, non-discriminatory charge — not from a surcharge on one customer segment.
+
+Note also that **§6(b)(1)** independently reinforces this: if fee revenue is being spent on things that aren't costs of providing the service to the payors (rebates to others, general education), that revenue by definition "exceed[s] the funds required to provide the property-related service" to the parcels being charged — so the revenue-use problem can invalidate an increment of the fee even if the per-unit rate math in Part 3 were perfect.
+
+---
+
+## 5. Reconciling Article X, §2 (and Water Code §375) with Article XIII D
+
+*Capistrano* addressed this tension directly and rejected the city's argument that the state's constitutional conservation mandate (Art. X, §2) exempts water rates from Prop 218's cost requirements. Its reasoning, and the reasoning that should govern here, is:
+
+- **Article X, §2** is a general policy directive that water be put to reasonable and beneficial use; it does not confer independent rate-setting authority, and it does not say anything about *who pays what* or *how fees are calculated*. It is not self-executing rate-setting law.
+- **Water Code §375** (or any statute authorizing "conservation rate structures") is a legislative enactment. A statute cannot override or create an exception to a self-executing constitutional limitation adopted directly by the voters. To whatever extent §375 purports to authorize agencies to price *above* cost purely to induce behavior, that authorization cannot be read to immunize the fee from Article XIII D — statutes yield to the Constitution, not the reverse.
+- **The two provisions are usually reconcilable, not in real conflict**, because conservation objectives and true cost causation typically point the same direction: acquiring drought reserves, building peaking capacity, and purchasing supplemental supply to serve high-tier demand genuinely *does* cost more, and a rate that reflects that reality both (a) satisfies §6(b)(3) and (b) sends a price signal that discourages high usage. **Tiered/inclining rates are not disfavored — untethered-from-cost tiered rates are.**
+- The conflict becomes real only at the margin where an agency wants to charge *more* than actual cost purely as a behavioral lever, or wants to spend fee proceeds on redistributive conservation programs unrelated to the payor's own service costs. At that margin, **Article XIII D controls**, because it is the more specific, textually explicit constitutional constraint on this particular revenue mechanism, and because nothing in Article X, §2 purports to displace it.
+
+Applied here: the 1.6× cost-based portion of the surcharge is where Article X and Article XIII D align and the district should feel confident. The "conservation-incentive pricing" increment above that, and the redistributive spending, are exactly the point where Article X's aspirations run past what Article XIII D allows a *fee* to do. The fix is not to abandon conservation goals but to pursue the *incremental* piece through mechanisms Article XIII D doesn't reach (see Part 8) — usage restrictions/allocations, general-fund-subsidized rebates, grant funding, or a voter-approved tax.
+
+---
+
+## 6. The Prop 26 "it's a tax" theory — a trap for the district, not an escape hatch
+
+It's worth spelling out why the district's alternative "not a property-related fee" argument is strategically double-edged.
+
+If a court agreed the surcharge is *not* a §6(b) property-related fee, it would then have to be analyzed under **Article XIII C, §1(e)** (added by Prop 26), which presumptively treats every "levy, charge, or exaction" as a **tax** unless the agency proves it fits one of seven enumerated exceptions. The only plausible fit here is **exception (3)**: a charge for a service or product provided directly to the payor that does not exceed the *reasonable cost* of providing it. But that exception requires — again, with the **burden on the agency** — essentially the same cost-of-service showing as Article XIII D §6(b)(3). Whatever increment of $0.85 fails the §6(b)(3) cost test would equally fail Prop 26's "reasonable cost" test for the same reason.
+
+If the surcharge fails all seven Prop 26 exceptions, it is a **tax** — and because the revenue is deposited into a restricted fund earmarked for specific purposes (rebates, debt service, staffing) rather than the general fund, it would be a **special tax** requiring **two-thirds voter approval** under Article XIII C, §2(d). The district never sought voter approval at all; it ran a majority-protest rate hearing, which is the correct (and *only* the correct) procedure for a §6(b) property-related fee, not for a tax. If the surcharge is recharacterized as a tax, it is void **in its entirety**, and the refund/exposure calculus in Part 7 moves from "the incentive-priced increment plus misused revenue portions" to **the entire $4.1M/year**, retroactively.
+
+**Advise the district accordingly:** the "maybe it's not a fee" argument should be preserved for the record but should not be advanced with any enthusiasm, because success on that argument converts a partial §6(b)(3)/(2) problem into an all-or-nothing Prop 26 problem that is harder to win and catastrophic to lose.
+
+---
+
+## 7. Litigation exposure
+
+**Standard of review / burden:** As above, the district carries the burden and gets independent, non-deferential review on the cost-of-service question. That is a materially worse starting position than most municipal-finance litigation.
+
+**Statute of limitations / procedure:** Actions to attack a Prop 218 fee are governed by the reverse-validation procedures (Code Civ. Proc. §860 et seq., via Gov. Code §53759's incorporation), which carry a short — roughly **120-day** — limitations period running from adoption/effective date. If the ratepayer association sued promptly after the protest hearing/adoption, timeliness shouldn't be an issue on this record; if there's any delay in the actual chronology, confirm this first, since a limitations defense could resolve the case cleanly regardless of the merits.
+
+**Refund exposure:**
+- If the court finds only the "incentive-priced increment" of the per-unit rate unconstitutional, the likely remedy (consistent with *Capistrano*'s remand approach) is a **partial refund** of the excess amount collected, recalculated on remand using a properly cost-justified rate, rather than wholesale invalidation of the entire surcharge. This is the district's best realistic outcome if it loses on the rate-design issue alone.
+- If the court also finds a §6(b)(2) revenue-use violation (the rebate cross-subsidy in particular is the most exposed), the remedy could include enjoining further expenditures on the offending purposes, an accounting/disgorgement analysis, and potentially treating the *entire* revenue-use-tainted portion (up to the full 55% rebate allocation, and whatever fraction of the 15% ambassador line isn't cost-of-service) as an unlawful overcollection under §6(b)(1) as well, independent of whether the per-unit rate math was fine.
+- If the surcharge is recharacterized as a tax (Part 6), exposure jumps to the **entire** $4.1M annual collection, back to the earliest point not barred by limitations/claims-presentation rules, since there was never any voter approval to cure.
+- Refund claims will typically require Government Claims Act presentation (Gov. Code §900 et seq.) before suit, and courts have applied ordinary claim-period/accrual rules (with a "continuing violation" argument available for each billing cycle) — expect the practical recovery window to be bounded by the claims-presentation timeline even if the underlying constitutional violation is not seriously disputed for the whole life of the ordinance.
+
+**Fees:** Expect a **Code of Civil Procedure §1021.5** private-attorney-general fee application if the ratepayer association substantially prevails — California courts have awarded significant fee amounts in Prop 218/26 enforcement litigation given its function of vindicating a broadly applicable constitutional taxpayer protection. Budget for this separately from any refund liability; in a case that goes through trial and appeal, fee exposure can rival or exceed the refund itself.
+
+**Collateral/practical exposure — the recycled-water bonds.** If the recycled-water plant's revenue bonds were sold with debt-service coverage that assumes the surcharge revenue stream, invalidation of that revenue (in whole or in the 30% debt-service allocation specifically) is not just a litigation problem — it's a **rate-covenant and continuing-disclosure problem.** Loop in bond counsel and the district's disclosure counsel early; consider whether a material-event disclosure is triggered, and whether a general-fund backstop or reserve draw needs to be arranged while the litigation is pending, independent of how the §6(b) merits shake out.
+
+---
+
+## 8. How to repair the structure
+
+1. **Recompute and document the cost-justified rate.** Produce a clean bridge from the 1.6× marginal-cost finding to a per-hcf dollar figure, and set the surcharge at (or below) that figure. Strip out any add-on justified solely by "conservation incentive." If the board wants to retain a higher, behavior-driving price, that increment must go through voter approval as a tax (Prop 26/218, two-thirds vote) or be abandoned as a fee mechanism.
+2. **Match revenue use to the payors' own cost of service.** Redirect surcharge revenue to costs specifically attributable to serving high-tier/peak demand (the peaking capacity and drought-reserve costs identified in the study), not to rebates or programs primarily benefiting other customer classes.
+3. **Re-source the rebate program.** Fund turf-replacement/appliance rebates from a source that doesn't depend on charging one class to benefit another: general fund appropriation, state conservation grant funding (e.g., DWR/Prop 1 or Prop 4 programs), or — if funded from rates — a broadly applied, proportionally-charged system-wide component supported by an avoided-cost study showing benefit to *all* ratepayers, not a top-tier-only surcharge.
+4. **Get a capacity-allocation study for the recycled-water plant** before continuing to fund its debt service from the surcharge. Allocate debt service between the surcharge and general system rates in proportion to the plant capacity actually attributable to peak/high-tier demand versus general system reliability.
+5. **Re-scope "water ambassador" funding** to activities that are genuinely a cost of administering/serving the surcharge payors (audits, billing assistance, individualized consultations) and move general public-education functions to non-218 funding.
+6. **Consider bifurcation:** keep a modest, defensible cost-based inclining tier under Article XIII D, and — if the district wants additional redistributive/conservation-equity revenue beyond true cost recovery — put that increment to the voters as an explicit, separately labeled special tax under Article XIII C. This costs a political vote but buys real legal certainty.
+7. **Re-notice and re-adopt** any revised structure through a new §6(a) notice/majority-protest hearing, and consider an affirmative reverse-validation action to start the 120-day clock running in the district's favor and lock in repose against future challenges once the structure is fixed.
+8. **Coordinate with bond counsel** on the recycled-water financing before or concurrently with any rate restructuring, to manage coverage-ratio and disclosure implications.
+
+---
+
+## 9. Direct answers to the specific questions posed
+
+- **Does the surcharge violate §6(b)?** In its current form, very likely **yes, in part** — the portion of the $0.85 rate attributable to "conservation-incentive pricing" beyond the cost-justified 1.6× differential likely violates §6(b)(3), and the 55% rebate allocation (conceded to benefit non-payors) likely violates §6(b)(1)–(2) independent of the rate-design issue. The 30% debt-service allocation is defensible only if a cost-causation nexus to top-tier peak demand is affirmatively established; the 15% ambassador line is defensible only to the extent it's actual cost-of-service administration rather than general outreach.
+- **How does *Capistrano* apply?** It doesn't condemn conservation tiers as such; it condemns tiers whose dollar amounts aren't tied to evidence of actual cost differences. The 1.6× cost study is the district's strongest asset; the "in part conservation-incentive" admission is its biggest liability, because it concedes an untethered increment exists and the district bears the burden to disprove that.
+- **Can Article X, §2 be reconciled with 218, or does 218 win?** They're reconcilable where tiers track real marginal costs (which is often true for water conservation goals) — but where a true conflict exists (pricing above cost purely for behavioral effect), **Article XIII D wins**, because it is the specific, self-executing constitutional limit on this exact revenue mechanism, and neither Article X, §2 nor Water Code §375 can override it.
+- **Tax under Prop 26, or not a property-related fee at all?** The "not a property-related fee" argument is weak under *Bighorn-Desert View* and, if it somehow succeeded, would only relocate the dispute to Prop 26's tax-exception framework, where the same cost-justification burden applies and failure means the *entire* charge is an unconstitutional tax for lack of any voter approval. This is a losing hedge, not a safety net.
+- **Litigation exposure:** partial-to-substantial refund liability (worse if the revenue-use violation or tax recharacterization is found), likely §1021.5 fee liability to prevailing plaintiffs, and collateral bond/covenant risk tied to the recycled-water financing.
+- **Repair:** decouple the true cost-based increment (keep it, documented), and re-source or re-justify everything riding on top of it (rebates, debt service allocation, ambassador program) — or put the excess to the voters as a tax if the district wants to keep it as designed.
+
+</details>
+
+<details><summary>Naive single pass — Fable 5 (reference ceiling)</summary>
+
+# Memo: Validity of the Sierra Vista "Water Resilience Surcharge" under Prop 218 / Prop 26
+
+**Bottom line up front:** As structured, the surcharge is very likely invalid under article XIII D, § 6(b). The district's own rate study concedes the two facts that decided *Capistrano*: (1) the price point was derived from "conservation-incentive pricing" rather than cost, and (2) proceeds are redistributed to customers other than the payers. The 1.6× marginal-cost finding *saves a cost-justified core* of the surcharge but not the $0.85 figure as adopted. Article X, § 2 will not rescue it — every published case harmonizes the two provisions by requiring conservation pricing to be *cost-based*. The "not property-related" fallback fails under *Bighorn*, and worse, it walks the district into Prop 26, where the above-cost increment is an unapproved special tax. Realistic exposure: refund of the non-cost-justified increment (potentially $1.5–2.5M/year of the $4.1M), prejudgment interest, and a § 1021.5 fee award — unless the 120-day statute in Gov. Code § 53759 knocks the suit out. The structure is reparable; the fix is a real marginal-cost allocation study plus moving the redistributive spending off the rate base.
+
+---
+
+## 1. Governing framework and posture
+
+Article XIII D, § 6(b) imposes five substantive limits on property-related fees; three matter here:
+
+- **§ 6(b)(1):** revenues shall not exceed the funds required to provide the property-related service;
+- **§ 6(b)(2):** revenues shall not be used for any purpose other than that for which the fee was imposed;
+- **§ 6(b)(3):** the amount imposed on any parcel shall not exceed the *proportional cost of the service attributable to the parcel*.
+
+Two procedural points shape everything:
+
+- **Burden of proof is on the district** (§ 6(b)(5)), and
+- **Review is independent, not deferential.** *Silicon Valley Taxpayers Ass'n v. SCCOSA* (2008) 44 Cal.4th 431 stripped away the old *Beaumont* deference for Prop 218 exactions; *Capistrano Taxpayers Ass'n v. City of San Juan Capistrano* (2015) 235 Cal.App.4th 1493 and *Coziahr v. Otay Water Dist.* (2024) 103 Cal.App.5th 692 apply that to tiered water rates. The district will not get "reasonable ratemaking discretion" deference on the constitutional question; it gets held to its administrative record.
+
+The 9% protest is irrelevant to substantive validity, and under *Plantier v. Ramona Municipal Water Dist.* (2019) 7 Cal.5th 372, the ratepayer association did **not** need to protest at the hearing to preserve a cost-allocation-method challenge. Don't lean on exhaustion.
+
+## 2. Threshold: is this a property-related fee at all? Yes — and the alternative argument backfires
+
+*Bighorn-Desert View Water Agency v. Verjil* (2006) 39 Cal.4th 205 squarely holds that **consumption-based charges for retail domestic water delivery are fees imposed "as an incident of property ownership"** subject to § 6(b). A volumetric surcharge on metered residential use to parcels is the paradigm case. The authorities the district would invoke are distinguishable: *Richmond v. Shasta CSD* (2004) 32 Cal.4th 409 involves connection fees (voluntary acts, not incidents of ownership), and *City of San Buenaventura v. United Water Conservation Dist.* (2017) 3 Cal.5th 1191 involves groundwater *extraction* charges on pumpers, not retail delivery. Note also art. XIII D, § 3(b) exempts electricity and gas from the property-related-fee regime — conspicuously **not** water.
+
+The tactical trap: if the district somehow persuaded a court the surcharge is *not* property-related, it exits Prop 218 and lands in **Prop 26** (art. XIII C, § 1(e)), where every local levy is a "tax" unless it fits an exception. The only plausible exceptions are (e)(2) (service provided directly to the payor, **not exceeding reasonable costs**) and (e)(7) (property-related fees *imposed in accordance with art. XIII D* — unavailable by hypothesis). Under (e)(2) the agency again bears the burden of proving cost-of-service and fair allocation (*Citizens for Fair REU Rates v. City of Redding* (2018) 6 Cal.5th 1; *Newhall County Water Dist. v. Castaic Lake Water Agency* (2016) 243 Cal.App.4th 1430). The incentive-priced increment fails that test by the district's own concession. And because the proceeds go to a **restricted fund** for specific purposes, the levy would be a **special tax** requiring two-thirds voter approval (art. XIII C, § 2(d)) — which never happened. There is no door out of cost-of-service discipline. The "not property-related" argument should be abandoned or pled only defensively.
+
+## 3. Applying *Capistrano* to the hybrid tier
+
+*Capistrano*'s holding, refined by *City of Palmdale v. Palmdale Water Dist.* (2011) 198 Cal.App.4th 926 and *Coziahr* (2024): **tiered rates are lawful, but each tier's price must correspond to the actual cost of providing service at that level of usage.** Above-cost tiers that exist to punish use or subsidize other customers violate § 6(b)(3). San Juan Capistrano lost principally because it *conceded* it had not correlated tier prices to costs. Sierra Vista's rate study makes the functionally identical concession — the $0.85 derives "in part" from "conservation-incentive pricing." That phrase will be Exhibit A in the plaintiff's brief and quite possibly the first sentence of the court's analysis.
+
+**The 1.6× finding is genuinely helpful but incomplete.** A marginal-cost showing (peaking capacity, drought-reserve purchases attributable to high-tier demand) is exactly what *Capistrano* invites — the court expressly said tiers may reflect the incremental cost of the *next acre-foot* (more expensive supplies procured because of high-tier demand). But a *ratio* is not a *rate*. The district must show, in dollars per ccf, that (Tier 2 base rate + $0.85) ≤ the actual unit cost of serving above-Tier-2 consumption, after accounting for what those customers already contribute through base rates and fixed charges. If the cost-justified differential works out to, say, $0.50/ccf and the district charged $0.85 because $0.85 "sends the right price signal," the $0.35 increment is unconstitutional. Partial cost justification does not save a rate that exceeds cost; § 6(b)(3) is a ceiling, not a multi-factor balancing test.
+
+**Component-by-component (the § 6(b)(1)–(2) revenue-requirement side):**
+
+- **30% — recycled-water debt service: defensible, ironically the strongest piece.** *Capistrano* itself *upheld* charging customers for recycled-water facilities they don't directly use, because recycled water is part of an integrated supply that frees potable water for everyone. The vulnerability is *allocation*, not inclusion: why is this system-wide supply cost loaded exclusively onto the top 22% of residential users? It's defensible if the record shows the plant is the *marginal supply increment necessitated by high-tier demand* (the "next acre-foot" theory). If the plant would be needed regardless, allocating 100% of its debt service to one usage stratum flunks proportionality — *Palmdale* invalidated exactly this kind of inter-class cost shifting.
+
+- **55% — rebates prioritizing low-income non-payers: the weakest piece.** Two framings compete. The district's best theory: demand-side conservation is *least-cost supply procurement* — paying $X per acre-foot saved is cheaper than buying drought reserves at $Y, so rebates are a legitimate cost of providing water service to everyone, including high-tier users. That theory has real support in utility economics and can survive § 6(b)(1)–(2) *if the study prices it that way* (avoided-cost analysis, $/AF saved vs. $/AF purchased). But the district **concedes the program mostly benefits customers other than the payers**, and the *low-income prioritization* reveals a redistributive purpose, not a supply-procurement purpose. Ratepayer-funded lifeline subsidies are the textbook Prop 218 problem — it's why agencies fund low-income assistance from non-rate revenue and why the state has repeatedly studied (and failed to solve) low-income rate assistance within the 218 framework. As drafted, this looks like a wealth transfer effected through the rate structure, which is precisely what § 6(b)(3) forbids.
+
+- **15% — "water ambassador" education staff: gray zone, probably survivable in part.** Conservation education is a recognized water-service cost (Water Code § 375 authorizes conservation programs), and modest amounts routinely ride in the revenue requirement. Watch § 6(b)(5)'s sibling problem, though: staff doing *general* public outreach edges toward "general governmental services" available to the public at large. Again, the allocation problem recurs — why do only top-tier users pay for education aimed at all customers?
+
+**The aggregation counterargument:** *Griffith v. Pajaro Valley Water Management Agency* (2013) 220 Cal.App.4th 586 and *Morgan v. Imperial Irrigation Dist.* (2014) 223 Cal.App.4th 892 allow proportionality to be assessed by class/in the aggregate rather than parcel-by-parcel, and don't demand rate-making perfection. Expect the district to lean hard on these. But *Capistrano* expressly distinguished *Griffith*, and *Coziahr* reaffirmed that intra-class tier differentials must themselves be cost-based. Aggregation cannot launder an admitted decision to price above cost for behavioral reasons.
+
+## 4. Article X, § 2 vs. Prop 218: harmonized, and 218 effectively wins
+
+Every court to address the question has refused to treat art. X, § 2 as an override:
+
+- *Palmdale*: art. X, § 2 "is not at war" with Prop 218 — conservation "must be attained in a manner that comports with" § 6(b)'s proportionality mandate.
+- *Capistrano*: conservation is "perfectly compatible" with cost-based tiers, because genuinely marginal-cost pricing *is* conservation pricing — expensive incremental supplies (drought reserves, recycled water, peaking capacity) make upper tiers legitimately costlier. What art. X, § 2 does **not** authorize is charging above cost to punish use.
+
+Doctrinally this is straightforward: Prop 218 is later-enacted, more specific, and by its own terms controls "[n]otwithstanding any other provision of this Constitution" (art. XIII D, § 1 preamble language and § 6's mandatory phrasing); a statutory conservation mandate (Water Code § 375) obviously cannot trump either constitutional provision. The honest way to frame it for the board: **art. X, § 2 tells the district *what* to pursue; art. XIII D, § 6(b) constrains *how* it may be priced.** Conservation goals can be fully served through (a) accurate marginal-cost tiers, (b) penalties (see § 6 below), and (c) non-rate-funded programs. The district doesn't need to win the constitutional clash, and it won't.
+
+## 5. Litigation exposure
+
+**Threshold defense — statute of limitations.** Gov. Code § 53759 (SB 323, eff. 2022) imposes a **120-day** limitations period on any action to attack water or sewer rates, provided the agency gave the prescribed notice at adoption. Check the adoption resolution and notice *first* — this is potentially a complete defense and the single most important fact not in your hypothetical. (*Plantier* forecloses the exhaustion angle, but § 53759 is independent.)
+
+**If the suit is timely, expect:**
+
+1. **Invalidation of the surcharge, at least in part.** *Coziahr* is the template: the court invalidated Otay's non-cost-based tier differentials but measured relief against a *lawful baseline* rather than zeroing out the charge. Here, the cost-justified core (the properly computed 1.6× differential, plausibly including recycled-water debt service under a marginal-supply theory) may survive; the incentive increment and the redistributive rebate component will not.
+2. **Refunds.** Prop 218 has no self-executing refund remedy; recovery runs through the Government Claims Act (one-year claim presentation, Gov. Code § 911.2, which caps the look-back), with class claims permitted per *Ardon v. City of Los Angeles* (2011) 52 Cal.4th 241 and *McWilliams v. City of Long Beach* (2013) 56 Cal.4th 613. Refund measure per *Coziahr*: amounts collected minus what a compliant rate would have yielded. If roughly the rebate share plus an incentive increment is disallowed, figure **$1.5–2.5M per year of collection**, plus prejudgment interest.
+3. **Attorney fees.** A successful constitutional rate challenge is prime Code Civ. Proc. § 1021.5 territory (*Capistrano* itself generated a substantial fee award). Budget high six figures to seven figures if this goes the distance.
+4. **Prospective injunction / writ** compelling repeal and a new § 6 proceeding, with the operational cost of a mid-cycle Prop 218 notice-and-hearing process (~4–6 months) and a hole in the recycled-water debt-service coverage — flag the bond-covenant implications to the finance team now.
+
+## 6. Repairing the structure
+
+Ranked by durability:
+
+1. **Redo the cost-of-service study as a true marginal-cost allocation.** Derive tier prices from documented $/ccf costs: base supply for lower tiers; drought-reserve purchases, peaking capacity, and recycled-plant debt service assigned to the consumption strata that *cause* those costs. If the math honestly supports a differential near $0.85, adopt it; if it supports $0.55, adopt $0.55. Strip the phrase "conservation-incentive pricing" from every document. This is the *Capistrano*-compliant path and probably preserves most of the revenue.
+2. **Move the low-income rebate program off the rate base.** Fund it from non-rate revenue: ad valorem property-tax allocations, DWR/State Water Board grants, penalty revenue (see #3), voluntary bill round-up. If the district wants conservation rebates *in* rates, restructure them as avoided-cost supply procurement — target maximum acre-feet saved per dollar, not income status — and document the avoided-cost math.
+3. **Adopt an excessive-use penalty ordinance under Water Code §§ 375–377.** Fines for violating water-use allocations during a declared shortage are arguably neither property-related fees nor taxes (Prop 26 exception, art. XIII C, § 1(e)(5)); *Capistrano* itself gestured at penalties as the lawful route to punitive pricing. Caveat honestly: no published case has blessed a revenue-scale "penalty" regime, and a penalty engineered to raise $4.1M/year invites a recharacterization attack. Keep penalty revenue modest and enforcement-flavored.
+4. **Spread recycled-water debt service across all customer classes.** *Capistrano* expressly permits it, it shrinks the surcharge that needs justification, and it's the politically easiest fix.
+5. **Voter approval.** If the board genuinely wants above-cost conservation pricing with redistributive spending, the constitutional route is a special tax with two-thirds approval (art. XIII C, § 2(d)). Legally bulletproof; politically expensive.
+6. **Interim damage control:** adopt corrected rates prospectively ASAP (stops the refund meter), evaluate a tolling agreement/settlement with the association, and verify the § 53759 notice for any *future* adoption.
+
+## 7. The honest verdict for the board
+
+The surcharge as adopted loses. The concessions in the rate study are functionally the same concessions that decided *Capistrano*, and *Coziahr* shows appellate courts are still enforcing the rule a decade later with refunds attached. But this is a **repairable drafting and study failure, not a doomed policy**: a rigorous marginal-cost study can likely support a substantial (if smaller) tier differential, the recycled-water component has direct *Capistrano* support if allocated properly, and the equity goals can be pursued through non-rate funding or a penalty ordinance. Check the § 53759 notice today — it may moot everything retrospective.
+
+*Caveat: this is analysis of an invented hypothetical from memory; cite-check all authorities (especially the post-2024 treatment of Coziahr and the § 53759 notice requirements) before relying on it in a filing or board memo.*
+
+</details>
+
+## Raw lens outputs
+
+<details><summary>Lens: delphi</summary>
+
+### Operation
+N independent panelists estimate a proposition, see only an anonymized statistical summary, and independently revise; persistent disagreement is signal.
+
+**Proposition assessed:** "A court would invalidate the Water Resilience Surcharge, in whole or in substantial part, as violating the cost-of-service requirements of California Constitution article XIII D, section 6(b)."
+
+### Probability trajectory
+
+| Round | Median | Mean | Std dev | Range | IQR |
+|---|---|---|---|---|---|
+| 1 | 70.0 | 71.4 | 2.8 | 70.0–78.0 | 2.0 |
+| 2 | 73.0 | 74.1 | 2.5 | 72.0–80.0 | 2.0 |
+
+### Final panel positions (anonymized)
+
+| # | Prob. | Conf. | Position | Biggest uncertainty |
+|---|---|---|---|---|
+| 1 | 72 | medium | Holding close to my Round 1 view with a small upward adjustment: more likely than not (72%) a court invalidates the Water Resilience Surcharge in whole or substantial part under art. XIII D, §6(b). The panel's unanimous themes (incentive-pricing admission tracking Capistrano's defect; rebate cross-subsidy as an independent proportionality problem; the 1.6x cost study as a genuine anchor favoring partial over total invalidation) all reproduce reasoning I already relied on, so they confirm rather than newly move me. What nudges me up slightly is Theme E (Bighorn forecloses the district's 'not a property-related fee' escape hatch, 5/7) combined with Theme D (§6(b)(5) burden-shifting) — together they close off the district's cleanest procedural exit and force the case onto a merits terrain where the district's own rate-study language and litigation concessions do much of plaintiffs' work. Countervailing considerations (Theme F deference doctrine; disagreement #5's systemwide-benefit theory for the rebate program) are real but, given the district's own concession that rebates 'mostly benefit customers other than those paying the surcharge,' those defenses look more like arguments of last resort than likely winners — they cap my probability below the 78 outlier rather than pushing me toward it. | Two compounding uncertainties: (1) whether a court treats "in part conservation-incentive pricing" as fatal only to the increment above 1.6x (partial, quantifiable trim) or as tainting the whole rate-design methodology (larger invalidation), given no controlling Supreme Court resolution between the strict Capistrano line and the deferential Wilde/Griffith/Coziahr line; and (2) — flagged by one panelist but underweighted by the rest — whether whatever the court actually strikes (e.g., just the unquantified incentive increment, holding the 1.6x-justified base and the 30% debt-service tranche intact) is legally and practically "substantial" enough to make the proposition true as framed, since the answer could plausibly be a narrow remand/severance that a fair-minded observer would call a partial win for the district rather than substantial invalidation. |
+| 2 | 73 | medium | Revising slightly upward from 70 to 73. The panel's near-unanimous identification of the rebate cross-subsidy (Theme B) as an independently dispositive defect under §6(b)(1)-(3) — analytically distinct from the pricing-methodology defect (Theme A) — persuades me the proposition has two largely independent paths to being satisfied, which raises the disjunctive probability above where I'd land assessing either defect alone. Combined with the §6(b)(5) burden-of-proof point (Theme D), which the district's own record concessions make hard to carry, I think 'substantial part' invalidation is somewhat more likely than my round-1 estimate suggested. I did not move to the panel's upper end (78) because the deference countervailing line (Theme F) and the genuinely unresolved Coziahr/Griffith citation confusion (Disagreements #1, #3) represent real doctrinal uncertainty I won't discount to zero, and Disagreement #6 (whether a 'minor trim' counts as 'substantial') is a legitimate basis for retaining meaningful probability mass on partial, non-substantial outcomes. | Two compounding unknowns: (1) the unquantified dollar gap between $0.85/hcf and what the 1.6x cost differential would strictly justify, which determines whether the pricing defect is minor or severe; and (2) the actual holding of Coziahr v. Otay Water District, which the panel could not agree on (three different citations proposed) and which could function as either a significant deference anchor for the district or a reinforcement of Capistrano's strictness — without resolving what this case actually says, I can't calibrate how much weight the 'deference' countervailing theme should carry against the two independent invalidation theories. |
+| 3 | 73 | medium | Slightly increasing from 70 to 73. The panel's near-unanimous convergence on the same three pillars I identified (incentive-pricing admission tracking Capistrano; rebate cross-subsidy as an independent §6(b)(2)/(3) problem; the 1.6x differential as a genuine but partial cost anchor favoring severance over wholesale invalidation) confirms rather than undermines my original structure. Two panel additions tip me modestly upward: (1) the previously under-weighted 15% 'water ambassador' conservation-education staffing line, which several panelists correctly flag as a general-public-benefit expenditure with a weak nexus to the paying parcels' service — this stacks on top of the 55% rebate problem and means up to 70% of restricted-fund spending (not just 55%) is vulnerable under a revenue-use theory, independent of the rate-methodology defect; and (2) the observation that courts finding even a partial violation in this posture (express rate-study concession + agency's burden of proof under §6(b)(5)) tend toward remedies (refund of the incremental overcharge, injunction against the rebate cross-subsidy, or remand for re-derivation) that are substantively significant rather than trivial, which supports 'substantial part' rather than a de minimis trim. Countervailing that, I give real weight to the deference line (Wilde/Griffith/Coziahr-type latitude for imprecise cost allocation) and to the colorable systemic-benefit defense of the rebate program (reduced peak demand lowers system-wide costs for all ratepayers) that one panelist identified — these are genuine defenses that keep me well short of 80+, but they don't overcome the unusual evidentiary posture of an agency's own study admitting a non-cost-based pricing component on the record. | Two compounding unknowns: (1) the unquantified numerical gap between $0.85/hcf and what the 1.6x cost differential would strictly justify, which determines whether the rate-methodology defect alone is minor or major; and (2) whether a court evaluates the rebate cross-subsidy under a strict per-payer nexus (likely fatal to the 55%, and possibly the 15%) or accepts a system-wide-cost-reduction theory (which could substantially rescue that spending) — the interaction of these two unresolved questions, more than any single doctrinal dispute, determines whether the outcome lands as a 'substantial part' invalidation or a comparatively modest trim that arguably falls short of the proposition's threshold. |
+| 4 | 73 | medium | Slightly increasing from 70 to 73. A court more likely than not invalidates at least a substantial part of the surcharge — most plausibly (1) the increment of the $0.85 rate attributable to undocumented \"conservation-incentive pricing\" beyond the proven 1.6x cost differential, and (2) the ~55% of proceeds diverted to rebates that the district concedes mostly benefit non-paying customers, which independently strains §6(b)(2)'s use-restriction and §6(b)(3)'s parcel-proportionality requirement. The unanimous cross-panel convergence on the rebate cross-subsidy issue (Theme B, 7/7) and the burden-of-proof dynamic under §6(b)(5) (Theme D) reinforce rather than undercut my original reasoning; the deference/latitude line of cases (Wilde, Griffith, Coziahr) is a real but, on this record, secondary countervailing force since even the higher-probability panelists who invoked it still landed above the panel median for invalidation. The genuine, documented 1.6x cost differential remains the strongest basis for partial (not total) survival, and the 30% recycled-water debt-service tranche is likely the most defensible piece of the fund allocation. | Two compounding unknowns: (1) the still-unquantified gap between $0.85/hcf and what a strict application of the 1.6x differential to the base rate would yield — this determines whether the pricing-methodology defect is large or marginal; and (2) how a court would characterize the rebate cross-subsidy if the district successfully argues (as the panel's highest-probability dissenter suggested) that rebates reduce system-wide peaking/drought costs and thus indirectly benefit surcharge-payors — if that system-benefit theory gains traction, the 55% rebate tranche could survive on a Richmond v. Shasta-style indirect-benefit theory, which would meaningfully lower the probability of 'substantial part' invalidation. |
+| 5 | 73 | medium | I move modestly upward from my round-1 estimate (70→73). The panel's consensus themes (A, B, C, E) essentially replicate my own round-1 reasoning and don't independently justify movement, but two points I under-weighted last round do: (1) the §6(b)(5) burden-of-proof allocation, combined with the district's own record concessions, makes the district's litigation posture worse than a neutral cost-allocation dispute — it must affirmatively prove compliance against its own adverse admissions; and (2) the 15% "water ambassador" staffing tranche is a third, independently vulnerable allocation (general public-education benefit rather than service to fee-payers) that I hadn't separately counted in round 1, further increasing the odds that some substantial component of the surcharge fails. Against this, the panel's Theme F/Disagreement #2 deference tension (Wilde/Griffith-line "no mathematical precision required" cases) is a genuine doctrinal counterweight I already partly captured via severability reasoning, and the unresolved/inconsistent Coziahr citations across the panel confirm that case should get ~zero evidentiary weight in either direction. Net effect: a modest upward revision, not a large one, because the core uncertainty — the unquantified gap between $0.85 and the 1.6x-justified figure, and whether a court reads "derived in part from conservation-incentive pricing" as fatal or as tolerable methodology commentary — remains genuinely unresolved on this record, and the proposition's "in whole or in substantial part" framing is broad enough that multiple independent, plausible partial-invalidation paths (pricing increment, rebate tranche, education-staff tranche) each separately satisfy it. | The unquantified dollar gap between the $0.85/hcf surcharge and what the documented 1.6x marginal-cost differential would strictly justify remains the single largest driver of outcome variance — if that gap is small, a court may treat the "conservation-incentive pricing" language as harmless rhetorical framing around an essentially cost-justified rate (favoring the district under the Wilde/Griffith deference line); if the gap is large, it looks like a near-admission of the exact defect Capistrano condemned. Secondary to this is genuine, currently irresolvable uncertainty about how strictly the post-Capistrano appellate landscape (particularly whatever Coziahr actually holds, which the panel could not agree on) has either hardened or softened the cost-correlation standard for tiered/conservation pricing since 2015. |
+| 6 | 75 | medium | I maintain that a court is more likely than not to invalidate the surcharge in whole or substantial part, moving slightly upward from my round-1 figure of 72 to 75. The panel's independent convergence around 70-72 largely retraced my own reasoning (incentive-pricing admission tracking Capistrano; the rebate cross-subsidy as an independent 6(b)(2)/(3) problem; the 1.6x cost differential as a genuine anchor limiting this to partial rather than total invalidation), so most of the summary did not change my view. Two points moved me modestly upward: (1) the reminder that art. XIII D, section 6(b)(5) places the burden of proving compliance on the agency itself, combined with the fact that the district's own rate study and litigation position already concede the two most damaging facts (incentive-pricing derivation and non-payor rebate benefit), makes it unusually hard for the district to carry that burden at trial — this is the agency's own affirmative constitutional burden, not merely persuasive deference case law; and (2) the disagreement thread about whether partial invalidation counts as "substantial" actually cuts toward the proposition being satisfied once I focus on magnitude — 55% of a $4.1M revenue stream flowing to a conceded cross-subsidy is not a "minor trim" even under a skeptical reading of "substantial part." I still hold meaningful probability mass on the district prevailing on the cost-justified core (the 1.6x differential and the 30% debt-service tranche flagged as most defensible), which is why I am not higher than 75. | The unquantified numerical gap between the $0.85/hcf surcharge and what the 1.6x cost differential would strictly justify remains outcome-determinative and is not resolvable from the stipulated facts; it is the single fact that would let me distinguish "the whole rate is tainted" from "only a modest incentive-pricing increment is tainted," which in turn drives whether the eventual remedy looks like near-total invalidation or a comparatively small trim plus a clean rebate-program fix. |
+| 7 | 80 | medium | Holding near my prior view and nudging slightly upward rather than toward the panel median. The core driver remains the District's own concessions — that $0.85 was derived only "in part" from the 1.6x marginal-cost study, with the remainder from bare "conservation-incentive pricing," and that the 55% rebate tranche "mostly benefits" non-payers — which map closely onto Capistrano's condemned methodology plus an independent §6(b)(1)-(2) revenue-use defect. The panel's unanimous Themes A-C confirm rather than undercut this reading. Two additional panel points reinforce rather than weaken the invalidation case: Bighorn forecloses the District's fee/tax escape hatch (forcing a merits determination it may lose), and the 15% "water ambassador" staffing raises a further possible §6(b)(5) general-public-benefit problem, expanding the share of revenue that is vulnerable. Countervailing deference authority remains real but is weakened by the panel's own inability to agree on what Coziahr holds or even which case it is, which lowers confidence in that escape valve without changing its direction. Nothing in the summary gave me a genuine reason to retreat toward 70; the 55%-rebate concession alone looks likely to satisfy "in substantial part" regardless of how the unquantified pricing-gap question resolves. | Two compounding uncertainties: (1) the still-unquantified gap between $0.85/hcf and the amount strictly justified by the 1.6x marginal-cost differential, which every panelist flagged as potentially outcome-determinative for the pricing-methodology theory; and (2) now also the unresolved identity/holding of Coziahr, which the panel could not agree on — if it turns out to be a strong, on-point deference case (as one panelist believed), the District's blended cost/conservation methodology has a more credible doctrinal shield than my current estimate assumes. |
+
+### Persistent disagreement (signal, not noise)
+
+# Persistent Disagreement Report — Final Round
+
+**Convergence note (for context only):** The panel compressed substantially (final range 72–80, middle 50% between 73–75). All seven accept the same three-pillar analytic structure (incentive-pricing admission / rebate cross-subsidy / 1.6x anchor favoring partial over total invalidation). What persists is disagreement at the margins about *how much* residual weight the countervailing considerations deserve. Four distinct disagreements survive mutual feedback.
+
+---
+
+## 1. Whether the 55% rebate tranche alone settles "substantial part"
+
+**(a) Cruxes.** The high panelist (80) rests on the position that the rebate tranche — 55% of a $4.1M fund, with a stipulated concession that it "mostly benefits" non-payors — satisfies "substantial part" *on its own*, making the unquantified pricing gap irrelevant to the proposition's truth value. The 72–73 cluster explicitly retains "meaningful probability mass" on outcomes they characterize as a narrow trim, severance, or remand that "a fair-minded observer would call a partial win for the district," falsifying the proposition as framed. The 75 panelist occupies a middle position, resolving the threshold question in the proposition's favor but retaining mass on the district salvaging the cost-justified core.
+
+**(b) Source.** Mixed: partly an interpretive question about the proposition's own wording ("substantial part"), partly a legal-prediction question about remedy scope (severance vs. methodology-wide invalidation). Not primarily factual.
+
+**(c) Resolution.** A court's actual remedial framing — whether it strikes discrete tranches/increments versus remanding for re-derivation of the whole rate — or a stipulated operationalization of "substantial" in the proposition itself.
+
+## 2. The systemwide-benefit defense of the rebate program
+
+**(a) Cruxes.** The cluster (72–73) treats the theory that rebates reduce system-wide peaking/drought costs — thereby indirectly benefiting payors (one panelist invoked a Richmond v. Shasta-style indirect-benefit frame) — as a live, colorable defense that caps their estimates below the high end. The 75 and 80 panelists rest on the view that the district's own stipulated concession forecloses this argument *on this record*, whatever its abstract merit.
+
+**(b) Source.** A factual/record assumption (how much work the concession does at trial) layered on a genuinely unsettled legal question (viability of indirect-benefit theories under §6(b)(2)–(3) for conservation rebates).
+
+**(c) Resolution.** A finding on whether rebate-driven demand reduction confers a cognizable, quantifiable benefit on surcharge-payors, and a ruling on whether the concession is treated as dispositive or as one datum among several.
+
+## 3. How to handle the unverified deference authorities (Coziahr / Griffith / Wilde pinpoints)
+
+**(a) Cruxes.** Three distinct epistemic policies persist:
+- **Symmetric-uncertainty position** (two of the 73s): Coziahr's holding is unknown and "could cut either way once confirmed" — an independent reason to hold confidence at medium.
+- **Zero-weight position** (one 73): citation instability across independent panelists suggests the case is a "placeholder for 'deference exists somewhere'"; it receives no net weight in either direction.
+- **Asymmetric-discount position** (75 and 80): the panel's inability to agree on the citation *weakens the district's* deference shield specifically, marginally supporting a higher estimate.
+
+**(b) Source.** Differing risk tolerance / epistemic method for unverified authority — not a dispute about law or facts. Notably, panelists drew *opposite directional inferences* from the identical uncertainty.
+
+**(c) Resolution.** Verification of Coziahr v. Otay Water District's actual citation, year, and holding; confirmation of which Griffith case (Pajaro Valley vs. City of Santa Cruz) supplies the relevant deference authority; and Wilde's precise burden-of-proof holding.
+
+## 4. How outcome-determinative the unquantified pricing gap is
+
+**(a) Cruxes.** All seven flag the dollar gap between $0.85/hcf and a strict 1.6x-derived figure as the largest factual unknown, but they disagree about its load-bearing role. The cluster treats it as a primary driver of whether the proposition is true (small gap → "harmless rhetorical framing" under the deference line → possible non-substantial trim). The 80 panelist treats it as irrelevant to the proposition because the rebate theory independently satisfies "substantial part" (see #1) — the disagreements are linked.
+
+**(b) Source.** A missing fact, but the *disagreement about the fact's relevance* traces back to the interpretive split in #1 and the genuinely unsettled legal question of whether the Capistrano strict-correlation line or the Wilde/Griffith "reasonable approximation" line governs blended cost/conservation methodologies — a tension all panelists agree lacks controlling California Supreme Court resolution.
+
+**(c) Resolution.** Quantification of the gap itself; and/or a controlling decision resolving whether "derived in part from conservation-incentive pricing" is fatal to a rate still majority-anchored to a documented cost study, or tolerable methodology commentary.
+
+---
+
+## Summary characterization
+
+The residual 72→80 spread is **not** driven by disagreement over the core doctrinal analysis, which is unanimous. It traces to: (i) one genuinely unsettled legal question (Capistrano strictness vs. deference-line latitude, with the key deference case unverified); (ii) one factual unknown (the pricing gap) whose *relevance* is itself contested; (iii) one record-characterization dispute (whether the rebate concession forecloses the indirect-benefit defense); and (iv) differing risk tolerance toward unverified authority and toward the proposition's "substantial part" threshold. The single largest structural divide: whether the proposition's truth depends on unresolved facts (the cluster's view) or is already overdetermined by the rebate tranche alone (the high panelist's view).
+
+<details><summary>Facilitator summary after round 1</summary>
+
+# Delphi Panel — Round 1 Feedback Summary
+
+## 1. Statistics
+
+Panel of 7. Probability that the proposition is correct: median 70.0, mean 71.4, std dev 2.8, range 70.0–78.0, middle 50% of panel between 70.0 and 72.0.
+
+*(For themes below, "higher-probability panelists" refers to the two panelists at 72 and 78; "lower-probability panelists" refers to the five at 70.)*
+
+## 2. Rationale Themes
+
+**Theme A — The "in part conservation-incentive pricing" admission tracks the Capistrano defect (7 of 7).**
+Every panelist reasoned that the district's own rate-study language — deriving $0.85 "in part" from conservation-incentive pricing rather than strict cost allocation — maps onto the defect condemned in *Capistrano Taxpayers Assn. v. City of San Juan Capistrano*. Characterizations of severity varied within the theme (from "direct doctrinal vulnerability" to "close to a per se violation for the excess increment").
+
+**Theme B — Rebate cross-subsidy as an independent revenue-use/proportionality problem (7 of 7).**
+All panelists cited the concession that 55% of proceeds fund rebates mostly benefiting non-payers, invoking some combination of §6(b)(1), (b)(2), and (b)(3). Several framed this as analytically distinct from — and potentially independently dispositive of — the pricing-methodology issue.
+
+**Theme C — The 1.6x documented cost differential as a genuine cost anchor favoring partial rather than total invalidation (7 of 7).**
+Every panelist treated the peaking-capacity/drought-reserve cost study as a real cost-of-service basis that makes severance, capping, remand, or partial upholding more likely than wholesale invalidation, and distinguished this record from the agency record in *Capistrano*.
+
+**Theme D — Agency burden of proof under §6(b)(5) (4 of 7).**
+Four panelists (three at 70; the panelist at 78) reasoned that the agency's burden of proving compliance, combined with its record concessions, shifts practical litigation risk to the district. One of these grounded the burden/preponderance standard in *Wilde v. City of Dunsmuir*; the others cited the constitutional text directly.
+
+**Theme E — Bighorn forecloses the "not a property-related fee" fallback (5 of 7).**
+Five panelists (all at 70) reasoned the district's threshold argument fails under *Bighorn-Desert View Water Agency v. Verjil*, forcing the case to be decided on cost-of-service merits. The two higher-probability panelists did not include this in their rationales (one cited *Bighorn* only in authorities; one cited it for a different proposition — see disagreements).
+
+**Theme F — Judicial deference / no mathematical precision required (3 of 7, skewing higher-probability).**
+Both higher-probability panelists (72, 78) plus one panelist at 70 invoked deference authority (*Wilde*, *Griffith*, *Coziahr*) as a countervailing consideration that could salvage the full rate or the district's blended methodology.
+
+**Theme G — 15% conservation-education staffing as a general public benefit problem (3 of 7).**
+Three panelists separately flagged the "water ambassador" allocation as funding a general governmental/public-education service rather than service to the paying parcels.
+
+**Theme H — 30% recycled-water debt service as the most defensible tranche (2 of 7).**
+Two panelists (one at 70, one at 78) identified the debt-service allocation as squarely traceable to the cost rationale and likely to survive, supporting a "substantial part" rather than "whole" outcome.
+
+**Theme I — Article X, §2 / Water Code §375 cannot override Prop 218's specific text (2 of 7, both at 70).**
+Two panelists expressly reasoned that the conservation-mandate defense fails against the later-adopted, more specific §6(b) requirements.
+
+**Cross-cutting uncertainty (flagged by all 7 in their uncertainty statements):** the unquantified gap between $0.85/hcf and what the 1.6x differential would strictly justify, which panelists uniformly identified as potentially outcome-determinative.
+
+## 3. Points of Genuine Disagreement
+
+1. **Identity and holding of *Coziahr v. Otay Water District*.** Panelists cited three incompatible citations: (2018) 24 Cal.App.5th 850, (2023) 91 Cal.App.5th 1, and (2024) 103 Cal.App.5th 122. One panelist relied on it affirmatively as deference-to-methodology authority; three others flagged its holding as unverified, and one was uncertain whether it narrows or reinforces *Capistrano*. The panel does not agree on what this case is or says.
+
+2. **How strict *Capistrano* is versus the deference line of cases.** Some panelists treat the "in part incentive-pricing" admission as effectively fatal to the increment above cost (approaching a per se defect); others posit that *Wilde*/*Griffith*-style latitude for non-precise cost allocation could sustain the full $0.85 as a reasonable cost-based approximation. One panelist explicitly framed this as an unresolved doctrinal tension with no controlling Supreme Court decision.
+
+3. **Which *Griffith* case supplies the countervailing authority.** One panelist relied on *Griffith v. City of Santa Cruz* (2012) 207 Cal.App.4th 1130 as tolerating conservation-oriented tiered pricing; four others cited *Griffith v. Pajaro Valley Water Mgmt. Agency* (2013) 220 Cal.App.4th 586. These are different cases with different holdings being used for a similar purpose.
+
+4. **What *Wilde v. City of Dunsmuir* stands for.** One panelist cited it for the agency's burden of proof by a preponderance; another cited it for rate-setting deference and the absence of a mathematical-precision requirement. These are different readings of the same authority.
+
+5. **Whether the rebate program is defensible at all.** Most panelists treat the cross-subsidy concession as essentially indefensible under §6(b)(2)–(3). One panelist (78) identified a specific path by which the district could prevail on it — that rebates reduce system-wide peaking/drought-reserve costs and thereby benefit payors — while concluding the concessions make that a "harder sell."
+
+6. **Whether any partial invalidation necessarily satisfies "in substantial part."** Most panelists assume partial invalidation satisfies the proposition as framed. One panelist (70) expressly disagreed with that assumption, reasoning that a "minor trim" to the rate might arguably not be "substantial," making the unquantified dollar magnitude the crux of whether the proposition is true.
+
+7. **What *Bighorn* is authority for.** Most panelists cited *Bighorn* solely for the property-related-fee threshold; one panelist also cited it (with *Richmond v. Shasta*) as informing the substantive cross-subsidization/proportionality analysis.
+
+## 4. Authorities
+
+*Note: one panelist (at 70) submitted no formal authorities list, though that panelist's rationales expressly referenced Capistrano, Bighorn-Desert, and art. X, §2. Counts below reflect formal authorities lists; parentheticals note that panelist's in-rationale references where applicable.*
+
+**Cited by two or more panelists:**
+- Cal. Const. art. XIII D, §6(b)(1)–(5) — 6 (7 including in-rationale reference)
+- *Capistrano Taxpayers Assn. v. City of San Juan Capistrano* (2015) 235 Cal.App.4th 1493 — 6 (7 including in-rationale reference)
+- *Bighorn-Desert View Water Agency v. Verjil* (2006) 39 Cal.4th 205 — 6 (7 including in-rationale reference; one panelist spelled "Vejil")
+- Cal. Const. art. XIII C / §1(e) (Prop 26) — 6
+- Cal. Const. art. X, §2 — 6 (7 including in-rationale reference)
+- Water Code §375 — 6
+- *Coziahr v. Otay Water District* — 5 (with divergent years and citations; see Disagreement #1; four of five flagged "verify")
+- *Griffith v. Pajaro Valley Water Mgmt. Agency* (2013) 220 Cal.App.4th 586 — 4 (two flagged verification of pinpoint applicability)
+- *Plantier v. Ramona Municipal Water District* (2019) 7 Cal.5th 372 — 3
+- *Wilde v. City of Dunsmuir* (2020) 9 Cal.5th 1105 — 2
+
+**Cited by only one panelist:**
+- *Griffith v. City of Santa Cruz* (2012) 207 Cal.App.4th 1130
+- *City of Palmdale v. Palmdale Water Dist.* (2011) 198 Cal.App.4th 926
+- *Richmond v. Shasta Community Services Dist.* (2004) 32 Cal.4th 409
+- *Zolly v. City of Oakland* (2022) 13 Cal.5th 858 (cited with a "verify relevance" flag)
+- Gov. Code §66022
+
+---
+*Round 2 instructions: Review the themes, disagreements, and authorities above. You may revise or maintain your probability and rationales in light of what other panelists raised.*
+
+</details>
+
+<details><summary>Full final-round panelist answers</summary>
+
+
+**Panelist 1** — 72/100, medium
+
+- The district's admission that $0.85 is derived 'in part' from conservation-incentive pricing rather than strict cost allocation is a direct evidentiary parallel to the defect in Capistrano Taxpayers Assn. v. City of San Juan Capistrano (2015) 235 Cal.App.4th 1493, and unlike Capistrano's agency, this district's own rate study supplies the plaintiffs a documented benchmark (1.6x) against which the 'excess' increment can be measured and challenged — arguably making the incentive markup easier to isolate and strike than in Capistrano itself.
+- The concession that 55% of revenue funds rebates 'mostly' benefiting non-payors is a distinct and largely undefended proportionality problem under §6(b)(2)-(3); the one theoretical rejoinder (system-wide peaking-cost reduction benefiting all ratepayers, per disagreement #5) is undercut by the district's own factual concession, making that defense weak on this record even though it is not frivolous in the abstract.
+- Bighorn-Desert View Water Agency v. Verjil (2006) 39 Cal.4th 205 forecloses the district's threshold 'not a property-related fee' fallback for volumetric water charges, which the panel confirmed 5/7 — this removes what would otherwise be the district's cleanest way to avoid a §6(b) merits analysis altogether and channels the dispute directly into the cost-of-service fight the district is weaker on.
+- The §6(b)(5) burden of proof falling on the agency, combined with a record that includes the district's own hedged 'in part' language and its concession about rebate beneficiaries, functionally converts the district's litigation strategy into damage control rather than affirmative justification — a dynamic several panelists captured via Wilde v. City of Dunsmuir (verify exact holding/citation) and constitutional text directly.
+- Genuine countervailing authority remains: Griffith (either Griffith v. City of Santa Cruz (2012) 207 Cal.App.4th 1130 or Griffith v. Pajaro Valley Water Mgmt. Agency (2013) 220 Cal.App.4th 586 — panel disagreement on which applies, both need citation verification) and the disputed Coziahr v. Otay Water District (citation/year/holding unverified and contested among panelists) could support a more deferential 'reasonable approximation' reading of the $0.85 figure and the fund-use mix, which is the main reason I don't go materially above ~72-75.
+- *Response to panel:* Themes A-C, D, G, and H all reproduced reasoning already embedded in my Round 1 answer, so they didn't move me — they mainly validated that my prior analysis was tracking the panel's center of gravity. What did move me modestly upward (70→72) was Theme E: I hadn't explicitly weighted how thoroughly Bighorn forecloses the district's alternative 'not a property-related fee' defense, which (combined with the burden-of-proof point in Theme D) narrows the district's realistic paths to victory down to winning the cost-of-service merits fight outright — a fight where its own concessions are working against it. I did not move toward the 78 outlier because disagreement #5's systemwide-benefit rebate theory and Theme F's deference authorities remain live, unresolved countervailing considerations that the district's own factual admissions substantially (though not completely) blunt. I also did not discount for disagreement #6 (whether a 'minor trim' counts as 'substantial') because the vulnerable pieces here — the incentive increment, the 55% rebate allocation, and arguably the 15% education spend — collectively implicate roughly 70% of program revenue-use plus a contested pricing methodology, which reads as substantial on any fair construction, not a minor trim.
+
+**Panelist 2** — 73/100, medium
+
+- The rebate cross-subsidy (55% of revenue funding rebates the district concedes 'mostly benefit customers other than those paying the surcharge') is doctrinally severable from the pricing-methodology defect: even if a court accepted the full $0.85/hcf as a reasonable cost-based rate, the revenue-use structure independently implicates §6(b)(1)-(2)'s cap on proceeds exceeding funds required to serve the fee payer and §6(b)(3)'s parcel-proportionality requirement. Two largely independent theories of invalidation increase the probability at least one succeeds under the proposition's disjunctive 'whole or substantial part' framing — this is the main thing that moved me.
+- Article XIII D, §6(b)(5) places the burden of proving compliance on the district, and its own rate-study language ('in part' conservation-incentive pricing) and litigation concessions (rebates flow mostly to non-payers) function as admissions against interest that will be difficult to explain away at trial, shifting practical risk toward invalidation of at least a portion of the structure.
+- The genuine cost anchor (1.6x marginal-cost differential for peaking/drought-reserve capacity) and the plausibly defensible 30% debt-service tranche (Theme H) still make total invalidation of the entire surcharge unlikely; the more probable outcome is a court severing/capping the increment above documented cost and/or invalidating the rebate-funded tranche while leaving the debt-service tranche intact — but this outcome still satisfies the proposition as framed ('in whole or in substantial part'), which is why it doesn't pull my number down further.
+- The countervailing deference line (Wilde v. City of Dunsmuir, Griffith, and the contested Coziahr citation) genuinely could sustain a blended cost/incentive methodology as a 'reasonable approximation' rather than requiring precise proportionality, and one panelist's point that rebates arguably reduce system-wide peaking costs (thus indirectly benefiting payors) is a colorable, if 'harder sell,' defense — this is real uncertainty that keeps me from moving toward the panel's 78 ceiling.
+- The unresolved identity of Coziahr v. Otay Water District (three incompatible citations across the panel) and the conflicting Griffith cases (Pajaro Valley vs. City of Santa Cruz) mean a key piece of the deference-side authority is unverified and could cut either way once confirmed, which is an independent reason to keep confidence at 'medium' rather than 'high' despite the upward point-estimate revision.
+- *Response to panel:* Theme B (rebate cross-subsidy as independently dispositive, 7/7) is what actually moved my number — I had listed the rebate issue in round 1 but treated it as reinforcing the same underlying defect as the pricing-methodology problem rather than as a doctrinally separate path to invalidation under §6(b)(1)-(2) that operates even if the $0.85 rate itself were upheld as cost-justified. Recognizing it as a second, largely independent theory pushes the disjunctive probability up. Theme D (burden of proof) reinforced this modestly. I deliberately did not follow the panel toward 78: Theme F (deference doctrine) and the disagreements over Coziahr/Griffith's actual holdings are real unresolved authority questions, not just noise, and I think they justify keeping meaningful probability mass on a 'partial, non-substantial trim' outcome (Disagreement #6) that would falsify the proposition as framed. Net effect: modest upward revision to 73, not convergence to the panel ceiling.
+- *Authorities:* Cal. Const. art. XIII D, §6(b)(1)-(5); Capistrano Taxpayers Association v. City of San Juan Capistrano (2015) 235 Cal.App.4th 1493; Bighorn-Desert View Water Agency v. Verjil (2006) 39 Cal.4th 205; Wilde v. City of Dunsmuir (2020) 9 Cal.5th 1105 (verify whether cited for burden of proof or rate-setting deference/no-mathematical-precision); Griffith v. Pajaro Valley Water Mgmt. Agency (2013) 220 Cal.App.4th 586 (verify applicability; distinguish from Griffith v. City of Santa Cruz (2012) 207 Cal.App.4th 1130); Coziahr v. Otay Water District — citation and holding unverified/disputed across panel (2018 24 Cal.App.5th 850 vs. 2023 91 Cal.App.5th 1 vs. 2024 103 Cal.App.5th 122); Plantier v. Ramona Municipal Water District (2019) 7 Cal.5th 372 (procedural, not merits); Cal. Const. art. XIII C, §1(e) (Prop 26); Cal. Const. art. X, §2; Water Code §375; Richmond v. Shasta Community Services Dist. (2004) 32 Cal.4th 409 (verify relevance to cross-subsidy analysis)
+
+**Panelist 3** — 73/100, medium
+
+- The rate study's express concession that $0.85 is derived 'in part' from conservation-incentive pricing rather than strict cost allocation is an admission against interest that narrows the deference a court can extend under Wilde/Griffith-type latitude — deference doctrines typically resolve ambiguity in favor of agencies, but here the ambiguity is partially resolved by the agency's own record, which is precisely the defect Capistrano condemned.
+- The revenue-use vulnerability is broader than the 55% rebate line alone: the 15% 'water ambassador' conservation-education staffing allocation is plausibly a general public-benefit/education expenditure with an attenuated nexus to the service furnished to surcharge-payers, meaning as much as 70% of the restricted fund's use (not merely 55%) carries §6(b)(2)/(b)(1) exposure independent of the rate-methodology issue, while only the 30% debt-service tranche is squarely cost-traceable.
+- The 1.6x marginal-cost finding remains a genuine anchor distinguishing this record from Capistrano's and makes wholesale invalidation of the entire surcharge less likely than a severance/remand remedy confined to the incentive-priced increment and the mismatched rebate spending — but under the proposition's own framing ('in whole or in substantial part'), a court-ordered refund of the excess increment plus injunctive relief on the cross-subsidized 55-70% of spending would itself satisfy 'substantial part.'
+- The district's colorable systemic-benefit defense for the rebate program (that turf/appliance rebates reduce peak demand and therefore lower system-wide costs benefiting all ratepayers, including payors) is real and could rescue the 55% tranche from the sharpest attack, but the district's own concession that the program 'mostly benefits customers other than those paying the surcharge' undercuts that theory's persuasiveness and leaves it a harder sell, per the panel's own characterization.
+- Article XIII D §6(b)(5)'s agency burden of proof by a preponderance, combined with a public litigation record containing the district's own concessions on both the pricing methodology and the rebate mismatch, structurally favors the ratepayer association and makes a purely deferential, full-validation outcome the least likely of the plausible results.
+- *Response to panel:* Two things moved me modestly upward from 70 to 73: Theme G (the 15% 'water ambassador' line as an independent general-public-benefit problem), which I hadn't weighted in round 1 and which meaningfully expands the revenue-use vulnerability beyond just the 55% rebate tranche; and the panel's near-total consensus (7/7) on Themes A-C validating that my original three-pillar structure was sound rather than idiosyncratic, which increases my confidence that the case for at least a substantial partial violation is robust rather than fragile. I did not move further upward despite that consensus because Theme F (deference authority) and Disagreement #5 (the colorable systemic-benefit defense for rebates) are genuine, non-trivial countervailing considerations that several panelists — including both higher-probability panelists — took seriously enough to cite affirmatively; I credit those as real defenses that cap my probability well below 80 even as the agency's own record concessions blunt their force. I did not adopt any specific resolution of the Coziahr citation dispute (Disagreement #1) given the panel's own unresolved disagreement about which case/holding is even correct, and I treat that authority as unverified rather than load-bearing in either direction."
+
+**Panelist 4** — 73/100, medium
+
+- The rebate cross-subsidy problem (55% of revenue funding rebates the district admits mostly benefit non-payors) is, on these facts, close to self-proving under §6(b)(2)'s bar on using fee revenue for any purpose other than that for which the fee was imposed and §6(b)(3)'s parcel-specific proportionality rule; unlike the pricing-methodology question, this defect doesn't depend on unresolved rate-study math — it's a straight structural mismatch between payor class and beneficiary class, which likely satisfies 'substantial part' on its own regardless of how the incentive-pricing question comes out.
+- The §6(b)(5) burden of proof (agency must show compliance, arguably by preponderance under Wilde v. City of Dunsmuir (2020) 9 Cal.5th 1105 — verify pinpoint) combined with the district's own rate-study concessions ('in part' incentive pricing; rebates benefiting non-payors) means the district is litigating from a documentary hole of its own making, which shifts practical risk toward plaintiffs at summary judgment/trial.
+- The panel's Theme G (three panelists independently flagging the 15% 'water ambassador' conservation-education staffing as general-public-benefit spending untethered to the paying parcels) adds a third distinct vulnerable tranche beyond the pricing markup and the rebate cross-subsidy, making a finding of 'substantial part' invalidation more overdetermined rather than resting on a single contestable theory.
+- Countervailing and holding me back from going higher than ~73: the deference line (Wilde, Griffith v. Pajaro Valley Water Mgmt. Agency (2013) 220 Cal.App.4th 586, and the disputed 'Coziahr' citation) genuinely tolerates some imprecision in cost allocation, and the panel's own citation instability around Coziahr (three different years/citations offered) signals real doctrinal uncertainty about how much latitude courts currently give tiered/conservation pricing — a controlling California Supreme Court resolution of the Capistrano/deference tension does not appear to exist.
+- The documented 1.6x marginal cost differential remains a genuine, quantifiable cost nexus (peaking capacity, drought-reserve purchases) that Capistrano itself treated as legally sufficient when adequately substantiated, supporting severance/partial-uphold outcomes (especially for the 30% debt-service tranche) rather than wholesale invalidation — this is why I don't move toward 85+ despite the reinforcing themes above.
+- *Response to panel:* Two things moved me modestly upward from 70 to 73. First, Theme D (the §6(b)(5) burden of proof falling on the district, reinforced by its own damaging concessions) is a consideration I hadn't separately weighted in round 1 and that meaningfully increases practical litigation risk independent of the substantive merits. Second, Theme G (the 15% water-ambassador general-benefit problem) supplies a third independent vulnerability I'd underweighted, making 'substantial part' invalidation more overdetermined. I did not move further upward or let Theme F (deference authorities) pull me down, because the higher-probability panelists who invoked Theme F still landed above the panel median — suggesting the deference line doesn't neutralize the rebate cross-subsidy problem even where panelists took it seriously. I also stayed cautious about the Coziahr citation chaos in the disagreements section (three incompatible citations offered) — I'm treating that authority as unverified and giving it little independent weight until the citation is confirmed, which counsels against a larger upward move on the strength of 'deference' doctrine alone.
+
+**Panelist 5** — 73/100, medium
+
+- The district bears the burden of proving §6(b) compliance by a preponderance of the evidence (Cal. Const. art. XIII D, §6(b)(5); Wilde v. City of Dunsmuir (2020) 9 Cal.5th 1105 — verify precise burden holding), and the record here contains the agency's own concessions (conservation-incentive pricing driving part of the $0.85; rebates mostly benefiting non-payers) rather than a mere evidentiary gap the district could plausibly close at trial — this converts an ordinary methodology dispute into one where the plaintiff can point to admissions against interest on both defect theories simultaneously, which is unusually favorable for plaintiffs.
+- The 15% allocation to 'water ambassador' conservation-education staff is a third, analytically distinct vulnerability I did not separately weight in round 1: general conservation-education outreach looks like a general public benefit rather than a service to the specific parcels paying the surcharge, implicating §6(b)(2)'s prohibition on fee revenue exceeding costs attributable to the fee payer's parcel and the general-benefit-exclusion principle recognized post-Prop 218 (see Silicon Valley Taxpayers Assn. framework and Prop 26's general-benefit carve-out analog, art. XIII C §1(e)(2) — verify direct §6(b) applicability to staffing/education costs specifically). Combined with the rebate tranche (55%), a majority of the restricted fund's uses are colorably non-cost-correlated to payers, which cuts against the district's ability to characterize any defect as marginal.
+- The proposition's disjunctive framing ('in whole or in substantial part') is satisfied by any of several independently plausible partial-invalidation outcomes — striking the incentive-pricing increment above 1.6x, striking the 55% rebate tranche, or striking the 15% education tranche — so the panel's Disagreement #6 concern (that a 'minor trim' might not count as 'substantial') is a live risk only if a court finds none of these three defects material, which seems unlikely given three separate concession-backed theories on this record.
+- The countervailing deference line (Wilde/Griffith 'no mathematical precision required') is real and prevents me from placing this much higher than 73: Capistrano's holding does not require exact marginal-cost equivalence, and a court sympathetic to conservation policy could characterize the rate study's 'in part' language as reasonable, non-fatal commentary on a rate that is still substantially anchored to the 1.6x cost differential, particularly if the unstated dollar gap between $0.85 and a strict 1.6x-derived figure turns out to be small — this remains the single largest source of downside risk to the proposition and is why I don't move above the mid-70s.
+- The panel's inability to agree on Coziahr v. Otay Water District's citation, year, or holding (three incompatible citations offered) means it should not move my estimate in either direction; I am also declining to lean on Zolly v. City of Oakland (2022) 13 Cal.5th 858 given one panelist's unresolved 'verify relevance' flag, and I continue to treat Griffith v. Pajaro Valley Water Mgmt. Agency (2013) 220 Cal.App.4th 586 as the more likely-relevant Griffith case over Griffith v. City of Santa Cruz, but flag both for verification given the panel split.
+- *Response to panel:* Two panel considerations genuinely moved me upward from 70 to 73: Theme D (§6(b)(5) burden of proof falling on the district, compounded by its own concessions) and Theme G (the 15% education-staffing tranche as a third independent general-benefit vulnerability), neither of which I had weighted in round 1. Both survive my own independent scrutiny as legally sound rather than merely popular. I did not move further toward the higher-probability panelists (72, 78) because Theme F's deference counterweight and Disagreement #2's doctrinal tension are, in my independent judgment, real and unresolved, not adequately discounted by the majority's confidence — Capistrano's condemnation of pure conservation-pricing does not obviously extend to a rate that is still majority-anchored to a documented 1.6x cost study, and I won't assume the strict reading prevails just because more panelists lean that way. I also declined to let Theme F's citation to Coziahr push me toward the 72/78 cluster, since the panel itself could not agree what that case says — citation instability across independent panelists is itself evidence the authority is being invoked more as a placeholder for 'deference exists somewhere' than as a verified, load-bearing holding, so I gave it zero net weight rather than treating panel volume as validation.
+- *Authorities:* Cal. Const. art. XIII D, § 6(b)(1)-(5); Capistrano Taxpayers Assn. v. City of San Juan Capistrano (2015) 235 Cal.App.4th 1493; Bighorn-Desert View Water Agency v. Verjil (2006) 39 Cal.4th 205; Cal. Const. art. X, § 2; Water Code § 375; Cal. Const. art. XIII C, § 1(e) (Prop 26 'tax' definition and fee/general-benefit exceptions); Wilde v. City of Dunsmuir (2020) 9 Cal.5th 1105 — verify precise holding on burden of proof vs. rate-setting deference (panel split on what it stands for); Griffith v. Pajaro Valley Water Mgmt. Agency (2013) 220 Cal.App.4th 586 — verify pinpoint applicability; distinguish from Griffith v. City of Santa Cruz (2012) 207 Cal.App.4th 1130; Plantier v. Ramona Municipal Water District (2019) 7 Cal.5th 372; Coziahr v. Otay Water District — citation unresolved across panel (2018/2023/2024 variants offered); verify identity and holding before relying on it at all; Zolly v. City of Oakland (2022) 13 Cal.5th 858 — relevance unverified
+
+**Panelist 6** — 75/100, medium
+
+- The district's own concession that $0.85 is derived "in part" from conservation-incentive pricing rather than strict cost allocation tracks the specific defect condemned in Capistrano Taxpayers Assn. v. City of San Juan Capistrano, and because art. XIII D, section 6(b)(5) places the burden of proving compliance on the agency, that self-inflicted concession is likely close to dispositive on at least the increment above the 1.6x-documented cost differential.
+- The concession that 55% of proceeds (rebates) mostly benefit non-payors is an independent, and quantitatively large, proportionality/use-of-proceeds problem under 6(b)(2)-(3); given the size of that revenue share relative to the $4.1M total, invalidation of that tranche alone plausibly satisfies the proposition's 'substantial part' threshold even under a skeptical reading of that phrase, which resolves one disagreement identified in the panel summary in favor of the proposition.
+- The 1.6x documented marginal-cost differential is a genuine cost-of-service anchor, and Wilde v. City of Dunsmuir / Griffith-line deference against demanding mathematical precision gives a court a principled path to sever and uphold that cost-justified core (and likely the 30% recycled-water debt-service tranche), which keeps me from assigning a probability much above the mid-70s notwithstanding the strength of the invalidation case.
+- Bighorn-Desert View Water Agency v. Verjil forecloses the district's fallback argument that the surcharge is not a property-related fee at all, so the case will be resolved on 6(b) cost-of-service merits rather than escaping scrutiny through a threshold characterization argument.
+- The panel's inability to converge on what Coziahr v. Otay Water District actually holds (three different citations/years proposed) and disagreement over which Griffith case supplies the deference authority (Pajaro Valley augmentation-fee case vs. City of Santa Cruz tiered-rate case) means the countervailing deference authority is less doctrinally solid than it first appears, which if anything trims confidence in the district's salvage argument rather than strengthening it.
+- *Response to panel:* Two considerations in the summary genuinely moved me, both modestly upward: first, the explicit surfacing of art. XIII D, section 6(b)(5)'s agency burden-of-proof requirement (Theme D) as distinct from generic Wilde deference — I had folded this into my general Capistrano analysis in round 1 without giving it independent weight, but on reflection the combination of an affirmative agency burden with the district's own on-the-record concessions is a stronger and more specific point than "courts are skeptical of incentive pricing." Second, Disagreement #6 (whether partial invalidation counts as "substantial") sharpened my thinking in the proposition's favor rather than against it once I quantified the rebate tranche at 55% of a $4.1M fund — that is not a marginal trim regardless of how "substantial" is construed. I did not move on Theme F/the deference line, since I had already incorporated it and continue to think it caps rather than eliminates the invalidation risk; and I did not adopt the one panelist's theory that rebates might indirectly benefit payors by reducing system-wide peaking costs, since the district's own stipulated concession that rebates "mostly benefit customers other than those paying the surcharge" appears to foreclose that argument on this record. The citation confusion around Coziahr and the competing Griffith cases (Disagreements #1, #3, #4) didn't move my probability, but it did reduce my confidence in citing those cases affirmatively, which I've reflected by flagging them for verification rather than relying on them substantively.
+- *Authorities:* Cal. Const. art. XIII D, § 6(b)(1)-(5) (including the agency's burden-of-proof clause in (b)(5)); Cal. Const. art. XIII C, § 1(e) (Prop 26 exceptions for cost-based charges); Cal. Const. art. X, § 2 (reasonable/beneficial use and conservation mandate); Water Code § 375 (conservation rate-structure authorization); Capistrano Taxpayers Assn. v. City of San Juan Capistrano (2015) 235 Cal.App.4th 1493; Bighorn-Desert View Water Agency v. Verjil (2006) 39 Cal.4th 205; Griffith v. Pajaro Valley Water Mgmt. Agency (2013) 220 Cal.App.4th 586 (verify pinpoint holding vs. Griffith v. City of Santa Cruz (2012) 207 Cal.App.4th 1130 — panel disagreed on which case supplies the relevant deference principle); Plantier v. Ramona Municipal Water District (2019) 7 Cal.5th 372; Wilde v. City of Dunsmuir (2020) 9 Cal.5th 1105 (verify whether cited for burden-of-proof or for deference/no-mathematical-precision holding — panel split on this); Coziahr v. Otay Water District — citation and year unverified/disputed among panelists; verify before relying on it; Zolly v. City of Oakland (2022) 13 Cal.5th 858 (verify relevance to fee-vs-tax characterization)
+
+**Panelist 7** — 80/100, medium
+
+- Unanimous Theme A/B confirm the two strongest doctrinal hooks I already relied on — the 'in part conservation-incentive pricing' admission tracking Capistrano's core defect, and the 55% rebate-to-non-payers concession creating an independent §6(b)(1)-(2)-type proportionality/revenue-use problem — and all seven panelists independently converged on both, which increases my confidence these are correctly identified as central rather than idiosyncratic to my own reasoning.
+- Theme E (Bighorn forecloses the 'not a property-related fee' fallback, 5/7) is a genuine new-to-me point that, if anything, supports a higher rather than lower probability: it removes the District's main procedural off-ramp and guarantees the case is decided on the §6(b) merits, where the District's own concessions are weakest.
+- Theme G (15% 'water ambassador' conservation-education staffing as a possible general-public-benefit problem, 3/7) adds a plausible independent vulnerability under §6(b)(5) analogous to cases holding fire/general-welfare-type services can't be funded by property-related fees; combined with the 55% rebate tranche, up to ~70% of surcharge revenue is arguably exposed, making 'substantial part' invalidation more rather than less likely even if the pricing-methodology question alone were resolved in the District's favor.
+- The panel's own disagreement about Coziahr's citation and holding (three incompatible cites, most flagged 'verify') undermines reliance on it as a robust deference counterweight; this doesn't flip my direction but reduces my confidence that the District has a solid escape valve through judicial deference to blended cost/conservation methodologies, marginally reinforcing the higher end of my range.
+- Disagreement #6 (whether partial invalidation necessarily counts as 'substantial') is the one panel point that could rationally pull me down, but I don't think it does much work here: a 55%-of-$4.1M revenue tranche flowing to a rebate program the District itself admits mostly benefits non-payers is not a 'minor trim' even if the incentive-pricing increment turns out to be small, so the 'substantial part' threshold is likely met on the revenue-use theory alone, independent of the unresolved cost-differential magnitude.
+- *Response to panel:* I was already the high-probability outlier (78 vs. median 70) and the panel's core themes (A-C) validated rather than challenged my central reasoning, so I did not retreat toward the median. Two specific new points moved me slightly further up rather than down: Theme E (Bighorn forecloses the fee/tax fallback, eliminating a threshold escape route) and Theme G (the 15% ambassador-staffing tranche as an additional §6(b)(5) vulnerability), both of which expand rather than shrink the case for at least partial invalidation. The panel's exposed disagreement over Coziahr's actual holding also cut against the strength of the deference counterargument I had relied on, reinforcing the upward nudge. The one panel point that could have pulled me down — whether partial invalidation counts as 'substantial' — I considered and rejected as applying here, since the 55% rebate tranche is large enough in magnitude that it would satisfy 'substantial part' on its own even under a strict reading.
+- *Authorities:* Cal. Const. art. XIII D, § 6(b)(1)-(5); Capistrano Taxpayers Assn. v. City of San Juan Capistrano (2015) 235 Cal.App.4th 1493; Bighorn-Desert View Water Agency v. Verjil (2006) 39 Cal.4th 205; Wilde v. City of Dunsmuir (2020) 9 Cal.5th 1105; Coziahr v. Otay Water District — citation/holding disputed by panel, verify pinpoint and correct reporter cite before relying on it for deference; Plantier v. Ramona Municipal Water District (2019) 7 Cal.5th 372; Cal. Const. art. X, § 2; Cal. Water Code § 375; Cal. Const. art. XIII C, § 1(e) (Prop. 26 tax/fee distinction)
+
+</details>
+
+
+</details>
+
+<details><summary>Lens: dialectic</summary>
+
+### Operation
+Strongest thesis → strongest steelmanned antithesis → synthesis that resolves the tension or names it irreducible.
+
+### Thesis — strongest case FOR
+
+# THESIS: The Water Resilience Surcharge Violates Article XIII D, § 6(b)
+
+*Prepared as one component of a multi-angle litigation-assessment pipeline. This is the strongest affirmative case for invalidation — not a balanced assessment. All citations require independent verification before filing; hedged language ("verify whether…") marks points where I am not confident of the precise holding or textual location.*
+
+---
+
+## I. Threshold: This Is a Property-Related Fee, Fully Subject to § 6(b)
+
+The District's fallback argument — that the surcharge is not a property-related fee at all — should be disposed of first because it is the weakest part of the defense and, if defeated early, forces the District onto the merits where it is most exposed.
+
+- **Retail water delivery charges are the paradigm property-related fee.** *Bighorn-Desert View Water Agency v. Verjil* (2006) 39 Cal.4th 205 held that charges for ongoing water delivery service, imposed as an incident of property ownership, are property-related fees subject to Article XIII D, § 6 — notwithstanding that they are usage/metered-based rather than flat. *Richmond v. Shasta Community Services Dist.* (2004) 32 Cal.4th 409 similarly treats water service charges tied to a parcel as property-related.
+- **Capistrano itself treated a tiered, usage-based conservation rate as a § 6 fee.** *Capistrano Taxpayers Assn. v. City of San Juan Capistrano* (2015) 235 Cal.App.4th 1493 adjudicated an essentially identical tiered water-rate structure entirely within the § 6(b) framework. The District cannot distinguish its own surcharge from the fact pattern its opponents are citing against it.
+- **Distinguish the District's likely counter-citation.** *City of San Buenaventura v. United Water Conservation Dist.* (2017) 3 Cal.5th 1191 held that a *groundwater extraction/pumping* charge imposed on extractors (not directly on property owners as retail customers) is not a property-related fee under Art. XIII D and is instead analyzed under Prop 26/Art. XIII C. That case is inapposite: Sierra Vista's surcharge is a retail volumetric charge on metered water delivered to a specific parcel, squarely within Bighorn/Capistrano, not the wholesale-extraction scenario in San Buenaventura.
+
+**Conclusion:** The "not a fee" argument should fail as a matter of settled law, putting the case squarely into § 6(b) merits territory — favorable ground for plaintiffs.
+
+---
+
+## II. Standard of Review: No Deference to the District's Rate-Setting Judgment
+
+This matters enormously because water agencies are accustomed to rational-basis deference on rate design (as in ordinary municipal utility ratemaking). Prop 218 displaces that deference for the specific cost-of-service and proportionality inquiries:
+
+- Courts apply **independent judicial review** to whether a fee complies with § 6(b)'s substantive requirements — the agency's own conclusion that its methodology is cost-based is not entitled to deference. *Capistrano*, *supra*; see also *Silicon Valley Taxpayers Assn., Inc. v. Santa Clara County Open Space Authority* (2008) 44 Cal.4th 431 (analogous "no deference" independent-review standard for Art. XIII D § 4 assessment proportionality — cited by analogy since the assessment and fee provisions share drafting history and purpose).
+- **Burden of proof is on the District.** Article XIII D places the burden on the agency to demonstrate compliance with § 6 in any legal challenge (verify exact subdivision/placement of this burden-shifting clause within § 6(b); it is well established in the fee-litigation case law, e.g., the *Bighorn*/*Plantier* line, that agencies — not challengers — must affirmatively prove cost-of-service compliance once a fee is challenged).
+- *Plantier v. Ramona Municipal Water Dist.* (2019) 7 Cal.5th 372 confirms that a facial/methodological challenge to a fee's compliance with § 6(b) can proceed without parcel-by-parcel individualized proof from the plaintiff — the ratepayer association can attack the rate study's methodology directly, which is exactly what the District's own document invites.
+
+This standard is decisive here because the District does not need to be caught manipulating numbers — its **own rate study's language does the work for plaintiffs.**
+
+---
+
+## III. The Core Violation: §§ 6(b)(1) and 6(b)(3) — Capistrano Controls Directly
+
+### A. Capistrano's holding, applied
+
+*Capistrano* held (in substance — verify precise quoted language before filing) that a tiered/inclining-block water rate must be justified by the **actual cost of providing service at that tier**, and that a public agency may not set tier prices by reference to a **conservation-incentive or demand-elasticity rationale untethered from cost causation**. The court rejected the argument that a rate could validly exceed cost of service simply because a higher price would be more effective at discouraging use. Effectiveness at achieving a policy goal is not a defense to the proportionality command of § 6(b)(3).
+
+### B. The District's own study is close to a documentary admission
+
+This is the single strongest fact in the case. The rate study:
+
+1. Establishes a legitimate cost differential of **1.6× base-tier cost** (peaking capacity, drought-reserve purchases) — this defines the outer boundary of what could be a cost-justified surcharge.
+2. Then admits the **$0.85 figure was derived "in part" from "conservation-incentive pricing" rather than strictly from cost allocation.**
+
+That second admission is not something plaintiffs need to prove through expert reconstruction of the agency's methodology — the District has put it in its own official rate study. Under *Capistrano* and the independent-review/agency-burden standard above, this is close to dispositive on the excess-over-cost question: whatever the exact dollar gap, the agency's own document concedes that *some* portion of $0.85 was not set by cost allocation. Litigation strategy should be to:
+
+- **Quantify the gap.** If the base Tier 2 rate is $X/ccf, a cost-justified surcharge (at 1.6× total cost) would be approximately $0.6X. Discovery should extract the actual base rate and the rate study's internal work papers to compute the dollar delta between $0.85 and the cost-justified figure; that delta, multiplied by billed high-tier volume, approximates both (a) the scope of the constitutional violation and (b) the refund exposure.
+- **Use the concession offensively in a motion for summary adjudication** on the § 6(b)(3) claim — the agency's own study effectively negates its ability to carry its burden of proving the entire $0.85 is cost-based.
+
+### C. A second, independent cost-mismatch angle: the recycled-water plant may be a systemwide asset
+
+Even the ostensibly strongest 30%-of-revenue component (recycled-water plant debt service) deserves scrutiny before conceding it. If the recycled-water plant provides drought-reserve reliability or offsets potable demand for the **entire 140,000-person service area** — not capacity that exists *because of* top-22% peak usage specifically — then loading 100% of its debt service onto the surcharge payers, rather than allocating it system-wide through base rates, would itself violate § 6(b)(3)'s parcel-proportionality command (surcharge payers would be subsidizing a benefit shared by all ratepayers). This is a discovery target: obtain the engineering/demand studies underlying the plant's sizing to test whether its capacity was actually driven by top-tier peak demand or by systemwide drought resilience goals.
+
+---
+
+## IV. Independent Violation: §§ 6(b)(1)/(b)(2) — Revenue Diverted to Non-Payors via the Rebate Program
+
+This is a distinct and, in some ways, even cleaner violation than the pricing-methodology argument, because it does not require reconstructing cost allocation at all.
+
+- **55% of the $4.1M (~$2.26M/year)** funds turf-replacement and appliance rebates that **the District concedes "mostly benefit customers other than those paying the surcharge."**
+- Section 6(b)(2) requires that fee revenue "not be used for any purpose other than that for which the fee or charge was imposed." Section 6(b)(1) caps revenue at "funds required to provide the property related service." A capital subsidy program for *other* customers' private property improvements is not "the cost of providing water service" to the fee payors — it is a wealth transfer funded by a subset of ratepayers for the benefit of a different subset.
+- Section 6(b)(3) independently requires that the fee imposed on a parcel "not exceed the proportional cost of the service **attributable to the parcel**." A structure in which Parcel A's payment is expressly earmarked to subsidize rebates delivered to Parcel B is disproportionate **by definition** — no cost-allocation study can cure a fee that is, on its face, designed to fund services to non-payors. This argument does not depend on winning the 1.6×-vs-conservation-pricing dispute in Section III; it stands on its own even if the entire $0.85 were perfectly cost-justified in the aggregate, because the *use* of the revenue, not just its *amount*, independently breaches 6(b)(1)/(b)(2)/(b)(3).
+- Analogize to *Griffith v. Pajaro Valley Water Management Agency* (2013) 220 Cal.App.4th 586, which examined whether augmentation-fee revenues were spent in a manner that correlated with the burden fee-payors placed on the resource, rather than cross-subsidizing unrelated programs (verify precise holding/application before citing as squarely on point).
+
+**This is likely the single best-postured claim in the case** — the District has conceded the operative fact (that rebates mostly flow to non-payors), leaving primarily a legal-characterization dispute rather than a factual one.
+
+---
+
+## V. Independent Violation (Weaker but Colorable): § 6(b)(5) — "Water Ambassador" Staff
+
+The **15% (~$615,000/year)** funding "water ambassador" conservation-education staff is vulnerable under § 6(b)(5), which bars imposing a fee "for general governmental services… where the service is available to the public at large in substantially the same manner as it is to property owners." General conservation-education/outreach functions plausibly benefit the community broadly (public messaging, school programs, media campaigns) rather than being a service uniquely delivered in exchange for the surcharge payor's own water delivery. This argument is weaker than the rebate argument because outreach staff might be shown to work specifically with high-tier account holders (individualized audits, targeted communications) — discovery into how "ambassador" time is actually allocated will determine whether this is a genuine general-public-benefit program or a targeted service to surcharge payors. Flag as a secondary claim, not the centerpiece.
+
+---
+
+## VI. The Conservation-Mandate Defense Fails as a Matter of Law
+
+The District's Article X, § 2 / Water Code § 375 defense should lose, and *Capistrano* is the vehicle for saying so directly, but the strongest version of this argument is not "conservation policy is irrelevant" — it is "conservation policy is *fully achievable* within Prop 218's constraints, and therefore is not in genuine conflict with it."
+
+1. **Textual/structural point:** Article X, § 2 addresses the reasonableness of water *use* and the state's water-rights doctrine (waste, unreasonable use, beneficial use) — it has never been construed as a source of authority for a *particular ratemaking or pricing mechanism* for retail utility service. It operates in a different constitutional domain than Article XIII D's fee-setting provisions.
+2. **Specific/later provision controls:** Article XIII D (added 1996) is a detailed, self-executing set of substantive constraints on property-related fees, enacted after and more specific than Article X, § 2's general conservation directive. Under ordinary interpretive canons, a specific, later constitutional provision governs over a general, earlier one to the extent of any conflict.
+3. **A statute cannot override a self-executing constitutional constraint.** Water Code § 375 is legislative authorization for conservation-oriented rate design; it cannot exempt an agency from Article XIII D's constitutional cost-of-service mandate. *Capistrano* rejected a materially identical argument that state conservation policy — whether grounded in Article X, § 2 or in enabling legislation — creates an exception to § 6(b) (verify whether the *Capistrano* record specifically addressed Water Code § 375 or only Article X, § 2, and cite accordingly).
+4. **Capistrano's actual reconciliation — the best framing for the thesis:** Conservation and Prop 218 are not in conflict, because conservation goals are *already* served by cost-based tiering. If high-tier usage genuinely costs 1.6× as much (peaking capacity, emergency/drought-reserve purchases), then a lawful cost-based tier surcharge **already** sends a price signal that discourages high-tier consumption — no additional "incentive markup" is constitutionally necessary to achieve the conservation goal. The District's own admission that it needed to go *beyond* the 1.6× cost differential to achieve its desired behavioral effect is itself evidence that a cost-based rate was, in the District's judgment, insufficient — but insufficiency for policy purposes is not a defense to a proportionality mandate. Conservation goals beyond what cost-based pricing achieves must be pursued through other lawful funding mechanisms: general-fund appropriations, grants, regulatory limits on water use (e.g., turf/irrigation ordinances), or a **voter-approved special tax** under Prop 218/26 procedures.
+
+**Net:** 218 wins on the specific question of how much may be charged and how the revenue may be spent; Article X, § 2 wins in the sense that conservation remains fully achievable — just not through fee revenue mismatched to cost or redirected to non-payors.
+
+---
+
+## VII. Alternative/Reinforcing Theory: If Not a Compliant Art. XIII D Fee, It Is an Unconstitutional Tax Under Prop 26
+
+This is a genuinely colorable alternative pleading that strengthens the overall litigation package, though analytically distinct from the 6(b) claim itself:
+
+- Article XIII C, § 1(e) (added by Prop 26) defines "tax" broadly and exempts from that definition "assessments and property-related fees imposed in accordance with the provisions of Article XIII D" (verify exact paragraph numbering within § 1(e)). That exemption is **conditional, not automatic** — a charge only escapes "tax" status if it *actually complies* with Article XIII D, including § 6(b)'s cost-of-service and proportionality requirements.
+- If the surcharge (or the incentive-priced increment, or the rebate-funding portion) fails § 6(b), it falls **outside** the Art. XIII D exemption and reverts to Prop 26's default "tax" classification — for a special district, this would require **two-thirds voter approval** under Article XIII C, § 2(d), which plainly was not obtained here (only a majority-protest hearing was held).
+- General Prop 26 interpretive principles placing the burden on the local agency to prove an exception applies: *Jacks v. City of Santa Barbara* (2017) 3 Cal.5th 248; see also *Schmeer v. County of Los Angeles* (2013) 213 Cal.App.4th 1310 (verify holding specifics) for the Prop 26 exception framework generally.
+
+**Litigation value:** Plead this in the alternative. It gives the court (and, more practically, gives settlement leverage) an independent path to relief even if a judge is reluctant to wade deeply into rate-methodology fact-finding on the § 6(b) claim — the documentary admission of "conservation-incentive pricing" is enough, standing alone, to put the burden on the District to show either (a) full cost justification or (b) two-thirds voter approval, neither of which currently exists for the incentive-priced/redistributed portion.
+
+---
+
+## VIII. The 9% Protest Result Does Not Cure the Substantive Defect
+
+Anticipate the District arguing that surviving the majority-protest hearing (only ~9% protest, far short of the 50%+1 threshold under § 6(a)(2)) validates the rate. This conflates **procedural** compliance (§ 6(a)) with **substantive** compliance (§ 6(b)). The protest procedure tests political support for the *proposed* rate; it does not adjudicate, and cannot waive, whether the rate as adopted satisfies the mandatory cost-of-service and proportionality requirements of § 6(b). *Plantier*, *supra*, confirms that substantive fee challenges proceed independently of the protest process. This point should be addressed head-on early in any brief, since it is likely to be the District's first line of defense.
+
+---
+
+## IX. Remedies and Litigation Exposure
+
+- **Refunds.** Government Code §§ 53750–53756.5 (the Prop 218 Omnibus Implementation Act) govern claims/refund procedures for property-related fee challenges to water/sewer charges. Depending on the applicable limitations period (verify whether a 3-year period under Code Civ. Proc. § 338(a) applies to an ordinary civil challenge post-*Plantier*, versus a shorter period if framed as a reverse-validation action under Code Civ. Proc. §§ 860 et seq. / Gov. Code § 53511), refund exposure could reach back across multiple billing years.
+- **Scope of exposure.** The rebate (55%) and ambassador (15%) components are vulnerable **independent of** the cost-differential dispute — together roughly 70% of annual revenue (~$2.87M/year) is exposed on a revenue-use theory alone, without needing to resolve the harder cost-of-service quantification question. The cost-differential (6(b)(3)) claim adds exposure for whatever dollar amount of the base surcharge itself exceeds the 1.6× line.
+- **Attorney's fees.** Code Civ. Proc. § 1021.5 (private attorney general doctrine) is a realistic fee-shifting avenue given the public-benefit nature of enforcing Prop 218 compliance across a large ratepayer class; courts have awarded such fees in successful Prop 218 fee litigation (verify specific precedent, e.g., fee awards on *Capistrano* remand or comparable cases, before relying on a citation).
+- **Injunctive/prospective relief and severability.** Prop 218 (the 1996 ballot measure) contains a severability provision (verify exact section number), supporting a remedy that **reduces rather than eliminates** the surcharge — e.g., capping the rate at the cost-justified 1.6× differential and enjoining further collection/expenditure on the rebate program from this revenue stream, consistent with the proposition's "in whole or in substantial part" framing.
+
+---
+
+## X. Repair Blueprint (Useful for Settlement Leverage and to Show the Claim Is Not Merely a Technicality)
+
+A first-rate advocate uses the "here's how you fix it" analysis both to show good faith and to sharpen the contrast with the current defective structure:
+
+1. Recompute and cap the tier surcharge at the documented 1.6× marginal-cost differential; strip "conservation-incentive pricing" language from the rate study.
+2. Move the turf/appliance rebate program off fee revenue entirely — fund it from the general fund, grants, or a voluntary program, eliminating the 6(b)(1)/(b)(2)/(b)(3) cross-subsidy.
+3. If the District wants pricing above strict cost-of-service to drive additional conservation, put that increment to voters as a special tax under Prop 218/26 (two-thirds vote).
+4. Reallocate or document individualized targeting of "ambassador" outreach costs to surcharge payors specifically, or fund from a non-fee source.
+5. Consider migrating toward an individualized water-budget-based tier system tied to parcel-specific characteristics (lot size, occupancy), as upheld in *City of Palmdale v. Palmdale Water Dist.* (2011) 198 Cal.App.4th 926, to strengthen the parcel-attributable-cost nexus.
+6. Verify and, if warranted, reallocate recycled-water plant debt service between base rates (systemwide benefit) and the surcharge (peak-driven benefit) based on actual engineering/demand data.
+
+---
+
+## XI. Candid Assessment of Vulnerabilities in This Theory
+
+In the interest of the honest-weak-points obligation:
+
+- **Morgan v. Imperial Irrigation District** (2014) 223 Cal.App.4th 892 (verify citation) upheld tiered rates where the tier differential was shown to track actual increased procurement costs, with no separate "incentive" markup and no revenue diversion to non-payor rebates. This is the District's best precedent, and if the District can show on a fuller record that $0.85 is at or below what 1.6× actually implies in dollar terms — treating "conservation-incentive pricing" in the study as loose or aspirational drafting rather than the operative basis for the number — the core § 6(b)(3) claim weakens considerably. This should be tested rigorously in discovery (rate-study work papers, consultant deposition) before the case is built around this single admission.
+- **The rebate program (§ IV) is factually strong but has a foreseeable rejoinder:** the District may argue that conservation savings from rebate-funded turf/appliance replacement reduce systemwide peak demand and thus reduce the marginal costs that justify the surcharge in the first place — i.e., an indirect benefit-to-payors theory. This is a real argument to anticipate; the response is that § 6(b)(2)/(b)(3) require a *direct*, parcel-attributable correlation, not a diffuse systemwide externality argument, but the point should not be treated as trivially defeated.
+- **Burden-of-proof and standard-of-review citations** (Section II) should be pinned down precisely before filing — I am confident in the general "no deference, agency bears burden" principle from the case law but not fully confident of the exact constitutional subdivision housing the burden-shifting text; this must be verified against the actual constitutional text before it appears in a brief.
+- **The Prop 26 alternative theory (§ VII)** is doctrinally sound but procedurally secondary — courts may resolve the case entirely on § 6(b) grounds without reaching it, and pleading it too aggressively risks diluting the primary theory if not clearly framed as alternative.
+
+---
+
+## XII. Verification Checklist for Reviewing Attorney
+
+- [ ] Confirm exact text and subdivision placement of Art. XIII D, § 6(b)(1)–(5) and any burden-of-proof clause.
+- [ ] Confirm *Capistrano* pinpoint holding language on conservation-incentive pricing vs. cost-of-service.
+- [ ] Confirm *Morgan v. Imperial Irrigation District* citation and holding.
+- [ ] Confirm *Griffith v. Pajaro Valley Water Management Agency* citation and applicability to revenue-use (not just fee-amount) claims.
+- [ ] Confirm exact Prop 26 exemption paragraph number in Art. XIII C, § 1(e).
+- [ ] Confirm applicable statute of limitations for a Prop 218 fee refund action post-*Plantier* (ordinary civil vs. reverse validation).
+- [ ] Confirm severability provision location in the Prop 218 ballot measure text.
+- [ ] Obtain underlying rate-study work papers and recycled-water-plant engineering/demand studies via discovery to test Sections III(C) and XI quantification issues.
+
+### Antithesis — strongest steelmanned case AGAINST
+
+# ANTITHESIS: The Water Resilience Surcharge Survives Article XIII D, § 6(b) Scrutiny — In Whole or Nearly So
+
+*Prepared as one component of a multi-angle litigation-assessment pipeline. This is the strongest defense-side case, engaging the thesis's best points directly rather than its weakest. All citations require independent verification before use. Where the thesis's factual or legal points are sound, I concede them and explain why the District nonetheless prevails on the proposition as framed — invalidation "in whole or in substantial part."*
+
+---
+
+## I. What I Concede at the Outset
+
+A fair opponent does not pretend the District's case is clean. Four concessions, made now so the rest of this analysis is read as advocacy rather than denial:
+
+1. **The "not a property-related fee" fallback is weak and should not be the District's lead argument.** Bighorn-Desert View Water Agency v. Verjil (2006) 39 Cal.4th 205 and the reasoning of Capistrano Taxpayers Assn. v. City of San Juan Capistrano (2015) 235 Cal.App.4th 1493 make retail, parcel-delivered, metered water charges the paradigm case for Art. XIII D coverage. San Buenaventura is genuinely distinguishable (wholesale extraction vs. retail delivery) and won't rescue this argument. **Concession: abandon or deprioritize this defense.** It costs nothing to concede because it is not needed for the District to win on the merits.
+2. **Independent judicial review, not rational-basis deference, is the correct standard for whether the fee complies with § 6(b).** This is settled since Bighorn and reinforced by Capistrano. Contesting it would be a losing, credibility-costing argument.
+3. **The "conservation-incentive pricing" language in the rate study is a genuine drafting hazard.** Competent rate counsel should have avoided that phrase or paired it explicitly with the cost quantification. It hands plaintiffs a soundbite. I do not dispute that it should be cleaned up going forward.
+4. **The "water ambassador" 15% component (§ 6(b)(5)) is the District's weakest link**, absent a showing of individualized targeting of high-tier accounts. I treat this as likely to be trimmed or require restructuring, not as a hill to die on.
+
+None of these concessions gets the ratepayer association to "invalidated in whole or in substantial part." Here is why.
+
+---
+
+## II. The Central Move: A Methodology Admission Is Not a Result Admission
+
+The thesis's strongest point — and the one I must meet head-on — is Section III(B): that the rate study's own words ("derived in part from conservation-incentive pricing rather than strictly from cost allocation") function as "close to a documentary admission" that the fee exceeds cost of service.
+
+This conflates two different questions that § 6(b)(3) keeps separate:
+
+- **(a) How did the agency arrive at $0.85?** (a methodology/process question)
+- **(b) Does $0.85 exceed the proportional cost of service attributable to the parcel?** (the actual constitutional test — a *result* question)
+
+Article XIII D, § 6(b)(3) asks only about (b). It does not prescribe the derivation method an agency must use to get there. An agency that transparently explains it considered demand elasticity and conservation policy *in choosing where, within a cost-justified band, to set the exact rate* has not thereby admitted the rate exceeds cost — it has admitted only that cost was not the *sole* input into the drafting narrative. If $0.85 sits at or below the ceiling implied by the study's own 1.6× marginal-cost finding, the "incentive pricing" language is surplusage — bad optics, not a constitutional violation.
+
+**This is a quantifiable, discoverable fact, not a rhetorical one.** Before either side should treat this as "close to dispositive," the actual base Tier 2 rate and the actual dollar ceiling implied by 1.6× need to be computed. The thesis's own Section III(B) proposes exactly this math — and that cuts both ways: if the arithmetic shows $0.85 is *within* the cost-justified range, the thesis's "documentary admission" evaporates as a matter of substance, whatever it looks like as a matter of rhetoric. I am not confident which way that arithmetic comes out on these facts, and neither, candidly, should the thesis be — the record as given does not disclose the base rate, so the "admission" framing is doing more work than the facts currently support.
+
+**Distinguishing Capistrano on its actual vice.** As I understand the case (verify pinpoint holding before filing), San Juan Capistrano's defect was not that it *mentioned* conservation — it was that the city had **no cost-of-service study tying its tiers to any actual cost differential at all**; the tiers appear to have tracked a model ordinance/statewide conservation framework untethered to the city's own system costs. Sierra Vista is different in kind, not just degree: it has an actual engineering-grounded marginal-cost finding (1.6×, driven by identified peaking capacity and drought-reserve procurement costs). A district that *has* the cost study Capistrano's city lacked, and that uses conservation framing only in explaining a rate that independently sits within the cost-justified range, has done the thing Capistrano demanded, not the thing it condemned. This is the single most important factual distinction in the case, and discovery into the rate study's work papers should be litigated as vindicating the District, not (as the thesis assumes) as excavating a smoking gun.
+
+**Morgan v. Imperial Irrigation District** (2014) 223 Cal.App.4th 892 (verify citation and holding) — which the thesis itself flags as "the District's best precedent" in its candor section — should be promoted from a footnote to the center of the defense: tiered rates upheld where the tier differential tracked actual increased procurement/peaking costs with no separate markup. If Sierra Vista's numbers hold up, this is squarely the District's case, not Capistrano's.
+
+---
+
+## III. Reasonable-Methodology Latitude Survives Independent Review
+
+I conceded above that courts do not defer to an agency's *legal conclusion* that its fee complies with § 6(b). But independent review of a legal question is distinct from independent re-derivation of an inherently technical, judgment-laden cost allocation. Determining the "cost of service attributable to" high-tier usage in a peaking/drought-reserve system is not a single-right-answer computation — it requires allocating joint and common costs (treatment capacity, reserve purchases, infrastructure sized for peak-day demand) across usage tiers, a task with a *range* of defensible methodologies, not one.
+
+City of Palmdale v. Palmdale Water Dist. (2011) 198 Cal.App.4th 926 (verify current precedential status/holding) is useful here as an example of courts engaging with — and crediting — a water-budget-based rate methodology grounded in reasonable, if contestable, cost-allocation choices, rather than requiring an agency to prove its number is *the* uniquely correct one. The District's burden (which I do not dispute it bears) should be understood as a burden to show $0.85 falls within a *reasonable* range implied by legitimate marginal/avoided-cost accounting — not a burden to disprove every alternative methodology a plaintiff's expert might propose. This matters directly for the thesis's proposed litigation strategy in Section III(B): a plaintiff's expert reconstruction showing *a* lower cost-justified number using *a* different reasonable methodology does not automatically prove the District's own reasonable methodology was unconstitutional.
+
+---
+
+## IV. The Rebate Program Is a Legitimate Cost of Service, Not a Bare Cross-Subsidy
+
+This is where I must engage the thesis's strongest point most carefully, because Section IV is genuinely its best-constructed argument, and the thesis is right that the District's own concession ("rebates mostly benefit customers other than those paying the surcharge") is a real fact a court will have to grapple with. Here is why it does not carry the day.
+
+**1. Demand-side management is a recognized component of the cost of providing water service, not an unrelated purpose.** Water Code § 375 expressly authorizes water suppliers to adopt conservation-oriented rate structures, including funding conservation programs through rate revenue, precisely because reducing peak/high-tier demand is how a supply-constrained utility *avoids* incurring the very costs (drought-reserve purchases, peaking capacity, emergency supply) that the rate study identifies as driving the 1.6× differential in the first place. A rebate program that reduces systemwide peak demand is not funding "someone else's private property improvement" in the constitutionally relevant sense — it is funding the utility's own avoided-cost strategy for managing the exact cost driver that justifies charging high-tier users more to begin with. This is the same logic underlying utility-funded demand-side-management (DSM) programs generally, which regulators across California utility sectors have long treated as a legitimate ratepayer-funded cost of service rather than an impermissible transfer.
+
+**2. Section 6(b)(3)'s "attributable to the parcel" standard has never been read to require dollar-for-dollar tracing.** The proportionality command operates at the level of the rate *tier* — parcels in the same usage class are charged the same amount, and that amount is tied to the cost differential the class as a whole imposes on the system. Nothing in Bighorn, Capistrano, or Plantier requires that every dollar collected from a given parcel be spent on that specific parcel's own service; that would make virtually every capital-project surcharge, reserve fund, or system-improvement charge in California water ratemaking unconstitutional, since almost none are structured that way. Griffith v. Pajaro Valley Water Management Agency (2013) 220 Cal.App.4th 586 (verify holding — I understand it as approving fee revenue used for programmatic groundwater management/recharge activities benefiting the payor class in aggregate rather than requiring individualized return-of-benefit) supports treating class-level, systemwide benefit as sufficient, not the granular tracing the thesis's Section IV assumes.
+
+**3. The relevant beneficiary class is broader than "the specific parcel that paid."** High-tier payors benefit from systemwide demand reduction because it defers or avoids the very capital and procurement costs (recycled water plant expansion, additional drought-reserve purchases) that would otherwise be recovered — from them, among others — through *future* rate increases. This is a real, if indirect, economic benefit to the paying class, and it is the same theory that justifies conservation-education and efficiency-rebate surcharges generally: the payor class internalizes the cost of the behavior (high-tier consumption) that necessitates the program, and the program is designed to reduce that same cost driver system-wide.
+
+**Where the thesis is right, and the limit of this defense:** if discovery shows the "ambassador" and rebate dollars in fact have *no* plausible nexus to reducing the cost drivers identified for high-tier service — for example, if rebates are shown to go overwhelmingly to base-tier customers whose usage was never a driver of peaking/drought-reserve costs at all — the class-level nexus argument weakens considerably and the thesis's cross-subsidy theory gains real force on that specific dollar stream. This is a factual question for the rate study's underlying data, not a legal question resolvable on the current record. I flag it honestly as the genuine soft spot in this section of the defense.
+
+---
+
+## V. The Recycled-Water Plant Debt Service Is Better-Supported Than the Thesis's Own Doubt Suggests
+
+The thesis's Section III(C) treats the 30% recycled-water-plant allocation as a possible *additional* vulnerability — arguing it might be a systemwide asset improperly loaded 100% onto surcharge payors. This actually understates the District's position. Recycled-water infrastructure is commonly sized specifically to offset **discretionary, high-volume, non-essential potable demand** (irrigation, landscape, pool-filling) — precisely the usage pattern concentrated in the top 22% of residential accounts subject to the surcharge, as opposed to indoor/essential base-tier use. If the engineering and demand studies underlying the plant's capacity confirm that its sizing was driven by peak/high-tier demand growth rather than baseline systemwide need, loading its debt service onto the surcharge is *more* defensible than a systemwide allocation would be, not less — it is a textbook application of cost-causation principles. This is a genuine discovery target that could cut for the District as easily as against it, and the thesis should not treat it as a one-way vulnerability.
+
+---
+
+## VI. The "Water Ambassador" Component: Conceded as the Weak Point, But Contained
+
+I do not defend this component as strongly. Fifteen percent of revenue funding general conservation-education staff is the piece most likely to be found to breach § 6(b)(5) if the District cannot show the ambassadors' work is specifically directed at high-tier accounts (targeted audits, individualized high-bill outreach, account-specific efficiency consultations) rather than general public messaging. Two points nonetheless limit the damage:
+
+1. **Even a loss here is not "substantial" invalidation of the surcharge.** Fifteen percent of $4.1M is roughly $615,000/year — a defined, severable slice, not a structural defect requiring the surcharge itself to be struck or recalculated.
+2. **The remedy for this component, if lost, is reallocation or refund of that specific stream** — consistent with Prop 218's severability provision (verify exact section) — not invalidation of the base rate or the rebate program, which rest on independent and stronger justifications addressed above.
+
+---
+
+## VII. Article X, § 2 and Water Code § 375 Are Not in Conflict With § 6(b) — There Is Nothing to "Win"
+
+The thesis frames Section VI as resolving a conflict in 218's favor. I agree with the bottom-line legal conclusion (a conservation *policy preference* cannot authorize charging above actual cost of service) but reject the framing that there is a genuine conflict requiring one provision to defeat another. Properly understood, **the avoided cost of water that the District's Article X, § 2 duty obligates it to prevent from being wasted is itself a cost of service** — the drought-reserve purchases and peaking-capacity investments the rate study already identifies as the 1.6× cost driver *are* the economic expression of that duty. A rate that accurately reflects true marginal cost will, as a matter of basic economics, also produce a conservation price signal; that overlap is not evidence of unconstitutional double-counting, it is what correctly designed marginal-cost utility pricing is supposed to look like. Water Code § 375's authorization of conservation-oriented rate design should be read as the Legislature recognizing exactly this — not as an attempted end-run around Prop 218, and not as a provision that needs to "lose" to 218 for the District to win. There is no daylight between "cost-based" and "conservation-effective" pricing in a genuinely supply-constrained system; the thesis's dichotomy is real only if the numbers show a true markup above the cost ceiling, which remains the central, unresolved factual question in the case.
+
+---
+
+## VIII. The Prop 26 Alternative Theory Should Not Add Independent Exposure
+
+The thesis's Section VII proposes that a § 6(b) failure could independently convert the surcharge into an unconstitutional tax under Article XIII C requiring two-thirds voter approval. This should be resisted as a matter of remedial structure, not just merits:
+
+- Article XIII D and Article XIII C/Prop 26 have generally been treated as **mutually exclusive analytical tracks** — a charge is either a property-related fee (governed by Art. XIII D's own compliance and remedy scheme) or a tax (governed by Art. XIII C). A fee that is *imperfectly calculated* under § 6(b) does not thereby transform into a different constitutional species requiring an election that was never procedurally contemplated for it; it remains a defective fee, subject to Art. XIII D's own cure mechanisms (recalculation, refund under Gov. Code §§ 53750–53756.5, prospective compliance) — not a retroactively void tax.
+- Treating every colorable § 6(b) claim as also a Prop 26 tax claim would functionally erase the fee/tax distinction the two articles were drafted to maintain, and I am not aware of authority actually collapsing the two in this manner (verify — this is a genuinely open question and should be flagged as such rather than assumed resolved in plaintiffs' favor).
+- **Practical effect:** this defense does not need to fully rebut the alternative theory to blunt its litigation value — it only needs to establish that a court finding a partial § 6(b) defect will most naturally order recalculation/refund of the defective increment, not declare the entire charge void ab initio for want of a two-thirds vote.
+
+---
+
+## IX. The Protest Result: Conceded as Non-Dispositive, But Relevant to Remedy and Good Faith
+
+I concede the thesis's Section VIII point of law: surviving a majority-protest hearing does not cure a substantive § 6(b) defect, and Plantier confirms substantive claims proceed independently of the protest process. But the ~9% protest rate, combined with a publicly noticed rate study that transparently disclosed its methodology (rather than concealing a markup), is legitimately relevant to two downstream questions a court will still have to decide even after finding some defect: (1) whether the appropriate remedy is prospective-only correction versus retroactive refund, and (2) whether attorney's fees under Code Civ. Proc. § 1021.5 are warranted against a district that acted transparently and in a documented good-faith attempt at cost allocation, as opposed to one that concealed its methodology. This is a remedy-and-fee-shifting point, not a liability point, and should be flagged as such.
+
+---
+
+## X. Remedy and Exposure: Narrower Than the Thesis Projects
+
+The thesis estimates roughly 70% of annual revenue "exposed" by combining the rebate and ambassador components. That figure assumes the rebate program fails as a matter of law — which Section IV above disputes as a live, unresolved factual question, not a settled loss. A more realistic exposure range, crediting the arguments above:
+
+- **Ambassador component (15%, ~$615K/yr):** Genuine exposure absent a targeting showing — the District's most likely loss.
+- **Rebate component (55%, ~$2.26M/yr):** Contested, fact-dependent; a serious argument exists (Section IV) that this is a legitimate cost-of-service/demand-management expenditure. Not a presumptive loss.
+- **Base rate increment above 1.6× cost (if any exists at all):** Unquantified on this record; could be zero if $0.85 sits within the cost-justified range, or could be the thesis's strongest actual dollar exposure if discovery shows otherwise.
+- **Recycled-water debt service (30%):** Likely to survive if the engineering record shows peak-demand-driven sizing (Section V) — plausibly the District's strongest component, not a vulnerability.
+
+On this accounting, the case for invalidation "in whole or in substantial part" is considerably weaker than the thesis suggests. The likely range of outcomes runs from (a) full District victory if the cost math holds up, to (b) a modest trim limited to the ambassador component and/or a quantified rate-ceiling adjustment — not the wholesale restructuring the proposition contemplates.
+
+- **Severability** (verify exact Prop 218 provision) supports exactly this kind of surgical remedy over blanket invalidation, and courts adjudicating Prop 218 fee challenges have generally preferred recalculation/remand to punitive refund exposure for good-faith rate-design efforts — this cuts against the thesis's implicit assumption that a partial defect cascades into broad exposure.
+- **Fee-shifting risk runs both directions.** If the District substantially prevails (a real possibility on this record), it may resist a § 1021.5 fee award to plaintiffs, and depending on litigation posture, the District's own costs of defense are a consideration in evaluating whether this suit is worth bringing at all from the association's side — relevant to settlement leverage, not merits, but relevant nonetheless.
+
+---
+
+## XI. Candid Assessment of Vulnerabilities in This Defense
+
+In the interest of the same honesty this operation demands of the thesis:
+
+- **The single biggest risk to this defense is a discovery result showing $0.85 genuinely exceeds the dollar figure implied by the 1.6× differential.** If the base-tier rate and cost study work papers show a real, material gap, Section II's "methodology admission ≠ result admission" argument does not save the District — it only delays the reckoning. This defense is significantly stronger if the numbers hold up than if they don't, and I do not know on this record which is true. Neither, candidly, does the thesis.
+- **The rebate cross-subsidy defense in Section IV is a genuinely contestable, not a clearly winning, argument.** It has real support in Water Code § 375 and DSM-analogy reasoning, but no case law squarely blessing this precise fact pattern (surcharge-funded rebates flowing predominantly to non-payors) has been identified with confidence by either side. This should be treated as a serious open question, not a safe harbor.
+- **The "conservation-incentive pricing" language remains a real drafting liability** regardless of the underlying math — it invites exactly the reading the thesis gives it, and a jury/judge unsympathetic to rate-methodology nuance may simply take the District at its word that it charged more than cost to change behavior. Rate counsel should have avoided this phrasing; the defense above is a legal argument for why the phrase isn't dispositive, not a guarantee a court will see it that way.
+- **The Capistrano-distinguishing argument (Section II) depends on a factual premise I have not verified** — that San Juan Capistrano genuinely lacked any cost-of-service study, as opposed to having one the court found inadequate on its merits. If Capistrano's city *did* have a comparable cost study that the court rejected notwithstanding, the distinction weakens substantially and this becomes the thesis's case, not mine. This must be confirmed against the actual opinion before this defense is built around it.
+
+---
+
+## XII. Verification Checklist for Reviewing Attorney
+
+- [ ] Confirm whether San Juan Capistrano had *any* cost-of-service study for its tiers, or whether the court rejected an existing study on its merits — this is the load-bearing factual distinction for Section II.
+- [ ] Obtain the actual base Tier 2 rate and compute the dollar ceiling implied by the 1.6× differential; compare to $0.85 before conceding or asserting either way on the core § 6(b)(3) claim.
+- [ ] Confirm Morgan v. Imperial Irrigation District citation, procedural posture, and precise holding on tiered-rate cost differentials.
+- [ ] Confirm Griffith v. Pajaro Valley Water Management Agency's actual holding on programmatic/class-level revenue use versus individualized benefit-tracing.
+- [ ] Confirm current precedential status and holding of City of Palmdale v. Palmdale Water Dist.
+- [ ] Obtain engineering/demand studies for the recycled-water plant to test whether its capacity was driven by high-tier/peak demand (helps District) or systemwide baseline need (helps plaintiffs).
+- [ ] Obtain time-allocation/targeting records for "water ambassador" staff to test the § 6(b)(5) defense.
+- [ ] Research whether any authority treats a partially non-compliant Art. XIII D fee as converting into an Art. XIII C "tax" requiring two-thirds approval, or whether the two tracks remain doctrinally separate as argued in Section VIII.
+- [ ] Confirm exact severability provision and its application to partial-defect remedies in prior Prop 218 fee litigation.
+
+### Synthesis
+
+# SYNTHESIS
+
+**Operation performed: (a) RESOLUTION** — with one narrow, explicitly bounded sub-question left open, which I show is *not* outcome-determinative for the proposition as framed.
+
+---
+
+## 0. Why this looks irreducible but mostly isn't
+
+The thesis and antithesis appear to be in flat opposition because "does the surcharge violate § 6(b)" is a **compound question** smuggling together four analytically independent axes:
+
+1. **Coverage** — is this a § 6(b) fee at all?
+2. **Amount** — does $0.85 exceed the cost-justified ceiling (6(b)(3))?
+3. **Use** — is the *spending* of the resulting revenue itself disproportionate, independent of the rate's amount (6(b)(1)–(2))?
+4. **External doctrine** — do Art. X §2, Water Code §375, and Prop 26 change any of the above?
+
+Once separated, three of the four axes resolve cleanly with both sides' good points intact. Only one sub-piece of axis (2) remains a genuine open legal question — and, as shown in §9, the case does not need that question answered to resolve the proposition as stated.
+
+---
+
+## 1. Coverage — no real tension
+
+Both components agree: Bighorn-Desert View Water Agency v. Verjil (2006) 39 Cal.4th 205 and Richmond v. Shasta Community Services Dist. (2004) 32 Cal.4th 409 make retail, parcel-delivered, metered water charges the paradigm § 6 fee; San Buenaventura's wholesale-extraction holding is genuinely distinguishable. **Resolved: this is a § 6(b) fee.** The antithesis is right to concede this immediately rather than lead with it.
+
+---
+
+## 2. Standard of review — resolved by a refinement both sides can accept
+
+Thesis: independent review, no deference, agency bears the burden. Antithesis: correct as to the *legal* conclusion, but agencies retain reasonable latitude in the inherently judgment-laden task of allocating joint/common costs across tiers.
+
+**Both survive under this rule:** independent judicial review applies to *whether* the fee complies with § 6(b), and the agency bears the burden of proof on that ultimate question — but within that review, a methodology grounded in actual cost causation (peaking capacity, drought-reserve procurement) gets a reasonable range, not mathematical precision. What the agency does **not** get latitude on is substituting *policy-effectiveness* reasoning ("this price will change behavior") for *cost-causation* reasoning. That distinction is doing the real work in this case, and it channels directly into §4 below.
+
+---
+
+## 3. Art. X §2 / Water Code §375 vs. Prop 218 — dissolved, not "won"
+
+This is not actually a fault line between the two documents — **both already say the same thing** (thesis §VI.4; antithesis §VII): conservation and cost-based pricing are not in tension because a genuine marginal-cost tier price *already* sends the conservation signal. Nothing in Art. X §2 or §375 authorizes charging *above* actual cost to achieve a bigger behavioral effect; conservation goals beyond what cost-based pricing achieves must go through the general fund, grants, regulation, or a two-thirds-vote special tax. **Resolved: reconciled, no conflict, 218's ceiling controls without displacing anything.** Flag as a non-issue rather than a contested doctrinal point.
+
+---
+
+## 4. The Amount question (§6(b)(3): is $0.85 too high?) — the genuine crux, but a bounded one
+
+This is where the two components actually disagree in substance, and it turns on a single unresolved interpretive question:
+
+> **Does Capistrano (and § 6(b)(3) generally) impose a *process* requirement** — the rate must actually be *derived from* cost allocation, such that an agency's own document disclaiming a strictly-cost-based derivation is close to fatal regardless of arithmetic — **or a pure *result* requirement** — the rate need only *in fact* fall within a cost-justified range, however described, so that "conservation-incentive pricing" language is just bad drafting if the number happens to be right?
+
+Both components' own verification checklists converge on exactly this point (thesis never states it this way but the antithesis's checklist item — "did San Juan Capistrano have *any* cost study, or did the court reject an existing one" — is precisely the process/result fork). This is not manufactured; it is the load-bearing ambiguity in the record as both sides have flagged it.
+
+**My reasoned (not comfort-splitting) position, flagged for verification:** the better reading is a *result* test in principle, but Prop 218's burden-shifting plus the fact that § 6(b) fee challenges appear to proceed as ordinary civil actions rather than record-bound writ review (verify — *Plantier*, *supra*, is the anchor for this, but confirm it doesn't limit proof to the adopted rate study) means the agency **can** rehabilitate the number with a post-hoc cost reconstruction at trial. But absent that reconstruction, the rate study's own words — "in part... rather than strictly from cost allocation" — function as an evidentiary admission sufficient to shift practical risk decisively onto the District. So: **the AMOUNT question is not resolved on this record either way; it is resolved into a specific, dischargeable evidentiary task** (get the base Tier 2 rate and work papers, compute the delta) rather than remaining a live doctrinal disagreement. That is a real answer — it's just an answer of the form "here is exactly what determines it," not "X wins."
+
+---
+
+## 5. The Use question (§6(b)(1)–(2): rebates 55%, ambassadors 15%) — resolved, thesis prevails on this record
+
+This is where I think the antithesis's DSM/avoided-cost theory, while genuinely colorable as *policy*, fails as *constitutional justification* on the facts as given, and I resolve this axis affirmatively rather than leaving it open:
+
+- Prop 218 was drafted specifically to police cross-subsidization and indirect-benefit rationalizations that pre-218 practice tolerated. By analogy to the assessment-context rule that only *special* (not *general/systemwide*) benefit can justify a burden on a payor class (cf. Silicon Valley Taxpayers Assn., supra — verify whether courts have imported this distinction into the fee context specifically), an unquantified "this indirectly helps everyone including you eventually" theory is structurally the same move Prop 218 was built to foreclose. If accepted without more, it would justify almost any expenditure that improves the utility's overall position — swallowing the proportionality requirement.
+- Critically, **the District has not made the quantified showing that would save this theory.** The stipulated fact is a bare concession that rebates "mostly benefit customers other than those paying the surcharge," with no rate-study quantification of an offsetting demand-reduction/avoided-cost benefit flowing back to the payor class. Water Code §375 is real authorization for conservation-oriented programs *as policy* — it is not, standing alone, the quantified cost-causation showing § 6(b) demands.
+- **Resolved:** on this record, the rebate (55%) and ambassador (15%) components are presumptively noncompliant — not because indirect-benefit theories are categorically barred, but because this District hasn't built the evidentiary record that would let such a theory carry its burden. This is curable prospectively (a supplemental DSM/avoided-cost study tying rebate redemption to peak-demand reduction), but it hasn't been done here.
+
+Both sides' valid points survive: thesis is right that the concession is powerful and close to dispositive *as the record stands*; antithesis is right that the theory is not frivolous and could, with real numbers, change the outcome going forward.
+
+---
+
+## 6. Recycled-water plant (30%) — resolved toward antithesis, contingent on one fact
+
+Antithesis has the better *prior*: recycled-water capacity purpose-built to offset discretionary/irrigation demand maps naturally onto the top-22% surcharge class, which is a stronger cost-causation story than a systemwide-allocation theory. **Resolved:** likely survives — contingent on the engineering/demand study confirming peak-driven (not baseline-driven) sizing, a discrete, closeable fact question, not an open doctrinal one.
+
+---
+
+## 7. Prop 26/tax alternative theory — resolved against thesis's "independent exposure" claim
+
+I adopt the antithesis's "mutually exclusive tracks" reading: Art. XIII D and Art. XIII C/Prop 26 have not been shown by either side to collapse into each other such that a *partially* noncompliant property-related fee retroactively becomes a *tax* requiring a two-thirds vote. The more doctrinally sound outcome of a § 6(b) violation is recalculation/refund under Art. XIII D's own remedial scheme (Gov. Code §§ 53750–53756.5), not a parallel election requirement. **Resolved:** plead Prop 26 in the alternative for pleading-safety only; do not count it as incremental exposure in any settlement/risk model. (Verify: neither side identified controlling authority either way — this is a considered call, not a certainty.)
+
+---
+
+## 8. The 9% protest result — resolved, agreed by both
+
+Procedural survival of the protest hearing doesn't cure a substantive § 6(b) defect (*Plantier*), but it is legitimately relevant to remedy scope and § 1021.5 fee-shifting given the transparency of the disclosed methodology. No tension here at all.
+
+---
+
+## 9. Answering the Proposition
+
+Aggregate the resolved axes:
+
+- Ambassador (15%, ~$615K/yr): likely fails.
+- Rebate (55%, ~$2.26M/yr): presumptively fails on current record.
+- **Together: ~70% of the $4.1M revenue stream is exposed on the USE theory alone** — a theory that does **not depend** on resolving the harder AMOUNT/process-vs-result question in §4.
+- Recycled-water debt service (30%): likely survives.
+- Base-rate amount itself: indeterminate pending discovery, but irrelevant to whether the threshold of "in whole or in substantial part" is already met.
+
+**Answer to the proposition: more likely true than false — the surcharge structure is likely to be invalidated in substantial part**, resting primarily on the revenue-use defect (rebates + ambassador program), which is resolvable now, rather than on the harder and still-open cost-differential dispute, which is not necessary to reach that threshold.
+
+---
+
+## 10. The one thing that remains genuinely open, and what closes it
+
+The process-vs-result reading of Capistrano/§6(b)(3) (§4) is real, unresolved on this record, and matters for the **scope** of relief (whether the base $0.85 rate itself must be recalculated, on top of the use-based defect) even though it doesn't change the bottom-line answer to the compound proposition. It would be closed by:
+
+- **Pinpoint verification** of Capistrano's actual holding on whether an existing-but-partially-incentive-derived cost study is treated differently from no study at all;
+- **Confirmation** of whether § 6(b) fee actions permit post-hoc/trial cost reconstruction or are limited to the adopted rate-study record;
+- **Discovery**: the base Tier 2 rate and work papers, to do the arithmetic both components already agree is the right test once the legal standard is fixed.
+
+---
+
+## 11. Repair blueprint and exposure (converged, not contested)
+
+Both components substantially agree on the fix, which is itself evidence the tension is resolvable rather than principled disagreement: (1) recompute/cap the surcharge at a documented cost-derived ceiling and strip "incentive pricing" language; (2) fund the rebate program from general fund/grants, **or** build and publish the quantified avoided-cost/DSM nexus study the current record lacks; (3) fund or re-target "ambassador" staff to surcharge payors specifically, or move off fee revenue; (4) confirm and, if needed, reallocate recycled-water debt service based on actual demand-driver data; (5) route any above-cost conservation increment through a Prop 218/26 special tax vote if the District wants pricing above true cost.
+
+**Exposure range on this synthesis:** high-confidence (~$615K/yr, ambassador) + presumptive-but-curable (~$2.26M/yr, rebates) = ~$2.87M/yr (~70%) at meaningful risk; base-rate and recycled-water components indeterminate-to-low risk pending the discovery items above.
+
+
+</details>
+
+<details><summary>Lens: premortem</summary>
+
+### Operation
+Assume the likely position was adopted and failed badly 18 months later; enumerate why. Surfaces blind spots.
+
+### The assumed position
+
+> Counsel would most likely defend the surcharge as a valid property-related fee (not a tax), leaning heavily on the 1.6× marginal-cost finding to argue the tier differential is substantially cost-justified and characterizing "conservation-incentive pricing" as merely reflecting real peaking/drought-reserve costs rather than a freestanding policy add-on — distinguishing Capistrano on the ground that some cost nexus exists here (unlike the purely incentive-based tiers struck down there). As a pleaded fallback, counsel would argue the turf-rebate/recycled-water/education spending serves system-wide reliability benefiting all ratepayers (including surcharge payers) even though rebate checks go to others, and would resist the "it's a tax" characterization since a fee loses only the excess-over-cost portion in refunds while a tax could require full Prop 26 election and voided revenue. In parallel, expect counsel to quietly recommend a defensive rate restructuring or settlement — trimming the surcharge toward the defensible 1.6× multiple and moving the rebate/education components to a non-fee funding source — to cap refund exposure (Gov. Code § 53750 et seq.) and potential fee-shifting (Code Civ. Proc. § 1021.5) rather than litigate the full $0.85 figure to judgment.
+
+### The retrospective (assumed failure)
+
+# PRE-MORTEM: Water Resilience Surcharge — Retrospective (T+18 months)
+
+*Hypothetical retrospective. Written as if the failure has already occurred, for internal issue-spotting only. All citations are flagged for independent verification.*
+
+By month 18, the Superior Court had entered judgment for the Sierra Vista Ratepayer Association on the core Article XIII D, § 6(b)(3) claim, certified a refund class going back to the surcharge's adoption, and awarded fees under Code Civ. Proc. § 1021.5. The district's mid-litigation attempt to "fix" the rate by trimming it toward the 1.6× figure was used against it as an admission. A ratings agency placed the recycled-water revenue bonds on negative watch. Two board members faced recall petitions after a local paper ran the surcharge as "the district that taxes your shower to subsidize your neighbor's lawn." What follows are the distinct ways this went wrong.
+
+---
+
+## Ranked causes of failure
+
+### 1. Cost-of-service mismatch between the 1.6× finding and the $0.85 figure — L: H · S: H (9)
+**What went wrong:** The court held that a rate study which itself labels part of its methodology "conservation-incentive pricing" cannot satisfy § 6(b)(3)'s requirement that a fee "not exceed the proportional cost of the service attributable to the parcel." The district never produced a computation isolating what portion of $0.85 was pure cost-of-service (from the 1.6× marginal-cost multiple) versus incentive/behavioral pricing, so the court — following *Capistrano Taxpayers Assn. v. City of San Juan Capistrano* (2015) 235 Cal.App.4th 1493 (verify precise holding and scope) and distinguishing the cost-linked tiers upheld in *City of Palmdale v. Palmdale Water Dist.* (2011) 198 Cal.App.4th 926 (verify) — treated the entire $0.85 as tainted rather than severing a defensible cost-based residue. Counsel's litigation theory ("the incentive language just describes real costs") was not backed by a document that actually did the arithmetic.
+**Early warning sign missed:** Before adoption, nobody ran the simple comparison — "if base-tier cost is $X, then 1.6×X = $Y; we are charging $0.85, a gap of $Z" — and forced the rate consultant to justify the gap in writing. The rate study's own vocabulary ("conservation-incentive pricing") was a live exhibit waiting to be Exhibit A for plaintiffs.
+
+### 2. Rebate cross-subsidy to non-payers — L: H · S: H (9)
+**What went wrong:** Independent of the tier-pricing theory, the court (or a separate count) found that directing 55% of surcharge revenue to turf/appliance rebates for customers *other than* the Tier 3+ payers who fund it is a direct transfer inconsistent with § 6(b)(3)'s parcel-attributable-cost requirement. The district's own pleading conceded "the rebate program mostly benefits customers other than those paying the surcharge" — a judicial admission that gutted the "system-wide reliability benefits everyone" fallback, which needed *general* benefit to look like *specific* benefit to the payor's parcel and could not bridge that gap. Cf. discussion in *Capistrano*, *supra*, and *Griffith v. Pajaro Valley Water Mgmt. Agency* (2013) 220 Cal.App.4th 586 (verify holding — groundwater augmentation charge/general-benefit funding through a property-related fee).
+**Early warning sign missed:** The fund design itself — collect from the top 22%, spend 55% mostly on the other 78% — was the vulnerability, not just the rate math. Structuring rebates as a *general fund or grant program* funded by general revenues (not the restricted 218 fee fund) was available pre-adoption and wasn't taken.
+
+### 3. "Not a property-related fee" fallback was already foreclosed — L: M · S: H (6)
+**What went wrong:** *Bighorn-Desert View Water Agency v. Vial* (2006) 39 Cal.4th 205 (verify pinpoint) held that volumetric water-delivery charges *are* property-related fees under Article XIII D — squarely foreclosing the district's alternative argument that the surcharge isn't a property-related fee at all. Raising an argument already dead on arrival cost credibility with the court on everything else the district argued, and it handed plaintiffs a "the district doesn't even understand its own exposure" narrative that colored the cost-of-service ruling too. Had the district instead conceded fee status and leaned entirely into cost-justification, the record and the court's receptiveness might have looked different.
+**Early warning sign missed:** Internal sign-off treated "plead fee and, alternatively, not-a-fee" as a costless hedge. Nobody flagged that *Bighorn* makes the hedge affirmatively counterproductive rather than neutral.
+
+### 4. Reverse-engineered revenue target surfaced in discovery — L: M · S: H (6)
+**What went wrong:** Discovery produced consultant workpapers or board communications showing the $0.85 figure (or the revenue requirement) was set to hit the $4.1M program budget before the cost-causation analysis was finalized — the "budget-first, cost-story-second" sequencing *Capistrano* specifically criticized. This impeached the rate study's narrative that $0.85 flows from the 1.6× multiplier and turned the district's expert into a hostile witness on cross.
+**Early warning sign missed:** A pre-litigation document audit of the rate-study workpapers (not just the final report) would have shown the order of operations. No one asked the consultant to memorialize that cost causation, not the funding need, drove the number — or asked early enough to fix the sequencing before adoption.
+
+### 5. Recycled-water bond/debt-service exposure — L: M · S: H (6)
+**What went wrong:** With 30% of surcharge revenue pledged (directly or via rate covenant) to recycled-water plant debt service, the injunction/refund order created a rate-covenant shortfall. The district had to draw reserves and go back to the rating agency mid-crisis; a downgrade raised the cost of capital on the very project the surcharge was meant to fund — turning a rate case into a public-finance event.
+**Early warning sign missed:** Bond counsel/financial advisor due diligence should have flagged that pledging constitutionally contested fee revenue without a litigation-risk-sized reserve or non-fee backstop was a foreseeable covenant risk, especially given *Capistrano* was already on the books when the rate structure was designed.
+
+### 6. Fee-shifting exposure was undercounted — L: M · S: H (6)
+**What went wrong:** Because the litigation vindicated an "important right affecting the public interest" (Prop 218 compliance) for a large ratepayer class, the court awarded substantial fees under Code Civ. Proc. § 1021.5, on top of Gov. Code § 53750 et seq. refund liability. Internal risk modeling reportedly priced only the "excess over 1.6×-derived cost" refund scenario and never separately modeled a partial-loss-plus-fee-award scenario, so the final number blew through every internal estimate presented to the board when it authorized "litigate rather than fully settle."
+**Early warning sign missed:** Comparable Prop 218 fee awards (including in *Capistrano* itself and similar rate litigation — verify comparators) were available and should have been built into the litigation budget memo before the board chose to litigate past the demand letter.
+
+### 7. Political revolt and board turnover — L: M · S: M (4)
+**What went wrong:** The "who pays / who benefits" mismatch was an easy press narrative. Top-tier payers — not uniformly wealthy; some were large households or medically dependent on higher usage — organized, a civil grand jury inquiry (Penal Code § 933 process, common in CA counties — verify local applicability) criticized rate-setting transparency, and recall petitions followed against board members who championed the surcharge.
+**Early warning sign missed:** The 9% majority-protest showing at the Prop 218 hearing was treated internally as a comfortable win rather than as a signal that a small, motivated, resource-capable minority (likely overlapping with the very Tier 3+ households later suing) would escalate past the hearing room. No post-adoption stakeholder engagement was built to blunt the subsidy narrative before it hit the press.
+
+### 8. Defensive mid-litigation restructuring backfired procedurally — L: M · S: M (4)
+**What went wrong:** The recommended move — trim the rate toward 1.6×, shift rebate/education funding to a non-fee source — was implemented without a clean board rescission and a fresh Article XIII D § 6(a)/Gov. Code § 53755 notice-and-majority-protest cycle. Plaintiffs argued the restructuring was both (a) a new fee requiring its own 218 process and (b) an admission that the original $0.85 was unlawful, which the district then had to explain away for the entire pre-restructuring assessment period — expanding rather than capping the refund window.
+**Early warning sign missed:** The restructuring was treated purely as a damages-mitigation tactic, not as a legal act with its own procedural prerequisites and evidentiary consequences. No one modeled how a settlement-postured rate change would read to a fact-finder still adjudicating the original rate.
+
+---
+
+## Ranking summary
+
+| Rank | Cause | Likelihood | Severity | Score |
+|---|---|---|---|---|
+| 1 (tie) | Cost-of-service mismatch (1.6× vs. $0.85) | H | H | 9 |
+| 1 (tie) | Rebate cross-subsidy to non-payers | H | H | 9 |
+| 3 | "Not a fee" fallback foreclosed by *Bighorn* | M | H | 6 |
+| 3 | Discovery of reverse-engineered revenue target | M | H | 6 |
+| 3 | Bond/debt-covenant fallout | M | H | 6 |
+| 3 | § 1021.5 fee-shifting undercounted | M | H | 6 |
+| 7 | Political revolt / board recall | M | M | 4 |
+| 7 | Mid-litigation restructuring backfire | M | M | 4 |
+
+*All case citations and statutory characterizations above require independent verification before use; several (Bighorn's precise holding, Griffith's applicability, Coziahr-type recent Court of Appeal treatment of tiered/excess-use surcharges, exact 1021.5 fee comparables) are flagged as points to confirm rather than settled conclusions.*
+
+
+</details>
+
+<details><summary>Lens: steelman</summary>
+
+### Operation
+Identify the position conventional analysis disfavors, then construct it so its best proponent would endorse it (ideological Turing test).
+
+### Conventional view (for orientation)
+
+> Most CA public-agency/Prop 218 counsel would conclude the Surcharge is legally vulnerable and likely violates article XIII D, § 6(b)(1)-(3) as construed in Capistrano Taxpayers Assn. v. City of San Juan Capistrano (2015). The district's own admissions — that the $0.85 figure is derived partly from "conservation-incentive pricing" rather than cost allocation, and that rebate proceeds mostly flow to non-payers — track almost exactly the defects Capistrano found fatal, and the conservation mandate of article X, § 2 / Water Code § 375 is generally understood not to override Prop 218's proportionality requirement (a later, specific constitutional provision) or to convert an incentive markup into a cost-based charge. Water delivery charges are also settled as "property-related fees" under Bighorn-Desert View Water Agency v. Verjil, so the district's alternative "not a property-related fee" argument is considered weak. The conventional advice is that the portion of the surcharge cost-justified by the 1.6x marginal-cost finding is likely defensible, but the excess (incentive-priced) increment and the cross-subsidy to the rebate program create refund exposure and should be restructured — e.g., funding rebates/education from a non-fee source or general fund/voter-approved measure, and re-deriving tier rates strictly from marginal cost of service.
+
+### Disfavored position
+
+> The Water Resilience Surcharge is a valid article XIII D property-related fee that satisfies § 6(b): the tiered rate is anchored to the 1.6x marginal-cost-of-service finding in the rate study, Capistrano's rejection of that particular tiered structure does not categorically bar conservation-based inclining-block rates so long as a cost nexus exists, the rebate, recycled-water, and education expenditures are properly attributable to the cost of maintaining system-wide drought reliability and peaking capacity (and thus benefit high-tier payers even if disbursed to other customers), and article X, § 2's conservation mandate should be read together with, rather than subordinated to, article XIII D so as to validate conservation-incentive pricing. In the further alternative, the surcharge is not subject to § 6(b) at all — either because it is not a "fee or charge" within the meaning of article XIII D, or because it qualifies as a valid regulatory/conservation charge outside Proposition 26's tax definition — such that no voter approval was required and no refund liability arises.
+
+### The steelman
+
+# The Water Resilience Surcharge: The Case for Validity Under Article XIII D, § 6(b)
+
+*(Constructed position — district's affirmative defense of the surcharge)*
+
+The Water Resilience Surcharge is exactly what Proposition 218 permits and what article X, section 2 demands: a rate that charges the top 22% of residential users no more than the proportional cost their consumption imposes on the system, with proceeds spent to reduce that same cost driver system-wide. Plaintiffs' theory depends on reading *Capistrano Taxpayers Association v. City of San Juan Capistrano* (2015) 235 Cal.App.4th 1493 far more broadly than the court actually held, on treating an agency's public-facing rationale as if it were the constitutional test, and on importing a benefit-reciprocity requirement into § 6(b)(3) that its text does not contain. None of that survives scrutiny. The District satisfied every procedural predicate of § 6(a) — a rate study, notice to all affected parcels, and a properly noticed hearing at which protests reached only 9%, far short of the majority needed to defeat the rate under § 6(a)(2) — so the only question genuinely in dispute is substantive compliance with § 6(b). The District accepts the burden that § 6(b) places on it ("In any legal action contesting the validity of a fee or charge, the burden shall be on the agency to demonstrate compliance with this article") and meets it on this record.
+
+## I. The Surcharge Is the Rate *Capistrano* Invited, Not the Rate It Struck Down
+
+*Capistrano* did not hold that inclining-tier or conservation-oriented water rates are per se invalid. It held that *San Juan Capistrano's* tiers were invalid because the city could point to no cost analysis connecting its tier 3 and tier 4 prices to any actual cost of providing water at those tiers — the city's "water budget" approach allocated individualized consumption allowances based on parcel characteristics (irrigated area, occupancy) and then priced overage tiers with no engineering or cost-of-service study behind the numbers at all. The court's holding is a *evidentiary* and *methodological* one: § 6(b)(3) requires that a tiered rate be tied to the cost of service at that tier, and the city simply had not done the work.
+
+Sierra Vista has done the work. Its rate study is a genuine cost-of-service analysis, not a budget-allocation exercise, and it identifies a real, quantifiable cost driver: high-tier consumption requires the District to maintain peaking capacity (treatment, pumping, and storage sized to meet demand spikes that only high-volume users create) and to fund drought-reserve purchases (supplemental or emergency supply that is disproportionately consumed at the margin by exactly the usage the surcharge targets). The study's conclusion — that marginal cost of service at the high tier runs approximately 1.6 times base-tier cost — tracks the "base-extra capacity" cost-allocation methodology long recognized in water utility rate-making (see generally the AWWA *M1 Manual, Principles of Water Rates, Fees, and Charges*), which allocates peaking and reserve-capacity costs specifically to the tier of usage that causes them. That is precisely the kind of showing *Capistrano* said was missing in San Juan Capistrano, and precisely the kind of showing courts have credited where agencies produce it. This case is squarely distinguishable on the record, not merely on rhetoric, and counsel should expect the District to lead with that distinction rather than arguing around *Capistrano* — the District wins *by* applying *Capistrano's* own test, not by escaping it.
+
+## II. Proportionality Is Measured in Dollars, Not Adjectives
+
+The single fact plaintiffs will lean on hardest is the rate study's own language: that the $0.85 figure was derived in part from "conservation-incentive pricing" rather than strictly from cost allocation. That language is not a concession of unconstitutionality. Section 6(b)(3) asks one question: does the amount charged exceed the proportional cost of service attributable to the parcel? It does not ask what words the agency's consultants used to explain, motivate, or publicly justify a number that independently falls within the cost-based ceiling. The 1.6x marginal-cost finding establishes the *ceiling* the Constitution permits. If the $0.85 increment (translated into the resulting high-tier rate) does not exceed that 1.6x-derived ceiling, the fee is arithmetically compliant regardless of the framing used to sell it to the board and the public. Agencies are entitled to — and routinely do — describe rate decisions in policy terms (conservation, equity, resilience) while staying within a cost-justified range; nothing in *Capistrano*, *Griffith v. Pajaro Valley Water Management Agency* (2013) 220 Cal.App.4th 586, or the text of article XIII D converts permissible public communication about *why* a lawful number was chosen into evidence that the number itself is unlawful. Plaintiffs are asking the court to invalidate a fee based on the label in a staff report rather than the underlying math — that inverts the independent-review standard those very cases establish (see *Silicon Valley Taxpayers Assn. v. Santa Clara County Open Space Authority* (2008) 44 Cal.4th 431, applying independent judicial scrutiny to the *substance* of proportionality, not to an agency's choice of rhetoric).
+
+This is also where article X, section 2 does its real work — not as a trump card over article XIII D, but as an interpretive aid confirming what "cost of service" *means* for a water agency operating under a constitutional conservation mandate. Article X, section 2 declares that "the general welfare requires that the water resources of the State be put to beneficial use to the fullest extent of which they are capable" and that "the waste or unreasonable use or unreasonable method of use of water be prevented." In a chronically drought-stressed service area, the cost of maintaining reliable service *includes* the cost of avoiding curtailment, emergency purchases, and depleted reserves — costs that are causally generated by high-tier consumption. Water Code § 375 (authorizing conservation-based rate structures for public water agencies) is the Legislature's own recognition that conservation pricing is a legitimate rate-design tool, not a suspect one. Read together, article X and article XIII D do not conflict: article X tells the District *that* it may and should design rates to discourage waste and unreasonable use; article XIII D tells it *how much* it may charge to do so — no more than the proportional cost that the wasteful or high-marginal-cost use itself imposes. Because the 1.6x figure *is* that cost, "conservation-incentive pricing" and "cost-of-service pricing" describe the same rate from two legitimate angles. There is no subordination of one constitutional provision to the other required here, only harmonization — which is exactly the reading *Capistrano* left open when it rejected the city's *categorical* reliance on article X while never suggesting that a genuinely cost-linked conservation rate would fail.
+
+## III. Section 6(b)(2) and 6(b)(3) Do Different Work — the Expenditure Side Is a Use Question, Not a Reciprocity Question
+
+Plaintiffs will make much of the District's candid acknowledgment that the rebate program "mostly benefits customers other than those paying the surcharge." That fact is doing far less work than plaintiffs need it to do, because it answers the wrong subsection. Section 6(b)(3) governs the *amount* charged to a parcel relative to that parcel's proportional cost of service — a question this record answers through the 1.6x cost study. Section 6(b)(2) governs how *collected revenue* may be *used* — it must be spent "only for the purpose for which the fee ... was imposed," not diverted to unrelated general governmental purposes. The District need not show that every payer receives an individually traceable, reciprocal benefit from every dollar spent; it needs to show that the restricted fund is spent on the property-related water service for which the surcharge was imposed. It plainly is:
+
+- **55% (turf replacement/appliance rebates):** directly reduces aggregate peak and irrigation-season demand — the very demand pattern the rate study identifies as the cost driver requiring extra peaking capacity and drought-reserve purchases. Reducing that demand reduces (or defers) the cost that would otherwise be recovered from — and would otherwise justify raising rates on — the same high-tier rate class in future years.
+- **30% (recycled-water plant debt service):** adds a drought-resilient, non-imported supply source, directly substituting for the higher-cost emergency and imported water purchases that generate the 1.6x differential in the first place. This is not a benefit to "other customers" at all; it is capital investment in the exact cost category the surcharge is designed to address.
+- **15% (conservation education staff):** furthers the same demand-management purpose through behavior change, again targeting the peak/marginal usage that drives cost.
+
+Every dollar traces back to the cost driver identified in the rate study. That the turf-rebate checks are cut to lower-tier or income-qualified households rather than to the Tier-3-plus payers themselves reflects only that *demand reduction is most cost-effectively achieved by paying the customers most able to change behavior* — a rate-design and program-design choice within the District's discretion, not a diversion of proceeds to an unrelated purpose. High-tier payers benefit precisely because system-wide demand reduction and new local supply are what keep *their* future marginal costs — and the risk of curtailment that falls on everyone, including them — from growing worse. Nothing in § 6(b)(3)'s parcel-level proportionality language, and nothing in *Capistrano*, requires an individualized, in-kind benefit match between a payer's dollars and a program's disbursements; that requirement exists nowhere in the text and would make virtually every pooled-fund capital or conservation program in California water-rate design unconstitutional. (Cf., by analogy in the tolerance for aggregate rather than individualized cost-benefit matching in tiered utility pricing, *Morgan v. Imperial Irrigation District* (2014) 223 Cal.App.4th 892 [Prop 26 context; cited for the general principle, not as squarely controlling a 218 property-related fee].)
+
+## IV. In the Further Alternative: The Surcharge Is Outside § 6(b) Entirely
+
+Should the court conclude the rate study's proportionality showing is somehow insufficient, the District has two independent, alternative grounds requiring dismissal without reaching that question.
+
+**A. The surcharge increment is not imposed "as an incident of property ownership."** Article XIII D, § 2(e) defines a covered fee as one imposed "upon a parcel or upon a person as an incident of property ownership." The District's base tiers (1–2) are exactly that — delivered automatically to connected property regardless of the owner's choices, squarely within *Bighorn-Desert View Water Agency v. Verjil* (2006) 39 Cal.4th 205. The Tier 3+ surcharge is different in kind: it is triggered only when, and to the extent, a customer affirmatively elects to consume beyond an ample baseline allocation already sized to ordinary residential need. That voluntary, marginal, behavior-driven trigger is far closer to the extraction-based augmentation fee this Court's sister court held fell *outside* article XIII D in *Griffith v. Pajaro Valley Water Management Agency*, supra, 220 Cal.App.4th 586 — a fee imposed on an affirmative volumetric act rather than simply on the status of ownership. Section 6(b)(4)'s own text, requiring that a covered fee be for service "actually used by, or immediately available to, the owner," reinforces the distinction: the surcharge-priced increment is not "immediately available" to a household that stays within Tier 2 in the same sense the base service is; it must be affirmatively drawn into being by discretionary consumption. The District recognizes this reading sits in tension with *Bighorn's* broad statement that ongoing delivered water service is a property-related fee regardless of volume, and does not need to prevail on this ground to win the case — but it is not frivolous, it has direct textual and case support, and it should be preserved and briefed.
+
+**B. Even if deemed a "fee," or even if a court were somehow to characterize it as a tax, it independently survives under Proposition 26.** Article XIII C, § 1(e)(7) expressly excludes from Prop 26's tax definition "[a]ssessments and property-related fees imposed in accordance with the provisions of Article XIII C or XIII D" — so a fee that satisfies § 6(b) is, by the plain constitutional text, not a Prop 26 tax requiring voter approval; the two provisions were designed to interlock, not compete. Independently, the surcharge also fits the exception in article XIII C, § 1(e)(2) for "[a] charge imposed for a specific government service or product provided directly to the payor that is not provided to those not charged, and which does not exceed the reasonable costs to the local government of providing the service." Delivered water above Tier 2 is precisely such a specific service provided directly to the payor, priced (per the 1.6x finding) at or below its reasonable cost. The Legislature's and the electorate's own choice in Prop 26 to place the burden on the government to prove non-tax status by a preponderance of the evidence (art. XIII C, § 1(e)) is a burden this record satisfies twice over — once through § 6(b) compliance, and independently through the specific-service exception.
+
+## V. Anticipated Objections, and Why They Do Not Change the Result
+
+**"The rate study itself calls this 'incentive' pricing — isn't that the *Capistrano* problem exactly?"** No. *Capistrano's* problem was the *absence* of any cost study; the "budget-based" label described a methodology untethered to cost. Here the incentive language sits *on top of* an actual, quantified cost differential. The question for the court is arithmetic — does $0.85 keep the tier rate within 1.6x of base — not rhetorical. Counsel should treat confirming that arithmetic against the rate study's underlying base-tier cost figures as the single most important verification task in the case; if the surcharge amount is confirmed not to exceed the cost-justified differential, the "incentive" framing is harmless surplusage.
+
+**"Doesn't the rebate concession prove cross-subsidization the courts have condemned?"** It proves only that the District chose an efficient means of achieving a purpose — system-wide demand and reliability management — that is unquestionably tied to the payors' own cost driver. Section 6(b)(3) is not a benefit-reciprocity guarantee; § 6(b)(2) is a use restriction, and it is satisfied here by tracing every category of expenditure back to the cost driver identified in the rate study.
+
+**"Doesn't *Bighorn* foreclose the 'not a fee at all' argument?"** That is honestly the weakest branch of this defense, which is why it is pleaded in the further alternative and not as the primary theory. The District does not need it to win; the rate satisfies § 6(b) on the merits. It is preserved because it is not frivolous — *Griffith* provides real doctrinal daylight between automatic delivered service and volitional marginal consumption — and because, if a court declines to reach it, the Prop 26 specific-service exception provides an independent fallback that does not depend on winning the "not a fee" argument at all.
+
+**"What if a court finds only the education-staff line item, or only part of the rebate allocation, insufficiently tied to cost?"** That would not void the surcharge. Article XIII D and its implementing legislation are designed for severance and reformation, not blunt invalidation: a court finding one expenditure category improperly justified would be expected to sever that increment and remand for reallocation or a corrected rate, not to invalidate the entire $4.1M structure or order full retroactive refunds. Refund exposure, in any event, is bounded by the 120-day limitations period for challenges to property-related fees (Gov. Code § 53759) and by the equitable, prospective-relief posture courts have taken toward already-collected and already-committed revenue in comparable cases; counsel should confirm the timing of this suit relative to adoption before assuming any refund exposure beyond a corrected going-forward rate.
+
+The District should prevail on the primary theory that the surcharge satisfies § 6(b)(3)'s proportionality requirement on the strength of the 1.6x cost-of-service finding, that it satisfies § 6(b)(2) because every dollar of expenditure traces to the identified cost driver, and that article X, section 2 and article XIII D are fully reconcilable on this record. The alternative arguments are available and should be preserved, but this is a case the District wins on the merits.
+
+---
+
+**Verification flags for counsel (citation/holding accuracy to confirm before filing):**
+- Confirm the base-tier per-ccf rate and verify that the Tier 3+ rate (base + $0.85) does not exceed 1.6× base-tier cost per the rate study's own figures — pivotal to the entire proportionality argument.
+- Verify pinpoint holding/page citations in *Capistrano Taxpayers Assn. v. City of San Juan Capistrano* (2015) 235 Cal.App.4th 1493, including whether the opinion affirmatively endorses cost-based inclining tiers (e.g., via AWWA M1-style peaking-cost allocation) or merely declines to foreclose them.
+- Verify exact holding and reasoning of *Griffith v. Pajaro Valley Water Management Agency* (2013) 220 Cal.App.4th 586 regarding the extraction-act/ownership distinction, and its applicability (or inapplicability) to delivered municipal water surcharges.
+- Verify exact text and scope of Water Code § 375 as cited by the District; confirm it in fact authorizes conservation-based rate structures as described.
+- Verify *Morgan v. Imperial Irrigation District* (2014) 223 Cal.App.4th 892 holding and confirm it is offered only as a Prop 26 analogy, not as controlling authority on Article XIII D fee proportionality.
+- Research and verify whether more recent post-*Capistrano* appellate authority (e.g., check citation and holding of any case captioned *Coziahr v. Otay Water District*, circa 2024) has upheld a peaking/cost-of-service-based tiered water rate; if confirmed, this would materially strengthen Move 1.
+- Confirm timing of this lawsuit relative to the rate's effective date against Gov. Code § 53759's 120-day limitations period, and research current case law on refund vs. prospective-reformation remedies for partially deficient Prop 218 fees (see generally *Plantier v. Ramona Municipal Water Dist.* (2019) 7 Cal.5th 372 on procedural vehicle, which may affect available remedy).
+
+
+</details>
+
+<details><summary>Lens: structural</summary>
+
+### Operation
+Incentives / power / institutional structure instead of doctrine; surfaces the non-doctrinal drivers.
+
+# Structural Analysis: Sierra Vista Water Resilience Surcharge Litigation
+
+## 1. Actors and Actual Interests (Including Unstated Ones)
+
+**The District (board + staff + rate consultants)**
+- Stated interest: drought resilience, conservation, equity for low-income customers.
+- Unstated interests: (a) the board wants a durable revenue stream that doesn't require repeated Prop 218 protest fights every time capital costs change; (b) staff running the recycled-water plant need bond-rated, litigation-proof revenue to satisfy debt covenants — bondholders and rating agencies care far more about revenue stability than about the doctrinal purity of the rate design; (c) the "water ambassador" positions are a headcount/budget line that outlives any particular drought — once created, conservation-education staff become a constituency for keeping the surcharge structure (or something like it) alive regardless of hydrological need; (d) the board may be using "conservation pricing" partly as a *politically legible* justification for what is functionally progressive redistribution (subsidizing low-income retrofits) that would be harder to sell as a straight subsidy line-item.
+- Repeat player: yes, strongly. The district will litigate this case and the next one; it amortizes legal costs over decades and many rate cycles.
+
+**The Ratepayer Association (plaintiff)**
+- Stated interest: proportionality, no cross-subsidy.
+- Unstated interests: this is very likely dominated by the highest-tier users — the very ~22% paying the surcharge. This is not a diffuse public-interest suit; it's a concentrated-benefit suit by a relatively affluent, high-usage cohort (larger lots, pools, etc.) whose per-parcel savings from winning are large enough to justify organizing and paying counsel. That doesn't make the claim wrong, but it shapes what "victory" looks like: the association wants either full invalidation or a refund, not necessarily a "fairer" rate design that might still burden them.
+- One-shotter or repeat player? Mixed — an *association* format suggests some repeat-player features (it can hold together across the litigation), but the underlying interest of any given ratepayer-member is usually one-shot (why they organized *now*, likely triggered by a specific bill spike). Associations dissolve once the founding grievance resolves; the district doesn't.
+- Capacity: associations like this often have contingency or self-funded litigation, meaning they can go the distance on appeal if the stakes (statutory attorney's fees, refunds) are large enough — see fee-shifting point below.
+
+**Low-income rebate recipients (non-parties)**
+- Real economic beneficiaries of the fund's largest line item (55%) but structurally absent from the case. They have no seat at the table, no standing posture, and no lawyer. This is the single biggest asymmetry in the case: the people whose interests most justify the district's defense are the ones least able to assert them in court.
+- If the surcharge is invalidated or restructured, this group silently loses the rebate program (or it gets funded from the general fund/other ratepayers) — a real distributive cost borne by people who never appear in the caption.
+
+**Bondholders / underwriters for the recycled-water plant**
+- Not parties, but a large latent interest: 30% of the fund services debt. A ruling of invalidity threatens debt-service coverage ratios. This creates enormous pressure toward settlement/restructuring rather than full-blown loss at trial — the district's incentive to settle or to sever/save the debt-service piece is much stronger than its incentive to protect the rebate or ambassador lines, because bond covenants and continuing disclosure obligations (SEC Rule 15c2-12) create *external* discipline that a rebate program does not.
+- This means, structurally, if something has to give, the district's own internal ranking is likely: protect debt service > protect legal defensibility of the whole rate > protect the ambassador program > protect the rebate cross-subsidy design as currently structured. The rebate/redistribution piece is the most legally vulnerable *and* the most politically replaceable.
+
+**Ratepayers who neither sued nor benefit (the "silent middle")**
+- Tier 1–2 users who pay nothing extra and get no rebate. Classic free-rider/rational-apathy position: individually small stakes, no reason to intervene either way. Their absence from the litigation doesn't mean the rate design is fine for them — it means nobody will ever test it on their behalf.
+
+**Plaintiffs' and defense counsel**
+- Article XIII D litigation carries a fee-shifting dynamic ratepayers' counsel will be alert to (private-attorney-general fee awards under CCP § 1021.5 are common in successful Prop 218 challenges, and refund remedies can generate percentage-based fee awards). This means plaintiff's counsel's incentive is to litigate to a published, precedent-setting win (good for fee petitions and for the next client) rather than to settle quietly for a moderate rate tweak. Defense counsel (district's outside counsel, likely a public-agency rate/bond specialist firm) is a repeat player across many CA water districts — an unfavorable published opinion here is a cost imposed on the *entire sector*, not just this district, which is why organizations like ACWA (Association of California Water Agencies) may appear as amicus. That amicus incentive exists precisely because the doctrinal outcome here will be cited against every other district running a similar tiered-conservation-rate structure.
+
+## 2. Who Bears Costs, Who Captures Benefits, Under Each Resolution
+
+**If surcharge upheld as-is:**
+- Cost borne by: top 22% of residential users (concentrated, salient, angry, litigious).
+- Benefit captured by: low-income rebate recipients (diffuse, non-litigious), bondholders (diffuse, institutional), district staff/program continuity (concentrated, entrenched).
+- Net structural effect: a durable transfer from a small, high-usage, politically organized minority to a larger but politically inert beneficiary class — precisely the pattern article XIII D was designed to police (fees dressed as cost-of-service but functioning as redistribution), which is also why the plaintiffs chose *this* theory rather than a straightforward "rates are too high" complaint. The legal theory tracks the economic reality closely here — this is not a case where doctrine and structure diverge much on the surface.
+
+**If surcharge struck down entirely (Prop 218 violation, must refund):**
+- Cost borne by: (a) the district (refund liability — see exposure section below), which passes through to *all* ratepayers via future general rate increases (so today's non-payers absorb tomorrow's cost — a cost-shifting, not cost-eliminating, outcome); (b) rebate recipients, who lose funding unless backfilled; (c) bond debt-service coverage, which may trigger technical default or force emergency general rate action.
+- Benefit captured by: the litigating high-tier users (refund + prospective rate relief) and by plaintiff's counsel (fee award).
+- Note the structural irony: a "win" for the ratepayer association is very likely to be funded by a subsequent uniform rate increase spread across the entire ratepayer base — meaning the association's members get a targeted refund financed partly by the very Tier 1–2 households who never had standing or incentive to participate in the original protest.
+
+**If reformed to a strict 1.6× cost-allocation surcharge (drop "incentive pricing" component, no cross-subsidy rebate funded from surcharge proceeds):**
+- Cost borne by: top-tier users, but at a reduced, court-defensible level; low-income rebate program loses its dedicated funding source and must compete for general fund or grant dollars — meaning the *most vulnerable* beneficiary class bears the practical cost of legal compliance, even though it was never a party and never at fault.
+- Benefit captured by: district's litigation risk profile (much lower going forward), high-tier ratepayers (partial relief).
+- This is the outcome doctrinally "safest" for the district but distributively the harshest on the population the program was nominally designed to help — worth flagging explicitly to the attorney because it's the kind of tradeoff a purely doctrinal fix will produce without anyone deciding it on purpose.
+
+## 3. Repeat Players vs. One-Shotters; Who Can Wait, Appeal, Lobby
+
+- **District**: strong repeat player. Can litigate multiple rate cycles, has standing outside counsel, can amend the rate structure prospectively without full reprocessing if it moves fast (before final judgment), can lobby the legislature (via ACWA) for Water Code amendments or for a future ballot measure clarifying conservation-rate authority under Prop 218/26. Can also absorb an adverse judgment by spreading refund cost across the whole rate base over time (bonding the refund liability, in effect).
+- **Ratepayer association**: situationally a repeat player if it's a standing organization (like a taxpayers' association model), but its *members'* individual stakes are one-shot. It can likely fund an appeal if damages/refunds are large enough, but has less capacity than the district to wait out a multi-year proceeding — individual member attrition, changing usage patterns, and turnover in top-tier status over time (people don't stay in Tier 3+ forever — pools get removed, kids leave, lawns get replaced) erode the plaintiff class's cohesion over the years litigation takes. This is a real structural asymmetry: delay favors the district.
+- **Low-income beneficiaries**: cannot appeal, cannot lobby effectively, cannot intervene as a practical matter (no organized entity, likely no funded legal aid presence unless a public-interest environmental or equity org steps in as amicus — worth checking whether e.g., a Leadership Counsel/environmental-justice org has appeared or could).
+- **Bondholders**: cannot appear in this litigation but exert enormous *background* pressure through continuing disclosure requirements and covenant compliance monitoring — a downgrade or covenant trigger is a "silent litigant" effect.
+- **Regulators (State Water Board, DWR)**: not parties, have no enforcement role in a XIII D dispute (this is judicial, not administrative, terrain), but the *conservation mandate* framing invokes their policy universe. Worth checking whether the State Water Board or DWR has issued any guidance/model-rate materials on conservation-tier pricing consistent with Prop 218 (they have incentive to produce such guidance because they want districts to adopt conservation rates without fear of successful legal challenge — their institutional interest is in preserving districts' practical ability to price for conservation, even though they have no formal say in this suit).
+
+## 4. Enforcement Economics
+
+- Only entities with a **concentrated, quantifiable per-unit stake** sue under article XIII D — this is exactly the ratepayer association's high-tier membership. Diffuse beneficiaries (rebate recipients) and diffuse non-beneficiaries (Tier 1-2 payers) essentially never sue, not because their claims are weaker but because the per-person stake × probability of prevailing doesn't clear the cost of organizing and litigating.
+- What plaintiffs actually win if successful: (a) a declaration of invalidity, (b) a refund of the tier-surcharge overage paid during the limitations period (California Constitution art. XIII D refund actions typically reach back to the statute of limitations period — verify current CA case law on the limitations period applicable to Prop 218 refund claims, historically litigated around a one-year period for fee refund actions under Government Code claims-presentation requirements, but confirm), (c) potential attorney's fees under CCP § 1021.5 as private attorneys general vindicating a constitutional right benefiting a broad class of ratepayers (even though the "broad class" beneficiary framing is in tension with the fact that the practical beneficiaries of a win are the high-tier payers specifically — a point defense counsel could use to resist a 1021.5 fee award, arguing the suit vindicated a narrow private pecuniary interest, not a broad public benefit).
+- The district's outside counsel bills regardless of outcome; the marginal cost of an unfavorable outcome to *individual* board members or staff is near zero (no personal liability), which reduces the internal urgency to settle early compared to a private-sector actor facing personal exposure.
+- Nobody sues on behalf of the "silent middle" (Tier 1-2 payers who fund the refund liability after the fact via future uniform rate hikes) — this population absorbs cost with zero voice in either the original protest or the litigation.
+
+## 5. Institutional Capacity and Incentives of the Enforcer (the Courts)
+
+- Courts adjudicating Prop 218 disputes are generalist trial courts (often not specialized in utility rate design) applying a body of doctrine (Capistrano, Bighorn-Desert View, Griffith v. Pajaro Valley, Wilde v. City of Dunsmuir, Coziahr, etc.) that was built largely in the sewer/water flat-fee and tiered-rate context, not always cleanly mapped onto hybrid cost/incentive pricing with an explicit conservation-mandate defense. Judicial capacity to evaluate a rate study's econometrics is limited — courts often default to a formalistic check ("did the district have *a* cost-of-service study; does it show a plausible nexus") rather than a deep marginal-cost audit. This matters structurally because:
+  - It rewards districts that produce *facially* rigorous rate studies with expert testimony, even if the underlying allocation embeds normative/incentive judgments (as here) — the "1.6×" figure, once blessed by an expert consultant, may do more work in court than in economic reality.
+  - It punishes districts that are *candid* in their rate study about non-cost-based motivations ("conservation-incentive pricing") — the very transparency that good rate-setting practice encourages becomes the smoking gun in litigation. This creates a perverse incentive going forward: districts and their consultants will learn to describe conservation surcharges in pure cost-allocation language and bury the incentive-pricing rationale, even where it existed, to avoid creating a facial admission problem. That's a real behavioral effect the doctrine will produce regardless of how this case comes out.
+- Appellate courts (published opinions) are the actual audience that matters long-term — trial court outcome is largely a way-station toward a Court of Appeal decision that other districts' counsel will cite. This raises the stakes for both sides to litigate rather than settle if either side's counsel believes the facts here are favorable for setting sector-wide precedent (district's defense bar wants a favorable "conservation rate" precedent; ratepayer-side plaintiffs' bar wants a favorable "no redistribution" precedent).
+
+## 6. What Each Candidate Rule Produces Once Actors Adapt
+
+- **Rule: strict proportional cost-of-service only, no incentive pricing, no redistribution** → Districts will still want conservation pricing (for real hydrological reasons and to satisfy article X, § 2 and Water Code § 375 policy expectations) but will restructure to avoid the legal defect: (a) fund rebates/education from *general fund* or *grant* revenue rather than surcharge proceeds, so the fee itself is "clean" cost-of-service and the redistribution is legally separated; (b) drop explicit "incentive" language from rate studies (cosmetic compliance, not substantive change) — consultants will simply relabel the same tiered structure using load-factor/peaking-cost methodology, since courts have historically accepted higher peak/tier pricing when tied to *actual* peaking capacity costs (this is likely the district's most realistic repair path). Net effect: same conservation objective, same approximate price signal, but decoupled from the rebate fund — meaning the rebate program becomes politically vulnerable to budget cuts since it no longer has a dedicated, "self-funding" revenue source paid by the very users whose reduced consumption the rebates are meant to induce.
+- **Rule: conservation mandate (art. X § 2 / Water Code § 375) categorically trumps Prop 218 in the rate-design context** → This would let districts adopt frankly redistributive/incentive-based tiered rates without a tight cost nexus. Predictable adaptation: tiered "conservation" surcharges become a general-purpose vehicle for revenue-raising and cross-subsidy dressed in conservation language, inviting exactly the abuse Prop 218/26 were enacted to prevent (this is the scenario the Capistrano court and the drafters of Prop 26 were explicitly worried about — "fee" labels covering what is functionally a tax or a transfer).
+- **Rule: any redistribution to non-payers (rebates to different customers) is fatal regardless of cost basis** → Districts will still fund conservation rebate programs, just through a formally separate mechanism (general fund transfer, grant, state revolving fund draw) — meaning the same economic redistribution happens, just laundered through an extra accounting step that adds administrative cost without changing the substantive outcome. This is a case where formal compliance is cheap and does not change real-world behavior, only paperwork — worth flagging to the attorney since it bears on how much practical "protection" a narrow fix (severing the rebate funding stream) really buys the district versus how much it's just cosmetic.
+
+## 7. Where Formal Rules and Incentives Point in Different Directions
+
+- Article XIII D's formal test asks whether the fee is a fair approximation of the cost of providing service *to the parcel being charged*. The district's actual institutional incentive is to solve a portfolio problem (revenue adequacy for a recycled-water plant, achievement of state conservation targets, equity goals for low-income households) using whatever legally available rate structure raises money with the least political friction. The 218 test is parcel-by-parcel; the district's planning process is fund-by-fund and system-wide. These operate at different units of analysis, and the mismatch is exactly what generates litigation: a system-rational rate design (blend conservation pricing + equity subsidy + infrastructure financing into one surcharge) is presumptively 218-suspect precisely because it is efficient administratively.
+- The conservation mandate (art. X, § 2, Water Code § 375) is aspirational/policy language addressed to *what the state wants districts to do*; it creates no explicit funding mechanism and doesn't purport to override the *revenue-raising limits* imposed by arts. XIII C/D. Courts are unlikely to read a general policy provision as impliedly repealing or subordinating a specific, later-enacted (Prop 218, 1996; Prop 26, 2010) constitutional constraint absent express language — but the *political* incentive of the district (and of the state's water-policy apparatus generally) is to treat the conservation mandate as the senior consideration, because that's the frame in which "success" is measured for water managers (drought resilience metrics, state audits, subsidy eligibility) — not 218 compliance. This produces institutional actors (district staff, state agencies) who are incentivized to under-weight the 218 risk relative to how a court will actually weigh it.
+- The "not a property-related fee at all" alternative argument is a good example of a *litigation-posture* move that has nothing to do with what the district actually believes about its own rate design (the rate study plainly treats this as a property-related water service fee) — it's a fallback pled to preserve an argument, signaling the district's own confidence level in its primary defense. Worth flagging: pleading in the alternative that something is "not a fee" while also defending it as a cost-justified fee is an internally strained position that may read to a court as weakness on the primary theory.
+
+## Non-doctrinal drivers a doctrinal analysis would miss
+
+1. **Bond covenant pressure is doing more to shape the district's litigation and settlement behavior than the merits of the 218 claim.** The 30%-debt-service allocation means the district's outside financial advisors and underwriters are quietly driving the district toward a resolution that preserves debt-service revenue above all else — a pure doctrinal read would miss that the district's "true" negotiating floor is probably "protect the recycled-water debt service, everything else is negotiable," which predicts a settlement that guts the rebate/incentive-pricing piece while preserving a cost-justified tier surcharge sized to cover debt service.
+2. **The rebate program's beneficiaries have no voice in the case that will determine their funding**, and the timeline/appeal calculus (district can wait, association's cohesion erodes as high-tier membership turns over) means the population most affected by the outcome is the least able to influence it — a pure Capistrano-application analysis wouldn't surface this representational gap at all.
+3. **Rate-study drafting practices will change in response to this litigation regardless of outcome.** Consultants across the state will learn to launder incentive-pricing rationale into peaking-cost/load-factor language, whether or not that better reflects real marginal costs — meaning the doctrinal "test" (cost nexus) will increasingly measure lawyers' and consultants' drafting skill rather than actual cost causation. A finding for or against Sierra Vista will function less as a check on excessive fees than as a lesson in report-writing for the entire California water-agency consulting industry (ACWA's amicus interest here is really about protecting that drafting playbook sector-wide).
+4. **Fee-shifting incentives (CCP § 1021.5) push plaintiff's counsel toward maximal, precedent-setting relief rather than a negotiated rate tweak**, even if a modest restructuring would fully satisfy the individual ratepayer-members' economic grievance — meaning the shape of any settlement offer is constrained by what preserves (for plaintiffs' counsel) a colorable fee petition, and by what protects (for the district) not just this case but every other rate schedule the district will ever adopt.
+5. **Turnover in the plaintiff class** (who is a "Tier 3+ user" changes year to year as usage patterns shift — irrigation habits, pool ownership, household composition) means the litigating association's membership and the population actually paying the surcharge diverge over the years of litigation, undermining the neat "payers vs. beneficiaries" story the complaint tells and creating settlement/mootness complications a pure doctrinal analysis of the *rate as adopted* wouldn't capture.
+6. **The state's broader water-policy apparatus has an unstated stake in Sierra Vista losing or winning cleanly** (a muddled outcome makes it harder for every other district statewide to design defensible conservation rates), which may attract amicus participation (ACWA, State Water Board–adjacent policy shops, ratepayer-advocacy groups) that shifts the litigation's actual audience from "these parties, this rate" to "sector-wide rate design doctrine" — raising the stakes and reducing the odds of a quiet negotiated resolution even if that would be the most efficient outcome for the actual parties in front of the court.
+
+
+</details>
+
+<details><summary>Lens: tetlock</summary>
+
+### Operation
+Decompose into independently-estimated cruxes, recompose, and name the decisive crux (forecasting-tournament style).
+
+### Cruxes and independent estimates
+
+| Crux | P (0–100) | Why it matters |
+|---|---|---|
+| **Q1**: Is the Water Resilience Surcharge a 'property-related fee' governed by Article XIII D, section 6(b) at all, or could it instead be classified as a tax requiring Proposition 26/218 voter approval, or fall under some other exemption (e.g., tied to Water Code §375 conservation-rate authority)? | 85 | This is the threshold gate for the whole dispute. If it's not a property-related fee (the district's alternative argument), §6(b)'s cost-of-service/proportionality test never applies and the analysis shifts entirely to Prop 26's 'reasonable relationship' fee-exceptions test or to whether voter approval was required and skipped. Bighorn-Desert View Water Agency v. Vial treats water service charges as property-related fees, but a surcharge layered on top with conservation/redistributive purposes could be argued to function differently (e.g., closer to a regulatory/incentive charge). Getting this wrong misdirects the entire remaining analysis. |
+| **Q2**: Under Capistrano Taxpayers Assn. v. City of San Juan Capistrano and its progeny, does a tiered rate component partly justified by documented marginal cost (1.6×) and partly by independent 'conservation-incentive pricing' satisfy §6(b)(3)'s requirement that a fee 'not exceed the proportional cost of service attributable to the parcel,' or does the incentive-pricing increment itself constitute a per se violation? | 15 | This is the doctrinal core of the case. Capistrano held tiered rates must be based on the actual cost of providing service at that tier, not on conservation-goal pricing alone, but left open how much a district can rely on demand-management/conservation rationale if some tiering is cost-based. Whether courts require a dollar-for-dollar cost showing for every increment of the $0.85 figure — or permit some conservation-based premium as long as a substantial cost nexus exists — determines whether the surcharge (or what portion of it) is defensible. |
+| **Q3**: Does directing a majority (55%) of surcharge revenue to rebates and programs that predominantly benefit customers other than the surcharge-payers violate §6(b)(2)'s requirement that fee revenues 'shall not exceed the funds required to provide the property related service,' or §6(b)(3)'s proportionality requirement — i.e., is cross-subsidization from high-tier payers to non-payer rebate recipients categorically impermissible under Prop 218? | 55 | Even if the $0.85 rate could be justified purely by cost-of-service, redirecting most of the money to benefit different customers (rather than the class actually causing the marginal cost) is a distinct and potentially independently fatal defect — it suggests the charge functions as a redistributive/regulatory tax rather than a fee tied to service cost causation. This is likely the ratepayer association's strongest textual argument and needs separate analysis from the rate-setting methodology question in Q2. |
+| **Q4**: Can Article X, section 2's constitutional conservation mandate (and Water Code §375's tiered/conservation-rate authorization) be harmonized with Article XIII D §6(b), or does §6(b)'s specific proportionality requirement control over the more general conservation mandate when the two are argued to conflict? | 80 | The district's primary defense rests on reconciling two constitutional provisions. If courts treat Art. X §2 as merely informing what counts as a legitimate 'service' cost (e.g., drought-reserve and peaking capacity costs bundled into the 1.6× multiplier) rather than as an independent basis for a conservation-pricing premium, the defense collapses into Q2. If some deference to the conservation mandate survives Prop 218, the surcharge has a stronger footing. |
+| **Q5**: If a court finds some or all of the surcharge violates §6(b), what remedies and exposure follow — full invalidation vs. severance of the 'excess'/incentive-pricing increment, refund liability (measure and look-back period), and attorney-fee shifting — and how does §6(b)(5)'s burden-shifting to the agency affect litigation posture and settlement value? | 58 | This determines practical stakes for the district (potential refund of a material share of $4.1M/year plus fees) and for the ratepayer association's likely negotiating leverage, and it clarifies whether the fix could be prospective-only, which matters for advising the district now. |
+| **Q6**: What rate-design and revenue-allocation changes would bring the surcharge into Prop 218/26 compliance, and would implementing them require a new Prop 218 notice-and-hearing process or Prop 26/218 voter approval? | 60 | This converts the legal analysis into an actionable remediation path for the district, which is the ultimate practical payoff of the litigation forecast — needed to advise on both defense strategy (can the district moot the claims by amending the rate before judgment?) and prospective compliance. |
+
+### Recomposition and decisive crux
+
+# RECOMPOSITION — Water Resilience Surcharge, Art. XIII D §6(b) Challenge
+
+## 1. Combination logic: how the six cruxes fit together
+
+This is not a single conjunctive chain or a single disjunctive fork — it's a **gated tree with an OR-branch at the top, an AND-branch in the middle, and a conditional tail**. Mapping it precisely matters because the arithmetic below depends on getting the structure right, not just multiplying probabilities.
+
+**Level 0 — Threshold gate (Q1).** Everything downstream is conditional on Q1 resolving that the surcharge *is* a §6(b) property-related fee. If Q1 goes the other way (not a fee, or Prop 26/§375 exemption), Q2–Q5 are moot and the case becomes a pure Prop 26 "reasonable relationship" or no-voter-approval dispute — a different lawsuit. Q1 is estimated at 85% that the fee characterization holds (i.e., 85% chance §6(b) applies at all).
+
+**Level 1 — Liability, conditional on Q1 (Q2 AND Q3, functioning disjunctively as alternative paths to the same conclusion).** *Given* §6(b) applies, plaintiffs win liability if **either** Q2 (rate-derivation defect — conservation-incentive pricing exceeds cost) **or** Q3 (revenue-use defect — cross-subsidy to non-payer rebates) is resolved against the district. These are analytically independent theories pled under different sub-clauses (§6(b)(3) vs. §6(b)(1)/(2)), and the facts stipulate both defects are independently present. So the liability question is a **disjunction of two mostly-independent bad facts**, not a conjunction — which is important because it means the district needs to win *both* Q2 and Q3 to avoid liability, while plaintiffs need only win *one*.
+
+- Q2 (conservation-incentive pricing violates proportionality): estimated **15% probability the district complies** (i.e., 85% plaintiffs win this theory).
+- Q3 (rebate cross-subsidy is categorically impermissible): estimated **55% probability plaintiffs win this theory** as a *categorical* matter — but the estimate itself notes courts are more likely to sever/partially invalidate than adopt an absolute rule, so treat this as "partial-to-full violation likely, categorical framing overstated."
+
+**Level 2 — Doctrinal reconciliation (Q4) is not a separate branch — it's an input to Q2's outcome, not an independent gate.** Q4 asks whether Art. X §2 can rescue the district from Q2's proportionality problem. The estimate (80% that §6(b) controls over the conservation mandate) is really *restating* Q2's core finding from a different doctrinal angle. Functionally, **Q4 collapses into Q2**: if Q4 resolves "§6(b) controls," that *is* the reasoning that produces Q2's 15% figure. They shouldn't be multiplied as independent probabilities — that would double-count the same legal judgment. I treat Q4 as corroborating/explaining Q2 rather than as an additional multiplier.
+
+**Level 3 — Remedy (Q5), conditional on liability.** *Given* a violation is found under Q2 and/or Q3, Q5 asks how much exposure follows — full invalidation vs. severance, refund look-back, fees. This is a downstream conditional, not a gate: it doesn't change whether the district loses, only what losing costs. Estimated 58% toward broader-rather-than-narrow remedy (full/near-full invalidation and meaningful refund exposure) given liability.
+
+**Level 4 — Remediation (Q6)** is entirely non-adversarial and only triggers once Q1–Q5 have shaped what "compliant" looks like. It's advisory, not part of the liability arithmetic.
+
+## 2. Overall read — the arithmetic, shown
+
+**P(district successfully defends structure as-is, fully) =**
+P(Q1: not a §6(b) fee) **OR** [P(Q1: is a fee) × P(district wins Q2) × P(district wins Q3)]
+
+- P(Q1 favors district, i.e., not a fee) ≈ 15%
+- P(Q1 is a fee) ≈ 85%
+- P(district wins Q2 | fee) ≈ 15%
+- P(district wins Q3, categorically | fee) ≈ 45% (1 − 55%), but discounted because the 55% estimate itself flags that a clean categorical district win is unlikely — courts will more likely find *some* defect in the rebate allocation even if not a full 55%-tranche invalidation. Call effective "district fully clean on Q3" ≈ 30%.
+
+Full-defense path: 0.85 × 0.15 × 0.30 ≈ **3.8%**, plus the 15% Q1 escape route (which isn't really a "win," just a different fight) → **the district's odds of emerging from a §6(b) challenge with the surcharge intact and unmodified are low, roughly 5–10%.**
+
+**P(plaintiffs establish at least a partial §6(b) violation) ≈ 90%+.** This is driven almost entirely by Q2's 85% figure (district's own rate study admits the $0.85 figure isn't purely cost-derived — an unusually clean evidentiary concession under §6(b)(5)'s burden-shifting) combined with Q3's independent 55%+ vulnerability on the rebate cross-subsidy. Because liability is disjunctive (either theory suffices) and both theories are independently strong, the combined probability of *some* liability finding is higher than either alone — this is the standard "OR-gate raises the probability" effect, and it's the dominant driver of the overall read.
+
+**Given liability (≈90%), exposure is moderate-to-high (Q5 ≈ 58% toward broader remedy)**, further amplified by near-automatic CCP §1021.5 fee-shifting exposure once any part of the claim succeeds against a public agency.
+
+**Bottom line:** This surcharge, as structured on these facts, is **more likely than not to be found at least partially non-compliant with §6(b)**, most likely on the rate-derivation theory (Q2) with the revenue-use theory (Q3) as a strong independent or cumulative ground. The district's Art. X §2/§375 defense (Q4) is unlikely to save it because Capistrano-line doctrine treats the conservation mandate as informing cost allocation, not overriding proportionality. The Prop 26 "it's really a tax" argument is largely foreclosed by the Q1 fee-characterization finding, so voter-approval exposure is a secondary rather than primary risk.
+
+## 3. The DECISIVE crux: Q2
+
+**Q2 — whether the conservation-incentive-pricing increment above the 1.6× documented marginal cost differential independently violates §6(b)(3) — is the single crux that moves the overall answer the most.**
+
+Why it dominates over the alternatives:
+
+- **It has the most extreme, most confidently-held estimate in the set** (15% district-favorable, i.e., 85% plaintiff-favorable) — more lopsided than Q1 (85/15 the other direction, but Q1's *unfavorable* resolution for the district still leaves a live Prop 26 fight, not a clean loss), and far more lopsided than Q3 (55/45, explicitly flagged as uncertain and unlikely to be truly categorical) or Q5 (58/42, a remedy question, not a liability question).
+- **It is evidentiarily anchored in an admission, not a prediction.** The district's own rate study concedes the $0.85 figure is derived "in part" from conservation-incentive pricing rather than strict cost allocation. Under §6(b)(5)'s burden-shifting, this is close to a self-proving fact, not a contested legal prediction the way Q3 (revenue-use categorical rule) or Q1 (fee-vs.-tax classification) are. That makes Q2 unusually resistant to being moved by further legal research and unusually dependent on a factual/arithmetic question that is *already answerable on the existing record*.
+- **It subsumes Q4.** As noted, Q4 isn't an independent crux — resolving Q2 correctly effectively resolves Q4, so investing verification effort in Q2 does double duty.
+- **It has the largest reach into remedy (Q5) and remediation (Q6).** If Q2 flips (i.e., the district can show $0.85 does *not* exceed what the 1.6× marginal-cost multiplier would independently justify — the estimate's own "what would change this" flags this exact scenario), the case shifts from "likely partial invalidation with real refund exposure" to "defensible rate with only the Q3 rebate-allocation issue to manage" — a categorically different risk profile and settlement posture.
+- By contrast, Q1 flipping doesn't eliminate exposure, it just changes the statute under attack (Prop 26 instead of §6(b)); Q3 flipping only affects a portion of the revenue stream; Q5 flipping only affects damages, not liability.
+
+**What resolving Q2 would take:**
+
+1. **A side-by-side dollar reconstruction**, ideally performed by the same rate consultant or an independent expert, isolating what the $0.85/hcf figure would be if derived *strictly* from the 1.6× marginal-cost differential (peaking capacity + drought-reserve purchase costs allocated per hundred cubic feet to the top-22% tier) — with the "conservation-incentive" increment stripped out and shown as a separate line item. If $0.85 ≤ the strict-cost figure, "conservation-incentive pricing" is likely defensible as rhetoric describing a byproduct of cost-based tiering rather than an independent pricing input, and Q2 probability should shift substantially toward the district (per the estimate's own stated counterfactual).
+2. **Verification of Capistrano's actual holding language** (235 Cal.App.4th 1493 — pinpoint cite and reasoning currently unverified in this record) on whether it categorically excludes any conservation-rationale increment, or only requires that tiers track *some* real cost escalation — this determines the legal tolerance threshold against which step 1's dollar comparison is measured.
+3. **Verification of Coziahr v. Otay Water District (2024)** or equivalent recent appellate authority, currently flagged unverified across multiple cruxes, specifically for whether it addresses a blended cost/incentive tier and articulates a safe-harbor or tolerance rule — this is the single piece of legal research most likely to change the numeric estimate materially in either direction.
+4. **The rate study's underlying workpapers**, not just its narrative conclusions, to determine whether the "in part" concession reflects a discrete, severable dollar increment (favorable to a severance remedy and to reframing Q2) or an integrated, non-decomposable rate-setting methodology (favorable to plaintiffs and to broader invalidation under Q5).
+
+**Practical implication for the attorney:** before investing further in the Q1 fee/tax classification fight or the Q3 categorical cross-subsidy theory, the highest-leverage next step is commissioning or demanding (via discovery) the dollar-level reconciliation described in (1) above. That single number — does $0.85 sit at, below, or meaningfully above the 1.6×-derived cost ceiling — does more to move the overall probability of the district's exposure than any other unresolved fact in this record.
+
+<details><summary>Per-crux considerations</summary>
+
+
+**Q1** — Is the Water Resilience Surcharge a 'property-related fee' governed by Article XIII D, section 6(b) at all, or could it instead be classified as a tax requiring Proposition 26/218 voter approval, or fall under some other exemption (e.g., tied to Water Code §375 conservation-rate authority)? (P=85)
+- Bighorn-Desert View Water Agency v. Verjil (2006) 39 Cal.4th 205 held that volumetric, metered charges for ongoing retail water delivery to a parcel are 'fees for a property related service' under Art. XIII D §6(b)(4) — this is the closest controlling precedent and cuts strongly against the district's 'not a fee at all' argument, since the surcharge here is billed on the same volumetric/metered basis to the same delivered-service customers.
+- Capistrano Taxpayers Ass'n v. City of San Juan Capistrano (2015) 235 Cal.App.4th 1493 is nearly on-point: it treated a tiered 'conservation' water rate structure as a property-related fee subject to (and there, violating) §6(b) proportionality, implicitly rejecting the idea that a conservation/incentive rationale removes tiered pricing from Art. XIII D scrutiny — undercuts the district's Water Code §375/Art. X §2 exemption theory as a classification-level escape hatch.
+- Griffith v. Pajaro Valley Water Mgmt. Agency (2013) 220 Cal.App.4th 586 is the district's best authority for a 'not property-related' argument (groundwater extraction charge held outside Art. XIII D because tied to an act of extraction, not ownership), but it is a Court of Appeal decision addressing a materially different charge (raw groundwater pumping fee vs. retail delivered/metered water billing) and is likely distinguishable rather than controlling here.
+- Prop 26 (Art. XIII C §1(e)(7)) expressly excludes property-related fees imposed in compliance with Article XIII D from the definition of 'tax' — so if the surcharge is a §6(b) fee (likely), the 'this is really a tax needing 2/3 voter approval' theory is largely foreclosed as a classification matter, even though it may resurface as a remedy argument if the fee is found non-compliant with 6(b).
+- Water Code §375 supplies statutory authority to adopt tiered/conservation pricing but, as a statute, cannot itself override the constitutional definition of 'property related fee' or exempt the charge from Art. XIII D — courts have treated it (per Capistrano) as informing how conservation goals may factor into cost allocation, not as a freestanding exemption.
+- *Would change on:* This estimate would shift meaningfully if: (1) a published CA Supreme Court or appellate decision extended Griffith's 'act beyond mere ownership' reasoning to volumetric tier surcharges layered on retail delivered water service (rather than raw extraction), treating the surcharge as a severable behavioral/penalty charge outside Art. XIII D; (2) the district could show the surcharge is legally and administratively severed from the base water-service fee (e.g., separately authorized, separately billed, opt-out mechanism) such that it functions more like a standalone regulatory or incentive charge rather than a component of the fee for delivering water to the parcel; (3) new legislative or constitutional authority specifically exempted Water Code §375 conservation pricing from Article XIII D (none currently known); or (4) discovery showed the 'surcharge' is actually structured as a fine/administrative penalty for exceeding a usage budget rather than a charge for water delivered, which could support a non-property-related-fee (or even non-fee) characterization."
+
+**Q2** — Under Capistrano Taxpayers Assn. v. City of San Juan Capistrano and its progeny, does a tiered rate component partly justified by documented marginal cost (1.6×) and partly by independent 'conservation-incentive pricing' satisfy §6(b)(3)'s requirement that a fee 'not exceed the proportional cost of service attributable to the parcel,' or does the incentive-pricing increment itself constitute a per se violation? (P=15)
+- Capistrano's core holding (Capistrano Taxpayers Assn. v. City of San Juan Capistrano (2015) 235 Cal.App.4th 1493 — pinpoint reasoning unverified) is generally understood to reject conservation goals under Art. X, §2 as an independent basis for setting a rate differential under Art. XIII D §6(b)(3); tiers must track actual cost-of-service escalation (e.g., cost of acquiring/expanding supply), not behavioral/incentive pricing as such.
+- Art. XIII D §6(b)(5) places the burden of proving compliance on the agency. The rate study's own concession that the $0.85 figure is derived 'in part' from conservation-incentive pricing rather than strict cost allocation is close to a self-inflicted evidentiary admission that at least some dollar increment is untethered from cost — this is the single most damaging fact for the district under Capistrano's framework.
+- Open question is remedy/severability: would a court merely invalidate the increment above the 1.6x cost-justified differential (partial fix, e.g., reduce surcharge toward a cost-derived ceiling), or invalidate the whole surcharge because the agency cannot cleanly parse cost-based from incentive-based dollars in its own study? Need to verify how post-Capistrano refund/remedy cases have handled partially-justified tiers.
+- Griffith v. City of Santa Cruz (2012) 207 Cal.App.4th 1064 upheld tiered rates keyed to the genuinely higher marginal cost of scarce/imported water — suggesting a blended approach could survive IF the district can show $0.85 does not exceed what the 1.6x marginal-cost multiplier would independently justify in dollars, treating 'conservation-incentive pricing' as loose rhetoric rather than an added cost component. The stated facts, however, imply the figure was set above a pure cost allocation, cutting against this recharacterization.
+- Need to verify whether Coziahr v. Otay Water District (2024) or other recent appellate authority has directly addressed a marginal-cost/conservation-incentive blend and articulated a tolerance threshold or safe harbor; this could materially raise or lower the estimate depending on its actual holding (unverified — flag for confirmation).
+- *Would change on:* A side-by-side dollar comparison showing whether $0.85/hcf is at or below (vs. above) the amount a strict 1.6x marginal-cost calculation would independently yield would be decisive: if $0.85 ≤ the cost-justified figure, the "conservation-incentive" label is likely harmless rhetoric and the probability of compliance rises substantially (toward 50-60%). Confirmation of Capistrano's actual holding language on whether conservation rationale is categorically excluded (vs. merely requiring the agency to tie tiers to real cost escalation), and the actual holding/reasoning of Coziahr v. Otay Water District (2024) or equivalent recent appellate authority on blended cost/incentive tiers, would also significantly move this estimate. Evidence of how courts have handled remedy (partial reduction vs. full invalidation) where an agency's own study concedes a non-cost-based increment would refine the estimate further."
+
+**Q3** — Does directing a majority (55%) of surcharge revenue to rebates and programs that predominantly benefit customers other than the surcharge-payers violate §6(b)(2)'s requirement that fee revenues 'shall not exceed the funds required to provide the property related service,' or §6(b)(3)'s proportionality requirement — i.e., is cross-subsidization from high-tier payers to non-payer rebate recipients categorically impermissible under Prop 218? (P=55)
+- Numbering note: the 'revenue shall not exceed funds required' language is actually Art. XIII D §6(b)(1), not (b)(2); §6(b)(3) is the parcel-level proportionality clause. This matters for how a complaint would plead the claim, though the substantive analysis is similar either way.
+- Capistrano Taxpayers Assn. v. City of San Juan Capistrano (2015) 235 Cal.App.4th 1493 is the closest direct precedent: it held tiered rates must be justified by actual marginal/incremental cost of service, and rejected 'conservation-incentive' pricing untethered from cost as a standalone justification. The district's own admission that $0.85 derives partly from incentive pricing (not strictly the 1.6x cost differential) is the strongest evidence for a violation — but only as to the increment above cost, not necessarily the whole surcharge.
+- No CA case squarely holds that funding conservation rebates/education from rate revenue is a per se or 'categorical' Prop 218 violation; turf/appliance rebate programs funded from tiered rates are common utility practice and are often defensible as system-wide demand-management costs (reduced peaking/capacity needs benefit all ratepayers, including payors), which cuts against a bright-line rule.
+- City of San Buenaventura v. United Water Conservation Dist. (2017) 3 Cal.5th 1191 and Griffith v. Pajaro Valley Water Mgmt. Agency (2013) 220 Cal.App.4th 586 support a 'reasonable relationship'/no-mathematical-precision standard, giving agencies some latitude to pool revenue across an enterprise fund for legitimate service-related purposes without dollar-for-dollar payor traceability — suggesting courts may tolerate the 30% debt-service and 15% education allocations more readily than the 55% rebate allocation.
+- A court is more likely to sever the analysis (invalidating only the incentive-pricing markup or the rebate-heavy 55% tranche) than to adopt the sweeping 'categorically impermissible' framing in the sub-question itself; the doctrine is fact/cost-methodology-driven, not a per se rule, which should modestly lower confidence in any absolute answer either direction.
+- *Would change on:* Expert/actuarial recalculation showing how much of the $0.85 rate is attributable to the 1.6x cost differential versus pure incentive pricing (a small markup favors the district; a large one favors plaintiffs); the rate study's own characterization of rebate/education/conservation program costs as part of 'cost of service' to high-tier users specifically (would reframe the allocation as internally cost-justified rather than cross-subsidized); and any post-Capistrano published appellate decisions specifically addressing rebate-funded tiered surcharges (e.g., subsequent water-rate Prop 218 litigation) that either extend or cabin Capistrano's reasoning to revenue-use questions rather than just rate-derivation questions.
+
+**Q4** — Can Article X, section 2's constitutional conservation mandate (and Water Code §375's tiered/conservation-rate authorization) be harmonized with Article XIII D §6(b), or does §6(b)'s specific proportionality requirement control over the more general conservation mandate when the two are argued to conflict? (P=80)
+- Capistrano Taxpayers Ass'n v. City of San Juan Capistrano (2015) 235 Cal.App.4th 1493 directly addressed and rejected the argument that Art. X §2's conservation mandate permits rates to exceed proportional cost of service; the court held tiered rates remain permissible only insofar as tier differentials track actual cost differentials (e.g., marginal/peaking costs), not pure behavioral incentive pricing — verify exact holding language and whether it was published/depublished issues resolved.
+- Canons of construction favor §6(b) controlling: Art. XIII D (added 1996, Prop 218) is both later-enacted and more specific to property-related fees than Art. X §2 (1928, general reasonable-use policy), triggering both 'later controls earlier' and 'specific controls general' interpretive principles — though CA courts sometimes resist finding one constitutional provision 'repeals' another and instead try to harmonize via reading Art. X §2 as informing what counts as a legitimate 'cost of service' rather than as an override.
+- A narrow harmonization path exists and appears doctrinally accepted: marginal/peaking/drought-reserve costs (the 1.6x figure here) CAN legitimately be built into cost-of-service allocation without violating 6(b), because Capistrano itself did not forbid tiered or even conservation-motivated rate design — it forbade rates unmoored from cost causation. This cuts toward partial reconciliation being possible in theory, just not on these specific facts as described.
+- The stipulated fact that the district's own rate study derived $0.85 'in part' from conservation-incentive pricing rather than strict cost allocation, combined with the concession that rebate proceeds mostly benefit non-payers, undercuts any harmonization argument on these specific facts and pushes strongly toward §6(b) controlling in application (as distinct from the abstract doctrinal question).
+- Check for post-Capistrano authority narrowing or expanding this (e.g., verify Coziahr v. Otay Water District (2024) or similar Court of Appeal decisions on tiered-rate cost documentation; also check whether any case has read Art. X §2 as creating an independent constitutional carve-out from Prop 218 — my current understanding is no California case has so held, but this must be verified rather than assumed).
+- *Would change on:* Would raise the estimate (toward near-certainty §6(b) controls) if Capistrano's reasoning is confirmed to explicitly hold Art. X §2 cannot be used to excuse noncompliance with 6(b), and if no subsequent case has carved out an exception. Would lower the estimate (more room for harmonization/district) if a later published CA appellate or Supreme Court decision has held that conservation-driven marginal-cost or peaking-cost allocations satisfy 6(b) even without a strict cost study, effectively giving Art. X §2 interpretive weight in defining 'proportional cost' — or if the SWRCB/AG guidance or a case like Capistrano's remand proceedings validated a cost methodology similar to the one used here. Also relevant: whether any case addresses Water Code §375's specific tiered-rate authorization language as providing an independent statutory (not just constitutional) safe harbor that courts have deferred to."
+
+**Q5** — If a court finds some or all of the surcharge violates §6(b), what remedies and exposure follow — full invalidation vs. severance of the 'excess'/incentive-pricing increment, refund liability (measure and look-back period), and attorney-fee shifting — and how does §6(b)(5)'s burden-shifting to the agency affect litigation posture and settlement value? (P=58)
+- Framing: the probability estimates whether, IF a §6(b) violation is found, a court is more likely to order FULL invalidation of the surcharge (voiding the whole $0.85 increment and remanding for a redesigned rate study) rather than a judicially-crafted SEVERANCE that preserves the 1.6x cost-justified portion and refunds only the 'incentive' excess. Courts (per Capistrano's approach — verify precise remedial holding on remand) tend to treat an agency's failure to tie the SET rate to substantiated cost as invalidating the rate as adopted, since rate-repricing is a legislative/administrative function courts are reluctant to perform themselves.
+- The 55%-to-rebates cross-subsidy (funding benefits mostly to non-payers) is a distinct §6(b)(1)/(2)/(3) defect independent of the incentive-pricing/marginal-cost issue and taints a larger revenue share than just the 'incentive' markup — this pushes toward broader invalidation/larger exposure than a clean severance limited to the incentive-pricing increment, and makes it analytically hard for a court to isolate 'the excess' since two different theories of excess (rebate cross-subsidy vs. incentive pricing above 1.6x) overlap in the same $0.85 figure.
+- §6(b)(5)'s burden-shifting (agency must affirmatively demonstrate compliance) raises both the odds the district loses outright — its own rate study concedes non-cost 'conservation-incentive pricing' reasoning — and, once liability is found, supports a broader remedy, since the district cannot point to a validly-substantiated dollar figure a court could simply approve as the cost-justified remainder; this materially increases settlement pressure/value independent of which remedy theory ultimately controls.
+- Refund/look-back exposure is likely narrower than 'full life of the surcharge' — need to verify the district's local claims-presentation ordinance (Gov. Code §§900 et seq./935) and the applicable limitations period (commonly analogized to CCP §338's 3-year period for statutory liability, or a shorter local claims deadline), which would cap dollar exposure well below cumulative collections since adoption; this is a major, currently unverified swing factor on total exposure.
+- Attorney-fee exposure under CCP §1021.5 is quite likely if plaintiffs prevail on any part of the §6(b) claim — Prop 218 rate challenges are routinely treated as conferring a significant public benefit on a large ratepayer class, and the financial-burden/necessity prong is easily met against a public agency defendant; this fee-shift risk (verify magnitude via Capistrano's post-remand fee award and similar cases such as Plantier v. Ramona Municipal Water District) substantially raises settlement value even if the refund principal itself is later trimmed by look-back limits or partial severance.
+- *Would change on:* Would most shift the estimate: (1) confirming Capistrano's actual disposition on remand/severability — if the Court of Appeal or trial court there in fact upheld a partial refund limited to the unsubstantiated increment (rather than voiding the whole tiered structure), that meaningfully raises the probability of a severed remedy here, especially given this district's more granular 1.6x cost record; (2) the text of the district's rate resolution/rate study — if it discretely itemizes a cost-based sub-rate and a separate incentive add-on (rather than blending them into one $0.85 figure), severance becomes far more administrable and likely; (3) confirmation of the district's local claims ordinance and controlling limitations period, which would let the look-back/refund quantum be estimated with real precision instead of assumed; (4) any case directly addressing whether funding rebates to non-payers from a property-related fee is per se a §6(b)(2)-type violation (versus permissible district-wide conservation benefit) — a clear holding either way would strongly affect whether courts treat the rebate-funded 55% as inherently inseverable from the whole surcharge; (5) reported fee awards in comparable post-Capistrano Prop 218 litigation to calibrate the 1021.5 probability/magnitude more precisely.
+
+**Q6** — What rate-design and revenue-allocation changes would bring the surcharge into Prop 218/26 compliance, and would implementing them require a new Prop 218 notice-and-hearing process or Prop 26/218 voter approval? (P=60)
+- Curing §6(b)(3): the rate study's own 1.6x marginal-cost finding gives the district a defensible ceiling — re-deriving $0.85 (or a lower figure) strictly from that cost differential, stripping out 'conservation-incentive pricing' rationale, is a technically achievable fix and tracks Capistrano's core holding that tiered rates must track cost-of-service, not policy-driven demand suppression untethered from cost.
+- Curing §6(b)(2): redirecting the 55% low-income rebate spending off the surcharge-restricted fund (to general fund, grants, or a separately voter-approved tax) removes the cross-subsidy defect; retaining recycled-water debt service and conservation-education spending is more defensible since both plausibly relate to serving/managing the high-tier demand that generates the marginal cost.
+- Whether a fresh Art. XIII D §6(a) notice-and-majority-protest proceeding is legally *required* turns on whether the corrected rate counts as a 'new or increased' fee under Gov. Code §53750(h)(1) — a same-or-lower dollar charge with only a corrected cost study and revised fund-use might arguably not be an 'increase' requiring redo, but a wholesale re-derivation of methodology invalidated in litigation invites courts/agencies to treat it as a fresh 'imposition' out of caution (cf. Bighorn-Desert View Water Agency v. Verjil treating property-related water fees as fully subject to Prop 218 procedure).
+- Prop 26 voter-approval exposure is comparatively low if the fix succeeds: Cal. Const. art. XIII C, §1(e)(2) exempts fees for a specific benefit not exceeding reasonable cost, and the agency bears the burden of proof — a properly cost-capped, non-redistributive surcharge should fit that exemption and avoid tax/2/3-vote characterization, whereas an uncured version risks exactly that reclassification.
+- Practical/administrative incentive is separate from legal necessity: agencies redesigning a successfully-challenged rate structure commonly re-run the full notice/protest process anyway (clean record, insulation from renewed suit, refund-exposure management under Plantier v. Ramona Mun. Water Dist.), even where the constitutional text might not strictly compel it for a decrease-only change.
+- *Would change on:* Would shift materially with: (1) the text of Gov. Code §53750(h)(1)/(2) and any case law construing what counts as an 'increased' fee versus a mere reallocation/re-justification of an unchanged or lowered charge; (2) whether the district's enabling ordinance or the original Prop 218 notice already reserved authority to reallocate restricted-fund spending without new notice; (3) post-Capistrano appellate or trial-court guidance (including the Capistrano remand record itself) on whether a agency curing a §6(b) defect via recalculated cost study must redo the full §6(a) hearing or can do so by resolution; (4) confirmation of the current $0.85 figure's actual relation to the 1.6x marginal-cost ceiling (if $0.85 already sits at or below cost, a pure re-derivation may not even change the charged amount, weakening the case for a required new hearing)."
+
+</details>
+
+
+</details>
+
+## Run stats
+
+- Model calls: 36 · reported API-equivalent cost: $13.11
+
+- `claude-sonnet-5`: 31 calls, 270,136 in / 343,747 out tokens
+- `claude-fable-5`: 5 calls, 129,283 in / 78,642 out tokens
+- Wall time: 29.5 min

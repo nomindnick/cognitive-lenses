@@ -1,0 +1,121 @@
+# Piedra Blanca Franchise — Signal Messages, CPRA, and Brown Act Exposure
+
+Working through this in the order you framed it. Bottom-line verdicts are bolded; the reasoning and the genuinely open questions follow each.
+
+---
+
+## 1. Are the Signal messages "public records" under *City of San Jose*?
+
+**Yes — the substantive messages almost certainly qualify, notwithstanding personal devices and third-party participants. The fact that most have auto-deleted doesn't erase their character as records; it just narrows the remedy.**
+
+*San Jose v. Superior Court* (2017) 2 Cal.5th 608 holds that a writing doesn't escape CPRA merely because it lives on a personal account or device. The statutory test (Gov. Code § 7920.530, formerly § 6252(e)) is whether the writing (a) relates to the conduct of public business and (b) is "prepared, owned, used, or retained" by the agency — and the Court held an individual official effectively *is* "the agency" for a writing they use or retain while conducting public business. The Court set out a content-and-context test: subject matter, audience, whether it was sent to/from other officials or staff, purpose, and whether it's substantive versus incidental/personal.
+
+Applying that here:
+
+- **Content is squarely public business.** Franchise terms, diversion targets, "what council will realistically accept," and RFP timing are not incidental chatter — they are the core substance of a $180M procurement decision pending before the body. This is about as strong a case for "relates to conduct of public business" as exists short of an actual staff report.
+- **A majority of the body was present and participating.** That cuts two ways — it strengthens the public-records characterization (this isn't one councilmember's private musing; it's the body's business being transacted) and it independently creates the Brown Act problem discussed in Part 5.
+- **Location on Signal/personal phones doesn't matter.** *San Jose*'s whole point was to foreclose the "it's on my phone, not the city's server" argument.
+- **Disappearing-message settings don't matter to the classification question either.** Whether a record is public is assessed based on content and use at the moment it's created/received, not on how long it happens to survive afterward. Ephemerality affects retention and remedy, not status.
+
+**Two important limits/nuances, though:**
+
+- **Not everything in the thread necessarily qualifies.** *San Jose*'s test is content-specific. If someone in the group posted something genuinely personal (scheduling, small talk unrelated to city business), that particular message wouldn't convert merely by proximity to substantive ones. But the described content — franchise terms, diversion targets, "what council will accept," RFP timing — falls squarely on the public-business side, so this is not a serious out for the city.
+- **The GreenCycle executives' and advocates' own copies are not city records** — they aren't agency officials, and their retention of the thread doesn't implicate the city's recordkeeping duties. What makes this a CPRA problem is that *the three councilmembers* used and retained the thread (before deletion) in their capacity as officials transacting business that will come before them for action. Their copies (and the 40 surviving screenshots) are the city records; GreenCycle's and the advocates' copies are not, though they may be independently discoverable in civil litigation.
+
+**On exemptions (a separate question from "is it a record"):** don't expect deliberative-process privilege (Gov. Code § 7922.000 catch-all balancing, or the interagency/intra-agency strand of § 7927.500) to do much work here. That privilege is weakest — arguably unavailable — precisely because an *outside interested party* (the bidder's consultant and executives) was in the room. Courts have consistently held that sharing "deliberative" content with an interested outsider undercuts the rationale for withholding it (the whole point of the privilege is protecting candid *internal* deliberation). That cuts against the city on disclosure and, worse, is itself evidence that this wasn't intra-agency deliberation at all — it was a bidder co-authoring the deal with a majority of the deciding body outside the public process. That's a substantive-taint problem, not just a records problem (see Part 5).
+
+---
+
+## 2. What search was the CPRA required, and did "no responsive records" violate the Act?
+
+**The clerk's answer, if it rested only on a search of city email/servers, almost certainly violated the Act — independently and clearly as to the 40 preserved screenshots, and very likely as to the overall adequacy of the search.**
+
+The CPRA (Gov. Code § 7922.600, formerly § 6253.1) obligates the agency to assist the requester and make a reasonable effort to identify records responsive to the request. Post-*San Jose*, "reasonable effort" cannot mean "search only the systems the agency controls" when the request is explicitly worded to reach personal accounts — as it was here ("on any platform or account"). That phrasing put the clerk on direct notice that the requester was invoking exactly the *San Jose* theory. A search that stops at city IT systems in response to that kind of request is not a good-faith reasonable search; it's a search of the wrong universe.
+
+What reasonable inquiry required, at minimum:
+
+- **Direct, documented inquiry to each of the three councilmembers** (and arguably all five, since the request wasn't limited to any subset) asking whether they possessed communications on personal devices/accounts/apps relating to the franchise, with enough specificity to jog memory (dates, subject matter, known participants if the clerk had any inkling).
+- **A request that each custodian search their own devices/accounts and either produce or describe what they found**, consistent with the self-collection model that has become standard practice for CA agencies since 2017 — supported by a certification/declaration describing what was searched and how.
+- **Follow-up once any custodian discloses a chat/thread existed** (as the "uneasy" councilmember plainly could have) — the city cannot treat one councilmember's screenshots as the end of the inquiry; it must ask whether others in the group retained anything (backups, cloud sync, exported chat logs, screenshots of their own).
+
+The existence of the **40 preserved screenshots** makes this not just a "was the search adequate" dispute but a **flat factual inaccuracy** in the city's response. Those screenshots are responsive records that existed (or should have been known to exist, if the clerk made any real inquiry) at the time of the response. "No responsive records" was wrong on its face as to that subset, regardless of how the broader adequacy-of-search argument shakes out. That is a clean violation, not a close call.
+
+**Distinguish two different kinds of "wrong":**
+
+- *Inadequate search* (didn't look in the right places) — remediable by writ of mandate under Gov. Code § 7923.000 (formerly § 6259) compelling a proper search and supplemental response, plus likely fee-shifting.
+- *Records genuinely no longer exist* — not itself a CPRA violation to say so, **if and only if** the agency conducted a reasonable search and is being candid that specific records were destroyed and are unrecoverable. The city cannot hide behind "no responsive records" as a euphemism for "we didn't look, and separately, some of it later got deleted." Those are different facts, and conflating them is what will get the city in more trouble than the underlying deletion itself. The honest, defensible position is: "Some responsive records existed; N are attached; the remainder were lost to app-based auto-deletion before this request was made; here is what we did to try to recover more."
+
+---
+
+## 3. Does the auto-deletion violate § 34090 or any retention duty?
+
+**This is the genuinely unsettled piece. My best read: the formal § 34090 destruction-authorization machinery was probably not "violated" in the technical procedural sense (the city never invoked it), but there is a real, substantive retention-duty problem, and it is the kind of gap the Legislature and courts have not yet fully closed.**
+
+Government Code § 34090 (and § 34090.6/.7) governs how a city *itself* destroys records it holds, in accordance with an adopted retention schedule — city attorney written consent (or council resolution + affidavit for records under two years old), exceptions for certain record types. That machinery presupposes the city has custody of, and control over, the destruction decision. Here:
+
+- **No city officer made a destruction decision.** The messages disappeared because of an app default configured (per the facts) in a group created by a private consultant, on personal devices the city doesn't control. Nobody invoked § 34090's procedures because nobody in the city apparatus was exercising a retention/destruction judgment at all — the record was gone before the city had any occasion to apply its schedule to it.
+- **But the retention schedule's substantive scope should be read consistently with the CPRA's definition of "public record"** — they share statutory lineage and rationale. If the franchise-substance messages are public records under *San Jose* (Part 1), they are also within the category the schedule calls "correspondence relating to franchises," which the city has committed to retain four years. The *content* triggers the duty; the *location* (personal device) doesn't defeat it, any more than it defeats CPRA disclosure obligations.
+- **So there is a genuine records-management failure here, even if it doesn't map cleanly onto § 34090's specific procedural violations.** The councilmembers' participation in a channel they knew (or, after one member grew "uneasy," should have known) was auto-deleting substantive franchise correspondence is functionally inconsistent with the retention duty the city has bound itself to, even though the mechanism of loss wasn't a formal city "destruction" act.
+
+**Where this could get sharper — and where I'd want a fact investigation before advising further:**
+
+- **Gov. Code § 6200** (a separate, non-CPRA statute, unaffected by the 2023 CPRA recodification) makes it a crime for an officer having custody of a public record to willfully destroy it, or **permit it to be destroyed**, without authority of law. Whether a councilmember "permitted" destruction by knowingly remaining in a chat they knew was auto-deleting official-business content is a real, fact-driven question — especially once one member's discomfort put the group on notice. This is not a slam-dunk criminal case (mental state, who actually set the timer, and whether "custody" attaches to a passive participant in someone else's app configuration are all contestable), but it's not frivolous either, and it should be assessed by counsel independent of the officials involved rather than waved away.
+- **Litigation-hold spoliation is a separate and more immediately live issue.** Most of the destruction described happened before any CPRA request or lawsuit — before a preservation duty plainly attached under ordinary civil-litigation principles. But the moment the CPRA request landed (and certainly once suit was filed and a preservation demand was made), a duty to preserve *whatever still existed* — the 40 screenshots, any forensic remnants, backups, the consultant's or GreenCycle's copies to the extent within the city's practical reach to request — attached immediately. Any loss occurring *after* that point is a much more serious problem than the earlier auto-deletion, because it is exactly the kind of post-notice spoliation courts sanction. The city should treat the preservation cutoff as having occurred on receipt of the CPRA request, full stop, and audit backward from there for anything that happened after.
+
+---
+
+## 4. Remedies for records that are gone
+
+**Declaratory relief, mandatory fees, and adverse inferences in the collateral litigation are realistic; damages are not available under the CPRA itself; referral is a live option depending on what the investigation shows.**
+
+The CPRA has no damages remedy — its enforcement mechanism (Gov. Code § 7923.000, formerly § 6259) is a writ of mandate to compel disclosure, plus mandatory prevailing-party attorney's fees (§ 7923.115, formerly § 6259(d)). For records that no longer exist, a court obviously cannot order their production. But that doesn't mean Pacific Refuse walks away empty-handed:
+
+- **Declaratory relief**: the court can declare that (a) the Signal thread constituted public records under *San Jose*, (b) the city's search was inadequate and its "no responsive records" answer violated the Act, and (c) the 40 screenshots should have been identified and produced. This is real relief — it's the finding Pacific Refuse needs as ammunition for everything else, even though it can't resurrect the deleted content.
+- **Mandatory attorney's fees.** Given the near-certainty of at least a partial violation finding (the 40 screenshots alone establish that), Pacific Refuse is very likely a "prevailing party" entitled to fees under § 7923.115, which is mandatory language, not discretionary. The city should build fee exposure into its litigation-risk assessment now rather than fight the search-adequacy issue to the mat.
+- **Adverse inferences in the franchise litigation.** California has no independent tort for spoliation (*Cedars-Sinai Medical Center v. Superior Court* (1998) 18 Cal.4th 1), but courts can and do give a willful-suppression-of-evidence instruction (CACI 204; Evid. Code § 413) and impose discovery sanctions (CCP §§ 2023.010, 2023.030) where a party destroyed evidence it had reason to preserve. This is most available for anything lost *after* the preservation duty attached (see Part 3) and less available for the pre-request auto-deletion, though a sophisticated plaintiff will argue the whole pattern shows a design to keep the process off the books.
+- **Referral.** Depending on what the internal investigation shows about who created the group, who set the disappearing-message timer, and whether any councilmember knowingly facilitated destruction after concerns were raised, the city attorney (through independent counsel — see Part 6) should evaluate referral to the district attorney, the county civil grand jury, and/or the FPPC. This isn't automatic, but it shouldn't be reflexively avoided either; a later-discovered failure to self-report compounds exposure.
+- **The bigger dollar exposure is probably not the CPRA case at all.** If the underlying franchise award itself gets challenged as tainted by undisclosed serial communications with a majority of the council (see Part 5), the remedy sought could be rescission/re-bid of a $180M contract — that dwarfs CPRA fee exposure and is the real strategic risk.
+
+---
+
+## 5. Brown Act exposure and its interaction with the CPRA claim
+
+**This is likely the most serious legal problem in the fact pattern, and it is closely intertwined with the CPRA claim through the same evidence.**
+
+The Brown Act (Gov. Code § 54950 et seq.) prohibits a majority of a legislative body from using any technology to develop a collective concurrence on an item within its jurisdiction outside a noticed meeting (§ 54952.2(b)). Three of five councilmembers — a majority — participating simultaneously in a single group discussing franchise terms and, per the facts, "what council will realistically accept," is about as direct a violation as the doctrine describes. This isn't the classic daisy-chain serial-meeting fact pattern (messages relayed one-to-one through an intermediary); it's a live multi-party chat with a majority present at once, discussing the substance of a pending decision. If anything, that's an *easier* case for a challenger than the typical serial-meeting theory.
+
+Consequences:
+
+- **Section 54960.1** allows any interested person (after a cure-and-correct demand) to sue to void an action of the legislative body taken in violation of the Act. If the franchise award or the RFP terms trace back to positions worked out in this chat, Pacific Refuse (or any resident) has a real argument for unwinding the council's action — this is the mechanism that could put the entire $180M award at risk, not just create fee exposure.
+- **Section 54959** creates misdemeanor exposure for a member who attends a meeting knowing it violates the Act, though criminal prosecution of individual Brown Act violations is rare in practice; more realistic is civil/political exposure and pressure for referral.
+- **The evidentiary overlap with the CPRA claim is direct.** The same 40 screenshots that are CPRA-responsive records are also the best evidence of a serial meeting. Counsel should expect Pacific Refuse to use them for both theories in tandem, which raises the stakes on how carefully the city reviews and produces them — sloppy redaction or delay looks like a second cover-up layered on the first.
+- **Worth flagging (not asserting with confidence): Gov. Code § 84308 (the Levine Act).** It restricts contributions and requires disclosure/recusal around communications with financially interested parties in proceedings involving "a license, permit, or other entitlement for use." Whether a negotiated franchise selected on qualitative RFP criteria (rather than low-bid) falls inside or outside § 84308's competitive-bidding carve-out is a genuinely contested, fact- and FPPC-guidance-dependent question. Given a bidder's consultant privately organized sustained access to a majority of the deciding body during the pendency of the selection, this deserves a dedicated FPPC-specialist look rather than being folded into the Brown Act analysis by assumption.
+- **Independent of both statutes**, the core problem is a fair-process one: a competitive procurement in which one bidder's consultant obtained three months of private access to a majority of the deciding body, discussing the very terms and timing of the process, is vulnerable to a due-process/fair-competition challenge to the award itself, separate from the Brown Act's specific remedy. That is likely the city's largest exposure, and it exists whether or not the Brown Act claim technically succeeds.
+
+---
+
+## 6. What the city should do now
+
+1. **Litigation hold, immediately and in writing**, to all five councilmembers and relevant staff, directing preservation of any surviving Signal data, device backups, cloud sync artifacts, and the screenshots. Engage a forensic vendor to assess recoverability (disappearing messages sometimes leave recoverable traces in backups even when the app UI shows nothing).
+2. **Retain independent, conflict-screened counsel** — not the regular city attorney acting in the same breath as advisor to the individual councilmembers — to run an internal investigation: who created the group, who set the disappearing-message timer, what the "uneasy" councilmember's screenshots show, whether any councilmember directed or acquiesced in the ephemeral format after concerns were raised, and the scope of Brown Act/§ 6200/§ 84308 exposure. The city attorney has an inherent conflict here between defending the institution and advising officials whose conduct is the problem.
+3. **Correct the CPRA response now, not defensively.** Withdraw "no responsive records"; produce the 40 screenshots after a real (not pretextual) exemption review — expect little to survive that review given third-party bidder involvement defeats most deliberative-process arguments; provide a declaration describing the actual search performed, including direct inquiry of each councilmember; and be candid about what was destroyed and why it can't be recovered. Candor here reduces (does not eliminate) fee and adverse-inference exposure; continued "no records" posturing increases it substantially.
+4. **Treat the preservation cutoff as running from receipt of the CPRA request.** Audit whether anything was lost after that point — that's where real spoliation sanctions live, as distinct from the earlier, less legally fraught auto-deletion.
+5. **Pause and reassess the franchise award, or at least the three councilmembers' further participation in it**, pending the investigation. If the investigation substantiates a serial meeting or undisclosed bidder access tainting the process, the city is far better off self-correcting (recusal, re-noticing, re-deliberation in open session, or re-bid) than litigating "no violation occurred" and having a court void the contract later after reliance has built up.
+6. **Evaluate referral obligations** (DA, grand jury, FPPC) once the investigation has facts, rather than either reflexively referring or reflexively burying it.
+7. **Engage Pacific Refuse's counsel toward a forensic-recovery and standstill protocol** where feasible — a jointly supervised recovery effort blunts both the "you didn't try" fee argument and the spoliation narrative.
+
+---
+
+## 7. Policy going forward
+
+- **Ban ephemeral/auto-deleting messaging for city business** (Signal disappearing mode, WhatsApp/Telegram secret chats, Snapchat, etc.) by policy applicable to all officials and employees; require immediate export/preservation if such an app is used inadvertently.
+- **Require self-collection certification for personal-device use**: officials who conduct city business on personal accounts/devices must periodically certify searches and forward substantive communications to a city record system within a set window — the self-collection model *San Jose* contemplated but didn't fully specify.
+- **Build a standing CPRA protocol**: any request reasonably read to implicate personal accounts (especially one that says so expressly, as here) triggers mandatory direct inquiry to named custodians with a documented declaration of what was asked, searched, and found — not a default search of city servers only.
+- **Formalize a reporting duty**, not just individual discretion: any official invited into a private group involving a majority of the body and an interested party in a pending procurement must report it immediately to the city attorney. The "uneasy councilmember" instinct that produced 40 screenshots should be a mandatory trigger, not a personal judgment call.
+- **Update the § 34090 retention resolution** to explicitly define covered "correspondence" as including electronic messages on any platform or account used for city business, regardless of device ownership, with periodic compliance certification.
+- **Adopt a "quiet period"/no-contact rule for active procurements**, barring private communications between bidders (or their consultants) and members of the deciding body outside the formal process, with violation grounds for bidder disqualification — built into future RFP terms, which also gives the city a contractual lever it doesn't currently have against GreenCycle's consultant's conduct here.
+- **Run a Levine Act (§ 84308) compliance checklist** for franchise/procurement processes going forward, pending the specialist analysis of whether it applied to this one.
+
+---
+
+**One-paragraph summary if you need it for a client-facing note:** The Signal messages were public records while they existed, personal devices notwithstanding; the "no responsive records" answer was wrong at least as to the 40 surviving screenshots and probably reflects an inadequate search overall; the auto-deletion doesn't cleanly violate § 34090's specific machinery but does reflect a real retention-duty failure with possible § 6200 and spoliation dimensions depending on timing and intent; CPRA remedies here are declaratory relief and mandatory fees, not damages, but the Brown Act serial-meeting exposure — and the underlying fair-process taint to the award itself — is the bigger risk, potentially eclipsing the CPRA case entirely if it supports voiding a $180M contract. Get independent counsel and a forensic hold moving immediately, correct the record now rather than litigate the denial, and consider pausing the award pending investigation.

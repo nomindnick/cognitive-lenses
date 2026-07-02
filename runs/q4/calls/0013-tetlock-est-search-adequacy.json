@@ -1,0 +1,77 @@
+{
+  "seq": 13,
+  "label": "tetlock-est-search-adequacy",
+  "model": "claude-sonnet-5",
+  "attempt": 0,
+  "duration_s": 211.6,
+  "cost_usd": 0.07668699999999999,
+  "usage": {
+    "input_tokens": 243,
+    "cache_creation_input_tokens": 2285,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 4064,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 2285,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 243,
+        "output_tokens": 4064,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 2285,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2285
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "system": "You are performing one specific cognitive operation as an isolated component of a legal-exploration pipeline. You never see the other components' outputs, and nobody sees yours until a separate neutral aggregation step. Ground rules for every component:\n- The scenario is an invented hypothetical; there is no real client. Your output goes to a licensed California attorney who will do the actual legal reasoning. You generate angles to pursue and things to verify — not advice to be relied on.\n- Cite specific authorities (statutes, cases, regulations) when they genuinely support a point. Every citation is automatically flagged UNVERIFIED for human checking, so cite what you believe is correct, but never fabricate quotations or pinpoint holdings you are unsure of. When unsure, write \"verify whether X holds Y\" instead of asserting it.\n- Perform ONLY the operation described below. Do not produce a general-purpose legal memo.\n\nOperation: estimate ONE sub-question in isolation. You see only the facts and\nthis sub-question; you must not analyze the broader dispute. Give a calibrated\nprobability and the few considerations doing the real work.",
+  "prompt": "## Facts (invented hypothetical — no real parties)\n\nThe City of Piedra Blanca (invented) is renegotiating its 15-year exclusive solid-waste franchise, worth roughly $180M over its term. A consultant for one bidder, GreenCycle Environmental, created a Signal group called \"PB Zero Waste Future\" and added three of the five councilmembers, several GreenCycle executives, and two community advocates. Disappearing messages were set to one week. Over three months, participants discussed franchise terms, diversion targets, \"what council will realistically accept,\" and the timing of the RFP release. The members participated from personal phones; nothing was ever forwarded to city accounts. One councilmember, uneasy, screenshotted about 40 exchanges before they auto-deleted; the rest are gone.\n\nAfter losing the eventual award to GreenCycle, competing bidder Pacific Refuse submitted a CPRA request for \"all communications by any councilmember concerning the franchise, on any platform or account.\" The city clerk searched city systems and responded \"no responsive records.\" Pacific Refuse has now sued for declaratory and injunctive relief under the CPRA, and separately demanded the city preserve and produce the surviving screenshots. The city's retention schedule, adopted under Government Code § 34090, requires retention of correspondence relating to franchises for four years.\n\n## The question\n\nAre the Signal messages \"public records\" under City of San Jose v. Superior Court (2017) 2 Cal.5th 608 even though they sat on personal devices and most no longer exist? What search and inquiry did the CPRA obligate the city to conduct before answering \"no responsive records,\" and did the clerk's answer violate the Act? Does the auto-deletion violate § 34090 or any retention duty as applied to records on personal accounts, and what remedies exist for records that are gone (the CPRA has no damages provision) — declaratory relief, fees, adverse findings in the franchise litigation, referral? Do the three members' communications in a shared group about franchise terms create Brown Act exposure that interacts with the CPRA claim? What should the city do now, and what policy should it adopt going forward?\n\n## Sub-question to estimate (in isolation)\n\n**What scope of search did the CPRA require once Pacific Refuse's request expressly covered 'any platform or account,' and did the clerk's search of city systems only (without querying individual councilmembers or obtaining the 40 surviving screenshots) constitute an inadequate search as a matter of law?**\n\nWhat would have to be true: Authority (San Jose's remand discussion, any post-2017 CA appellate/trial rulings, and analogous federal FOIA 'search adequacy' reasoning) would need to establish an affirmative duty to inquire of individual officials and search personal accounts once a request facially reaches them, and the clerk's failure to retrieve the screenshots or ask councilmembers directly would need to fall below that standard.",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "probability": {
+        "type": "number",
+        "description": "0-100"
+      },
+      "key_considerations": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "minItems": 2,
+        "maxItems": 5
+      },
+      "what_evidence_would_change_this": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "probability",
+      "key_considerations",
+      "what_evidence_would_change_this"
+    ]
+  },
+  "text": "{\"probability\":68,\"key_considerations\":[\"San Jose (2017) held writings on personal devices/accounts concerning public business ARE public records, and its remand contemplated a workable protocol — e.g., the agency directing individual employees/officials to search their own accounts and submit declarations of the search performed — rather than the agency itself seizing personal devices. A search confined to city servers, when the request facially says 'any platform or account,' does not track that protocol at all, which cuts strongly toward inadequacy.\",\"CPRA 'reasonable search' doctrine (Gov. Code § 7922.500, formerly § 6253(c)) is generally analyzed under a 'reasonably calculated to locate responsive records' standard, often imported from federal FOIA search-adequacy cases (e.g., Weisberg v. DOJ line of authority) — courts ask whether the agency followed obvious leads, not merely whether it searched its own files. Zero outreach to the three implicated councilmembers is a strong candidate for failing that standard, especially since a search 'as a matter of law' finding is more available when the operative facts (what was and wasn't searched) are undisputed, as they appear to be here.\",\"Countervailing factor: whether 'as a matter of law' (vs. a triable fact question resolved after an evidentiary hearing/declarations under Gov. Code § 7923.1000, formerly § 6259) is the correct procedural framing is itself uncertain — CPRA search-adequacy disputes are frequently resolved via in camera review or sworn declarations about search methodology, which can create factual disputes about reasonableness (e.g., did the clerk have any notice of the Signal group at the time of the response?) that a court might insist on resolving before granting relief outright.\",\"No squarely on-point published California appellate decision has yet held, post-San Jose, that failure to contact individual officials about personal-device communications is inadequate 'as a matter of law' in every case — this remains a somewhat undeveloped doctrinal area, so characterizing the outcome as legally certain (rather than highly likely but fact-dependent) overstates current authority; the strength of this particular case (explicit 'any platform' language, existence of actual surviving screenshots proving responsiveness) makes it an unusually strong vehicle, but generalized 'as a matter of law' framing pushes past what confirmed doctrine guarantees.\",\"The clerk's knowledge/notice at the time of the 'no responsive records' response matters: if the city had no reason to know of the Signal group when it responded, some courts might treat the initial response as reasonable under then-known facts, with the duty to supplement arising only once Pacific Refuse's litigation or other disclosure put the city on notice — this could convert the issue into a continuing-duty-to-search question rather than a clean 'inadequate ab initio' finding.\"],\"what_evidence_would_change_this\":\"Confirmation (or refutation) of: (1) whether the city clerk or any city official had actual or constructive notice of the Signal group's existence at the time the CPRA response was issued (e.g., from press inquiries, the uneasy councilmember's disclosure, or GreenCycle's bid materials); (2) any published post-San Jose California appellate decisions applying a concrete standard for what inquiry of individual officials CPRA requires (search terms like 'San Jose personal device search adequacy CPRA' and Government Code § 7922.500/7923.1000 case law); (3) whether the city's records-request procedures/policy already required directing employees to search personal accounts (making the clerk's failure a deviation from its own protocol, strengthening an as-a-matter-of-law finding); and (4) any trial court or writ proceeding record showing what, if anything, the clerk asked the three councilmembers before certifying 'no responsive records.'\"}",
+  "data": {
+    "probability": 68,
+    "key_considerations": [
+      "San Jose (2017) held writings on personal devices/accounts concerning public business ARE public records, and its remand contemplated a workable protocol — e.g., the agency directing individual employees/officials to search their own accounts and submit declarations of the search performed — rather than the agency itself seizing personal devices. A search confined to city servers, when the request facially says 'any platform or account,' does not track that protocol at all, which cuts strongly toward inadequacy.",
+      "CPRA 'reasonable search' doctrine (Gov. Code § 7922.500, formerly § 6253(c)) is generally analyzed under a 'reasonably calculated to locate responsive records' standard, often imported from federal FOIA search-adequacy cases (e.g., Weisberg v. DOJ line of authority) — courts ask whether the agency followed obvious leads, not merely whether it searched its own files. Zero outreach to the three implicated councilmembers is a strong candidate for failing that standard, especially since a search 'as a matter of law' finding is more available when the operative facts (what was and wasn't searched) are undisputed, as they appear to be here.",
+      "Countervailing factor: whether 'as a matter of law' (vs. a triable fact question resolved after an evidentiary hearing/declarations under Gov. Code § 7923.1000, formerly § 6259) is the correct procedural framing is itself uncertain — CPRA search-adequacy disputes are frequently resolved via in camera review or sworn declarations about search methodology, which can create factual disputes about reasonableness (e.g., did the clerk have any notice of the Signal group at the time of the response?) that a court might insist on resolving before granting relief outright.",
+      "No squarely on-point published California appellate decision has yet held, post-San Jose, that failure to contact individual officials about personal-device communications is inadequate 'as a matter of law' in every case — this remains a somewhat undeveloped doctrinal area, so characterizing the outcome as legally certain (rather than highly likely but fact-dependent) overstates current authority; the strength of this particular case (explicit 'any platform' language, existence of actual surviving screenshots proving responsiveness) makes it an unusually strong vehicle, but generalized 'as a matter of law' framing pushes past what confirmed doctrine guarantees.",
+      "The clerk's knowledge/notice at the time of the 'no responsive records' response matters: if the city had no reason to know of the Signal group when it responded, some courts might treat the initial response as reasonable under then-known facts, with the duty to supplement arising only once Pacific Refuse's litigation or other disclosure put the city on notice — this could convert the issue into a continuing-duty-to-search question rather than a clean 'inadequate ab initio' finding."
+    ],
+    "what_evidence_would_change_this": "Confirmation (or refutation) of: (1) whether the city clerk or any city official had actual or constructive notice of the Signal group's existence at the time the CPRA response was issued (e.g., from press inquiries, the uneasy councilmember's disclosure, or GreenCycle's bid materials); (2) any published post-San Jose California appellate decisions applying a concrete standard for what inquiry of individual officials CPRA requires (search terms like 'San Jose personal device search adequacy CPRA' and Government Code § 7922.500/7923.1000 case law); (3) whether the city's records-request procedures/policy already required directing employees to search personal accounts (making the clerk's failure a deviation from its own protocol, strengthening an as-a-matter-of-law finding); and (4) any trial court or writ proceeding record showing what, if anything, the clerk asked the three councilmembers before certifying 'no responsive records.'"
+  }
+}

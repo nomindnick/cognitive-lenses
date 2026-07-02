@@ -80,9 +80,26 @@ def extract_by_source(texts: dict[str, str]) -> list[dict]:
     return sorted(merged.values(), key=lambda i: (i["kind"], i["cite"].lower()))
 
 
+def _lookup_verification(cite: str, verification: dict | None) -> dict | None:
+    """Match a verifier entry to a cite. Keys are canonical lowercase substrings
+    (e.g. 'thomson v. call', '1091.5(a)(6)') so the many extraction variants of
+    one authority all inherit the same verified status."""
+    if not verification:
+        return None
+    low = cite.lower()
+    exact = verification.get(low)
+    if exact:
+        return exact
+    for key, v in verification.items():
+        if key in low:
+            return v
+    return None
+
+
 def authorities_markdown(auths: list[dict], verification: dict | None = None) -> str:
-    """Render the flagged-authorities table. `verification` maps cite(lower) ->
-    {status, note} from a verifier adapter; everything else stays UNVERIFIED."""
+    """Render the flagged-authorities table. `verification` maps canonical
+    cite substrings (lowercase) -> {status, note} from a verifier adapter;
+    everything else stays UNVERIFIED."""
     if not auths:
         return "_No specific authorities detected._\n"
     lines = [
@@ -90,7 +107,7 @@ def authorities_markdown(auths: list[dict], verification: dict | None = None) ->
         "|---|---|---|---|",
     ]
     for a in auths:
-        v = (verification or {}).get(a["cite"].lower())
+        v = _lookup_verification(a["cite"], verification)
         if v:
             status = f"**{v['status']}** — {v.get('note', '')}"
         else:

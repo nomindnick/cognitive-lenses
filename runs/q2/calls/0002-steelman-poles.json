@@ -1,0 +1,62 @@
+{
+  "seq": 2,
+  "label": "steelman-poles",
+  "model": "claude-sonnet-5",
+  "attempt": 0,
+  "duration_s": 59.2,
+  "cost_usd": 0.04989,
+  "usage": {
+    "input_tokens": 243,
+    "cache_creation_input_tokens": 2156,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 2336,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 2156,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 243,
+        "output_tokens": 2336,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 2156,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2156
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "system": "You are performing one specific cognitive operation as an isolated component of a legal-exploration pipeline. You never see the other components' outputs, and nobody sees yours until a separate neutral aggregation step. Ground rules for every component:\n- The scenario is an invented hypothetical; there is no real client. Your output goes to a licensed California attorney who will do the actual legal reasoning. You generate angles to pursue and things to verify — not advice to be relied on.\n- Cite specific authorities (statutes, cases, regulations) when they genuinely support a point. Every citation is automatically flagged UNVERIFIED for human checking, so cite what you believe is correct, but never fabricate quotations or pinpoint holdings you are unsure of. When unsure, write \"verify whether X holds Y\" instead of asserting it.\n- Perform ONLY the operation described below. Do not produce a general-purpose legal memo.\n\nOperation: identify the poles only. State (1) the conclusion most California\npublic-agency lawyers would reach here, and (2) the opposing position that\ndeserves construction. State the disfavored position neutrally and WITHOUT\nsupporting reasoning — someone else will build the case and must not be\nanchored by yours.",
+  "prompt": "## Facts (invented hypothetical — no real parties)\n\nThe Sierra Vista Municipal Water District (invented) serves ~140,000 people in a chronically drought-stressed service area. After a rate study and a majority-protest hearing that drew protests from ~9% of parcels, the board adopted a \"Water Resilience Surcharge\": $0.85 per hundred cubic feet on residential usage above Tier 2 (the surcharge falls on roughly the top 22% of residential users), projected to raise $4.1M/year into a restricted fund spent as follows: 55% on turf-replacement and high-efficiency-appliance rebates that prioritize low-income customers; 30% on debt service for a recycled-water plant; 15% on \"water ambassador\" conservation-education staff.\n\nThe rate study concludes that high-tier consumption imposes marginal supply costs roughly 1.6× base-tier costs (peaking capacity, drought-reserve purchases), but it derives the $0.85 figure in part from what it calls \"conservation-incentive pricing\" rather than strictly from cost allocation, and the district concedes the rebate program mostly benefits customers other than those paying the surcharge. A ratepayer association has sued, alleging the surcharge exceeds the proportional cost of service attributable to the payers' parcels in violation of article XIII D, section 6(b) of the California Constitution, citing Capistrano Taxpayers Association v. City of San Juan Capistrano. The district defends the structure under its conservation mandate (Cal. Const. art. X, § 2; Water Code § 375) and argues that, in the alternative, the surcharge is not a property-related fee at all.\n\n## The question\n\nDoes the Water Resilience Surcharge violate article XIII D, section 6(b)'s cost-of-service and proportionality requirements? How does Capistrano apply to a tier surcharge that is partly cost-justified (1.6×) and partly incentive-priced, with proceeds partially redistributed as rebates to non-payers? Can article X, section 2's conservation mandate be reconciled with 218, or does 218 win? Is there a colorable argument the surcharge is a tax requiring voter approval (Prop 26), or a non-property-related charge? What is the litigation exposure (refunds, fees) and how could the structure be repaired?\n\nIdentify the conventional view and the disfavored position.",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "conventional_view": {
+        "type": "string",
+        "description": "the conclusion most California public-agency lawyers would reach, in 1-3 sentences"
+      },
+      "disfavored_position": {
+        "type": "string",
+        "description": "the opposing position that deserves serious construction, stated neutrally in 1-3 sentences, WITHOUT any supporting reasoning"
+      }
+    },
+    "required": [
+      "conventional_view",
+      "disfavored_position"
+    ]
+  },
+  "text": "{\"conventional_view\":\"Most CA public-agency/Prop 218 counsel would conclude the Surcharge is legally vulnerable and likely violates article XIII D, § 6(b)(1)-(3) as construed in Capistrano Taxpayers Assn. v. City of San Juan Capistrano (2015). The district's own admissions — that the $0.85 figure is derived partly from \\\"conservation-incentive pricing\\\" rather than cost allocation, and that rebate proceeds mostly flow to non-payers — track almost exactly the defects Capistrano found fatal, and the conservation mandate of article X, § 2 / Water Code § 375 is generally understood not to override Prop 218's proportionality requirement (a later, specific constitutional provision) or to convert an incentive markup into a cost-based charge. Water delivery charges are also settled as \\\"property-related fees\\\" under Bighorn-Desert View Water Agency v. Verjil, so the district's alternative \\\"not a property-related fee\\\" argument is considered weak. The conventional advice is that the portion of the surcharge cost-justified by the 1.6x marginal-cost finding is likely defensible, but the excess (incentive-priced) increment and the cross-subsidy to the rebate program create refund exposure and should be restructured — e.g., funding rebates/education from a non-fee source or general fund/voter-approved measure, and re-deriving tier rates strictly from marginal cost of service.\",\"disfavored_position\":\"The Water Resilience Surcharge is a valid article XIII D property-related fee that satisfies § 6(b): the tiered rate is anchored to the 1.6x marginal-cost-of-service finding in the rate study, Capistrano's rejection of that particular tiered structure does not categorically bar conservation-based inclining-block rates so long as a cost nexus exists, the rebate, recycled-water, and education expenditures are properly attributable to the cost of maintaining system-wide drought reliability and peaking capacity (and thus benefit high-tier payers even if disbursed to other customers), and article X, § 2's conservation mandate should be read together with, rather than subordinated to, article XIII D so as to validate conservation-incentive pricing. In the further alternative, the surcharge is not subject to § 6(b) at all — either because it is not a \\\"fee or charge\\\" within the meaning of article XIII D, or because it qualifies as a valid regulatory/conservation charge outside Proposition 26's tax definition — such that no voter approval was required and no refund liability arises.\"}",
+  "data": {
+    "conventional_view": "Most CA public-agency/Prop 218 counsel would conclude the Surcharge is legally vulnerable and likely violates article XIII D, § 6(b)(1)-(3) as construed in Capistrano Taxpayers Assn. v. City of San Juan Capistrano (2015). The district's own admissions — that the $0.85 figure is derived partly from \"conservation-incentive pricing\" rather than cost allocation, and that rebate proceeds mostly flow to non-payers — track almost exactly the defects Capistrano found fatal, and the conservation mandate of article X, § 2 / Water Code § 375 is generally understood not to override Prop 218's proportionality requirement (a later, specific constitutional provision) or to convert an incentive markup into a cost-based charge. Water delivery charges are also settled as \"property-related fees\" under Bighorn-Desert View Water Agency v. Verjil, so the district's alternative \"not a property-related fee\" argument is considered weak. The conventional advice is that the portion of the surcharge cost-justified by the 1.6x marginal-cost finding is likely defensible, but the excess (incentive-priced) increment and the cross-subsidy to the rebate program create refund exposure and should be restructured — e.g., funding rebates/education from a non-fee source or general fund/voter-approved measure, and re-deriving tier rates strictly from marginal cost of service.",
+    "disfavored_position": "The Water Resilience Surcharge is a valid article XIII D property-related fee that satisfies § 6(b): the tiered rate is anchored to the 1.6x marginal-cost-of-service finding in the rate study, Capistrano's rejection of that particular tiered structure does not categorically bar conservation-based inclining-block rates so long as a cost nexus exists, the rebate, recycled-water, and education expenditures are properly attributable to the cost of maintaining system-wide drought reliability and peaking capacity (and thus benefit high-tier payers even if disbursed to other customers), and article X, § 2's conservation mandate should be read together with, rather than subordinated to, article XIII D so as to validate conservation-incentive pricing. In the further alternative, the surcharge is not subject to § 6(b) at all — either because it is not a \"fee or charge\" within the meaning of article XIII D, or because it qualifies as a valid regulatory/conservation charge outside Proposition 26's tax definition — such that no voter approval was required and no refund liability arises."
+  }
+}

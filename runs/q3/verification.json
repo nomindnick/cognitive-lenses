@@ -1,0 +1,43 @@
+{
+  "_meta": {
+    "adapter": "FPPC advisory-opinion corpus (14,100 letters, 1975-2025) via FPPC Opinion Search, checked by Claude Fable 5 on 2026-07-01",
+    "scope": "Only the authorities listed below were checked, against FPPC advice-letter usage (not against the reporters themselves). Everything not listed remains UNVERIFIED. Statuses reflect existence and FPPC-consistent characterization, not Shepardizing.",
+    "anchors_consulted": ["A-21-106", "A-20-120", "15-021-1090", "A-19-053", "16-156-1090", "A-19-116", "A-19-198", "A-19-025", "A-23-059", "A-22-119", "A-21-055", "A-23-099", "A-24-143", "A-19-193", "I-25-019"]
+  },
+  "thomson v. call": {
+    "status": "VERIFIED",
+    "note": "Real: (1985) 38 Cal.3d 633. FPPC A-21-106 confirms the panel's load-bearing characterization: § 1090 contract is void regardless of fairness (pp. 646–649), and abstention does NOT avoid § 1090 for a member of the governing body — the entire body is precluded."
+  },
+  "stigall v. city of taft": {
+    "status": "VERIFIED",
+    "note": "Real: (1962) 58 Cal.2d 565; cited by FPPC at p. 569 for § 1090's undivided-loyalty rationale; 'making' a contract includes preliminary steps such as negotiations and planning."
+  },
+  "people v. honig": {
+    "status": "VERIFIED",
+    "note": "Real: (1996) 48 Cal.App.4th 289; FPPC cites p. 333: the prohibited act is making a contract in which the official has a financial interest."
+  },
+  "lexin v. superior court": {
+    "status": "EXISTS — characterization unchecked",
+    "note": "Real: (2010) 47 Cal.4th 1050, standard § 1090/exceptions framework in FPPC letters. Panel's specific characterizations not individually checked."
+  },
+  "fraser-yamor": {
+    "status": "EXISTS — characterization suspect",
+    "note": "See 'county of del norte' entry: real case, (1977) 68 Cal.App.3d 201, but the spouse's-employer characterization is unsupported."
+  },
+  "county of del norte": {
+    "status": "EXISTS — characterization suspect",
+    "note": "Fraser-Yamor Agency, Inc. v. County of Del Norte (1977) 68 Cal.App.3d 201 is real (§ 1090/remote interest). But it concerned the official's OWN insurance-agency interest; the panel claim describing it as voiding a contract benefiting a spouse's employer is not supported by the verifier's sources (the citing lens itself flagged the cite unverified). Read before relying."
+  },
+  "1091.5(a)(8)": {
+    "status": "VERIFIED",
+    "note": "Corpus consistently applies § 1091.5(a)(8) as the noninterest for an official's own uncompensated officer position at a nonprofit (16-156-1090, A-19-116, A-19-198, A-23-059, A-22-119), conditioned on the nonprofit's primary purpose supporting the agency's functions and the interest being noted in official records. Covers Okafor's board seat, not the spouse's salary."
+  },
+  "1091.5(a)(6)": {
+    "status": "MISCHARACTERIZED",
+    "note": "Per corpus usage (A-23-099, A-24-143, A-19-193), § 1091.5(a)(6) is the noninterest for a spouse employed by a PUBLIC AGENCY (with the ≥1-year precondition). Harbor Light is a 501(c)(3), not a public agency; the panel suggestion that (a)(6) could neutralize the spousal-salary strand if the employment predates election is wrong. This is exactly the confident-mischaracterization failure mode the UNVERIFIED guardrail targets."
+  },
+  "1091(b)(1)": {
+    "status": "VERIFIED",
+    "note": "FPPC A-21-106 n.2 confirms § 1091(b)(1) defines 'remote interest' to include an interest as an officer or employee of certain tax-exempt nonprofits (disclosure + noting + abstention then lets the body contract). Whether it reaches the community-property spouse-salary strand for a sitting councilmember is the open question the panel correctly queued for verification."
+  }
+}

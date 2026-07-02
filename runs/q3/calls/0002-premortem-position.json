@@ -1,0 +1,56 @@
+{
+  "seq": 2,
+  "label": "premortem-position",
+  "model": "claude-sonnet-5",
+  "attempt": 0,
+  "duration_s": 39.8,
+  "cost_usd": 0.060571,
+  "usage": {
+    "input_tokens": 243,
+    "cache_creation_input_tokens": 1929,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3146,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 1929,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 243,
+        "output_tokens": 3146,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 1929,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1929
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "system": "You are performing one specific cognitive operation as an isolated component of a legal-exploration pipeline. You never see the other components' outputs, and nobody sees yours until a separate neutral aggregation step. Ground rules for every component:\n- The scenario is an invented hypothetical; there is no real client. Your output goes to a licensed California attorney who will do the actual legal reasoning. You generate angles to pursue and things to verify — not advice to be relied on.\n- Cite specific authorities (statutes, cases, regulations) when they genuinely support a point. Every citation is automatically flagged UNVERIFIED for human checking, so cite what you believe is correct, but never fabricate quotations or pinpoint holdings you are unsure of. When unsure, write \"verify whether X holds Y\" instead of asserting it.\n- Perform ONLY the operation described below. Do not produce a general-purpose legal memo.\n\nOperation: state, in a few sentences, the position or course of action the\nagency's counsel would MOST LIKELY adopt here. Not the best position — the\nlikely one. No analysis beyond what is needed to state it.",
+  "prompt": "## Facts (invented hypothetical — no real parties)\n\nIn the City of Rio Robles (invented), Councilmember Dana Okafor's spouse is the salaried Director of Programs (~$95,000/yr) at Harbor Light Alliance, a 501(c)(3) homeless-services provider. Under a 2019 city resolution, Okafor also sits on Harbor Light's board of directors, uncompensated, as the council's designated liaison.\n\nThe council is about to (a) adopt the framework and scoring criteria for a competitive RFP allocating $2.3M in combined city general-fund and state HHAP pass-through money for homelessness services, and then (b) award the resulting contract(s). Harbor Light is one of three realistic bidders and has historically won about 60% of the city's homelessness contracts. The spouse's position is funded out of Harbor Light's general operating budget, to which city contracts contribute roughly 40%.\n\nOkafor asks the city attorney: May I vote on the RFP framework? On the award? Must I resign the board seat or must my spouse's employment change? And if I simply recuse, is the city safe contracting with Harbor Light?\n\n## The question\n\nAnalyze under Government Code § 1090 (including whether board membership plus a spouse's salaried employment is a prohibited financial interest 'in' the contract, whether any § 1091 remote-interest or § 1091.5 noninterest exception applies, and whether recusal even cures § 1090 for a board member), and under the Political Reform Act (§§ 87100, 87103 — community-property interest in spouse's income, materiality, and the public-generally exception), plus common-law conflict doctrine. What combination of resignation, recusal, wall procedures, or contract structuring lets the city lawfully fund Harbor Light, if any? What are the consequences of getting it wrong (§ 1090 voidness, disgorgement, criminal exposure, FPPC enforcement)?\n\nWhat position would the agency's counsel most likely adopt?",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "likely_position": {
+        "type": "string",
+        "description": "the position/course of action a cautious public-agency counsel would most likely recommend, in 2-4 sentences"
+      }
+    },
+    "required": [
+      "likely_position"
+    ]
+  },
+  "text": "{\"likely_position\":\"Counsel would most likely take the conservative, risk-minimizing position: advise Okafor to recuse from both the RFP-framework and award votes as a baseline, and separately urge resignation from the Harbor Light board to eliminate that independent source of conflict — but caution that recusal likely does NOT cure the § 1090 problem, because the spouse's salary (a community-property interest attributed to Okafor under Gov. Code § 82030 and § 1090 case law) makes Okafor \\\"financially interested\\\" in any Harbor Light contract, no § 1091/1091.5 exception cleanly fits, the \\\"rule of necessity\\\" is unavailable since two other bidders exist, and courts (e.g., Thomson v. Call; People v. Honig; Stigall) treat § 1090 violations as potentially voiding the whole contract regardless of the interested member's abstention. Given § 1090's harsh remedies (void ab initio, disgorgement, misdemeanor exposure under § 1097, forfeiture) versus the PRA's comparatively narrower § 87100/87103 disqualification-plus-recusal regime, counsel will likely flag § 1090 as the dominant risk and recommend the city not proceed with awarding to Harbor Light this cycle absent restructuring (e.g., removing council discretion from the award, walling spousal compensation from city-funded programs) or a favorable FPPC/AG advice letter — i.e., counsel gives a hedged \\\"recuse and resign, but that may not be enough\\\" answer rather than a clean go-ahead.\"}",
+  "data": {
+    "likely_position": "Counsel would most likely take the conservative, risk-minimizing position: advise Okafor to recuse from both the RFP-framework and award votes as a baseline, and separately urge resignation from the Harbor Light board to eliminate that independent source of conflict — but caution that recusal likely does NOT cure the § 1090 problem, because the spouse's salary (a community-property interest attributed to Okafor under Gov. Code § 82030 and § 1090 case law) makes Okafor \"financially interested\" in any Harbor Light contract, no § 1091/1091.5 exception cleanly fits, the \"rule of necessity\" is unavailable since two other bidders exist, and courts (e.g., Thomson v. Call; People v. Honig; Stigall) treat § 1090 violations as potentially voiding the whole contract regardless of the interested member's abstention. Given § 1090's harsh remedies (void ab initio, disgorgement, misdemeanor exposure under § 1097, forfeiture) versus the PRA's comparatively narrower § 87100/87103 disqualification-plus-recusal regime, counsel will likely flag § 1090 as the dominant risk and recommend the city not proceed with awarding to Harbor Light this cycle absent restructuring (e.g., removing council discretion from the award, walling spousal compensation from city-funded programs) or a favorable FPPC/AG advice letter — i.e., counsel gives a hedged \"recuse and resign, but that may not be enough\" answer rather than a clean go-ahead."
+  }
+}

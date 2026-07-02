@@ -1,0 +1,602 @@
+{
+  "angles": [
+    {
+      "summary": "The Signal messages' franchise-substance content qualifies as public records under San Jose's content/context/audience/purpose test despite personal devices and ephemerality settings.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "tetlock",
+        "dialectic",
+        "premortem"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Participation by three of five councilmembers (a voting majority) strengthens the public-business nexus and the 'prepared, owned, used, or retained' element.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "tetlock",
+        "dialectic"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Public-record status attaches at creation; later auto-deletion goes to remedy/retention/spoliation, not characterization, and declaratory relief does not require the records to still exist.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "tetlock",
+        "dialectic"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "The 40 surviving screenshots made 'no responsive records' factually false when given — a clean violation basis independent of the search-adequacy doctrine.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "tetlock",
+        "dialectic",
+        "premortem"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "The request's 'any platform or account' language required a San Jose-protocol search — direct inquiry to individual councilmember custodians with self-collection and certifying declarations — which the clerk never initiated; a city-systems-only search was inadequate.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "tetlock",
+        "dialectic",
+        "premortem",
+        "steelman"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Defense side: the duty-to-inquire trigger is doctrinally unsettled — it may activate only on actual/constructive notice of off-system communications, making the original response reasonable when made and supplementation the lawful course.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "delphi",
+        "dialectic",
+        "steelman",
+        "tetlock"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Defense side: clerk good faith judged on knowledge at response time, including the catch that the screenshots' existence on the member's device at the response date is inferred from the facts, not stipulated.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "delphi",
+        "dialectic",
+        "steelman"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Defense side: a bidder's consultant-created, privately hosted persuasion channel was arguably never 'prepared, owned, used, or retained' by the agency, and a contrary rule lets any lobbyist manufacture public records by adding an official to a chat.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "delphi",
+        "dialectic",
+        "steelman",
+        "tetlock"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Categorical vs. message-by-message/participant-by-participant characterization — a court may sort content granularly or confine relief to the 40 screenshots (classification vs. disclosability split), and purely personal messages don't convert by proximity.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "dialectic"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Whether § 34090 and the four-year retention schedule reach records that never touched city systems is genuinely unsettled — the statute presupposes city custody of the destruction decision, but the schedule classifies content not platform, so app settings shouldn't nullify it.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "tetlock",
+        "dialectic",
+        "steelman",
+        "premortem"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "CPRA remedy suite: writ compelling supplemental search and production of the screenshots, declaratory relief, mandatory one-way fee-shifting including catalyst theory; no damages exist and deleted content can't be resurrected through the CPRA.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "tetlock",
+        "dialectic",
+        "steelman",
+        "premortem",
+        "structural"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Criminal exposure and referral analysis under Gov. Code §§ 6200–6201 ('permit to be destroyed' by knowingly staying in an auto-deleting chat) and § 54959, with willfulness/custody hurdles since a private consultant configured the timer; referral to DA/grand jury/FPPC to be evaluated deliberately.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "tetlock",
+        "dialectic",
+        "steelman",
+        "structural"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Serious Brown Act § 54952.2(b) exposure from a majority of the body in one persistent group discussing franchise substance with a bidder — a separate track from the CPRA claim.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "tetlock",
+        "dialectic",
+        "premortem",
+        "structural",
+        "steelman"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Brown Act defense side: the intermediary doctrine was built for relay patterns, consultant advocacy is not deliberation (Wolfe), whether a delayed-read disappearing group chat is a 'meeting' is untested, the challenger bears the burden of proving collective concurrence, and whether members exchanged positions vs. passively received is an open factual gap.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "dialectic",
+        "steelman",
+        "tetlock",
+        "premortem"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "§ 54960.1 cure-and-correct demand and nullification of the award, with the limitations clock (90 days) possibly already running — the mechanism that reaches the $180M contract.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "tetlock",
+        "dialectic",
+        "premortem",
+        "structural"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Doctrinal wrinkle: § 54952.6 makes a secret 'collective commitment or promise' itself voidable action, but nullifying the formal open-session vote as the product of antecedent secret deliberation is contested territory.",
+      "in_panel": false,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [],
+      "quality": "substantive"
+    },
+    {
+      "summary": "§§ 54960/54960.2 declaratory/injunctive relief, the cease-and-desist letter mechanism, and the city's option to give an unconditional commitment to cease the practice regardless.",
+      "in_panel": false,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [],
+      "quality": "substantive"
+    },
+    {
+      "summary": "The real financial stake is the $180M franchise award itself, which the CPRA claim standing alone cannot reach — Brown Act/award-challenge routes dwarf CPRA fee exposure.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "tetlock",
+        "premortem",
+        "structural"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "An independent fair-process/abuse-of-discretion challenge to the award exists apart from the Brown Act, tempered by Pub. Resources Code § 40059's grant of discretion to award waste franchises with or without competitive bidding, which weakens pure bid-protest theories.",
+      "in_panel": false,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Spoliation analysis keyed to the preservation-duty timeline: pre-request auto-deletion is defensible, post-trigger losses draw Evid. Code § 413/CACI 204 adverse-inference and CCP § 2023.030 sanctions (no spoliation tort per Cedars-Sinai); when the duty arose is the contested, fact-driven crux.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "premortem",
+        "dialectic",
+        "tetlock",
+        "steelman"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Exemption posture for the screenshots — deliberative-process/preliminary-draft claims must be reviewed before production, potentially in camera and category-by-category.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "dialectic",
+        "premortem"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "The presence of the bidder's executives and consultant defeats the deliberative-process exemption (sharing with interested outsiders undercuts its rationale), so the city should not assert it — doing so would multiply fees and feed a concealment narrative.",
+      "in_panel": false,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Defensive flip: the auto-delete design is evidence the content was never 'retained in the ordinary course,' supporting the preliminary-draft exemption element.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "dialectic"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Third parties' copies (GreenCycle, consultant, advocates) are not city public records (Anderson-Barker) but are reachable through civil-discovery subpoenas, with preservation letters issued to them now.",
+      "in_panel": false,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Forensic recovery: cloud/device backups, linked-desktop exports, and other remnants may survive auto-deletion and should be pursued with a forensic vendor.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "dialectic"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Immediate remediation: written litigation hold to all members/staff now, preserve the screenshots and devices, and issue a corrected/supplemental CPRA response with candor about what was destroyed.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "dialectic",
+        "premortem",
+        "steelman",
+        "structural",
+        "tetlock"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Litigation posture: concede the classification/search issues and fight only remedy scope and fee amounts; settle the CPRA case realistically rather than defend the indefensible.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "structural"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Containment-backfire risk: the plaintiff may refuse to let settlement moot the case, a worse published precedent may issue, and a 'quiet internal review' can surface in discovery as consciousness-of-guilt/second-cover-up optics.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "premortem",
+        "structural"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Conflicts management: independent conflict-screened counsel for the investigation, Upjohn warnings, separate counsel for individually exposed members — with the screenshotting member's interests diverging from the other two and from the city.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "structural"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Evidentiary overlap: the 40 screenshots (plus participant interviews) are the core evidence for both the CPRA and Brown Act cruxes — one production/investigative pass resolves both, so build the plan and the production-handling around it.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "tetlock"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "§ 1090 / Political Reform Act § 87100 financial-nexus screen of the three participating members against GreenCycle and its consultant — void-not-voidable stakes with no cure if a nexus exists.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "premortem"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Levine Act § 84308 applicability to the franchise (whether it is an 'entitlement for use' outside the competitive-bidding carve-out), warranting FPPC-specialist analysis as a lever pointed at the bidder's side.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "dialectic",
+        "structural"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Duty-vs-capacity gap: the clerk and city cannot compel co-equal elected officials to surrender personal devices, so San Jose compliance and any go-forward policy face a structural enforcement ceiling.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "dialectic",
+        "structural"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Counterpoint on the screenshots: the member's screenshotting was a personal act rather than agency retention, and her unease is Brown Act evidence rather than CPRA-definitional evidence.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "steelman"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "The search obligation extends to all five councilmembers, including the two not in the Signal group, since the request covered 'any councilmember.'",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Councilmembers' own privacy objections to compelled personal-device searches — anticipated resistance that San Jose's protocol only partially answers.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [],
+      "quality": "substantive"
+    },
+    {
+      "summary": "CPRA response-timing/determination mechanics (§ 7922.535 10-day determination, 14-day extension) governing both the original answer and the supplemental response.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Voluntarily pause, rescind, or re-bid the franchise (recusal, re-noticing, open re-deliberation) before a court voids it involuntarily and reliance interests accrue — a governance decision for the untainted council.",
+      "in_panel": false,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Engage Pacific Refuse's counsel in a jointly supervised forensic-recovery and standstill protocol to blunt fee and spoliation narratives.",
+      "in_panel": false,
+      "in_naive_sonnet": true,
+      "in_naive_fable": false,
+      "panel_lenses": [],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Forward-looking policy package: ephemeral-app ban, channel/forwarding rule for personal accounts, retention-schedule update to cover any platform, standing CPRA custodian-search protocol, quorum-group-chat prohibition, training, archiving/MDM.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "dialectic",
+        "premortem",
+        "steelman",
+        "structural",
+        "tetlock"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Procurement-integrity blackout/no-contact rule between bidders' agents and the deciding body during active procurements, with disclosure duties and bidder-disqualification consequences built into RFP terms as a contractual lever.",
+      "in_panel": false,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Pull the existing franchise agreement's indemnification/debarment clauses as a current lever against GreenCycle and its consultant.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "structural"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Penal Code § 135 destruction-of-evidence exposure for any post-notice deletions, including by the private participants.",
+      "in_panel": false,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [],
+      "quality": "marginal"
+    },
+    {
+      "summary": "§ 34090 enforcement routes: prospective compliance via CCP § 1085 traditional mandamus, CCP § 526a taxpayer action, and civil grand jury (Pen. Code § 925) / DA as public enforcers.",
+      "in_panel": false,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [],
+      "quality": "marginal"
+    },
+    {
+      "summary": "The AB 992 social-media safe harbor (§ 54952.2(b)(3)) is unavailable because Signal is not an open and accessible public platform.",
+      "in_panel": false,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Follow-on systemic exposure: a second requester could convert an inadequate-search finding into a citywide 'pattern or practice' injunction claim; no citywide audit of personal-app use exists.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "premortem"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Meta-transparency risk: hold memos, review files, and settlement-strategy communications are themselves discoverable/CPRA-exposed and can become the story.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "premortem"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Political/individual fallout track (recall, non-reelection, DA-referral pressure) requiring a communications plan parallel to the legal plan.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "premortem"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "GreenCycle and its consultant — architects and beneficiaries of the channel — are structurally insulated from the CPRA and Brown Act, so deterrence and cost land on the city/ratepayers.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "structural"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Fact thread: who invited the community advocates into the group and what they were told — their presence reads as legitimating optics for a vendor channel.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "structural"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Discovery of the episode was accidental (one member's private unease), not systemic — bearing on any 'isolated incident' framing.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "structural"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Adaptive-behavior forecast: strict remedies push coordination to voice/in-person channels; weak remedies formalize a safe-harbor playbook for future bidders.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "structural"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Recomposition arithmetic: ~93% chance of some adverse transparency finding, with invented conditional probability splits.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "tetlock"
+      ],
+      "quality": "noise"
+    },
+    {
+      "summary": "CA-specific model policies addressing ephemeral apps specifically may not actually exist — the weakest link of the go-forward-policy recommendation.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "tetlock"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Internal citation instability (AB 700 codification cited three incompatible ways; the 2018 San Jose remand decision read two incompatible ways) flagged as a research-verification gap.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "delphi"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Procedural defense: sever and possibly exclude the Brown Act theory as a bootstrap of a distinct, potentially time-barred cause of action within the CPRA suit.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "dialectic",
+        "steelman"
+      ],
+      "quality": "marginal"
+    }
+  ],
+  "panel_unique_assessment": "The panel found 22 angles neither naive pass developed, but they split sharply. Genuinely valuable (7): the § 1090/§ 87100 financial-nexus screen (void-not-voidable — the single highest-stakes panel-only contribution, from one lens); the entire defense-side architecture the naive passes lack because both wrote requester's-view memos — the unsettled duty-to-inquire trigger, the clerk good-faith/knowledge defense (including the sharp catch that the screenshots' existence at response date is inferred, not stipulated), the consultant-channel 'never used by the agency' argument with its lobbyist-manufactures-records slippery slope, and the Brown Act defenses (intermediary doctrine, passive receipt vs. deliberation, untested 'meeting' question, challenger's burden); plus the duty-vs-capacity enforcement ceiling and the flagged privacy-objection issue. A city-side lawyer would pay for these — they are exactly what an advocate memo omits. Padding or thin: the 93% recomposition arithmetic (pure pseudo-precision), the adaptive-behavior forecast, the structural-insulation and accidental-discovery framings, the political-fallout track, the model-policy-existence caveat, and the citation-instability flag (which is really a confession of the panel's own confabulation risk). The middle tier (containment-backfire risk, meta-transparency of hold files, second-requester practice claim, indemnification clauses, severance motion, advocates fact-thread) is real but thin — checklist items, not analysis.",
+  "noise_assessment": "The panel's noise is substantial and partly self-confessed. Tetlock's probability arithmetic dresses judgment calls as quantification; delphi triple-encodes the same three findings; the convergent/contested/decisive scaffolding restates the core holdings (classification, screenshot falsity, search protocol) at least three times across sections. The sprawling 'must verify' list — nearly every authority cited, with AB 700 cited three incompatible ways and the 2018 remand read two incompatible ways — means a lawyer must re-research virtually every citation, eroding the panel's net time savings; the naive passes cite fewer authorities but with far higher apparent reliability (Fable even self-flags its two genuinely unsettled points). Most damaging to the panel's credibility as an audit instrument: two of its three declared universal 'blind spots' (search duty as to all five members; CPRA determination-timing mechanics) were actually covered inline by the naive passes, and several 'unique' lens findings (evidentiary overlap of the two claims, forensic backup recovery, conflicts counsel) were independently produced by one or both naive passes — the panel's uniqueness accounting overstates its edge.",
+  "verdict": "Partial yes, but not dominance. The panel's real, payable edge is adversarial symmetry — seven substantive defense-side and risk-surface angles (led by the § 1090 screen and the trigger/good-faith/consultant-channel/Brown-Act defenses) that both naive passes missed because they wrote one-sided 'city loses' memos. But the naive passes, especially Fable, matched the panel on the entire core analysis and produced an equal count of substantive angles the panel missed — concrete statutory and strategic machinery (§ 54960.2 commitment, § 40059, third-party subpoenas, exemption-defeat argument, voluntary rescission, procurement blackout) that is more immediately actionable than most panel-unique material. Net: the panel out-covers on breadth of risk and counterargument at a heavy cost in redundancy, unreliable citations, and a long marginal tail; the best work product would be Fable's memo plus the panel's contested/defense sections, and a lawyer would pay for the panel as a supplement, not a substitute."
+}

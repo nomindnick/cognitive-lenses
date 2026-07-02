@@ -1,0 +1,118 @@
+{
+  "seq": 1,
+  "label": "tetlock-decompose",
+  "model": "claude-sonnet-5",
+  "attempt": 0,
+  "duration_s": 58.3,
+  "cost_usd": 0.087266,
+  "usage": {
+    "input_tokens": 243,
+    "cache_creation_input_tokens": 2189,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 4817,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 2189,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 243,
+        "output_tokens": 4817,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 2189,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2189
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "system": "You are performing one specific cognitive operation as an isolated component of a legal-exploration pipeline. You never see the other components' outputs, and nobody sees yours until a separate neutral aggregation step. Ground rules for every component:\n- The scenario is an invented hypothetical; there is no real client. Your output goes to a licensed California attorney who will do the actual legal reasoning. You generate angles to pursue and things to verify — not advice to be relied on.\n- Cite specific authorities (statutes, cases, regulations) when they genuinely support a point. Every citation is automatically flagged UNVERIFIED for human checking, so cite what you believe is correct, but never fabricate quotations or pinpoint holdings you are unsure of. When unsure, write \"verify whether X holds Y\" instead of asserting it.\n- Perform ONLY the operation described below. Do not produce a general-purpose legal memo.\n\nOperation: forecasting-tournament DECOMPOSITION only. Break the big contested\nquestion into the smallest set of separately-answerable sub-questions (cruxes)\nsuch that answering all of them substantially answers the big question. Each\nsub-question must be something a researcher could investigate on its own. Do\nnot answer any of them.",
+  "prompt": "## Facts (invented hypothetical — no real parties)\n\nThe City of Vista Camino (invented; demographics roughly 78% non-Hispanic white against a metro region at 52%) owns a 4.2-acre former corporation yard appraised at $11.8M. The council approved, 4–1, an exclusive negotiating agreement and then a disposition and development agreement conveying the parcel to Pacifica Communities LLC, a private developer, for $1, in exchange for: 120 housing units of which 30% (36 units) are deed-restricted affordable — 18 at low-income and 18 at moderate-income levels — with 25-year covenants; a half-acre publicly accessible plaza built and maintained by the developer; and a \"community preference\" covenant giving 50% of the affordable units priority to applicants who have lived or worked in Vista Camino for at least five years.\n\nThe city declared the parcel \"exempt surplus land\" and did not send notices of availability to housing sponsors before entering exclusive negotiations. The Department of Housing and Community Development (HCD) has issued a notice of violation asserting the disposition does not qualify for the claimed exemption (citing the affordability mix and the 25-year covenant term) and warning of penalties of 30% of the disposition price or fair market value. A taxpayer association has sued alleging an unconstitutional gift of public funds (Cal. Const. art. XVI, § 6) given the $11.8M-to-$1 spread, and a regional fair-housing organization has threatened suit alleging the five-year local preference has an unlawful disparate impact given the city's demographics.\n\n## The question\n\nDoes the disposition violate the Surplus Land Act (Gov. Code §§ 54220–54234) — was the parcel eligible for any 'exempt surplus land' category given the 30% low/moderate mix and 25-year covenants, what process was owed, and what do HCD's enforcement position and the 30% penalty mean for the deal? Is $1 plus in-kind public benefits adequate consideration under the gift clause, or is the public-purpose doctrine enough? Does the local-preference covenant violate the FHA/FEHA under a disparate-impact theory or AFFH obligations, and can it be saved by redesign? How do the three exposures interact, and how should the deal be restructured?\n\nDecompose this into sub-questions/cruxes.",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "subquestions": {
+        "type": "array",
+        "minItems": 3,
+        "maxItems": 6,
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "text": {
+              "type": "string",
+              "description": "a crisply answerable sub-question"
+            },
+            "why_it_matters": {
+              "type": "string"
+            },
+            "what_would_have_to_be_true": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "text",
+            "why_it_matters",
+            "what_would_have_to_be_true"
+          ]
+        }
+      }
+    },
+    "required": [
+      "subquestions"
+    ]
+  },
+  "text": "{\"subquestions\":[{\"id\":\"Q1-exemption-eligibility\",\"text\":\"Does a disposition with only 30% of units deed-restricted (18 low + 18 moderate income) under 25-year covenants qualify for any 'exempt surplus land' category under Gov. Code § 54221(f), or does it fall short of the statutory thresholds (e.g., 100%-affordable and/or 55-year/45-year covenant duration requirements applicable to specific exemption subcategories)?\",\"why_it_matters\":\"This is the threshold crux for the entire SLA claim: if a valid exemption applies, the city's failure to issue Notices of Availability was lawful and HCD's violation theory collapses; if no exemption applies, the disposition proceeded through an entirely unauthorized process, which is a foundational (and likely per se) violation that colors every downstream analysis, including the gift-clause defense.\",\"what_would_have_to_be_true\":\"A researcher would need to identify the precise text and cross-references of § 54221(f)(1)(A)-(H) (and any related definitions in §§ 54220-54222.5), confirm current effective dates/amendments as of the relevant transaction date, and map the 30%/25-year facts against each subcategory's numeric and durational requirements to determine whether any single exemption (or combination) is satisfied.\"},{\"id\":\"Q2-process-owed-and-cure\",\"text\":\"If no exemption applies, what specific pre-disposition process did the Surplus Land Act require (e.g., Notice of Availability under § 54222, priority negotiating period and order of priority under § 54227, 60/90-day negotiation windows), and was any equivalent process functionally satisfied through the exclusive negotiating agreement or later HCD/public engagement such that the omission could be deemed cured, harmless, or ratifiable?\",\"why_it_matters\":\"Determines whether the defect is a curable procedural irregularity or a jurisdictional/mandatory prerequisite that voids the disposition; also shapes what a restructuring remedy must actually accomplish (re-notice and re-open negotiations vs. paperwork fix).\",\"what_would_have_to_be_true\":\"Would need the statutory sequence and timing requirements for NOA and priority negotiations, case law or HCD guidance on whether substantial compliance or later-in-time compliance can cure a failure to notice, and confirmation of what (if anything) the city did that might approximate the required process.\"},{\"id\":\"Q3-hcd-enforcement-and-penalty\",\"text\":\"What is the legal effect of HCD's Notice of Violation and its authority under Gov. Code § 54230.5 (or successor enforcement provisions) — can HCD or the Attorney General seek to void, unwind, or enjoin the disposition, is administrative/judicial exhaustion required before penalties attach, and is the 30% penalty computed against the $1 sale price, the $11.8M fair market value, or some other base?\",\"why_it_matters\":\"Quantifies the city's direct financial and injunctive exposure independent of the constitutional and fair-housing claims, and determines the urgency/leverage driving any settlement or restructuring (a penalty keyed to $11.8M FMV is existential; one keyed to $1 is nominal).\",\"what_would_have_to_be_true\":\"Requires the exact statutory penalty formula and any implementing HCD regulations or published enforcement actions, plus case law (if any) on judicial review of HCD SLA determinations and available remedies (rescission, specific performance of statutory process, monetary penalty only).\"},{\"id\":\"Q4-gift-clause-consideration-standard\",\"text\":\"Under Cal. Const. art. XVI, § 6 and its public-purpose doctrine, is dollar-for-dollar (or reasonably proportionate) monetary/in-kind consideration required, or is a rational, good-faith legislative determination that the affordable units and plaza serve a public purpose sufficient regardless of the $11.8M-to-$1 spread — and does an underlying SLA violation undermine the city's ability to invoke that deferential public-purpose standard?\",\"why_it_matters\":\"This is the central crux of the gift-clause claim; California courts generally defer heavily to legislative public-purpose findings, so the taxpayer suit likely fails unless the SLA noncompliance (or bad faith/arbitrariness) strips away that deference by showing the 'public purpose' recitation was pretextual or procedurally unmoored.\",\"what_would_have_to_be_true\":\"Would need review of controlling/analogous authority on public agency below-market land conveyances for affordable housing (e.g., redevelopment-era gift clause cases, County of Alameda v. Janssen-line rational basis cases, and any decisions addressing SLA violations as evidence of gift-clause pretext) and clarification of the legal test courts actually apply (rational basis vs. some heightened proportionality review).\"},{\"id\":\"Q5-disparate-impact-preference\",\"text\":\"Does the 5-year residency/work local-preference covenant produce a legally cognizable disparate impact against protected classes under the FHA/FEHA burden-shifting framework of Texas Dept. of Housing & Community Affairs v. Inclusive Communities Project (statistically significant disparity tied to a specific policy, absence of a less-discriminatory alternative equally serving a legitimate, non-pretextual interest), and how have HUD/courts/California DFEH historically treated municipal residency preferences in affordable housing given AFFH obligations?\",\"why_it_matters\":\"This is the crux of the fair-housing organization's threatened claim; without robust demographic/statistical proof of disparity and a causal link to the specific preference (as opposed to the housing program generally), a disparate-impact claim is likely to fail even in a demographically skewed city, and this also determines whether AFFH duties independently constrain local preferences.\",\"what_would_have_to_be_true\":\"Requires demographic data on likely applicant pools versus the 78%/52% baseline, identification of comparable precedent or HUD guidance/enforcement actions addressing local residency preferences (e.g., analogous matters in other CA jurisdictions), and articulation of the city's proffered justification (anti-displacement, community stability) and whether narrower alternatives (e.g., income-based rather than durational-residency criteria) would serve it equally well.\"},{\"id\":\"Q6-interaction-and-restructuring\",\"text\":\"Can a single restructuring (e.g., increasing the affordable percentage/covenant term to satisfy an SLA exemption, re-issuing Notices of Availability and re-running priority negotiations, and modifying or eliminating the durational residency preference) cure all three exposures simultaneously, or do fixes to one exposure create tension with another (e.g., does increasing affordability strengthen the gift-clause defense but not affect disparate impact; does eliminating the preference undercut a defense that the deal serves local public purposes)?\",\"why_it_matters\":\"The client ultimately needs a sequenced remedial strategy, not three siloed answers; understanding whether the exposures are independent or intertwined (e.g., SLA non-compliance is evidence used in the gift-clause and disparate-impact claims) determines whether a single global restructuring/settlement can resolve the litigation package or whether trade-offs must be managed separately.\",\"what_would_have_to_be_true\":\"Would need to map each candidate fix (percentage increase, covenant extension, notice re-issuance, preference redesign) against each of the three legal tests identified in Q1-Q5 to identify which fixes are necessary, sufficient, or in conflict, and whether any fix requires unwinding the existing DDA (with attendant Pacifica Communities LLC contract/reliance issues not otherwise addressed here).\"}]}",
+  "data": {
+    "subquestions": [
+      {
+        "id": "Q1-exemption-eligibility",
+        "text": "Does a disposition with only 30% of units deed-restricted (18 low + 18 moderate income) under 25-year covenants qualify for any 'exempt surplus land' category under Gov. Code § 54221(f), or does it fall short of the statutory thresholds (e.g., 100%-affordable and/or 55-year/45-year covenant duration requirements applicable to specific exemption subcategories)?",
+        "why_it_matters": "This is the threshold crux for the entire SLA claim: if a valid exemption applies, the city's failure to issue Notices of Availability was lawful and HCD's violation theory collapses; if no exemption applies, the disposition proceeded through an entirely unauthorized process, which is a foundational (and likely per se) violation that colors every downstream analysis, including the gift-clause defense.",
+        "what_would_have_to_be_true": "A researcher would need to identify the precise text and cross-references of § 54221(f)(1)(A)-(H) (and any related definitions in §§ 54220-54222.5), confirm current effective dates/amendments as of the relevant transaction date, and map the 30%/25-year facts against each subcategory's numeric and durational requirements to determine whether any single exemption (or combination) is satisfied."
+      },
+      {
+        "id": "Q2-process-owed-and-cure",
+        "text": "If no exemption applies, what specific pre-disposition process did the Surplus Land Act require (e.g., Notice of Availability under § 54222, priority negotiating period and order of priority under § 54227, 60/90-day negotiation windows), and was any equivalent process functionally satisfied through the exclusive negotiating agreement or later HCD/public engagement such that the omission could be deemed cured, harmless, or ratifiable?",
+        "why_it_matters": "Determines whether the defect is a curable procedural irregularity or a jurisdictional/mandatory prerequisite that voids the disposition; also shapes what a restructuring remedy must actually accomplish (re-notice and re-open negotiations vs. paperwork fix).",
+        "what_would_have_to_be_true": "Would need the statutory sequence and timing requirements for NOA and priority negotiations, case law or HCD guidance on whether substantial compliance or later-in-time compliance can cure a failure to notice, and confirmation of what (if anything) the city did that might approximate the required process."
+      },
+      {
+        "id": "Q3-hcd-enforcement-and-penalty",
+        "text": "What is the legal effect of HCD's Notice of Violation and its authority under Gov. Code § 54230.5 (or successor enforcement provisions) — can HCD or the Attorney General seek to void, unwind, or enjoin the disposition, is administrative/judicial exhaustion required before penalties attach, and is the 30% penalty computed against the $1 sale price, the $11.8M fair market value, or some other base?",
+        "why_it_matters": "Quantifies the city's direct financial and injunctive exposure independent of the constitutional and fair-housing claims, and determines the urgency/leverage driving any settlement or restructuring (a penalty keyed to $11.8M FMV is existential; one keyed to $1 is nominal).",
+        "what_would_have_to_be_true": "Requires the exact statutory penalty formula and any implementing HCD regulations or published enforcement actions, plus case law (if any) on judicial review of HCD SLA determinations and available remedies (rescission, specific performance of statutory process, monetary penalty only)."
+      },
+      {
+        "id": "Q4-gift-clause-consideration-standard",
+        "text": "Under Cal. Const. art. XVI, § 6 and its public-purpose doctrine, is dollar-for-dollar (or reasonably proportionate) monetary/in-kind consideration required, or is a rational, good-faith legislative determination that the affordable units and plaza serve a public purpose sufficient regardless of the $11.8M-to-$1 spread — and does an underlying SLA violation undermine the city's ability to invoke that deferential public-purpose standard?",
+        "why_it_matters": "This is the central crux of the gift-clause claim; California courts generally defer heavily to legislative public-purpose findings, so the taxpayer suit likely fails unless the SLA noncompliance (or bad faith/arbitrariness) strips away that deference by showing the 'public purpose' recitation was pretextual or procedurally unmoored.",
+        "what_would_have_to_be_true": "Would need review of controlling/analogous authority on public agency below-market land conveyances for affordable housing (e.g., redevelopment-era gift clause cases, County of Alameda v. Janssen-line rational basis cases, and any decisions addressing SLA violations as evidence of gift-clause pretext) and clarification of the legal test courts actually apply (rational basis vs. some heightened proportionality review)."
+      },
+      {
+        "id": "Q5-disparate-impact-preference",
+        "text": "Does the 5-year residency/work local-preference covenant produce a legally cognizable disparate impact against protected classes under the FHA/FEHA burden-shifting framework of Texas Dept. of Housing & Community Affairs v. Inclusive Communities Project (statistically significant disparity tied to a specific policy, absence of a less-discriminatory alternative equally serving a legitimate, non-pretextual interest), and how have HUD/courts/California DFEH historically treated municipal residency preferences in affordable housing given AFFH obligations?",
+        "why_it_matters": "This is the crux of the fair-housing organization's threatened claim; without robust demographic/statistical proof of disparity and a causal link to the specific preference (as opposed to the housing program generally), a disparate-impact claim is likely to fail even in a demographically skewed city, and this also determines whether AFFH duties independently constrain local preferences.",
+        "what_would_have_to_be_true": "Requires demographic data on likely applicant pools versus the 78%/52% baseline, identification of comparable precedent or HUD guidance/enforcement actions addressing local residency preferences (e.g., analogous matters in other CA jurisdictions), and articulation of the city's proffered justification (anti-displacement, community stability) and whether narrower alternatives (e.g., income-based rather than durational-residency criteria) would serve it equally well."
+      },
+      {
+        "id": "Q6-interaction-and-restructuring",
+        "text": "Can a single restructuring (e.g., increasing the affordable percentage/covenant term to satisfy an SLA exemption, re-issuing Notices of Availability and re-running priority negotiations, and modifying or eliminating the durational residency preference) cure all three exposures simultaneously, or do fixes to one exposure create tension with another (e.g., does increasing affordability strengthen the gift-clause defense but not affect disparate impact; does eliminating the preference undercut a defense that the deal serves local public purposes)?",
+        "why_it_matters": "The client ultimately needs a sequenced remedial strategy, not three siloed answers; understanding whether the exposures are independent or intertwined (e.g., SLA non-compliance is evidence used in the gift-clause and disparate-impact claims) determines whether a single global restructuring/settlement can resolve the litigation package or whether trade-offs must be managed separately.",
+        "what_would_have_to_be_true": "Would need to map each candidate fix (percentage increase, covenant extension, notice re-issuance, preference redesign) against each of the three legal tests identified in Q1-Q5 to identify which fixes are necessary, sufficient, or in conflict, and whether any fix requires unwinding the existing DDA (with attendant Pacifica Communities LLC contract/reliance issues not otherwise addressed here)."
+      }
+    ]
+  }
+}

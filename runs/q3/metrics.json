@@ -1,0 +1,72 @@
+{
+  "angles_total": 49,
+  "angles_substantive": 27,
+  "panel_found": 38,
+  "naive_sonnet_found": 25,
+  "naive_fable_found": 31,
+  "panel_substantive": 21,
+  "naive_sonnet_substantive": 19,
+  "naive_fable_substantive": 23,
+  "panel_only_substantive": 1,
+  "panel_beats_own_model": 5,
+  "missed_by_panel_substantive": 6,
+  "panel_noise": 3,
+  "panel_noise_rate": 0.079,
+  "per_lens": {
+    "delphi": {
+      "angles": 15,
+      "substantive": 13,
+      "unique_substantive": 0,
+      "noise": 1
+    },
+    "dialectic": {
+      "angles": 23,
+      "substantive": 16,
+      "unique_substantive": 0,
+      "noise": 0
+    },
+    "premortem": {
+      "angles": 19,
+      "substantive": 13,
+      "unique_substantive": 1,
+      "noise": 1
+    },
+    "steelman": {
+      "angles": 14,
+      "substantive": 11,
+      "unique_substantive": 0,
+      "noise": 0
+    },
+    "structural": {
+      "angles": 13,
+      "substantive": 6,
+      "unique_substantive": 0,
+      "noise": 1
+    },
+    "tetlock": {
+      "angles": 21,
+      "substantive": 16,
+      "unique_substantive": 0,
+      "noise": 1
+    }
+  },
+  "wall_s": 1778.7,
+  "run_stats": {
+    "calls": 36,
+    "cost_usd": 14.8236,
+    "by_model": {
+      "claude-sonnet-5": {
+        "calls": 31,
+        "input_tokens": 366793,
+        "output_tokens": 433675,
+        "cost_usd": 7.9977
+      },
+      "claude-fable-5": {
+        "calls": 5,
+        "input_tokens": 120183,
+        "output_tokens": 87150,
+        "cost_usd": 6.8259
+      }
+    }
+  }
+}

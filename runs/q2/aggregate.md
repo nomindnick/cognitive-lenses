@@ -1,0 +1,105 @@
+## 1. Argument map
+
+### Convergent (multiple independent lenses agree)
+
+- The district's "not a property-related fee" fallback is likely foreclosed by *Bighorn-Desert View Water Agency v. Verjil* (unverified) for volumetric retail water charges, forcing the case onto §6(b) merits; *San Buenaventura*'s extraction-charge holding is distinguishable. [delphi, tetlock, dialectic, premortem]
+- The rate study's own language — $0.85 derived "in part" from "conservation-incentive pricing" rather than strict cost allocation — maps directly onto the defect condemned in *Capistrano* (unverified) and functions as an admission the district must explain away. [delphi, tetlock, dialectic, premortem]
+- The 55% rebate tranche, which the district concedes "mostly benefits customers other than those paying the surcharge," is an analytically independent violation theory under §6(b)(1)–(3) — a second, disjunctive path to invalidation separate from the rate-methodology defect. [delphi, tetlock, dialectic, premortem]
+- Article XIII D, §6(b)(5) places the burden of proving compliance on the agency; combined with the district's own record concessions, this converts the district's posture into damage control rather than affirmative justification. [delphi, tetlock, dialectic, steelman]
+- The documented 1.6× marginal-cost differential is a genuine cost anchor that distinguishes this record from *Capistrano*'s and makes partial invalidation/severance more likely than total invalidation — and simultaneously supplies the district's ceiling-based defense. [delphi, tetlock, dialectic, steelman]
+- The single largest unknown is the unquantified dollar gap between $0.85/hcf and what a strict 1.6× derivation would yield; a side-by-side dollar reconstruction (base Tier 2 rate + rate-study workpapers) is the highest-leverage next step. [delphi, tetlock, dialectic, premortem, steelman]
+- Art. X, §2 and Water Code §375 do not authorize charging above actual cost of service; conservation goals are either already served by genuinely cost-based tiering or must be funded through non-fee mechanisms — whether framed as "218 wins" or "no genuine conflict/harmonization," the operative bottom line is the same. [delphi, tetlock, dialectic, steelman, structural]
+- The 30% recycled-water debt-service tranche is the most defensible allocation, on a cost-causation theory tying recycled capacity to discretionary high-tier demand. [delphi, tetlock, dialectic, steelman, structural]
+- Directional bottom line among the lenses that assessed the proposition: more likely than not that a court invalidates the surcharge at least in substantial part (delphi final median 73, range 72–80; tetlock ≈90%+ for at least a partial §6(b) violation and ~5–10% district full-clean; dialectic synthesis "more likely true than false"). [delphi, tetlock, dialectic]
+- Refund exposure plus CCP §1021.5 fee-shifting (unverified) materially raise stakes and settlement value once any part of the claim succeeds. [delphi, tetlock, dialectic, premortem, structural]
+- Converged repair blueprint: cap the surcharge at a documented cost-derived ceiling and strip the incentive-pricing language; move rebates to general fund/grants **or** build a quantified avoided-cost/DSM nexus study; re-target or de-fund the ambassador line; route any above-cost conservation increment through a voter-approved special tax. [tetlock, dialectic, premortem, structural]
+- Surviving the majority-protest hearing (~9% protest) is procedural §6(a) compliance only and does not cure a substantive §6(b) defect, though it may bear on remedy scope and fee awards. [dialectic, steelman, premortem]
+- *Coziahr v. Otay Water District* is cited with three incompatible citations/years across panelists and cannot be treated as load-bearing authority in either direction until verified. [delphi, tetlock, steelman, premortem]
+
+### Contested (lenses genuinely conflict)
+
+- **Is the incentive-pricing admission fatal, or is proportionality "measured in dollars, not adjectives"?** One side: the admission is close to dispositive under §6(b)(5) burden-shifting regardless of arithmetic [delphi (majority), tetlock, premortem]. Other side: §6(b)(3) is a *result* test — if $0.85 sits within the 1.6×-derived ceiling, the language is bad drafting, not a violation [dialectic (antithesis; synthesis leaves this open), steelman, delphi (deference-minority)]. *Nature: unsettled legal question (Capistrano strictness vs. Wilde/Griffith deference line) compounded by a missing fact (the gap size).*
+- **Does the rebate concession foreclose the systemwide-benefit/DSM defense?** One side: the concession forecloses it on this record; the district built no quantified avoided-cost showing [delphi (75/80 panelists), dialectic (synthesis), premortem]. Other side: demand-side management is a recognized cost of service, no case squarely bars rebate-funded programs, and class-level benefit suffices [steelman, dialectic (antithesis), tetlock, delphi (cluster minority)]. *Nature: record-characterization/factual assumption layered on a genuinely unsettled legal question.*
+- **Does partial invalidation satisfy "in substantial part"?** One side: the 55% tranche (plus up to ~70% with the ambassador line) satisfies it standing alone [delphi (high panelist + others), dialectic (synthesis)]. Other side: a realistic outcome range includes a modest trim/remand a fair observer would call a district win, falsifying the proposition [delphi (72–73 cluster), dialectic (antithesis)]. *Nature: interpretive framing of the proposition plus remedy prediction — largely risk tolerance.*
+- **Prop 26 "it's really a tax" theory.** One side: colorable alternative — a §6(b)-noncompliant fee falls outside the Art. XIII C §1(e) exemption and reverts to a tax needing two-thirds approval [dialectic (thesis)]. Other side: XIII C and XIII D are mutually exclusive tracks; a defective fee gets recalculation/refund, not retroactive tax status; plead for safety only, no incremental exposure [dialectic (antithesis/synthesis), tetlock, steelman]. *Nature: legal question; no lens identified controlling authority either way.*
+- **Whether to plead "not a fee" at all.** One side: dead on arrival under *Bighorn* and affirmatively credibility-costing / internally strained [premortem, structural, dialectic]. Other side: non-frivolous and preservable via *Griffith*'s volitional-act distinction and §6(b)(4)'s "immediately available" text [steelman]. *Nature: legal question plus litigation-tactics risk tolerance.*
+- **The 15% "water ambassador" tranche.** One side: likely loss as general-public-benefit spending; a third independent vulnerability [delphi (Theme G), dialectic (thesis; antithesis concedes it as weakest link)]. Other side: comparatively tolerable/more defensible as demand-management spending [tetlock, steelman]. *Nature: legal characterization plus a discoverable fact (staff time-allocation records).*
+- **The 30% debt-service tranche.** One side: strongest component, textbook cost causation [delphi, dialectic (antithesis), steelman, structural]. Other side: a discovery target — if plant sizing was driven by systemwide drought resilience rather than top-tier peak demand, loading 100% of debt service on payers is itself a §6(b)(3) defect [dialectic (thesis)]. *Nature: factual (engineering/demand studies).*
+- **Mid-litigation restructuring.** One side: defensive rate trim/reallocation caps exposure [premortem (assumed position), tetlock, structural]. Other side: done without clean rescission and a fresh §6(a)/Gov. Code §53755 process, it reads as a new fee and an admission, expanding the refund window [premortem (retrospective)]. *Nature: procedural/tactical — turns on execution, not doctrine.*
+- **What to do with the Coziahr uncertainty** (within-panel): symmetric "cuts either way" vs. zero-weight placeholder vs. asymmetric discount weakening the district's deference shield — three epistemic policies drawing opposite directional inferences from identical uncertainty. [delphi] *Nature: risk tolerance/epistemic method, not law or fact.*
+
+### Unique (surfaced by a single lens)
+
+- Q4 (conservation-mandate reconciliation) collapses into Q2 (rate-derivation) — treating them as independent probabilities double-counts the same legal judgment. [tetlock]
+- Whether a corrected/lowered rate counts as a "new or increased" fee under Gov. Code §53750(h)(1) requiring a fresh notice-and-protest cycle. [tetlock]
+- Subsection-numbering correction: the revenue-cap language is §6(b)(1), not (b)(2) — matters for pleading. [tetlock]
+- Whether §6(b) fee actions permit post-hoc cost reconstruction at trial or are limited to the adopted rate-study record — flagged as the open question that determines whether the district can rehabilitate the number. [dialectic]
+- §6(b)(4) "immediately available" textual argument that the *surcharge increment* (voluntary above-baseline consumption) is not imposed as an incident of ownership. [steelman]
+- AWWA M1 Manual "base-extra capacity" methodology as the industry anchor legitimating the 1.6× allocation. [steelman]
+- Prop 26 art. XIII C §1(e)(2) specific-service exception as an independent fallback, and Gov. Code §53759's 120-day limitations period as a refund cap. [steelman]
+- Discovery risk that consultant workpapers show budget-first, cost-story-second sequencing ($4.1M target set before cost causation) — the exact sequencing *Capistrano* criticized. [premortem]
+- Grand jury inquiry / board recall / press-narrative political fallout as a failure mode. [premortem]
+- Bond-covenant pressure as the district's true negotiating floor ("protect debt service; everything else is negotiable"), predicting settlement shape better than doctrine. [structural] (bond downgrade/covenant-shortfall risk itself also caught by [premortem])
+- Non-party low-income rebate beneficiaries bear the cost of any doctrinal fix with no voice in the case; refunds get financed by future uniform rate hikes on the "silent middle." [structural]
+- Plaintiff-class turnover (Tier 3+ membership shifts year to year) erodes association cohesion — delay structurally favors the district. [structural]
+- Perverse doctrinal incentive: the litigation punishes rate-study candor, so consultants statewide will relabel incentive pricing as peaking-cost methodology; the cost-nexus test will increasingly measure drafting skill. [structural]
+- Sector-wide precedent stakes (ACWA-type amicus interest) reduce the odds of quiet settlement; §1021.5 economics push plaintiff's counsel toward published precedent over a rate tweak. [structural]
+- Defense counter to §1021.5 fees: the suit vindicates a narrow private pecuniary interest of high-tier payers, not a broad public benefit. [structural]
+
+## 2. Blind spots
+
+- **Bond/debt-covenant dynamics** — only two lenses saw that 30% of revenue is pledged to debt service and that covenant/rating pressure, not doctrine, likely drives the district's litigation and settlement behavior. The doctrinal lenses treated the 30% tranche purely as a merits question. [premortem, structural]
+- **The restructuring trap** — only premortem gamed out that the universally recommended "fix it now" move can backfire as an admission and as an un-processed new fee; tetlock touched the notice-requirement question without the adversarial framing. [premortem, tetlock]
+- **Workpaper sequencing risk** — only premortem flagged that discovery of a revenue-target-first derivation would impeach the entire 1.6× narrative; other lenses treated the workpapers as a neutral arithmetic source. [premortem]
+- **Distributive and representational fallout** — only structural noted that the program's actual beneficiaries are absent from the case and that the doctrinally "safest" fix is distributively harshest on them. [structural]
+- **Under-explored across ALL lenses (absence noted, no analysis added):** (a) the suit's *timeliness posture* — three lenses name three conflicting candidate limitations frameworks (Gov. Code §53759 120-day [steelman]; CCP §338 / Gov. Code claims presentation [tetlock]; reverse-validation CCP §860 et seq. [dialectic]) and none analyzes which applies or whether this suit is timely; (b) *Plantier* is cited by four lenses purely as a procedural placeholder — no lens examined what it actually holds about exhaustion or the procedural vehicle; (c) remedy mechanics for already-collected, already-spent restricted funds are flagged for verification everywhere but analyzed nowhere.
+
+## 3. For the lawyer
+
+### Worth developing (ranked)
+
+1. **The dollar reconstruction** — compute what $0.85 would be under a strict 1.6× derivation from the base Tier 2 rate and workpapers; every lens independently identified this as the fact that moves the case most, and tetlock names it the decisive crux. [delphi, tetlock, dialectic, premortem, steelman]
+2. **The revenue-use theory (and its counter)** — the 55% rebate tranche is the cleanest independent path to "substantial part," and the district's only real answer is a quantified avoided-cost/DSM nexus study it has not built; whichever side you're on, this is where the case is likely decided. [delphi, tetlock, dialectic, steelman, premortem]
+3. **Pin down the deference line** — verify Coziahr's identity/holding, which Griffith supplies the deference principle, and what Wilde actually holds (burden vs. no-mathematical-precision); the entire residual disagreement about outcome hangs partly on unverified authority. [delphi, tetlock, steelman, structural]
+4. **Restructuring/settlement sequencing** — if repairing, do it with clean rescission and a fresh §6(a) process (and resolve the Gov. Code §53750(h) "increase" question), because the same move done badly expands rather than caps exposure; the bond-covenant floor tells you what the district will actually trade. [premortem, tetlock, structural]
+5. **Recycled-plant engineering/demand records** — the one discovery item that could flip the "safest" 30% tranche in either direction (peak-driven sizing helps the district; systemwide sizing helps plaintiffs). [dialectic, steelman]
+6. **Exposure model** — build a partial-loss-plus-§1021.5 scenario (the failure mode premortem says gets undercounted), including the limitations-period question and the narrow-private-interest fee defense. [premortem, tetlock, dialectic, structural, steelman]
+7. **Kill-or-keep decision on the "not a fee" argument** — three lenses say it costs credibility; one constructs a preservable version; this is a deliberate tactical choice, not a costless hedge. [premortem, structural, dialectic, steelman]
+8. **Ambassador time-allocation records** — a discrete factual item that resolves the third vulnerable tranche cheaply. [dialectic, steelman, delphi]
+
+### Must verify
+
+All of the following are UNVERIFIED as cited by the lenses; several were cited inconsistently across lenses:
+
+- *Capistrano Taxpayers Assn. v. City of San Juan Capistrano* (2015) 235 Cal.App.4th 1493 — pinpoint holding; specifically whether the city had *any* cost study or the court rejected an existing one (the load-bearing process-vs-result distinction). [all lenses]
+- *Coziahr v. Otay Water District* — identity, year, citation, and holding; three incompatible citations offered (2018) 24 Cal.App.5th 850 / (2023) 91 Cal.App.5th 1 / (2024) 103 Cal.App.5th 122. [delphi, tetlock, steelman, premortem]
+- Which *Griffith* supplies the deference/coverage principle: *Griffith v. Pajaro Valley Water Mgmt. Agency* (2013) 220 Cal.App.4th 586 vs. *Griffith v. City of Santa Cruz* (2012) — itself cited inconsistently as 207 Cal.App.4th 1130 and 1064. [delphi, tetlock, dialectic]
+- *Wilde v. City of Dunsmuir* (2020) 9 Cal.5th 1105 — burden-of-proof holding vs. rate-deference holding (panel split on what it stands for). [delphi, structural]
+- *Bighorn-Desert View Water Agency v. Verjil* (2006) 39 Cal.4th 205 — pinpoint scope (party name spelled three ways across lenses). [delphi, tetlock, dialectic, premortem, steelman]
+- *Morgan v. Imperial Irrigation District* (2014) 223 Cal.App.4th 892 — citation and holding; flagged as the district's best precedent. [dialectic, steelman]
+- *Plantier v. Ramona Municipal Water District* (2019) 7 Cal.5th 372 — actual procedural holding and remedy implications. [delphi, tetlock, dialectic, steelman]
+- *City of San Buenaventura v. United Water Conservation Dist.* (2017) 3 Cal.5th 1191; *Richmond v. Shasta* (2004) 32 Cal.4th 409; *City of Palmdale v. Palmdale Water Dist.* (2011) 198 Cal.App.4th 926 (precedential status); *Silicon Valley Taxpayers* (2008) 44 Cal.4th 431 (whether its special/general-benefit rule imports into the fee context); *Jacks v. City of Santa Barbara*; *Schmeer v. County of Los Angeles*; *Zolly v. City of Oakland* (relevance flagged). [dialectic, tetlock, delphi]
+- Exact text/subdivision placement of art. XIII D §6(b)(1)–(5), including the burden clause and which subdivision carries the revenue cap (lenses used (b)(1) and (b)(2) inconsistently). [tetlock, dialectic, delphi]
+- Prop 26 / art. XIII C §1(e) — exact paragraph numbering of the XIII D exemption ((e)(7)) and the specific-service exception ((e)(2)). [dialectic, tetlock, steelman]
+- Limitations/claims framework — conflicting candidates: Gov. Code §53759 (120 days) [steelman]; CCP §338 / Gov. Code §§900 et seq., 935 [tetlock]; reverse validation, CCP §§860 et seq. / Gov. Code §53511 [dialectic]; Gov. Code §§53750–53756.5 refund procedures [dialectic].
+- Gov. Code §53750(h)(1) "new or increased fee" definition; Gov. Code §53755 notice procedure. [tetlock, premortem]
+- Prop 218 ballot-measure severability provision location. [dialectic]
+- Water Code §375 exact text and scope. [steelman, tetlock]
+- §1021.5 fee-award comparables in Prop 218 litigation. [premortem, dialectic, tetlock]
+- Factual predicates: base Tier 2 rate and rate-study workpapers (including derivation sequencing); rebate-beneficiary distribution data; ambassador time-allocation records; recycled-plant engineering/demand studies; bond covenant/pledge terms; suit timing relative to adoption. [tetlock, dialectic, premortem, steelman, structural]
+
+### What looks decisive
+
+- **The dollar gap between $0.85 and the strict 1.6×-derived figure** — every lens that reached the merits identified this as the largest single driver; tetlock formally names it the decisive crux; the dialectic antithesis concedes the whole defense turns on it. [delphi, tetlock, dialectic, premortem, steelman]
+- **The process-vs-result reading of Capistrano/§6(b)(3)** — whether an admitted non-cost derivation is fatal regardless of arithmetic, resolvable by pinpoint verification of Capistrano and confirmation of whether post-hoc cost reconstruction is permitted at trial. [dialectic, delphi, tetlock, steelman]
+- **Whether the rebate concession is treated as dispositive or as one datum** — this alone determines whether "substantial part" is already overdetermined (the delphi high panelist's view) or still fact-dependent (the cluster's view). [delphi, dialectic, steelman]
+- **Coziahr's actual holding** — the one piece of legal research multiple lenses said could materially move the estimate in either direction. [delphi, tetlock]
+
+## 4. Noise audit
+
+- **delphi**: the highest padding-to-signal ratio. Seven panelists reproduce the same three-pillar structure nearly verbatim; the full final-round answers are ~80% redundant with the persistent-disagreement report, and much of the text is meta-commentary about why panelists did or didn't move (net movement: three points over two rounds). The distillate — the persistent-disagreement report and the citation-instability finding on Coziahr/Griffith/Wilde — is genuinely valuable; the bulk is duplicative.
+- **tetlock**: partly structured word-salad at the edges. Q4 is self-admitted double-counting of Q2. Q5's "58%" and especially Q6's "60%" attach probabilities to questions that are not propositions (60% of *what* is never stated) — numerical dressing on advisory content. The recomposition also inserts an unexplained ad hoc adjustment (Q3's 45% discounted to 30%). The gated-tree structure and the decisive-crux identification are real contributions.
+- **dialectic**: substantive throughout, but internally duplicative — thesis, antithesis, and synthesis each carry overlapping repair blueprints and near-identical verification checklists, so roughly a third of the volume is the same content restated three times.
+- **premortem**: tight, low noise, and the source of most of the failure modes no other lens caught.
+- **steelman**: performs its assigned role with modest rhetorical padding; it contributes genuinely distinct material (§6(b)(4) text argument, AWWA M1, §53759, §1(e)(2)) rather than restating the antithesis.
+- **structural**: mostly non-duplicative and the sole source of the non-doctrinal drivers; minor repetition (the "cosmetic compliance/relabeling" point appears twice in slightly different clothes).

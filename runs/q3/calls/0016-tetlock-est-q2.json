@@ -1,0 +1,77 @@
+{
+  "seq": 16,
+  "label": "tetlock-est-q2",
+  "model": "claude-sonnet-5",
+  "attempt": 0,
+  "duration_s": 424.3,
+  "cost_usd": 0.162047,
+  "usage": {
+    "input_tokens": 243,
+    "cache_creation_input_tokens": 2300,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 9746,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 2300,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 243,
+        "output_tokens": 9746,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 2300,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2300
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "system": "You are performing one specific cognitive operation as an isolated component of a legal-exploration pipeline. You never see the other components' outputs, and nobody sees yours until a separate neutral aggregation step. Ground rules for every component:\n- The scenario is an invented hypothetical; there is no real client. Your output goes to a licensed California attorney who will do the actual legal reasoning. You generate angles to pursue and things to verify — not advice to be relied on.\n- Cite specific authorities (statutes, cases, regulations) when they genuinely support a point. Every citation is automatically flagged UNVERIFIED for human checking, so cite what you believe is correct, but never fabricate quotations or pinpoint holdings you are unsure of. When unsure, write \"verify whether X holds Y\" instead of asserting it.\n- Perform ONLY the operation described below. Do not produce a general-purpose legal memo.\n\nOperation: estimate ONE sub-question in isolation. You see only the facts and\nthis sub-question; you must not analyze the broader dispute. Give a calibrated\nprobability and the few considerations doing the real work.",
+  "prompt": "## Facts (invented hypothetical — no real parties)\n\nIn the City of Rio Robles (invented), Councilmember Dana Okafor's spouse is the salaried Director of Programs (~$95,000/yr) at Harbor Light Alliance, a 501(c)(3) homeless-services provider. Under a 2019 city resolution, Okafor also sits on Harbor Light's board of directors, uncompensated, as the council's designated liaison.\n\nThe council is about to (a) adopt the framework and scoring criteria for a competitive RFP allocating $2.3M in combined city general-fund and state HHAP pass-through money for homelessness services, and then (b) award the resulting contract(s). Harbor Light is one of three realistic bidders and has historically won about 60% of the city's homelessness contracts. The spouse's position is funded out of Harbor Light's general operating budget, to which city contracts contribute roughly 40%.\n\nOkafor asks the city attorney: May I vote on the RFP framework? On the award? Must I resign the board seat or must my spouse's employment change? And if I simply recuse, is the city safe contracting with Harbor Light?\n\n## The question\n\nAnalyze under Government Code § 1090 (including whether board membership plus a spouse's salaried employment is a prohibited financial interest 'in' the contract, whether any § 1091 remote-interest or § 1091.5 noninterest exception applies, and whether recusal even cures § 1090 for a board member), and under the Political Reform Act (§§ 87100, 87103 — community-property interest in spouse's income, materiality, and the public-generally exception), plus common-law conflict doctrine. What combination of resignation, recusal, wall procedures, or contract structuring lets the city lawfully fund Harbor Light, if any? What are the consequences of getting it wrong (§ 1090 voidness, disgorgement, criminal exposure, FPPC enforcement)?\n\n## Sub-question to estimate (in isolation)\n\n**If Okafor has a section 1090 financial interest, does any statutory carve-out apply - specifically, is the uncompensated nonprofit-board seat a remote interest under section 1091(b) (and if so which subsection, e.g., a noncompensated-officer/director-of-nonprofit category) or a noninterest under section 1091.5, or does any provision address a spouse's employment by the contracting entity as a noninterest - and what disclosure/abstention procedure would be required to preserve the contract's validity if an exception applies?**\n\nWhat would have to be true: Would need pinpoint verification of the current text of section 1091(b) and section 1091.5(a) to identify any subsection covering (i) uncompensated nonprofit directors/officers, (ii) government-designated liaisons to outside boards, or (iii) a spouse's employment relationship, and confirmation via AG opinions or case law of how those categories have been applied to facts resembling council-liaison board seats plus spousal employment.",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "probability": {
+        "type": "number",
+        "description": "0-100"
+      },
+      "key_considerations": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "minItems": 2,
+        "maxItems": 5
+      },
+      "what_evidence_would_change_this": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "probability",
+      "key_considerations",
+      "what_evidence_would_change_this"
+    ]
+  },
+  "text": "{\"probability\":20,\"key_considerations\":[\"Government Code § 1091(b) likely does contain a subsection (added to address exactly the 'council-designated liaison to an outside nonprofit board' scenario) exempting a noncompensated officer/director of a nonprofit, tax-exempt corporation that supports the body's functions or to which the body has an appointment/liaison relationship — this appears squarely aimed at the board-seat piece of Okafor's interest, but the precise subsection number and current wording need pinpoint statutory verification (it has been renumbered/amended over time).\",\"Even if the board-seat interest is a 'remote interest' curable under § 1091(a) (disclosure in the official record + Okafor's total non-participation, including no influence/advocacy behind the scenes, with the remaining members acting without counting him toward quorum), that cure only reaches the board-membership interest — it does not automatically reach the analytically separate financial interest arising from the spouse's $95K salary at Harbor Light, which is independently imputed to Okafor under § 1090/community-property principles.\",\"I have low confidence that any § 1091(b) remote-interest or § 1091.5(a) noninterest category specifically covers a spouse's compensated employment with a contracting nonprofit whose revenue is materially dependent (~40%) on the very contracts being awarded — the closer statutory analogues (e.g., rank-and-file employee whose duties don't touch the contract, or fixed-salary employee unaffected by contract outcome) generally require that the position not be affected by the award, which is doubtful here given Harbor Light's budget dependency and the spouse's management-level 'Director of Programs' title.\",\"Thomson v. Call (1985) 38 Cal.3d 633 and related authority hold that mere recusal by a sitting board member generally does NOT cure a § 1090 conflict (unlike under the Political Reform Act) absent a statutory remote-interest/noninterest exception with its specific procedural predicate satisfied — so if the spousal-employment interest doesn't independently fall into an enumerated exception, disclosure-and-abstention alone likely cannot save the contract as to that interest, regardless of how the board-seat interest is resolved.\",\"Because two distinct financial interests are in play (board seat and spousal salary), a full 'carve-out cures everything' outcome requires BOTH to independently qualify for an exception with its procedure properly followed; the compound probability of that being true is materially lower than the probability that the board-seat piece alone qualifies.\"],\"what_evidence_would_change_this\":\"Pinpoint text-check of the current (2026) Government Code §§ 1091(b) and 1091.5(a) subsections and their legislative history/AG interpretive opinions specifically addressing (1) noncompensated nonprofit officer/director liaison seats and (2) a public official's spouse employed by a contracting nonprofit whose funding depends materially on the contract at issue; also any FPPC or AG opinions or published case law applying these provisions to facts combining both a governance seat and a spouse's compensation tied to the contracting entity's budget, and confirmation of whether the spouse's compensation is fixed/unaffected by the specific award (which would support a noninterest finding) versus variable or job-security-linked (which would defeat it).\"}",
+  "data": {
+    "probability": 20,
+    "key_considerations": [
+      "Government Code § 1091(b) likely does contain a subsection (added to address exactly the 'council-designated liaison to an outside nonprofit board' scenario) exempting a noncompensated officer/director of a nonprofit, tax-exempt corporation that supports the body's functions or to which the body has an appointment/liaison relationship — this appears squarely aimed at the board-seat piece of Okafor's interest, but the precise subsection number and current wording need pinpoint statutory verification (it has been renumbered/amended over time).",
+      "Even if the board-seat interest is a 'remote interest' curable under § 1091(a) (disclosure in the official record + Okafor's total non-participation, including no influence/advocacy behind the scenes, with the remaining members acting without counting him toward quorum), that cure only reaches the board-membership interest — it does not automatically reach the analytically separate financial interest arising from the spouse's $95K salary at Harbor Light, which is independently imputed to Okafor under § 1090/community-property principles.",
+      "I have low confidence that any § 1091(b) remote-interest or § 1091.5(a) noninterest category specifically covers a spouse's compensated employment with a contracting nonprofit whose revenue is materially dependent (~40%) on the very contracts being awarded — the closer statutory analogues (e.g., rank-and-file employee whose duties don't touch the contract, or fixed-salary employee unaffected by contract outcome) generally require that the position not be affected by the award, which is doubtful here given Harbor Light's budget dependency and the spouse's management-level 'Director of Programs' title.",
+      "Thomson v. Call (1985) 38 Cal.3d 633 and related authority hold that mere recusal by a sitting board member generally does NOT cure a § 1090 conflict (unlike under the Political Reform Act) absent a statutory remote-interest/noninterest exception with its specific procedural predicate satisfied — so if the spousal-employment interest doesn't independently fall into an enumerated exception, disclosure-and-abstention alone likely cannot save the contract as to that interest, regardless of how the board-seat interest is resolved.",
+      "Because two distinct financial interests are in play (board seat and spousal salary), a full 'carve-out cures everything' outcome requires BOTH to independently qualify for an exception with its procedure properly followed; the compound probability of that being true is materially lower than the probability that the board-seat piece alone qualifies."
+    ],
+    "what_evidence_would_change_this": "Pinpoint text-check of the current (2026) Government Code §§ 1091(b) and 1091.5(a) subsections and their legislative history/AG interpretive opinions specifically addressing (1) noncompensated nonprofit officer/director liaison seats and (2) a public official's spouse employed by a contracting nonprofit whose funding depends materially on the contract at issue; also any FPPC or AG opinions or published case law applying these provisions to facts combining both a governance seat and a spouse's compensation tied to the contracting entity's budget, and confirmation of whether the spouse's compensation is fixed/unaffected by the specific award (which would support a noninterest finding) versus variable or job-security-linked (which would defeat it)."
+  }
+}

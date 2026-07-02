@@ -1,0 +1,641 @@
+{
+  "angles": [
+    {
+      "summary": "The claimed affordable-housing exemption fails on income mix: moderate-income units don't count toward lower-income thresholds, so the real figure is 18/120 (15%), not 30%.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "tetlock",
+        "dialectic",
+        "steelman"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "The 25-year covenant term independently defeats any affordability-based exemption against the 55/45-year statutory floors, with the year-26 reversion of value to the developer as the economic core of HCD's objection.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "tetlock",
+        "dialectic",
+        "steelman",
+        "structural"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Skipping the § 54222 Notice of Availability before the ENA is itself a violation because an ENA is an 'action to dispose' — the sequencing defect exists independent of the exemption analysis.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "tetlock",
+        "dialectic",
+        "steelman",
+        "premortem"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "No alternative § 54221(f) exemption category (small parcels, agency transfers, rights-of-way, etc.) plausibly covers a $1 conveyance of a 4.2-acre corp yard to a for-profit LLC for a majority-market-rate project.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "tetlock",
+        "dialectic"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "The full procedural machinery owed for non-exempt surplus land: public declaration with findings, NOAs to sponsors/park/school entities, 60-day interest window, 90-day good-faith priority negotiation with deepest-affordability preference, HCD pre-disposition review and cure window, and AB 480 advance notice for exempt declarations — laid out concretely by both naive passes; the panel only flags the statute sections to pull.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "tetlock",
+        "dialectic",
+        "steelman"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "§ 54233's substantive floor for non-exempt dispositions (≥15% lower-income at 55/45-year covenants) means the 25-year term made the deal illegal even in the counterfactual where the process was perfect — the panel only lists § 54233 as an inconsistently-characterized verify item.",
+      "in_panel": false,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Penalty mechanics: 30% (50% subsequent) of the greater of sale price or FMV ≈ $3.54M/$5.9M — AB 480 closed the exact $1-sale loophole — with Fable adding that penalty funds are earmarked to affordable housing, not a fee to keep the deal.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "tetlock",
+        "dialectic",
+        "premortem",
+        "steelman"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Penalty attachment timing: liability attaches to disposing after the NOV, so if escrow hasn't closed the city can avoid the penalty entirely by not conveying and using the cure window — Fable develops the mechanics; Sonnet advises 'do not close'; the panel only lists escrow status as a verify fact.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "tetlock"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Liability vs. remedy gap: the Act doesn't expressly void completed conveyances; unwinding requires writ/§ 526a vehicles and rescission is far less certain than a violation finding.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "tetlock",
+        "dialectic"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Private/third-party enforcement exists beyond HCD: housing sponsors who never got notice, interested persons, mandamus, and the taxpayer plaintiffs are independent threats to deal finality.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "premortem",
+        "dialectic",
+        "structural"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "An HCD settlement cannot preclude a sponsor suit, and the NOV's publicity may itself summon the sponsor who never bid — with a contested sub-debate on whether no sponsor appearing weakens the case for strong relief.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "premortem",
+        "dialectic"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "HCD enforcement posture and real-world trajectory: NOV → corrective-action negotiation vs. AG referral, calibrated by the Anaheim/Angel Stadium precedent (Fable) and stress-tested by the cure-path-failure and penalty-as-mandatory counterviews (panel).",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "dialectic",
+        "structural",
+        "premortem",
+        "steelman"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Pin down in writing whether the NOV demands 'fix the numbers' or treats the structure as unlawful ab initio — this drives cure design, the penalty clock, and the negotiated-cure-vs-failure fork.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "premortem",
+        "dialectic",
+        "tetlock"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Statutory-version/retroactivity gap: ENA/DDA dates against AB 1486/SB 6/AB 480 operative dates and savings/transition clauses determine which thresholds even govern (naive passes say 'verify current text' but miss the which-version-applies question).",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "dialectic"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Charter-city status check (unstated in facts; likely a weak defense but must be confirmed).",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "delphi",
+        "dialectic"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Validation-action angle (CCP §§ 860–870): the panel flags a possible limitations bar; Sonnet flags the affirmative use — validating the restructured deal to cut off follow-on challenges.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "dialectic"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "'Sole purpose' wrinkle: the plaza as bargained-for consideration may undermine the exemption's sole-purpose element, turning on the DDA's title/easement treatment of the plaza.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "dialectic"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Canon-of-construction tension: remedial statutes construed broadly vs. penalty-triggering provisions construed narrowly, as a possible penalty-narrowing argument.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "dialectic"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Yamaha deference may cut against HCD: an NOV is a litigating position and APA-exempt guidelines lack notice-and-comment weight — though deference is largely irrelevant to bare numeric comparisons.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "dialectic"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Investigate which exemption the city's resolution actually invoked and whether any exemption finding predates the ENA — the reverse-engineered-exemption/pretext theory discoverable through a timeline and document review.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "delphi",
+        "dialectic",
+        "structural"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Gift clause governed by the deferential Janssen public-purpose doctrine — no dollar-for-dollar equivalence required; the standalone constitutional claim likely fails given affordable housing is a settled public purpose.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "tetlock",
+        "dialectic",
+        "premortem"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "The SLA violation is the taxpayer plaintiffs' best pretext/sham evidence against public-purpose deference, and curing the SLA defects directly strengthens the gift-clause defense — the exposures are evidentially coupled.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "tetlock",
+        "dialectic",
+        "premortem",
+        "steelman"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "The CCP § 526a illegal-expenditure theory bypasses gift-clause deference entirely: the taxpayer doesn't need to win the constitutional argument because an SLA-illegal disposition is enjoinable regardless of public purpose (Harman) — the gift clause is the headline, § 526a is the winning theory.",
+      "in_panel": false,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Build a quantified valuation record of the in-kind consideration: NPV of the affordability gap (moderate units carry near-zero subsidy value), plaza construction/maintenance costs, and evidence-backed council findings — Fable runs the numbers ($5–7M vs. $11.8M), Sonnet prescribes the gap/residual analysis, the panel has only steelman's four-word 'appraisal-documented offset pricing' flag.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "steelman"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "The $11.8M appraisal is itself a contested input: former-corp-yard contamination/remediation liability and the uncosted plaza obligation may substantially shrink the real gift-clause spread.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "structural"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Gov. Code §§ 52200–52203 (AB 562) below-FMV conveyance procedure — public hearing plus summary report stating cost, FMV, highest-use value, and consideration — as the statutory gift-clause armor the city skipped (plus § 65402/CEQA checklist items).",
+      "in_panel": false,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Article XXXIV voter-approval check: with ≤49% low-income units, private ownership, and no city development role, this is not a 'low-rent housing project' — one exposure ruled out.",
+      "in_panel": false,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Enforceable recourse in the DDA — covenants recorded pre-closing, completion guaranties/bonds for the plaza, reversion rights for affordability breach — as evidence the consideration is real, not illusory.",
+      "in_panel": false,
+      "in_naive_sonnet": true,
+      "in_naive_fable": false,
+      "panel_lenses": [],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Ground lease instead of fee conveyance (retained reversion improves the gift/waste posture and preserves the asset; still an SLA 'disposition' except short terms).",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "steelman"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Disparate-impact framework and proof requirements: Inclusive Communities burden-shifting, robust causality, applicant-pool (not citywide) demographics as the decisive data, with the 50% share and generic five-year test as the aggravating design features.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "tetlock",
+        "steelman",
+        "premortem"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "FEHA and the Civil Rights Council regulations are likely easier for plaintiffs than the FHA (no-less-protective construction rule; effects test without the Inclusive Communities causality gloss) — the state claim drives exposure.",
+      "in_panel": false,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [],
+      "quality": "substantive"
+    },
+    {
+      "summary": "AFFH (Gov. Code § 8899.50/AB 686) as an independent, affirmative, mandamus-enforceable design duty attaching specifically to public-land disposition — pressure regardless of litigation outcome.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "tetlock",
+        "steelman",
+        "premortem"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "HCD wears both hats — SLA enforcement and AFFH/housing-element/RHNA oversight (decertification and builder's-remedy leverage) — so defending the preference while negotiating the SLA cure is strategically incoherent; the panel adds the silo/RHNA-credit irony.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "structural"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "No displacement nexus exists (a corp yard displaced no one), so the anti-displacement/right-to-return preference is the defensible redesign template — with Fable adding SB 649 as the legislatively blessed model.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "tetlock",
+        "premortem",
+        "steelman"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Preference redesign toolkit: shrink the share or convert to tie-breaker/weighted lottery, drop the durational test, region-wide affirmative marketing, demographic monitoring and sunset, and a pre-adoption DI/AFFH study built into the record.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "tetlock",
+        "structural",
+        "premortem",
+        "steelman"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Counter-position that redesign cannot save the preference: dilution is the same unlawful mechanism at smaller scale — only elimination or de-linking from local tenure works.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "steelman"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "CTCAC/LIHTC program regulations independently cap local preferences well below 50% and require a displacement-type nexus — the current design is likely non-compliant with tax-credit rules regardless of how FHA/FEHA analysis comes out.",
+      "in_panel": false,
+      "in_naive_sonnet": true,
+      "in_naive_fable": false,
+      "panel_lenses": [],
+      "quality": "substantive"
+    },
+    {
+      "summary": "The five-year durational element draws constitutional right-to-travel scrutiny (Shapiro/Saenz/Thompson v. Mellon) — an added, independent reason to kill the durational requirement.",
+      "in_panel": false,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Get the preference out of the recorded deed: a 25-year covenant embedding a possibly illegal preference is an unamendable title problem — put it in an amendable regulatory/leasing agreement.",
+      "in_panel": false,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Real-world comparators calibrating preference risk: NYC's Winfield litigation (a decade of discovery for a more defensible design), HUD's rejection of San Francisco's neighborhood preference, and Parma-style exclusionary-suburb precedent.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "steelman",
+        "tetlock"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "An optics-driven preference redesign without a factual record risks escalating disparate impact into an Arlington Heights intentional-discrimination claim in discovery, with damages and fee-shifting exposure.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "premortem"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Procedural posture of the fair-housing organization's threatened suit — standing, ripeness before lease-up, limitations — flagged by the panel only as a cross-lens absence, developed nowhere.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Cross-exposure interaction map: the SLA is the load-bearing violation, curing it largely fixes the gift clause, and the three fixes do not map one-to-one.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "tetlock",
+        "structural",
+        "premortem",
+        "steelman"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Cure-path anti-synergy the panel's 'orthogonal' framing misses: deepening affordability to satisfy the SLA puts more units under the tainted preference, enlarging the fair-housing exposure unless the preference is conceded first.",
+      "in_panel": false,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Deal-finality and counterparty dynamics: Pacifica's reliance and breach exposure under the DDA, rescission leverage from the DDA's own illegality, and Pacifica's title-insurability problem.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "tetlock",
+        "structural",
+        "premortem",
+        "steelman"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Test Pacifica's contractual/financing capacity to accept a cure — lender and LIHTC-investor consents may bar covenant extension, converting a proposed 'cure' into anticipatory-breach exposure.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "premortem",
+        "tetlock"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Concrete SLA restructuring roadmap with an explicit fork: Option A (withdraw the exemption declaration, redeclare, issue NOAs, run the windows, meet § 54233 terms) vs. Option B (earn the exemption via 100% affordable/≥75% lower-income and open competitive bid) — present in both naive passes, absent from the panel.",
+      "in_panel": false,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Warning against the housing-authority pass-through gambit: authorities are themselves 'local agencies' under the SLA and HCD treats circumvention structures with hostility.",
+      "in_panel": false,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Resolution sequencing: HCD cure plan first, pre-suit engagement with the fair-housing organization, then mootness/stipulated dismissal of the civil suits with § 1021.5 fee exposure as the residual cost.",
+      "in_panel": false,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Single-record control across all three tracks: workout recitals, redesign memos, and findings drafted without gift-clause/fair-housing counsel become the plaintiffs' closing argument — institute cross-workstream drafting review.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "premortem",
+        "tetlock",
+        "dialectic"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Brown Act exposure (§ 54960.1 cure-and-correct) if the preference or DDA amendment is done 'quietly' rather than in noticed open session.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "premortem"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "An open NOV may disqualify the city's unrelated state funding applications (Prohousing/AHSC-type programs) — collateral leverage that changes the settlement calculus.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "premortem"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Political fragility of a multi-year cure: the 4–1 vote as a leading indicator and the electoral-horizon mismatch with the cure timeline.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "premortem",
+        "structural"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Councilmembers face no personal financial exposure (immunity/indemnification), structurally encouraging legally aggressive dispositions.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "structural"
+      ],
+      "quality": "noise"
+    },
+    {
+      "summary": "Funding-source opacity of both plaintiff organizations as a discovery/strategy priority (taxpayer suits recover no damages; someone is paying).",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "structural"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Behavioral-adaptation/policy-chill arguments: aggressive SLA enforcement may push cities to market-rate sales, and a gift-clause win on a bare price-spread theory would chill the standard nominal-price-plus-covenant subsidy mechanism statewide.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "structural"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "'Structurally voiceless beneficiaries' framing: excluded sponsors don't know they were harmed and the 36 future tenant households bear the cost of every resolution path.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "structural"
+      ],
+      "quality": "noise"
+    },
+    {
+      "summary": "Quantified probability layer: delphi's 80–84 median band, tetlock's 8%/27–40%/93–94% composites and $1.8M 'expected exposure' arithmetic stacked on subjective single-worker guesses.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "delphi",
+        "tetlock"
+      ],
+      "quality": "noise"
+    },
+    {
+      "summary": "Internal proposition-interpretation debates: what 'substantially prevail' encompasses, freestanding-vs-derivative labeling of the NOA violation, and the epistemic weight of convergence-despite-divergent-recollections.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "delphi",
+        "dialectic"
+      ],
+      "quality": "noise"
+    },
+    {
+      "summary": "Primary-source verification discipline: every threshold is unverified memory across the amendment cycle; pull current §§ 54221–54234 text, guidelines, and cases before filing anything — present in all three documents, most elaborate in the panel.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "tetlock",
+        "dialectic"
+      ],
+      "quality": "marginal"
+    }
+  ],
+  "panel_unique_assessment": "The panel surfaced ~24 angles found in neither naive pass; about nine are genuinely billable, and nearly all come from premortem, structural, or dialectic: (1) pinning down the NOV's actual demand before designing a cure; (2) the sponsor-suit-despite-HCD-settlement failure mode, including the NOV-publicity-summons-a-sponsor dynamic; (3) Pacifica's lender/LIHTC consent capacity — the best single catch, since both naive passes propose covenant extension without asking whether the counterparty can legally accept it; (4) single-record control across the three tracks; (5) the Arlington Heights intent-escalation trap on an optics-driven redesign; (6) statutory-version/retroactivity keyed to ENA/DDA dates (both naive passes say 'verify current text' but miss which-version-governs); (7) attacking the $11.8M appraisal via contamination and the plaza obligation; (8) the which-exemption-was-invoked/reverse-engineering timeline pull; (9) collateral state-grant ineligibility from an open NOV. Solid second tier: charter-city check, Yamaha deference, the sole-purpose plaza wrinkle, and the steelman's dilution-isn't-cure pressure test. Clear padding dressed as insight: councilmember immunity asymmetry, voiceless-beneficiaries framing, plaintiff funding opacity, behavioral-adaptation policy musing, the composite-probability arithmetic, and the internal proposition-interpretation debates — none changes what a lawyer does Monday morning. The two delphi/tetlock lenses contributed almost nothing unique beyond probability numbers the panel's own audit disclaims.",
+  "noise_assessment": "The panel's noise is substantial and mostly self-diagnosed, which is to its credit but doesn't neutralize the reading cost. Specific noise: (1) the delphi apparatus — seven panelists re-deriving the same three defects, an 80–84 spread carrying no decision information, and a meta-debate about the epistemic weight of convergence among people sharing the same unverified memory; (2) tetlock's stacked-multiplication artifacts ($1.8M 'expected exposure,' 93–94% composite) — pseudo-precision the naive passes achieved equivalently with 'High/Moderate-high' confidence labels; (3) contested-section entries that are process artifacts, not legal disputes ('what does substantially prevail encompass' is an argument about the panel's own forecasting proposition); (4) structural's sociology bullets (immunity asymmetry, voiceless beneficiaries) presented at the same rank as real angles; (5) the enormous must-verify list, which functions partly as coverage-by-citation — listing § 54233 or § 526a as a verify item is not the same as extracting their legal significance, and in both cases the naive passes extracted the significance (counterfactual illegality; deference bypass) while the panel only catalogued the section numbers. There is also one substantive miscue verbosity concealed: the panel labels the preference fix 'orthogonal' to the SLA cure, while Fable correctly identifies an anti-synergy (deepening affordability enlarges the tainted preference pool).",
+  "verdict": "Partially — the panel earned its keep on strategic and operational risk but lost on law. A lawyer would genuinely pay for roughly nine panel-only angles (NOV-demand pin-down, sponsor suits an HCD settlement can't stop, Pacifica's financing capacity to accept a cure, record control, intent escalation, retroactivity, appraisal attack), almost all from the premortem and structural lenses. But the panel was out-covered on black-letter analysis and affirmative deal design: both naive passes independently produced the § 54233 counterfactual-illegality point, the concrete Option A/B cure roadmap, and resolution sequencing that the panel lacks entirely, and Fable alone added eight further substantive angles (§ 526a deference bypass, AB 562 armor, Art. XXXIV, FEHA-easier, right-to-travel, amendable-instrument drafting, pass-through warning, cure-path anti-synergy) — roughly matching the panel's unique substantive yield at a fraction of the noise, while naive-Sonnet alone reproduced nearly the entire convergent core the panel spent five lenses confirming. Net: the pipeline's value is concentrated in two lenses that see around corners the naive passes don't; the consensus machinery mostly re-derives what one Sonnet pass gets for free, and the strongest single document here is Fable-plus-premortem, not the panel."
+}

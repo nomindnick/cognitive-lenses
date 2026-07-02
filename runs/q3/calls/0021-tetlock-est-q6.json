@@ -1,0 +1,77 @@
+{
+  "seq": 21,
+  "label": "tetlock-est-q6",
+  "model": "claude-sonnet-5",
+  "attempt": 0,
+  "duration_s": 529.4,
+  "cost_usd": 0.14613000000000004,
+  "usage": {
+    "input_tokens": 243,
+    "cache_creation_input_tokens": 2453,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 8619,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 2453,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 243,
+        "output_tokens": 8619,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 2453,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2453
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "system": "You are performing one specific cognitive operation as an isolated component of a legal-exploration pipeline. You never see the other components' outputs, and nobody sees yours until a separate neutral aggregation step. Ground rules for every component:\n- The scenario is an invented hypothetical; there is no real client. Your output goes to a licensed California attorney who will do the actual legal reasoning. You generate angles to pursue and things to verify — not advice to be relied on.\n- Cite specific authorities (statutes, cases, regulations) when they genuinely support a point. Every citation is automatically flagged UNVERIFIED for human checking, so cite what you believe is correct, but never fabricate quotations or pinpoint holdings you are unsure of. When unsure, write \"verify whether X holds Y\" instead of asserting it.\n- Perform ONLY the operation described below. Do not produce a general-purpose legal memo.\n\nOperation: estimate ONE sub-question in isolation. You see only the facts and\nthis sub-question; you must not analyze the broader dispute. Give a calibrated\nprobability and the few considerations doing the real work.",
+  "prompt": "## Facts (invented hypothetical — no real parties)\n\nIn the City of Rio Robles (invented), Councilmember Dana Okafor's spouse is the salaried Director of Programs (~$95,000/yr) at Harbor Light Alliance, a 501(c)(3) homeless-services provider. Under a 2019 city resolution, Okafor also sits on Harbor Light's board of directors, uncompensated, as the council's designated liaison.\n\nThe council is about to (a) adopt the framework and scoring criteria for a competitive RFP allocating $2.3M in combined city general-fund and state HHAP pass-through money for homelessness services, and then (b) award the resulting contract(s). Harbor Light is one of three realistic bidders and has historically won about 60% of the city's homelessness contracts. The spouse's position is funded out of Harbor Light's general operating budget, to which city contracts contribute roughly 40%.\n\nOkafor asks the city attorney: May I vote on the RFP framework? On the award? Must I resign the board seat or must my spouse's employment change? And if I simply recuse, is the city safe contracting with Harbor Light?\n\n## The question\n\nAnalyze under Government Code § 1090 (including whether board membership plus a spouse's salaried employment is a prohibited financial interest 'in' the contract, whether any § 1091 remote-interest or § 1091.5 noninterest exception applies, and whether recusal even cures § 1090 for a board member), and under the Political Reform Act (§§ 87100, 87103 — community-property interest in spouse's income, materiality, and the public-generally exception), plus common-law conflict doctrine. What combination of resignation, recusal, wall procedures, or contract structuring lets the city lawfully fund Harbor Light, if any? What are the consequences of getting it wrong (§ 1090 voidness, disgorgement, criminal exposure, FPPC enforcement)?\n\n## Sub-question to estimate (in isolation)\n\n**What is the realistic menu of structural remedies (spouse's resignation/reassignment away from city-funded duties, Okafor's resignation from the Harbor Light board, rescinding or amending the 2019 liaison resolution, full recusal plus independent scoring panel, contract restructuring to exclude Harbor Light or wall off HHAP funds, or simply not contracting with Harbor Light) that would actually eliminate the section 1090/PRA problems prospectively, and what are the concrete legal consequences (contract voidness under section 1092, disgorgement exposure, misdemeanor criminal liability under section 1097, FPPC administrative penalties, and HHAP state-funding audit/clawback risk) if the city proceeds without adequately curing the conflict?**\n\nWhat would have to be true: Would need confirmation of section 1092's voidability mechanics and any limitations period, whether disgorgement under section 1090 case law (e.g., Carson Redevelopment Agency v. Padilla, Lexin v. Superior Court) reaches non-official third parties like Harbor Light or only the official's own compensation, the mens rea/willfulness requirement for section 1097 criminal liability, current FPPC penalty ranges and enforcement priorities for spousal-income conflicts, and whether HHAP program rules impose independent conflict-of-interest certification requirements that could trigger state clawback regardless of the section 1090/PRA outcome.",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "probability": {
+        "type": "number",
+        "description": "0-100"
+      },
+      "key_considerations": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "minItems": 2,
+        "maxItems": 5
+      },
+      "what_evidence_would_change_this": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "probability",
+      "key_considerations",
+      "what_evidence_would_change_this"
+    ]
+  },
+  "text": "{\"probability\":10,\"key_considerations\":[\"Framing of the estimate: probability that RECUSAL ALONE (Okafor abstaining from discussion/vote on both the RFP framework and the award, even paired with an independent scoring panel and 'walled-off' HHAP funds) is legally SUFFICIENT to cure the Section 1090 problem without also requiring board resignation, rescission of the 2019 liaison resolution, and/or severing the spouse's compensation from city-funded revenue. I estimate this at ~10% (i.e., ~90% likely recusal alone does NOT suffice).\",\"Doctrinal driver: Section 1090's 'non-cure by abstention' rule for a sitting member of the contracting body itself. Thomson v. Call (1985) 38 Cal.3d 633 and Stigall v. City of Taft (1962) 58 Cal.2d 565 (verify pinpoint holdings) stand for the proposition that when the interested official sits on the very body approving the contract, mere non-participation in the vote does not remove the taint — the statutory 'remote interest' cure of recusal-plus-disclosure is available only for the specific categories enumerated in §1091, and the 'noninterest' cure only for the categories in §1091.5, not as a general common-law abstention doctrine. Unless Okafor's board-liaison role fits squarely within a §1091/1091.5 category (e.g., possibly §1091.5(a)(8)-type nonprofit-director noninterest — verify exact text and whether spousal compensation independently disqualifies it), recusal from the vote is likely legally inadequate.\",\"Spousal income as an independent, freestanding disqualifying interest: even if Okafor resigned the board seat entirely, the spouse's ~$95k salary from an entity receiving ~40% of its operating budget from city contracts is likely treated as Okafor's own financial interest under §1090 via community-property attribution, and as 'income from a source' under Gov. Code §87103(c) for PRA purposes — meaning board resignation alone, or recusal alone, addresses only one leg of a two-leg conflict (board membership AND spousal employment) and probably leaves the other leg unresolved.\",\"Fungibility problem for 'wall' or 'contract-structuring' remedies: because nonprofit general operating budgets commingle funding sources, segregating HHAP funds from Harbor Light's general operating budget (which pays the spouse) or restricting the award to non-HHAP dollars is unlikely to be recognized by a court as eliminating the financial interest — §1090 case law generally treats the whole contract, not a carved-out funding stream, as the relevant unit of analysis (verify against any case addressing partial/segregated funding as a cure). This makes 'contract restructuring while keeping Harbor Light as awardee' a weak remedy on its own.\",\"Genuine uncertainty / first-impression risk: this exact fact pattern (uncompensated council-liaison board seat at a nonprofit + spouse's salaried job there, funded substantially by city contracts) does not map cleanly onto a single controlling case; the analysis rests on analogizing Honig, Lexin, Carson Redevelopment Agency v. Padilla, and PRA materiality regulations (2 CCR §18702.1 et seq., verify current cite), which increases residual uncertainty in either direction — a well-argued position could exist that materiality/attenuation principles borrowed from the PRA should inform whether the spousal interest is disqualifying at all, though §1090 is traditionally understood as a stricter, non-materiality-based bright-line rule.\"],\"what_evidence_would_change_this\":\"Would raise the probability that recusal alone suffices: (1) confirmation that Okafor's uncompensated liaison directorship falls within a §1091 remote-interest or §1091.5 noninterest category that expressly contemplates nonprofit-board service by a public official and treats it as curable by disclosure/abstention regardless of a spouse's employment there; (2) case law or an AG opinion holding that a spouse's salary from a 40%-city-funded nonprofit is too attenuated/non-material to constitute a §1090 'financial interest' at all; (3) authority that §1090's 'interested body member' rule applies only to the vote itself and that full withdrawal from all deliberation, drafting, and scoring (not just the vote) satisfies the statute even for a non-remote interest. Would lower it further/confirm: any case squarely holding recusal by an interested sitting member never cures §1090 regardless of exception category, or an FPPC/AG opinion treating spousal nonprofit-executive income funded by the same agency's contracts as a per se disqualifying, non-curable-by-recusal interest.\"}",
+  "data": {
+    "probability": 10,
+    "key_considerations": [
+      "Framing of the estimate: probability that RECUSAL ALONE (Okafor abstaining from discussion/vote on both the RFP framework and the award, even paired with an independent scoring panel and 'walled-off' HHAP funds) is legally SUFFICIENT to cure the Section 1090 problem without also requiring board resignation, rescission of the 2019 liaison resolution, and/or severing the spouse's compensation from city-funded revenue. I estimate this at ~10% (i.e., ~90% likely recusal alone does NOT suffice).",
+      "Doctrinal driver: Section 1090's 'non-cure by abstention' rule for a sitting member of the contracting body itself. Thomson v. Call (1985) 38 Cal.3d 633 and Stigall v. City of Taft (1962) 58 Cal.2d 565 (verify pinpoint holdings) stand for the proposition that when the interested official sits on the very body approving the contract, mere non-participation in the vote does not remove the taint — the statutory 'remote interest' cure of recusal-plus-disclosure is available only for the specific categories enumerated in §1091, and the 'noninterest' cure only for the categories in §1091.5, not as a general common-law abstention doctrine. Unless Okafor's board-liaison role fits squarely within a §1091/1091.5 category (e.g., possibly §1091.5(a)(8)-type nonprofit-director noninterest — verify exact text and whether spousal compensation independently disqualifies it), recusal from the vote is likely legally inadequate.",
+      "Spousal income as an independent, freestanding disqualifying interest: even if Okafor resigned the board seat entirely, the spouse's ~$95k salary from an entity receiving ~40% of its operating budget from city contracts is likely treated as Okafor's own financial interest under §1090 via community-property attribution, and as 'income from a source' under Gov. Code §87103(c) for PRA purposes — meaning board resignation alone, or recusal alone, addresses only one leg of a two-leg conflict (board membership AND spousal employment) and probably leaves the other leg unresolved.",
+      "Fungibility problem for 'wall' or 'contract-structuring' remedies: because nonprofit general operating budgets commingle funding sources, segregating HHAP funds from Harbor Light's general operating budget (which pays the spouse) or restricting the award to non-HHAP dollars is unlikely to be recognized by a court as eliminating the financial interest — §1090 case law generally treats the whole contract, not a carved-out funding stream, as the relevant unit of analysis (verify against any case addressing partial/segregated funding as a cure). This makes 'contract restructuring while keeping Harbor Light as awardee' a weak remedy on its own.",
+      "Genuine uncertainty / first-impression risk: this exact fact pattern (uncompensated council-liaison board seat at a nonprofit + spouse's salaried job there, funded substantially by city contracts) does not map cleanly onto a single controlling case; the analysis rests on analogizing Honig, Lexin, Carson Redevelopment Agency v. Padilla, and PRA materiality regulations (2 CCR §18702.1 et seq., verify current cite), which increases residual uncertainty in either direction — a well-argued position could exist that materiality/attenuation principles borrowed from the PRA should inform whether the spousal interest is disqualifying at all, though §1090 is traditionally understood as a stricter, non-materiality-based bright-line rule."
+    ],
+    "what_evidence_would_change_this": "Would raise the probability that recusal alone suffices: (1) confirmation that Okafor's uncompensated liaison directorship falls within a §1091 remote-interest or §1091.5 noninterest category that expressly contemplates nonprofit-board service by a public official and treats it as curable by disclosure/abstention regardless of a spouse's employment there; (2) case law or an AG opinion holding that a spouse's salary from a 40%-city-funded nonprofit is too attenuated/non-material to constitute a §1090 'financial interest' at all; (3) authority that §1090's 'interested body member' rule applies only to the vote itself and that full withdrawal from all deliberation, drafting, and scoring (not just the vote) satisfies the statute even for a non-remote interest. Would lower it further/confirm: any case squarely holding recusal by an interested sitting member never cures §1090 regardless of exception category, or an FPPC/AG opinion treating spousal nonprofit-executive income funded by the same agency's contracts as a per se disqualifying, non-curable-by-recusal interest."
+  }
+}

@@ -1,0 +1,543 @@
+{
+  "angles": [
+    {
+      "summary": "The surcharge is a property-related fee under Bighorn-Desert View (volumetric retail water charges), with extraction/connection-charge authorities (San Buenaventura, Richmond, Great Oaks) distinguishable, largely foreclosing the district's 'not a fee' threshold defense.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "tetlock",
+        "dialectic",
+        "premortem"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "A preservable textual construction of the not-a-fee argument via §6(b)(4)'s 'immediately available' language and the volitional-act distinction: the surcharge increment attaches to voluntary above-baseline consumption, not incident of ownership.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "steelman"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "The kill-or-keep tactical decision on pleading 'not a property-related fee' at all — credibility cost and internal strain versus preservation for appeal.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "premortem",
+        "structural",
+        "dialectic",
+        "steelman"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "The Prop 26 trap: if the charge is not property-related it must fit an art. XIII C §1(e) exception, fails the reasonable-cost test for the same reasons, and — as a restricted-fund levy — becomes an unapproved special tax requiring two-thirds voter approval, voiding it entirely.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "dialectic",
+        "tetlock",
+        "steelman"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Article XIII D §6(b) places the burden of proving compliance on the agency, converting the district's posture into damage control given its own record concessions.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "tetlock",
+        "dialectic",
+        "steelman"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "The standard of review is independent/non-deferential (Silicon Valley Taxpayers, Capistrano), and the residual deference question (which Griffith, what Wilde holds) must be pinned down.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "tetlock",
+        "steelman",
+        "structural"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "The rate study's admission that $0.85 derives 'in part' from 'conservation-incentive pricing' maps directly onto the defect condemned in Capistrano and functions as a self-supplied §6(b)(3) admission (plaintiffs' Exhibit A).",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "tetlock",
+        "dialectic",
+        "premortem"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Process-vs-result reading of §6(b)(3): whether the incentive-pricing admission is fatal regardless of arithmetic, or whether proportionality is 'measured in dollars, not adjectives' so a rate within the cost-derived ceiling survives despite bad drafting.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "tetlock",
+        "premortem",
+        "dialectic",
+        "steelman"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Whether §6(b) fee actions permit post-hoc cost reconstruction at trial or are confined to the adopted rate-study record — the open question determining whether the district can rehabilitate the $0.85 figure.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "dialectic"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "The decisive factual crux: a ratio is not a rate — reconstruct in dollars what a strict 1.6× derivation from the base Tier 2 rate yields, since the gap between that figure and $0.85 is the unconstitutional increment and the largest outcome driver.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "tetlock",
+        "dialectic",
+        "premortem",
+        "steelman"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "The 55% rebate tranche, conceded to mostly benefit non-payers, is an analytically independent §6(b)(1)–(3) violation theory (cross-subsidy/wealth transfer) — a second disjunctive path to invalidation regardless of the rate math.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "tetlock",
+        "dialectic",
+        "premortem"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "The district's demand-side-management/avoided-cost counter — conservation rebates as least-cost supply procurement benefiting all customers — and whether the concession forecloses it absent a quantified avoided-cost study.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "tetlock",
+        "dialectic",
+        "premortem",
+        "steelman"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "The low-income prioritization criterion itself is evidence of redistributive rather than supply-procurement purpose (the textbook ratepayer-funded lifeline-subsidy problem), and the fix is retargeting rebates to maximum acre-feet saved per dollar rather than income status.",
+      "in_panel": false,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [],
+      "quality": "substantive"
+    },
+    {
+      "summary": "The 30% recycled-water debt-service tranche is the most defensible allocation on a cost-causation theory, but plant-sizing/engineering records are a discovery target that could flip it either way (peak-driven sizing helps the district; systemwide sizing makes 100% loading on top-tier payers a §6(b)(3) defect).",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "tetlock",
+        "dialectic",
+        "steelman",
+        "structural"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Capistrano itself upheld charging customers for recycled-water facilities they don't directly use (integrated-supply theory), giving the district direct precedential support for the recycled-water component if properly allocated.",
+      "in_panel": false,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [],
+      "quality": "marginal"
+    },
+    {
+      "summary": "The 15% 'water ambassador' tranche is vulnerable as general-public-benefit spending but defensible to the extent staff serve the payers themselves (audits, billing assistance), with time-allocation records as the cheap factual resolver.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "dialectic",
+        "tetlock",
+        "steelman"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "The aggregation/class-level proportionality defense (Griffith, Morgan — no parcel-by-parcel perfection) and its limits (Capistrano distinguished Griffith; Coziahr reaffirms intra-class tier differentials must be cost-based, so aggregation cannot launder above-cost pricing).",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "steelman",
+        "dialectic",
+        "tetlock",
+        "delphi"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Art. X §2 and Water Code §375 are harmonized with Prop 218 rather than overriding it: conservation goals must be pursued through genuinely cost-based tiers or non-fee mechanisms, and at the above-cost margin art. XIII D controls (a statute cannot trump a self-executing constitutional limit).",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "tetlock",
+        "dialectic",
+        "steelman",
+        "structural"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Surviving the majority-protest hearing is §6(a) procedural compliance only and doesn't cure a substantive defect, and Plantier forecloses an exhaustion defense (no need to have protested to preserve a cost-allocation-method challenge).",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "dialectic",
+        "steelman",
+        "premortem"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Remedy shape: partial invalidation/severance is more likely than total invalidation, with refunds measured against a lawful cost-justified baseline (the Coziahr/Capistrano remand template) plus injunction/writ compelling a new §6 proceeding.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "tetlock",
+        "dialectic",
+        "steelman"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Refund-recovery mechanics: Government Claims Act presentation and claim-period accrual cap the look-back, class claims permitted (Ardon/McWilliams), plus prejudgment interest and a quantified exposure estimate ($1.5–2.5M/year in Fable).",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "tetlock",
+        "dialectic",
+        "steelman"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "CCP §1021.5 private-attorney-general fee exposure materially raises stakes and settlement value (fee award can rival or exceed the refund itself).",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "tetlock",
+        "dialectic",
+        "premortem",
+        "structural"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Defense counter to §1021.5 fees: the suit vindicates a narrow private pecuniary interest of high-tier payers rather than a broad public benefit.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "structural"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "The statute-of-limitations threshold defense — Gov. Code §53759's 120-day period (conditioned on proper adoption notice) versus competing frameworks — potentially moots the entire retrospective case and should be checked first.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "steelman",
+        "tetlock",
+        "dialectic"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Repair: redo the cost-of-service study as a true marginal-cost allocation, document the bridge from 1.6× to a per-unit dollar figure, cap the surcharge at that ceiling, and strip the incentive-pricing language from every document.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "tetlock",
+        "dialectic",
+        "premortem",
+        "structural"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Repair: move the rebate program off the rate base (general fund, state grants, non-rate revenue) or rebuild it as documented avoided-cost supply procurement benefiting all ratepayers.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "tetlock",
+        "dialectic",
+        "premortem",
+        "structural"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Repair: route any above-cost conservation increment or redistributive spending through a voter-approved special tax (two-thirds, art. XIII C §2(d)) — legally bulletproof but politically expensive.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "tetlock",
+        "dialectic",
+        "premortem",
+        "structural"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Repair: spread recycled-water debt service across all customer classes in proportion to capacity actually attributable to high-tier peak demand versus general system reliability — shrinking the surcharge that needs justification.",
+      "in_panel": false,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Repair: re-scope 'water ambassador' funding to activities that are genuinely cost-of-service for the surcharge payers and move general public education to non-218 funding.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "tetlock",
+        "dialectic",
+        "premortem",
+        "structural"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "An excessive-use penalty ordinance under Water Code §§375–377 (arguably a fine within Prop 26's art. XIII C §1(e)(5) exception) as the lawful route to punitive pricing, with the honest caveat that a revenue-scale 'penalty' invites recharacterization.",
+      "in_panel": false,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Any repaired structure must be re-noticed and re-adopted through a fresh §6(a) notice/majority-protest process (a ~4–6 month mid-cycle operational cost).",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "premortem",
+        "tetlock",
+        "structural"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "The restructuring trap: a mid-litigation rate trim done without clean rescission and fresh process reads as an admission and an un-processed new fee, expanding rather than capping the refund window.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "premortem",
+        "tetlock"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Whether a corrected/lowered rate counts as a 'new or increased' fee under Gov. Code §53750(h)(1) triggering a fresh notice-and-protest cycle.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "tetlock"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Lock in repose for the repaired structure: give proper §53759 notice on re-adoption (or file a validation-type action) so the 120-day clock runs in the district's favor against future challenges.",
+      "in_panel": false,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Interim damage control: adopt corrected rates prospectively ASAP to stop the refund meter and explore a tolling agreement/settlement with the association.",
+      "in_panel": false,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Bond-covenant, coverage-ratio, and continuing-disclosure risk on the recycled-water financing if surcharge revenue is invalidated — loop in bond/disclosure counsel, consider material-event disclosure and a general-fund backstop.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "premortem",
+        "structural"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Bond-covenant pressure as the district's true negotiating floor ('protect debt service; everything else is negotiable'), predicting settlement shape better than doctrine.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "structural"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Discovery into the consultant workpapers behind the 1.6×-to-$0.85 derivation, including the impeachment risk/opportunity that they show a budget-first, cost-story-second sequencing ($4.1M target set before cost causation) — the exact sequencing Capistrano criticized.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "premortem"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Political-fallout failure modes: grand jury inquiry, board recall, press narrative.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "premortem"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Distributive/representational fallout: the low-income rebate beneficiaries are absent from the case, and refunds get financed by future uniform rate hikes on the 'silent middle.'",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "structural"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Plaintiff-class turnover (Tier 3+ membership shifts year to year) erodes association cohesion, so delay structurally favors the district.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "structural"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Perverse doctrinal incentive commentary: the litigation punishes rate-study candor, so consultants will relabel incentive pricing and the cost-nexus test will measure drafting skill.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "structural"
+      ],
+      "quality": "noise"
+    },
+    {
+      "summary": "Sector-wide precedent stakes (ACWA-type amicus interest) and §1021.5 economics push plaintiff's counsel toward published precedent over quiet settlement.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "structural"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Citation-instability finding and verification discipline: Coziahr is cited with three incompatible citations, the Griffith identity and Wilde holding are unstable, so the deference-line authorities cannot be treated as load-bearing until verified.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "delphi",
+        "tetlock",
+        "steelman",
+        "premortem"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Anchor the cost allocation in the AWWA M1 Manual 'base-extra capacity' methodology as the industry-standard legitimation of the 1.6× differential.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "steelman"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Pleading hygiene on subsection numbering: which subdivision of §6(b) carries the revenue cap versus the burden clause.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "tetlock"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Meta-observation that the conservation-mandate question (Q4) collapses into the rate-derivation question (Q2), so treating them as independent probabilities double-counts one legal judgment.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "tetlock"
+      ],
+      "quality": "noise"
+    }
+  ],
+  "panel_unique_assessment": "Of the ~15 angles only the panel surfaced, five are genuinely worth a lawyer's money: (1) premortem's restructuring trap — that the universally recommended mid-litigation fix can backfire as an admission and an un-noticed new fee — is the single best panel-unique insight, and it directly contradicts Fable's breezy 'adopt corrected rates ASAP' advice, a tension a real advisor must resolve; (2) dialectic's question whether the district is confined to its adopted record or can rehabilitate the number with post-hoc cost reconstruction at trial, which determines the entire defense strategy; (3) structural's narrow-private-interest counter to §1021.5 fees, a real and commonly litigated fee defense both naive passes missed; (4) the citation-instability finding (three incompatible Coziahr citations, unstable Griffith/Wilde attributions) — in an LLM-drafted memo context this is exactly the discipline that prevents a sanctionable filing, and Fable's confident pinpoint cites plus a one-line generic caveat is strictly worse; (5) steelman's AWWA M1 base-extra-capacity anchor, which is how the redone rate study would actually be defended through experts. The workpaper-sequencing impeachment framing is a genuine increment on Sonnet's workpaper-discovery point. The rest is padding of varying thinness: the §6(b)(4) volitional construction is a long shot already answered by Bighorn; the bond-floor settlement predictor, political-fallout list, plaintiff-class-turnover theory, distributive-fallout observation, and ACWA-amicus dynamics are one-line color a practitioner already carries in their head; the Q4-collapses-into-Q2 note and the subsection-numbering correction are internal bookkeeping dressed as insight.",
+  "noise_assessment": "The panel's own noise audit is candid and largely accurate, which is to its credit, but the aggregated report still carries the residue: the delphi probability apparatus (median 73, range 72–80, three-point net movement over two rounds) and tetlock's pseudo-probabilities on non-propositions add numerical dressing to a directional verdict both naive passes state in one sentence ('very likely invalid at least in part'). The contested item on 'what epistemic policy to apply to Coziahr uncertainty' — three lenses drawing opposite inferences from identical ignorance — is pure process noise for a lawyer. Structural's sociology (candor-punishing incentives, silent-middle financing, class turnover) is structured word-salad relative to the litigation task. More damning than noise: the panel presents as a convergent finding that '§6(b)(5) places the burden on the agency,' propagating an error (the burden sentence is the unnumbered final sentence of §6(b); (b)(5) is the general-governmental-services bar) that naive-Sonnet alone gets right — multi-lens agreement laundered a shared hallucination while tetlock's 'numbering correction' was showcased as a contribution. Finally, the panel's flag-without-analysis pattern (limitations framework, Plantier's holding, spent-fund remedy mechanics — all self-confessed blind spots) inflates apparent coverage: Fable actually analyzed the §53759 defense and called it potentially dispositive, while the panel could only report that three lenses named three conflicting statutes.",
+  "verdict": "Yes, but narrowly and at a poor signal-to-text ratio. Against naive-Sonnet (the fair same-model comparison), the panel adds real value a lawyer would pay for: the restructuring trap, the record-limitation question, the §1021.5 fee defense, the must-verify/citation-instability discipline, and the adversarial discovery framing — roughly five substantive angles plus better-organized cruxes. Against Fable, the ledger is close to even: Fable independently matched almost all of the panel's doctrinal core in a tenth of the words, actually developed the potentially case-dispositive limitations defense and Plantier holding the panel only flagged as its own blind spot, and contributed the penalty-ordinance repair route, the low-income-targeting evidentiary point, and the debt-service-spreading fix that the panel missed entirely. The panel's genuine edge is adversarial-tactical and epistemic (what could go wrong, what can't be trusted), not doctrinal breadth — that edge is worth paying for, but about a third of its unique output is padding, and convergence across lenses demonstrably laundered at least one shared citation error."
+}

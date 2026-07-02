@@ -39,3 +39,18 @@ Each theory is independently debatable — the SLA exemption thresholds and cove
 | Question | Angles: panel | naive Sonnet | naive Fable | Panel-only substantive | Panel noise |
 |---|---|---|---|---|---|
 | [q1](q1/report.html) | 31/38 | 23 | 32 | 4 | 0% |
+| [q2](q2/report.html) | 29/32 | 23 | 26 | 5 | 5% |
+| [q3](q3/report.html) | 21/27 | 19 | 23 | 1 | 8% |
+| [q4](q4/report.html) | 27/34 | 25 | 26 | 7 | 2% |
+| [q5](q5/report.html) | 30/43 | 23 | 32 | 9 | 8% |
+
+## Leave-one-out ablation (featured question)
+
+| Lens removed | Materiality of loss | What was lost |
+|---|---|---|
+| delphi | significant | Aggregate risk calibration: FULL reports delphi's panel consensus at 62-68 (median 66, medium confidence) leaning TOWARD violation, creating a genuine three-way 'direction of the lean' dispute with tetlock (~48-61%) and dialectic (slight no-violation tilt); ABLATED collapses this to a convergent 'ro |
+| dialectic | significant | Factual-predicate threshold theory materially weakened: FULL treats private-leak vs. public-record-synthesis vs. model-confabulation as potentially dispositive BEFORE the legal crux is reached (dialectic synthesis predicts the case may fail on the facts first); it is a 'What looks decisive' item and |
+| premortem | significant | Litigation hold BEFORE disabling the shared-memory feature: FULL warns that 'disable' and 'preserve' are separate instructions and conflating them creates spoliation/adverse-inference exposure. ABLATED not only omits this but affirmatively recommends disabling cross-user memory as part of the consen |
+| steelman | significant | The entire 'contest' strategic option is gone: FULL's steelman presents a developed alternative to curing — reject the § 54960.1 demand on preserved dual grounds (no 'communication' attributable to a member; no 'action taken'), proceed with the Harbor Yards hearing as scheduled, with on-record indep |
+| structural | significant | Petitioner-motive analysis: fee-shifting economics subsidize the petitioner, who may be a Harbor Yards opponent using the Brown Act instrumentally to delay the land-use fight — absent from ABLATED entirely; this framing directly informs whether a voluntary cure will actually end the dispute and how  |
+| tetlock | significant | Calibrated probability counterweight lost: FULL carries tetlock's recomposed composite of ~48–61% (near coin-flip) that gates delphi's 62–68 band; ABLATED's only quantitative anchor is delphi's ~66% toward violation, materially overstating aggregate confidence that a court would find a violation — t |

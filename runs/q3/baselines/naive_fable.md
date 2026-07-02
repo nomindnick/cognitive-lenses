@@ -1,0 +1,101 @@
+# Memorandum: Conflicts Analysis — Councilmember Okafor / Harbor Light Alliance RFP
+
+**Bottom line up front:** The single dispositive fact you must nail down is *when the spouse's employment at Harbor Light began relative to Okafor's first election*. If the spouse was employed there for at least one year before Okafor first took office, § 1091.5(a)(6) treats the spousal-salary strand as a "noninterest," the board seat is a curable "remote interest" under § 1091(b)(1), and the city can contract with Harbor Light — but only with flawless disclosure, total recusal from day one, and no influence attempts. If the spouse was hired (or arguably promoted into the position) after that cutoff, Okafor has a non-remote § 1090 interest, **recusal does not cure it, and the city cannot lawfully contract with Harbor Light at all while Okafor sits on the council.** Under the PRA, Okafor must recuse regardless, from both the framework and the award.
+
+---
+
+## I. Government Code § 1090
+
+### A. Both decisions are part of "making" the contract
+
+Section 1090 prohibits city officers from being "financially interested in any contract made by them in their official capacity, or by any body or board of which they are members." "Making" a contract is construed expansively to reach every step of the contracting process: preliminary discussions, planning, drafting of plans and specifications, and solicitation of bids. *Stigall v. City of Taft* (1962) 58 Cal.2d 565; *Millbrae Assn. for Residential Survival v. City of Millbrae* (1968) 262 Cal.App.2d 222; *People v. Sobel* (1974) 40 Cal.App.3d 1046. Adopting the RFP framework and scoring criteria is unambiguously part of "making" the eventual contract — arguably the most consequential part, since criteria design can pre-determine the winner. So the § 1090 analysis attaches at step (a), not just step (b). Informal influence counts too: § 1090 reaches anyone who participates in shaping the contract through advice or influence. Cf. *People v. Superior Court (Sahlolbei)* (2017) 3 Cal.5th 230.
+
+### B. Okafor has two distinct interest strands; each must independently fit an exception
+
+**Strand 1 — Uncompensated board seat.** Being an officer of a 501(c)(3) — a director is an "officer" for this purpose — is expressly designated a **remote interest** under § 1091(b)(1). The § 1091.5(a)(8) *noninterest* for noncompensated officers of nonprofits does not fit: that exception is for entities whose *primary purpose* is supporting the functions of the body (friends-of-the-library-type organizations), not an operating service provider that happens to have a council liaison. Harbor Light's primary purpose is delivering homeless services, not supporting the council.
+
+A remote interest is curable: the body may make the contract if (1) Okafor discloses the interest to the council, (2) the interest is noted in the official minutes, and (3) Okafor wholly abstains — no vote, no debate, no participation at any stage. Critically, § 1091(c) strips the exception if the officer "influences or attempts to influence another member" to enter the contract. Any lobbying of colleagues or staff — including on scoring criteria — converts this back into a full § 1090 violation.
+
+**Strand 2 — The spouse's $95,000 salary.** This is the hard problem. The spouse's earnings are community property (Fam. Code § 760), so Okafor has a direct financial interest in them. The case law and Attorney General opinions uniformly treat a community-property interest in a spouse's compensation from a contracting party as a § 1090 financial interest where the contract affects the spouse's employment or its security. *People v. Honig* (1996) 48 Cal.App.4th 289 is squarely on point and sobering: a felony § 1090 conviction premised on contracts benefiting the official's spouse's *nonprofit*, where contract funds supported the organization employing her. The nonprofit character of the entity is no defense; § 1090 asks whether the official stands to gain or lose financially, directly *or indirectly*.
+
+Here the nexus is strong, not speculative: city contracts fund ~40% of the general operating budget from which the spouse's salary is paid, Harbor Light historically wins ~60% of the city's homelessness work, and $2.3M is at stake. Losing this award realistically threatens the position; winning it sustains the position. That the salary is "fixed" is irrelevant — employment continuity and security are cognizable interests.
+
+**The only escape: § 1091.5(a)(6).** A spouse's employment is a statutory *noninterest* "if his or her spouse's employment or officeholding has existed for at least one year prior to his or her election or appointment." Three cautions:
+
+1. **Timing.** Measured from Okafor's *initial* election. Your facts don't say when the spouse was hired. This is the fact that decides the case.
+2. **Promotion problem.** If the spouse was employed pre-election but promoted to Director of Programs afterward, the safe harbor probably still applies (the exception speaks to the employment relationship, not the specific position), but the point is not free from doubt and a challenger will make the argument. Flag it.
+3. **Direct-funding limitation.** The AG and FPPC have read (a)(6) narrowly where the contract at issue *directly funds or determines* the spouse's position or compensation. A 40% budget dependency is dangerously close to that line. If the Director of Programs role is the position that would administer the funded programs — likely, given the title — I would not rely on (a)(6) without formal written advice.
+
+There is **no remote-interest category for a spouse's employment.** Section 1091(b)(2) covers the *officer's own* employment with the contracting party, not the spouse's. So if (a)(6) fails, Strand 2 is a full, non-remote § 1090 interest with no cure.
+
+### C. Recusal does not cure § 1090 for a member of the body
+
+This is the point clients most often misunderstand. When a member of a multi-member body has a non-remote financial interest in a contract, the prohibition attaches to the contract "made by … [the] body or board of which they are members" — meaning the *entire council* is disabled from making the contract, and abstention is legally irrelevant. *Thomson v. Call* (1985) 38 Cal.3d 633; *Fraser-Yamor Agency, Inc. v. County of Del Norte* (1977) 68 Cal.App.3d 201; *Stigall*, supra. Good faith, full disclosure, fair price, and complete non-participation are all non-defenses. Only §§ 1091/1091.5 (or the narrow rule of necessity) open a path — and the rule of necessity is unavailable here because two other realistic bidders exist; the city can obtain the services elsewhere.
+
+Also reject any "delegate it to the city manager" workaround. Where the council adopts the framework, appropriates the funds, and approves the award, the contract is "made by" the body; cosmetic delegation of signature authority does not change that. A genuinely independent award by a separate agency (e.g., routing the HHAP allocation through the county continuum of care with *no* Rio Robles discretion or earmark) is conceptually different, but it is aggressive, and I would not attempt it without formal FPPC advice under § 1097.1.
+
+---
+
+## II. Political Reform Act (§§ 87100, 87103)
+
+The PRA analysis is straightforward and independently disqualifying:
+
+- **Source of income.** "Income" includes the official's community-property share of a spouse's income (§ 82030(a)) — here, $47,500/year attributed to Okafor, vastly exceeding the $500/12-month threshold of § 87103(c). Harbor Light is a source of income to Okafor.
+- **Foreseeability and materiality.** At the *award* stage, Harbor Light is a named party to the proceeding — under Regs. 18701(a) and 18702.3, the financial effect on an explicitly involved source of income is material essentially per se. At the *framework* stage, Harbor Light is not yet a named party, but the effect is a "realistic possibility" well beyond hypothetical (Reg. 18701(b)): one of three bidders, 60% historical capture, 40% budget dependence, $2.3M pool. Disqualifying at both stages. There is also an independent personal-financial-effects theory (Reg. 18702.5) via the effect on the spouse's job itself.
+- **Nonprofit board seat.** Note the board seat itself is *not* a PRA interest — § 87103(d) applies to "business entities," defined as for-profit (§ 82005). The income prong does all the work.
+- **Public-generally exception.** Dead on arrival. A contract award to the spouse's specific employer affects no "significant segment" of the public in a "substantially similar manner" (Reg. 18703). Do not spend time on it.
+- **Recusal procedure.** Unlike § 1090, PRA recusal *does* cure — but it must be done correctly. As an § 87200 filer, Okafor must comply with § 87105/Reg. 18707: publicly identify the interest in detail on the record, recuse, *leave the room* (not just the dais), and not be counted toward quorum. And "participation" includes any behind-the-scenes contact with staff, colleagues, or evaluators — the disqualification runs from the first agenda-setting conversation about the RFP.
+
+**§ 84308 flag (post-SB 1439).** Since 2023, the Levine Act applies to elected city officials, and discretionary RFP-scored contracts (unlike lowest-responsible-bidder awards) are covered "entitlements for use" under FPPC guidance. Check whether Okafor — or *any* councilmember — received contributions over $250 in the preceding 12 months from Harbor Light's officers, directors, or agents (the spouse's colleagues are a realistic source). If so: mandatory disclosure and disqualification, plus a contribution ban during the proceeding and for 12 months after.
+
+---
+
+## III. Common law and fiduciary duty
+
+The common-law conflict doctrine independently prohibits officials from participating in decisions in which they have a personal interest, financial *or otherwise*. *Clark v. City of Hermosa Beach* (1996) 48 Cal.App.4th 1152; *Noble v. City of Palo Alto* (1928) 89 Cal.App. 47. Okafor's directorship creates exactly the non-financial loyalty problem the doctrine targets: as a Harbor Light director, Okafor owes that corporation fiduciary duties of care and loyalty (Corp. Code § 5231) — duties that directly collide with the duty of undivided loyalty to the city when Harbor Light bids on city money. Gov. Code § 1099 (incompatible offices) is not technically triggered because a nonprofit directorship isn't a public office, but the structural incompatibility is real. Common-law conflicts are cured by recusal, but the cleaner answer is that the 2019 liaison arrangement is a governance mistake: amend the resolution to make the liaison a non-director, non-voting observer, or designate a different councilmember, and in any event have Okafor step off the Harbor Light board before this procurement begins. (Harbor Light's own counsel should also wall Okafor off from any board discussion of the bid — the conflict runs both directions.)
+
+---
+
+## IV. What combination of measures works?
+
+### Scenario A — § 1091.5(a)(6) is satisfied (spouse employed ≥ 1 year before Okafor first took office, and the contract does not directly fund the position)
+
+The city may lawfully contract with Harbor Light if **all** of the following occur:
+
+1. **Confirm the facts in writing**: spouse's hire date, position history, how the position is funded, whether the Director of Programs role would administer this contract.
+2. **§ 1091 formalities for the board seat**: Okafor discloses the remote interest to the council *before first consideration* of the RFP; the disclosure is noted in the official minutes.
+3. **Total recusal from the entire process** — framework, criteria, appropriation line items, evaluation, award, amendments, renewals. PRA-compliant recusal per § 87105/Reg. 18707 at every meeting. Zero influence attempts (§ 1091(c) makes this a cliff, not a slope).
+4. **Written screening protocol**: Okafor receives no staff reports, evaluation materials, or closed-session access on the procurement; staff instructed in writing not to brief or consult; documented.
+5. **Board resignation** (or restructuring of the liaison role) — not strictly compelled if the § 1091 procedure is followed, but strongly recommended for the common-law and fiduciary reasons above, and it removes one strand entirely.
+6. **Procurement hygiene**: staff-level or third-party evaluation panel, published objective criteria, documented scoring — this protects the award against the inevitable bias-based bid protest from the two losing bidders.
+7. **Obtain formal written advice** from the FPPC before award: § 1097.1 advice on the § 1090 questions (particularly whether the 40% budget dependency defeats (a)(6)) and § 83114 advice on the PRA. FPPC § 1090 advice immunizes against FPPC enforcement (not DA prosecution), but documented good-faith reliance is the best practical protection available.
+
+### Scenario B — (a)(6) is not satisfied
+
+Then Okafor is financially interested in the contract, no exception applies, and **the council cannot make this contract with Harbor Light — recusal, walls, and disclosure are all legally irrelevant.** The only real options:
+
+- **Harbor Light doesn't bid** (or the city awards to another bidder). The disability runs only to contracts with Harbor Light; the RFP itself can proceed.
+- **The spouse leaves Harbor Light before the "making" process begins.** Because "making" starts with the framework, a mid-procurement resignation is not clean; if the interest existed during stages already completed, restart the procurement (re-adopt the framework) after the interest ends.
+- **Okafor resigns from the council** before the process begins. Drastic, but it is the honest third option and the client should hear it.
+- Do **not** rely on delegation gimmicks or "independent" award structures without formal FPPC sign-off.
+
+### Answering Okafor's four questions directly
+
+1. **May I vote on the RFP framework?** No. Under all three bodies of law, in every scenario.
+2. **On the award?** No. Same answer, more emphatically.
+3. **Must I resign the board seat / must my spouse's job change?** The board seat: resignation is not strictly mandated if § 1091 is followed, but you should resign it — it buys you almost nothing and costs you a curable-but-fragile compliance burden plus a genuine fiduciary conflict. The spouse's employment: no change needed *if and only if* the (a)(6) safe harbor applies; otherwise the spouse's employment (or your council seat, or Harbor Light's bid) has to give.
+4. **If I recuse, is the city safe?** Only in Scenario A, with perfect execution. In Scenario B, no — your recusal does not protect the city, the contract, or you.
+
+---
+
+## V. Consequences of getting it wrong
+
+- **Contract voidness and disgorgement (§ 1092).** A contract made in violation of § 1090 is void; any party except the interested officer — including taxpayers — may sue, within four years of discovery (§ 1092(b)). The remedy under *Thomson v. Call* is draconian and deliberately so: the city recovers **everything it paid while keeping the benefits received**, with no offset for services performed. For a nonprofit, a $2.3M clawback after a year of service delivery is an extinction event. Add likely state recapture of the HHAP pass-through and audit findings.
+- **Criminal exposure (§ 1097).** Willful violation is a felony — fine or imprisonment plus **permanent disqualification from holding office in California**. "Willful" requires only knowledge of the facts creating the interest, not knowledge of the law. *People v. Honig*, supra. Okafor cannot plausibly claim ignorance of the spouse's job or the board seat.
+- **FPPC enforcement.** Since 2014, the FPPC has administrative and civil enforcement authority over § 1090 itself (§§ 1097.1–1097.5, with DA/AG coordination), in addition to PRA enforcement: administrative penalties up to $5,000 per violation (§ 83116), misdemeanor liability for knowing/willful PRA violations (§ 91000), civil actions, and potential set-aside of the decision (§ 91003).
+- **Disgorgement by the official.** Officials and even private participants have been ordered to disgorge benefits from § 1090-tainted transactions. *Thorpe v. Long Beach* (2000) 84 Cal.App.4th 763; *County of San Bernardino v. Walsh* (2007) 158 Cal.App.4th 533; *Hub City Solid Waste Services v. City of Compton* (2010) 186 Cal.App.4th 1114.
+- **Litigation from the losers.** Two disappointed bidders with a documented conflict narrative means a near-certain bid protest/writ, with CCP § 1021.5 fee exposure, plus grand jury and press interest.
+
+**My honest verdict as your co-counsel:** get the spouse's hire date today, and unless it comfortably predates Okafor's first election by a year *and* the FPPC blesses the (a)(6) question in writing given the 40% funding dependency, advise the council to treat Harbor Light as ineligible for this cycle. The asymmetry of risk is extreme — the upside of funding Harbor Light is convenience; the downside is a void contract, a bankrupted service provider, and a felony referral.
+
+*This analyzes an invented hypothetical; verify current statutory text and FPPC regulations (several materiality regs were reorganized in recent years) before relying on any specific citation.*
