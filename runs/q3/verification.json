@@ -33,11 +33,11 @@
     "note": "Corpus consistently applies § 1091.5(a)(8) as the noninterest for an official's own uncompensated officer position at a nonprofit (16-156-1090, A-19-116, A-19-198, A-23-059, A-22-119), conditioned on the nonprofit's primary purpose supporting the agency's functions and the interest being noted in official records. Covers Okafor's board seat, not the spouse's salary."
   },
   "1091.5(a)(6)": {
-    "status": "MISCHARACTERIZED",
-    "note": "Per corpus usage (A-23-099, A-24-143, A-19-193), § 1091.5(a)(6) is the noninterest for a spouse employed by a PUBLIC AGENCY (with the ≥1-year precondition). Harbor Light is a 501(c)(3), not a public agency; the panel suggestion that (a)(6) could neutralize the spousal-salary strand if the employment predates election is wrong. This is exactly the confident-mischaracterization failure mode the UNVERIFIED guardrail targets."
+    "status": "CONTESTED — do not rely without reading the statute",
+    "note": "Cited ONLY by the naive Fable baseline, which asserted it as the case-deciding safe harbor (spouse's salary a noninterest if her employment predates Okafor's election by ≥1 year). Every corpus application found involves a spouse employed by a PUBLIC AGENCY (A-23-099, A-24-143, A-19-193), and in the on-point nonprofit-spouse case (15-059-1090, Rancho Cordova/Capital Airshow) the FPPC analyzed the identical fact pattern under the § 1091(b)(1) remote interest instead — though timing facts there don't conclusively exclude (a)(6). Scope of (a)(6) for non-public-agency employers is genuinely unsettled on this record. The panel, by contrast, queued the exception catalog for verification rather than asserting — the correct behavior."
   },
   "1091(b)(1)": {
-    "status": "VERIFIED",
-    "note": "FPPC A-21-106 n.2 confirms § 1091(b)(1) defines 'remote interest' to include an interest as an officer or employee of certain tax-exempt nonprofits (disclosure + noting + abstention then lets the body contract). Whether it reaches the community-property spouse-salary strand for a sitting councilmember is the open question the panel correctly queued for verification."
+    "status": "VERIFIED — and it likely changes the answer",
+    "note": "FPPC 15-059-1090 is nearly on all fours: councilmember's spouse was salaried Development Director of a 501(c)(3) seeking city funds. FPPC held the member 'stands in the shoes of his spouse,' is treated as an employee of the nonprofit, and the interest qualifies as a § 1091(b)(1) remote interest — so with disclosure, noting in official records, and abstention, the city MAY contract (citing 89 Ops.Cal.Atty.Gen. 258 (2006)). Also confirmed by A-21-106 n.2. This cuts against the Delphi panel's 75-median position that the contract is void even with recusal; note (b)(1)'s carve-out cross-referencing § 1091.5(a)(8) for Okafor's own uncompensated board seat."
   }
 }
