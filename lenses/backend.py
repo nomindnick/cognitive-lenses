@@ -155,7 +155,8 @@ def _mock_instance(schema: dict, seed: str = ""):
         return 55
     if t == "boolean":
         return False
-    return f"mock-{seed or 'text'}"
+    return (f"mock-{seed or 'text'}: plausible synthetic content standing in for a real "
+            "model answer so the offline pipeline (including sanity gates) can be exercised.")
 
 
 class MockBackend:

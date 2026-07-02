@@ -69,6 +69,36 @@ You NEVER evaluate arguments, take positions, or hint at a correct answer. You o
 organize what panelists said, anonymously. Any editorializing is a failure."""
 
 
+def _sane(data: dict) -> bool:
+    """Schema validation alone lets degenerate submissions through (observed in
+    the wild: a panelist submitted a 'test ... for schema validation purposes'
+    placeholder that validated). Reject junk before it enters the statistics."""
+    try:
+        p = float(data.get("probability"))
+    except (TypeError, ValueError):
+        return False
+    if not 0 <= p <= 100:
+        return False
+    text = " ".join([str(data.get("position_summary", ""))] +
+                    [str(r) for r in data.get("rationales", [])])
+    if len(text) < 120:
+        return False
+    lower = text.lower()
+    return not any(t in lower for t in ("schema validation", "test position", "placeholder"))
+
+
+def _ask_validated(backend, prompt, *, model, schema, label) -> dict:
+    c = backend.complete(prompt, model=model, system=PANELIST_SYSTEM,
+                         schema=schema, label=label)
+    if _sane(c.data):
+        return c.data
+    c = backend.complete(prompt, model=model, system=PANELIST_SYSTEM,
+                         schema=schema, label=f"{label}-retry")
+    if not _sane(c.data):
+        raise ValueError(f"{label}: panelist output degenerate after retry")
+    return c.data
+
+
 def _stats(probs: list[float]) -> dict:
     qs = statistics.quantiles(probs, n=4) if len(probs) >= 2 else [probs[0]] * 3
     return {
@@ -113,9 +143,8 @@ class DelphiLens(Lens):
 
         def ask_round1(i: int) -> dict:
             entry = f"\n\nAnalytical starting point for you: {ENTRY_POINTS[i % len(ENTRY_POINTS)]}" if vary else ""
-            c = backend.complete(base_prompt + entry, model=worker, system=PANELIST_SYSTEM,
-                                 schema=PANELIST_SCHEMA, label=f"delphi-r1-p{i + 1}")
-            return c.data
+            return _ask_validated(backend, base_prompt + entry, model=worker,
+                                  schema=PANELIST_SCHEMA, label=f"delphi-r1-p{i + 1}")
 
         def ask_revise(i: int, rnd: int, prev: dict, summary: str) -> dict:
             prompt = (
@@ -127,9 +156,8 @@ class DelphiLens(Lens):
                 "summary contains reasons you judge valid, and hold your position where it does "
                 "not. Explain in response_to_panel which consideration moved you or why none did."
             )
-            c = backend.complete(prompt, model=worker, system=PANELIST_SYSTEM,
-                                 schema=REVISE_SCHEMA, label=f"delphi-r{rnd}-p{i + 1}")
-            return c.data
+            return _ask_validated(backend, prompt, model=worker,
+                                  schema=REVISE_SCHEMA, label=f"delphi-r{rnd}-p{i + 1}")
 
         with ThreadPoolExecutor(max_workers=n) as ex:
             rounds.append(list(ex.map(ask_round1, range(n))))

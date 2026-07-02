@@ -69,10 +69,13 @@ def main(argv=None) -> int:
 
 def selftest() -> int:
     """Full pipeline against the MockBackend into runs/_selftest — no tokens."""
+    import shutil
+
     from .runner import run_question
     cfg = load_config()
     cfg["lenses"] = {**cfg["lenses"], "delphi": {"panelists": 3, "max_rounds": 2}}
     rd = RUNS_DIR / "_selftest"
+    shutil.rmtree(rd, ignore_errors=True)  # stale artifacts would mask failures
     run_question("q1", cfg, force=True, mock=True, run_dir=rd)
     expected = ["lenses/delphi.md", "lenses/tetlock.md", "lenses/dialectic.md",
                 "lenses/premortem.md", "lenses/steelman.md", "lenses/structural.md",
