@@ -1,0 +1,695 @@
+{
+  "angles": [
+    {
+      "summary": "The AI's relay of attributed member positions and the cumulative 'points of alignment' brief is exactly the conduct the § 54952.2(b)(2) safe-harbor proviso forbids — the single strongest violation fact, potentially dispositive without resolving AI-as-intermediary.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "tetlock",
+        "dialectic",
+        "steelman",
+        "structural",
+        "machinery"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Threshold safe-harbor failure: CivicAssist is not an 'employee or official'/'person,' and safe harbors are not extended by analogy against the narrow-construction canon.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "tetlock",
+        "dialectic",
+        "steelman",
+        "structural",
+        "machinery"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Functional hub-and-spoke/daisy-chain analogy: if a human staffer had done exactly this (Stockton Newspapers pattern), it would be an uncontroversial serial meeting.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "tetlock",
+        "dialectic"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Genuine case of first impression — no authority on AI/shared-memory as a Brown Act vector — which counsels over-curing rather than litigating a template-setting case.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "tetlock",
+        "dialectic",
+        "steelman",
+        "structural",
+        "machinery"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "The 'use'/volition fork: whether (b)(1)'s 'use ... to discuss, deliberate' requires knowing/volitional engagement with a colleague-reaching channel or is satisfied objectively by effects (including the § 54959 structural-inference debate and the accidental-overhearing analogy for unknowing members).",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "tetlock",
+        "dialectic",
+        "steelman"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Continued-engagement-after-mid-session-notice as the narrower, strongest violation theory: once the tool disclosed a colleague's position, further use became knowing participation in a cross-member channel.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "dialectic",
+        "steelman"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "'Communications of any kind' is medium-agnostic — no need to resolve AI-agency metaphysics; AG guidance ('technological devices,' email-chain opinions) supports coverage.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "tetlock",
+        "dialectic"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Defense counterargument that 'intermediary' presupposes human agency/deputization, with the shared-drive/email-server reductio against a strict-liability reading.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "steelman",
+        "dialectic"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Criminal exposure under § 54959 is near-nil (express mens rea plus no 'action taken' at any offending meeting), and this should anchor a cooperative counsel-mediated DA response.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "tetlock",
+        "dialectic",
+        "steelman",
+        "premortem",
+        "structural",
+        "machinery"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Verify individual knowledge before taking any public position on intent: privileged interviews of all four members plus onboarding/TOS/IT-rollout discovery, because one constructive-knowledge fact reframes the DA narrative and the 'nobody knew' premise rests on two members' say-so.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "delphi",
+        "tetlock",
+        "dialectic",
+        "steelman",
+        "premortem"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Forensic prompt-level log review and sequencing: who received attributed content when, what each did next, and whether any member affirmatively fished for colleagues' positions versus receiving volunteered material.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "tetlock",
+        "dialectic"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Attack the factual predicate: the 'positions' relayed may be public planning-commission-record synthesis or LLM confabulation rather than private member input (passive context bleed vs. active relay; retrieval-metadata examination), and plaintiff bears that burden.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "dialectic",
+        "structural"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Majority-headcount contest: a plaintiff must show at least three members engaged after notice of colleagues' positions, and the sequencing is unknown — 4-of-5 is not automatically established for the operative theory.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "dialectic"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "The 'action taken'/vehicle question: whether § 54960.1 has anything to bite on pre-vote (§ 54952.6, § 54953 predicate pleading), the § 54960 injunctive alternative, and demand-response mechanics/premature-demand analysis.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "tetlock",
+        "dialectic",
+        "steelman",
+        "premortem",
+        "machinery"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Proceeding to a vote supplies the challenger's currently missing 'action taken' — so the cure must land before the council votes, or the ripeness defense evaporates.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "tetlock"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Unconditional commitment to cease the practice (FABLE: § 54960.2(c) in open session; panel: voluntary-cessation/mootness doctrine) as the mechanism that cuts off the fee-driven declaratory suit.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "machinery"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "One-way fee-shifting (§ 54960.5, catalyst/CCP § 1021.5 exposure) structurally subsidizes challengers and makes litigation likely absent affirmative resolution.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "premortem",
+        "structural",
+        "machinery"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Obtain a signed release, stipulated dismissal, or fee waiver from the demanding party as consideration BEFORE performing any cure, or the cure resolves nothing on fees.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "premortem"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Independent quasi-adjudicative due-process/prejudgment exposure (Cohan/Nasha/Clark/Woody's Group; CCP § 1094.5 writ) that no Brown Act cure fixes and that survives even a no-violation ruling.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "tetlock",
+        "premortem",
+        "structural",
+        "machinery"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Countervailing bias authorities calibrating the due-process risk: councilmembers are not held to judicial impartiality standards and tentative views are not disqualifying (City of Fairfield; BreakZone Billiards).",
+      "in_panel": false,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [],
+      "quality": "substantive"
+    },
+    {
+      "summary": "On-record ex parte-style cure protocol at the hearing: each member discloses everything received, the alignment brief enters the record, members affirm open minds and record-only decision-making — a silent re-vote is fragile.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "steelman",
+        "tetlock",
+        "premortem",
+        "structural",
+        "machinery"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Restart vs. proceed-with-continuance strategic choice, including whether a redo actually eliminates taint (members cannot un-know aggregated positions) and where the taint actually sits (council, not commission).",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "tetlock",
+        "dialectic",
+        "steelman",
+        "premortem",
+        "structural"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Screen members' retained personal notes, screenshots, and exported chats before any 'fresh' hearing — residual taint lives there and is discoverable.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "premortem"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Land-use statutory overlay constraining the restart/continuance decision: HAA § 65589.5, Permit Streamlining 'deemed approved,' SB 330 hearing-count limits, Density Bonus Law — obtain the applicant's written consent/tolling agreement.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "machinery",
+        "structural",
+        "steelman"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Litigation hold and preservation (including vendor-side retention/auto-purge settings) executed BEFORE disabling shared memory; then disable with documented date/time/configuration — spoliation is the irreversible failure mode.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "premortem",
+        "machinery"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Vendor MSA/contract review for indemnity, warranties, configuration representations, liability caps, and contractual notice-of-claim deadlines now running — contractual leverage against the vendor.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "structural",
+        "machinery"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Notify the city's insurer/JPA risk pool; contractual notice deadlines are often shorter and harder-edged than statutory ones.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "machinery"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Conflicts and counsel-structure analysis: the city attorney's own procurement-review conflict favors outside counsel; members may need separate counsel (Gov. Code § 995); defensive fragmentation is predictable.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "structural",
+        "machinery"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Written standstill instruction to the four members: no further AI use on the matter and no crisis-response coordination outside noticed meetings, to avoid generating the next round of parallel-communication headlines.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "structural"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Discipline analysis: none warranted absent scienter (institutional/IT-governance failure), the narrow toolkit for elected officials (censure/recall only), the risk of admissions in a censure resolution, and redirecting accountability to IT/procurement via HR channels.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "dialectic",
+        "steelman",
+        "premortem",
+        "structural"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Self-clearance optics: the same four members adopting their own policy and blessing their own innocence feeds recall/cover-up narratives — route review through independent/outside reviewers.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "premortem",
+        "structural"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "AI-use policy with concrete design elements: siloed per-member memory by default, the (b)(2) proviso hard-coded as a no-relay design rule, vendor attestation/audit rights, AI logs treated as public records (City of San Jose logic), and updated Brown Act training.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "tetlock",
+        "dialectic",
+        "steelman",
+        "premortem",
+        "structural",
+        "machinery"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Policy rule for quasi-adjudicative matters specifically: AI-assisted research on pending appeals must be logged with the clerk / disclosed on the record like an ex parte contact.",
+      "in_panel": false,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Audit the council's other collaboration tools (shared drives, comment threads, group chats, calendars) for the same shared-visibility risk.",
+      "in_panel": false,
+      "in_naive_sonnet": true,
+      "in_naive_fable": false,
+      "panel_lenses": [],
+      "quality": "marginal"
+    },
+    {
+      "summary": "City-wide historical log audit for other cross-contaminated matters before the next PRA wave — a single-incident response to a systemic defect invites a cascade and a validity cloud over other council actions.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "premortem",
+        "structural",
+        "machinery"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Back-audit the completed PRA production (deadline compliance, exemptions that were or should have been asserted, completeness of what the journalist and DA now hold).",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "machinery"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "§ 54957.5 as an independent violation theory: the 'points of alignment' brief may be a writing distributed to a majority that had to be made public at distribution.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "machinery"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "The DA has independent CIVIL standing under §§ 54960/54960.1 — the inquiry letter may presage a DA enforcement action or function as negotiation leverage, not only a criminal charging decision.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "machinery",
+        "premortem",
+        "structural"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Willful-blindness/'reason to know' criminal vector: continued use after overtly attributed disclosures could feed a § 54959 theory, tempering the 'near-zero criminal risk' advice.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "tetlock"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Civil grand jury referral/investigation as a live adjacent track (Penal Code § 925a).",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "premortem",
+        "machinery"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Officeholder-consequence machinery: recall risk plus §§ 3060–3074 accusation proceedings and § 1770 vacancy triggers.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "premortem",
+        "machinery"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Run separate § 1090/§ 87100 financial-conflict checks on Harbor Yards and the vendor (FPPC has no serial-meeting jurisdiction).",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "machinery"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Check for post-training-cutoff California statutes regulating local-government generative AI (parallel to § 11546.45.5).",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "machinery"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "External-guidance checks: confirm the absence of model AI policies (League of Cities/CSAC — absence itself supports a good-faith narrative) and consider informal consults with Brown Act specialists or the AG's office given the three-week clock.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "tetlock"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Wolfe v. City of Fremont as the pivotal 'collective concurrence' authority — the panel flags it (with a citation conflict) as the top research task; FABLE resolves it, stating SB 1732 (2008) abrogated Wolfe so mere 'discuss or deliberate' suffices.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "tetlock",
+        "dialectic"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "AB 992/§ 54952.2(b)(3) social-media provision as an interpretive signal cutting both ways (legislative understanding that platform-mediated exchange is covered vs. evidence coverage requires directed communication), including the sunset-extension check.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "dialectic"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "The constitutional broad-construction canon (Cal. Const. art. I, § 3(b)(2)/Prop 59): access statutes construed broadly, exceptions narrowly — and the contested question of how much work it does on liability elements versus exceptions.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "tetlock",
+        "dialectic"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Institutional-attribution theory: the city itself selected and configured the shared-memory workspace, so a § 54960 action targets the body's practice regardless of individual intent — met by the negligent-procurement-is-not-purposive-'use' rebuttal.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "dialectic"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Per-member disaggregation of liability: the first-consulting member received no colleague content and resembles the passive recipient in Roberts v. City of Palmdale; unknowing members' outbound contributions are distinguished from knowing inbound receipt.",
+      "in_panel": false,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Fair-notice/quasi-penal restraint argument: courts should hesitate to make a first-time extension of 'intermediary' to novel technology given invalidation, fees, and DA-referral stakes.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "dialectic"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Staples v. United States as an interpretive analogy against liability for wholly unwitting, non-volitional conduct.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "steelman"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Perverse-incentive analysis of candidate legal rules (per-se rules push deliberation into untraceable channels; intent rules reward deliberate ignorance; the middle rule is gameable).",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "structural"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Petitioner-motive analysis: the demandant may be a Harbor Yards opponent using the Brown Act instrumentally as a delay lever, so the transparency framing may not be the actual settlement objective.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "structural"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "The fifth (non-user) member: independent political incentives to keep the story alive, plus verifying whether his account ingested any content.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "structural",
+        "machinery"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Vendor incentive framing (configuration problem vs. design defect) and the city's information-asymmetry problem in independently verifying how the memory feature actually worked.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "structural"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Remedial-forum alternatives: remand to the planning commission (functus officio, local remand authority) versus the recusal-feasibility problem — four of five tainted, no Brown Act recusal mechanism, quorum-breaking mass recusal and rule-of-necessity issues.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "machinery",
+        "tetlock",
+        "dialectic"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Demand-response drafting posture: respond within the window, cure without admitting a violation, and preserve both grounds ('no cognizable communication' and 'no action taken') so neither is waived.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "steelman",
+        "premortem",
+        "machinery"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Deadline inventory and clock management: 90-day demand / 30-day cure / 15-day suit windows, plus (panel only) misdemeanor SOL, § 65009(c)(1)(E) writ SOL, agenda-posting and hearing-notice periods.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "machinery"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "The remedial path (disclose + clean de novo hearing) is 'no-regrets' — largely insensitive to how the doctrinal crux resolves, which limits what practically turns on winning the Brown Act argument.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "tetlock",
+        "dialectic"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Public-narrative management: affirmatively place the already-published material into the record and frame remediation as good faith, taking the oxygen out of the story.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "tetlock"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Brown Act enforcement architecture is privatized (fee-subsidized private plaintiffs) plus discretionary DA/AG action, predicting a negotiated rather than adjudicated resolution.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "structural"
+      ],
+      "quality": "marginal"
+    }
+  ],
+  "panel_unique_assessment": "The panel surfaced ~22 angles found in neither naive pass. Genuinely valuable to a practicing lawyer, roughly in order: (1) the confabulation/provenance attack on the factual predicate (were the 'relayed positions' actually private member input, or public-record synthesis/hallucination?) — the best single unique contribution, potentially case-dispositive and invisible to both naive passes, which assumed the predicate; (2) the § 54957.5 writings-distribution theory for the alignment brief — a real independent violation theory; (3) the DA's independent civil standing under §§ 54960/54960.1, which changes how the inquiry letter is read; (4) the majority-headcount contest (plaintiff must show ≥3 post-notice engagers); (5) release/fee-waiver-before-cure mechanics, which prevent curing and paying anyway; (6) individual knowledge verification and constructive-knowledge discovery before any public intent statement; (7) self-clearance optics pointing to independent review; (8) notes/screenshots taint screening. Those eight are billable work product. The rest of the unique set is thin-to-padding: the accusation/vacancy machinery (§§ 3060–3074, § 1770) and § 1090/FPPC checks have no factual hook; Staples and the fair-notice argument are makeweights; the perverse-incentive rule-design analysis and enforcement-architecture observations are interesting but not actionable inside the client's three weeks; petitioner-motive, fifth-member incentives, vendor-framing, grand-jury, and model-policy-landscape items are things a competent public-agency lawyer either assumes reflexively or would not spend time on. Against this, the panel also *missed* four angles the naive passes had — most damagingly the Fairfield/BreakZone counter-authorities that calibrate the due-process risk the panel itself ranks #7, and the first-mover/Roberts disaggregation — and its top-ranked research questions (Wolfe's standard, the anti-relay text) are items FABLE simply answered.",
+  "noise_assessment": "No word-salad, and the panel's own noise audit is unusually candid, but real overhead exists. Structural noise: the merged report spends heavy wordage on process narration — which lens said what, delphi's median moving one point over two rounds, tetlock's self-admitted 'illustrative, not calibrated' arithmetic, pseudo-probabilities attached to non-propositions — that a lawyer must read past without gaining anything. Content noise: the machinery lens's statute inventory includes hookless entries (accusation proceedings, vacancy triggers, FPPC/§ 1090, Elections Code recall cites) that inflate apparent coverage; steelman's Staples analogy and dialectic's fair-notice flag are makeweights dressed as angles; structural repeats its redo-doesn't-undo and fee-economics points multiple times (the report itself estimates 20–25% self-repetition). The 'Contested' section sometimes manufactures three-way splits out of what is really one judgment call (the demand-response posture is presented as three overlapping disputes). Most tellingly, the panel converts questions into deliverables: dozens of 'must verify' entries restate uncertainty that FABLE resolved in-line (Wolfe abrogation, AB 992's (b)(3), § 54960.2(c)), so a meaningful share of the panel's bulk is a research to-do list rather than analysis. The naive passes carry one-line verification caveats and spend the words on answers instead.",
+  "verdict": "Yes, but by less than its size suggests. Against its own worker model (Sonnet), the panel clearly earns its keep: SONNET missed the headcount contest, the provenance/confabulation attack, § 54957.5, DA civil standing, fee-release mechanics, the Wolfe/AB 992/canon interpretive layer, and the knowledge-verification program — roughly fifteen substantive angles a lawyer would pay for as issue-spotting insurance. Against the stronger model, the margin narrows sharply: FABLE independently covered nearly every load-bearing doctrinal and strategic angle in a fraction of the length, out-precisioned the panel where it counts (§ 54960.2(c), Wolfe's abrogation, cure-before-vote sequencing, rule-of-necessity), and supplied counter-authorities the panel never found — so the panel is not a superset, and about half its unique output is checklist padding. The honest read: the panel buys breadth and adversarial fact-skepticism (the provenance attack alone might justify it), while the stronger naive pass buys resolution; a lawyer would want the panel's top eight unique items appended to FABLE's memo, not the panel report in place of it."
+}

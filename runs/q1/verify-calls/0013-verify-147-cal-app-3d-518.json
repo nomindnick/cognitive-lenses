@@ -1,0 +1,86 @@
+{
+  "seq": 13,
+  "label": "verify-147-cal-app-3d-518",
+  "model": "claude-sonnet-5",
+  "attempt": 0,
+  "duration_s": 98.9,
+  "cost_usd": 0.44109170000000003,
+  "usage": {
+    "input_tokens": 1466,
+    "cache_creation_input_tokens": 14456,
+    "cache_read_input_tokens": 52749,
+    "output_tokens": 5162,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 14456,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 659,
+        "cache_read_input_tokens": 12930,
+        "cache_creation_input_tokens": 3904,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 3904
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "system": "You are the citation verifier in a legal-exploration pipeline. You are given one authority as cited by the pipeline's components, plus snippets showing how it was used. Using web search (prefer primary/official sources: leginfo.legislature.ca.gov, courts.ca.gov, law.justia.com, casetext.com, codes.findlaw.com, fppc.ca.gov), determine:\n1. Does the authority exist?\n2. Is the citation form correct (reporter cite, year, section number)?\n3. Does it plausibly stand for what the snippets use it for?\n\nStatuses: VERIFIED (exists, cite essentially right, usage consistent with what you found); MISCHARACTERIZED (exists but does not support the claimed use, or the cite attaches to the wrong case/section); NOT_FOUND (cannot locate after genuine searching); CONTESTED (real sources point in conflicting directions, or scope is genuinely unsettled); UNCLEAR (could not determine within a reasonable search).\n\nYou are NOT determining whether the authority is still good law (no Shepardizing) — say what you actually confirmed, no more. Be strict: a close-but-wrong reporter cite or a holding stretched past what sources show is MISCHARACTERIZED, not VERIFIED.",
+  "prompt": "## Authority as cited (variants seen in the documents)\n\n- 147 Cal.App.3d 518\n\n## How the documents used it\n\n[delphi] …. art. I, § 3(b) (Prop 59)\n- Gov. Code §§ 54960 and 54960.5 — standing and fee-shifting\n- *Sacramento Newspaper Guild v. Sacramento County Bd. of Supervisors* (1968) 263 Cal.App.2d 41\n- *Common Cause v. Stirling* (1983) 147 Cal.App.3d 518 (cited tentatively)\n- 85 Ops.Cal.Atty.Gen. 239 (2002) (cited tentatively)\n- Legislative history of the 1993–94 amendments to § 54952.2\n\nNearly all panelists flagged one or more of their authorities as requiring verifica…\n\n[tetlock] …each member's individual mental state, supporting an aggregate-level objective reading even absent any single member's intent.\n- Legislative history of the serial-meeting provisions (post-Common Cause v. Stirling (1983) 147 Cal.App.3d 518 and the 'hub-and-spoke'/daisy-chain concerns behind the 1990s amendments) targeted deliberate circumvention via a human intermediary who typically knew they were relaying views; that paradigm assumes at least one knowin…\n\n[dialectic] …eral policy musing. That specificity and proximity to the vote make this closer to the \"directed at the pending decision\" showing that concurrence-based doctrine looks for.\n\nSeparately, *Common Cause v. Stirling* (1983) 147 Cal.App.3d 518 supports a broad reading of \"deliberate\" that does not require a vote or a formal decision — the collective exchange and weighing of facts and views preliminary to a decision is itself deliberation. (Confident on the ca…\n\n## Context\n\nThe underlying question is a California public-agency hypothetical: q1 — The AI assistant as serial-meeting intermediary (Brown Act).\n\nVerify this authority per your instructions.",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "status": {
+        "type": "string",
+        "enum": [
+          "VERIFIED",
+          "MISCHARACTERIZED",
+          "NOT_FOUND",
+          "CONTESTED",
+          "UNCLEAR"
+        ]
+      },
+      "canonical_cite": {
+        "type": "string",
+        "description": "the correct full citation, if determinable"
+      },
+      "note": {
+        "type": "string",
+        "description": "1-3 sentences: what was confirmed or refuted, and the correct cite"
+      },
+      "source_urls": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "pages actually relied on"
+      }
+    },
+    "required": [
+      "status",
+      "canonical_cite",
+      "note",
+      "source_urls"
+    ]
+  },
+  "text": "{\"status\":\"MISCHARACTERIZED\",\"canonical_cite\":\"Common Cause v. Stirling (1983) 147 Cal.App.3d 518, 195 Cal.Rptr. 163\",\"note\":\"The case exists and the cite (147 Cal.App.3d 518, 1983) is correct: it's a San Diego City Council Brown Act case where six of nine members signed a letter (circulated by staff) directing that summons not be served in an eminent-domain suit; the trial court found a Brown Act violation, that finding was unchallenged on appeal, and the Court of Appeal's actual holding is that the trial court abused its discretion in denying attorney's fees under Gov. Code §54960.5, reversing to award fees/costs. That supports the [delphi] snippet's tentative citation for standing/fee-shifting. But [dialectic]'s claim that the case \\\"supports a broad reading of 'deliberate' ... the collective exchange and weighing of facts and views preliminary to a decision is itself deliberation\\\" is not this case's holding — that formulation comes from Rowen v. Santa Clara Unified School Dist. (1981) 121 Cal.App.3d 231, 234 — and since the merits of the Brown Act violation were never before the Stirling appellate court, it announced no deliberation test. [tetlock]'s use as background legislative-history context for hub-and-spoke/daisy-chain concerns is a defensible characterization of the underlying facts, not a doctrinal overreach.\",\"source_urls\":[\"https://law.justia.com/cases/california/court-of-appeal/3d/147/518.html\",\"https://caselaw.findlaw.com/court/ca-court-of-appeal/1837063.html\"]}",
+  "data": {
+    "status": "MISCHARACTERIZED",
+    "canonical_cite": "Common Cause v. Stirling (1983) 147 Cal.App.3d 518, 195 Cal.Rptr. 163",
+    "note": "The case exists and the cite (147 Cal.App.3d 518, 1983) is correct: it's a San Diego City Council Brown Act case where six of nine members signed a letter (circulated by staff) directing that summons not be served in an eminent-domain suit; the trial court found a Brown Act violation, that finding was unchallenged on appeal, and the Court of Appeal's actual holding is that the trial court abused its discretion in denying attorney's fees under Gov. Code §54960.5, reversing to award fees/costs. That supports the [delphi] snippet's tentative citation for standing/fee-shifting. But [dialectic]'s claim that the case \"supports a broad reading of 'deliberate' ... the collective exchange and weighing of facts and views preliminary to a decision is itself deliberation\" is not this case's holding — that formulation comes from Rowen v. Santa Clara Unified School Dist. (1981) 121 Cal.App.3d 231, 234 — and since the merits of the Brown Act violation were never before the Stirling appellate court, it announced no deliberation test. [tetlock]'s use as background legislative-history context for hub-and-spoke/daisy-chain concerns is a defensible characterization of the underlying facts, not a doctrinal overreach.",
+    "source_urls": [
+      "https://law.justia.com/cases/california/court-of-appeal/3d/147/518.html",
+      "https://caselaw.findlaw.com/court/ca-court-of-appeal/1837063.html"
+    ]
+  }
+}

@@ -128,6 +128,40 @@ q1 rerun with Haiku 4.5 workers (Fable judge unchanged): panel 25 substantive vs
 
 Head-to-head on q2 (full two-round Delphi vs round-1-plus-facilitation only, diff-judged): the revision round's contribution was "two marginally actionable sharpenings, both present in embryo in round 1" — while the median drifted +3 *in unison* after panelists admitted the feedback "reproduced my own reasoning." That is social anchoring, the exact pathology Delphi exists to prevent, reproduced inside a model panel whose members were never diverse to begin with. Default is now `max_rounds: 2` with the stall rule, and the honest recommendation is round-1-only unless round 1 shows real dispersion (the diff judge's suggested rule, adopted). The higher-leverage spend, per the diff judge and consistent with Round 1's central finding: a citation-verification pass, which "would move the estimate more than the revision rounds did."
 
-## Round 2 bottom line
+## Round 2 bottom line (see Round 3 below for the verification stage)
 
 Three of four recommended changes survived testing (two-pass aggregation: clear win, now default; machinery lens: keep, conditional value; Delphi trim: confirmed, default changed). One prediction was wrong in an instructive way: the gap with naive Fable was never mostly about worker-model knowledge — it was the tool throwing away its own work at the aggregation step. After the fix, **a $13/question Sonnet panel out-covers a frontier single pass on every question tested, with ~5% noise and an audit trail.** The durable lesson of both rounds is the same: the wins come from the pipeline's discipline — independence, provenance, completeness checking, verification — and the losses come wherever a single model call is trusted to be complete or correct on its own.
+
+---
+
+# Round 3 — verification becomes a pipeline stage
+
+*Last tranche of the expiring budget (47 calls, ~$30 API-equivalent): automate the thing both prior rounds crowned. Artifacts: `runs/q{1,2}/verification.json` + `verify-calls/`, `runs/q{1,2}/round3/verification_impact.md`, `runs/q2/round3/delphi_informed.json`, `runs/q{1,3}/round3/aggregate_v4.md` + `metrics_v4.json`.*
+
+## 1. The automated cite-check works, cheaply
+
+`python3 -m lenses verify <qid>` is now a pipeline stage: search-enabled worker calls (WebSearch/WebFetch, primary sources preferred) check each flagged authority for existence, citation form, and characterization — explicitly *not* good-law review. On q1 + q2: **28 authorities checked in under 4 minutes for ~$6; 20 VERIFIED, 8 MISCHARACTERIZED, 0 fabricated.**
+
+The catches were not cosmetic. On q2, the panel-and-baselines' *Capistrano* cluster contained **inverted holdings**: *City of Palmdale* (198 Cal.App.4th 926) was used as support for water-budget tiers when the court actually *struck down* a water-budget structure; *Griffith* (220 Cal.App.4th 586) was cited as "not a property-related fee" support when it held the opposite; *Plantier* (7 Cal.5th 372) was stretched from a narrow exhaustion holding into a scope-of-proof authority. Real cases, correct reporter cites, backwards or inflated holdings — the exact failure mode design principle 3 predicted, now caught mechanically. On q1, the panel's #1 research task resolved (the *Wolfe v. City of Fremont* cite verified in the form every lens had flagged as internally conflicting), and *Frazer v. Dixon Unified* was flagged with **internally inconsistent verifier accounts** across its two entries — which is the right caveat in miniature: the verifier is itself a search-equipped model, and where its own entries disagree, that's an escalate-to-human flag, not an answer.
+
+## 2. Verification changes the argument, not the number
+
+The q2 impact memo (Fable, connecting verification results to the report's provenance-tagged claims) re-scored the report: seven load-bearing pillars **strengthened** (verified *Bighorn*, *Capistrano*, § 375, § 1021.5 exactly as the convergent block used them), five claims **weakened or pulled** — including one repair option deleted outright (migrating to water-budget tiers, which rested on the inverted *Palmdale* reading) and the district's "deference shield" left without any surviving authority. The contested process-vs.-result fork tilted measurably against the district side once two of its three supports fell.
+
+Then the sharp result: a **fresh 7-panelist Delphi round given the verification annex read median 70 (IQR 2)** — identical to the original round 1, and *below* the social-anchoring revision round's 73. The authorities underpinning one whole side of the argument collapsed, and the probability didn't move. The Delphi-trim diff judge had predicted a cite-check "would move the estimate more than the revision rounds did"; it was right about where the value is and wrong about where it shows up. **Model probability estimates are sticky against evidence changes** — anchored on "contested question ≈ 70" — while the *composition* of the argument map shifts underneath them. Treat panel probabilities as coarse landscape signals; the verification-conditioned argument map is the artifact that actually updates.
+
+## 3. Hierarchical aggregation: the capacity fix, confirmed where it can be
+
+v4 (aggregate lens groups separately → merge → completeness pass) on the two questions where Round 2 showed crowding:
+
+| q1 | panel | naive Fable | panel-only | missed | noise |
+|---|---|---|---|---|---|
+| v2 (two-pass, 6 lenses) | 34 | 28 | 9 | 7 | 2% |
+| v3 (two-pass, 7 lenses) | 29 | 24 | 5 | 3 | 2% |
+| **v4 (hierarchical, 7 lenses)** | **41** | 32 | 8 | **2** | **0%** |
+
+q1's v4 is the best panel result of all three rounds — the seventh lens stopped crowding the other six the moment the summary stopped being a single compression pass. On q3, v4 recovered v3's dip (20 → 25) but the panel still trails naive Fable there (25 vs 28, panel-only 0) — third consecutive configuration confirming that **q3's gap is worker-model doctrinal knowledge, not pipeline structure**. Hierarchical + two-pass is now the tool default; q3-shaped questions are what the verify stage and a stronger worker are for.
+
+## Round 3 bottom line
+
+The pipeline's best component is no longer manual. Full-night arc, one line per round: Round 1 proved the discipline layer (flag-then-verify) beats every model opinion in the loop; Round 2 proved the panel's apparent ceiling was mostly self-inflicted aggregation loss; Round 3 automated the discipline layer and showed its real product — for ~$3/question and two minutes, a strengthened/weakened/re-argue map over verified authority — while exposing that the panel's probability numbers barely respond to it. Total spend across all three rounds: ~311 calls, ~$188 API-equivalent, one evening of expiring subscription budget. What ships: a runnable tool whose defaults are the best-tested configuration from each experiment, and a findings trail where every design claim has a number attached.

@@ -6,6 +6,7 @@
   "call_timeout_s": 900,
   "retries": 2,
   "aggregate_two_pass": true,
+  "aggregate_hierarchical": true,
   "lenses": {
     "delphi": {"panelists": 7, "max_rounds": 2, "vary_entry_points": true},
     "tetlock": {"max_subquestions": 6},

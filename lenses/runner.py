@@ -81,7 +81,11 @@ def run_question(qid: str, cfg: dict, force: bool = False, mock: bool = False,
         aggregate = agg_path.read_text(encoding="utf-8")
         log(f"[{q.id}] aggregate: cached")
     else:
-        aggregate = run_aggregate(q, lens_mds, backend, cfg)
+        if cfg.get("aggregate_hierarchical"):
+            from .aggregate import run_aggregate_hierarchical
+            aggregate = run_aggregate_hierarchical(q, lens_mds, backend, cfg)
+        else:
+            aggregate = run_aggregate(q, lens_mds, backend, cfg)
         write_text(agg_path, aggregate)
         log(f"[{q.id}] aggregate: done")
 

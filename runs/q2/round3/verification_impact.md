@@ -1,0 +1,35 @@
+# MEMO — Cite-Check Impact on Aggregated Report
+**Re:** Sierra Vista "Water Resilience Surcharge" report vs. verification results
+**Date:** 2026-07-02
+
+---
+
+## 1. STRENGTHENED — load-bearing authority verified
+
+- **The coverage holding ("almost certainly a property-related fee") [delphi, dialectic, premortem, structural, tetlock].** *Bighorn* (39 Cal.4th 205) VERIFIED, and the holding as verified — volumetric/metered domestic water charges are property-related fees — matches exactly how the convergent block used it. The report's caveat "(unverified)" on this pillar can be removed. The spelling-variant flag (Verjil/Vejil/Vial) is resolved: Verjil.
+- **The central-vulnerability claim (incentive-pricing language tracks the *Capistrano* defect) [delphi, dialectic, premortem, tetlock].** *Capistrano* (235 Cal.App.4th 1493) VERIFIED, and the verified holding — tiers must be justified by actual cost-of-service differences, "not merely by usage budgets or conservation goals" — supports the challenger-side reading the convergent block assumed.
+- **The Art. X, § 2 / Water Code § 375 harmonization claim [delphi, dialectic, structural, tetlock].** § 375 VERIFIED as to text and scope (conservation via rate-structure design after hearing/findings), so the reconciliation argument now rests on confirmed statutory language.
+- **Fee-exposure warning [dialectic, premortem, structural, tetlock].** CCP § 1021.5 VERIFIED with the elements as described; the § 1021.5 exposure line and premortem's "price the fee-award scenario" board-advice item stand on verified text.
+- **The disjunctive §§ 6(b)(1)/(b)(3) structure and burden/no-deference posture [delphi, dialectic, premortem, tetlock].** Prop 218 VERIFIED, including the (b)(1)/(b)(3) framework, the cross-subsidization concern, and independent-judgment review — this confirms tetlock's (b)(1)-vs-(b)(2) numbering correction and shores up the § 6(b)(5)-burden convergent claim.
+- **The Prop 26 framework as pleaded-in-the-alternative [dialectic, steelman, tetlock].** Prop 26 VERIFIED as to art. XIII C, § 1(e) and its exceptions — the *framework* is confirmed, though the contested tax-conversion-vs.-separate-tracks question itself remains unresolved by verification.
+- **The addendum's *San Buenaventura* distinction [dialectic, addendum item 1].** VERIFIED: it was a groundwater-extraction charge analyzed under Art. XIII C, exactly the distinction the addendum said was load-bearing. That anticipated counter-citation can now be met as the addendum recommended.
+
+## 2. WEAKENED / MUST BE RE-ARGUED
+
+- **Steelman's "not a fee" fallback support [steelman].** *Griffith v. Pajaro Valley* (220 Cal.App.4th 586) MISCHARACTERIZED — it actually held the charge **IS** a property-related fee (exempt only from voter approval via the water-service carve-out). The "Griffith-analogy support" leg of the fallback is inverted, and combined with verified *Bighorn*, the contested item "costless hedge vs. affirmatively harmful" now tilts hard toward premortem/structural's "dead on arrival" position.
+- **The deference shield [delphi minority, steelman, tetlock].** The Griffith mischaracterization also removes the cited "deference/revenue-use authority"; whichever *Griffith* the lenses meant, the pinpoint they relied on doesn't say what they used it for. The deference theme must find new authority — and note the Prop 218 verification affirmatively describes independent-judgment/no-deference review.
+- **"The district's best precedent" [dialectic, steelman].** *Morgan* (223 Cal.App.4th 892) MISCHARACTERIZED. The verified holding — upholding a **cost-of-service-based** tiered structure and an omnibus protest procedure — supports only part of dialectic's use; the "best precedent" characterization must be re-argued within that verified scope.
+- **The scope-of-proof flag [dialectic, and Must-verify entry citing delphi, dialectic, steelman, tetlock].** *Plantier* (7 Cal.5th 372) MISCHARACTERIZED — its verified holding is a narrow exhaustion rule (method challenges need not exhaust via the § 6(a) protest hearing). It cannot carry the "post-hoc cost proof vs. record-bound review" question the report assigned it; that question is now unanchored and must be re-researched. Dialectic's "9% protest cures nothing" point likewise needs re-grounding.
+- **The addendum's water-budget repair option [dialectic, addendum item 2].** *City of Palmdale* (198 Cal.App.4th 926) MISCHARACTERIZED — the report's usage "inverts the holding": the court **struck down** a water-budget-based tiered structure for failure to show a cost-of-service basis. Citing it as support for migrating *to* water-budget tiers is backwards; that repair option should be pulled or re-argued on other authority.
+- **Still unverified, unchanged by this pass:** *Coziahr* (the report's #4 research priority, three incompatible cites) [delphi, steelman, tetlock]; *Wilde*; the entire limitations/refund catalog (Gov. Code §§ 53750 et seq., 53759, 66022; CCP §§ 338, 860; Gov. Code §§ 900/935) [dialectic, premortem, steelman, structural, tetlock] — exposure quantification remains as unmoored as the report said it was.
+
+## 3. WHAT NOW LOOKS DECISIVE (changes)
+
+- **Decisive item #1 (the $0.85 vs. 1.6× dollar gap) — unchanged and now framed by verified authority.** *Capistrano*'s verified holding confirms the gap is measured against actual cost-of-service differences; it remains the top research task [delphi, dialectic, premortem, steelman, tetlock].
+- **Decisive item #2 (process-vs.-result fork) — narrowed against the district.** The "curable surplusage" side of the contested item leaned on *Griffith*, *Morgan*, and a deference reading [dialectic (antithesis), steelman, tetlock (Q2), delphi minority]; two of those three authorities are now mischaracterized, while the verified *Capistrano* language supports the "near-dispositive admission" side [delphi majority, dialectic thesis/synthesis, premortem]. Note: the verification did not answer the specific fact the report flagged (whether the Capistrano city had *any* cost study), so research item #3 is only partially discharged.
+- **Decisive item #3 (rebate/revenue-use theory) — untouched.** No verification result bears on it either way; it remains the concession-backed path that doesn't depend on the rate math.
+- **Newly consequential:** verified *Bighorn* + verified *San Buenaventura* together close off the coverage escape route more definitively than the report assumed, which sharpens tetlock's OR-gate decomposition (the district must now win on the § 6(b) merits, full stop).
+
+## 4. BOTTOM LINE
+
+**The report's lean — invalidation in substantial part more likely than not [delphi median 73; dialectic synthesis; tetlock ≥90% partial] — survives verification and is modestly reinforced: every challenger-side load-bearing authority verified as used, while the mischaracterizations fall almost exclusively on district-favorable citations (Griffith, Morgan, Palmdale-as-repair, Plantier-as-scope), leaving the decisive dollar-gap fact and *Coziahr* as the only items that could still move the estimate materially.**

@@ -1,0 +1,88 @@
+{
+  "seq": 14,
+  "label": "verify-223-cal-app-4th-892",
+  "model": "claude-sonnet-5",
+  "attempt": 0,
+  "duration_s": 143.2,
+  "cost_usd": 0.5515260000000002,
+  "usage": {
+    "input_tokens": 1086,
+    "cache_creation_input_tokens": 19928,
+    "cache_read_input_tokens": 136380,
+    "output_tokens": 7379,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 19928,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 1264,
+        "cache_read_input_tokens": 19298,
+        "cache_creation_input_tokens": 3008,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 3008
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "system": "You are the citation verifier in a legal-exploration pipeline. You are given one authority as cited by the pipeline's components, plus snippets showing how it was used. Using web search (prefer primary/official sources: leginfo.legislature.ca.gov, courts.ca.gov, law.justia.com, casetext.com, codes.findlaw.com, fppc.ca.gov), determine:\n1. Does the authority exist?\n2. Is the citation form correct (reporter cite, year, section number)?\n3. Does it plausibly stand for what the snippets use it for?\n\nStatuses: VERIFIED (exists, cite essentially right, usage consistent with what you found); MISCHARACTERIZED (exists but does not support the claimed use, or the cite attaches to the wrong case/section); NOT_FOUND (cannot locate after genuine searching); CONTESTED (real sources point in conflicting directions, or scope is genuinely unsettled); UNCLEAR (could not determine within a reasonable search).\n\nYou are NOT determining whether the authority is still good law (no Shepardizing) — say what you actually confirmed, no more. Be strict: a close-but-wrong reporter cite or a holding stretched past what sources show is MISCHARACTERIZED, not VERIFIED.",
+  "prompt": "## Authority as cited (variants seen in the documents)\n\n- 223 Cal.App.4th 892\n\n## How the documents used it\n\n[dialectic] …efit) based on actual engineering/demand data.\n\n---\n\n## XI. Candid Assessment of Vulnerabilities in This Theory\n\nIn the interest of the honest-weak-points obligation:\n\n- **Morgan v. Imperial Irrigation District** (2014) 223 Cal.App.4th 892 (verify citation) upheld tiered rates where the tier differential was shown to track actual increased procurement costs, with no separate \"incentive\" markup and no revenue diversion to non-payor rebates. This is the Dis…\n\n[steelman] … California water-rate design unconstitutional. (Cf., by analogy in the tolerance for aggregate rather than individualized cost-benefit matching in tiered utility pricing, *Morgan v. Imperial Irrigation District* (2014) 223 Cal.App.4th 892 [Prop 26 context; cited for the general principle, not as squarely controlling a 218 property-related fee].)\n\n## IV. In the Further Alternative: The Surcharge Is Outside § 6(b) Entirely\n\nShould the court conclude the ra…\n\n[naive_fable] …-tier users pay for education aimed at all customers?\n\n**The aggregation counterargument:** *Griffith v. Pajaro Valley Water Management Agency* (2013) 220 Cal.App.4th 586 and *Morgan v. Imperial Irrigation Dist.* (2014) 223 Cal.App.4th 892 allow proportionality to be assessed by class/in the aggregate rather than parcel-by-parcel, and don't demand rate-making perfection. Expect the district to lean hard on these. But *Capistrano* expressly distinguished *…\n\n## Context\n\nThe underlying question is a California public-agency hypothetical: q2 — Drought surcharge funding low-income rebates (Prop 218).\n\nVerify this authority per your instructions.",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "status": {
+        "type": "string",
+        "enum": [
+          "VERIFIED",
+          "MISCHARACTERIZED",
+          "NOT_FOUND",
+          "CONTESTED",
+          "UNCLEAR"
+        ]
+      },
+      "canonical_cite": {
+        "type": "string",
+        "description": "the correct full citation, if determinable"
+      },
+      "note": {
+        "type": "string",
+        "description": "1-3 sentences: what was confirmed or refuted, and the correct cite"
+      },
+      "source_urls": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "pages actually relied on"
+      }
+    },
+    "required": [
+      "status",
+      "canonical_cite",
+      "note",
+      "source_urls"
+    ]
+  },
+  "text": "{\"status\":\"MISCHARACTERIZED\",\"canonical_cite\":\"Morgan v. Imperial Irrigation Dist. (2014) 223 Cal.App.4th 892 (Fourth Dist., Div. One; consol. Nos. D060146, D061087; orig. filed Jan. 17, 2014, certified for pub. Feb. 4, 2014)\",\"note\":\"The case exists and the reporter cite (223 Cal.App.4th 892) is correct; it upheld an IID cost-of-service-based tiered water rate structure and an omnibus Prop. 218 protest procedure covering multiple customer classes, consistent with the dialectic/naive_fable use for aggregate rather than parcel-level cost matching. However, the steelman snippet's parenthetical calling it a \\\"Prop 26 context\\\" case is wrong — Morgan is exclusively a Proposition 218 (Article XIII D, §6) case with no Prop. 26 issue, so that characterization misattributes the case's legal framework.\",\"source_urls\":[\"https://caselaw.findlaw.com/ca-court-of-appeal/1656571.html\",\"https://somachlaw.com/policy-alert/unpublished-opinion-from-the-fourth-district-addresses-proposition-218-fee-protest-procedures-for-water-rate-increases-involving-multiple-classes-of-customers/\",\"https://www.calattorneysfees.com/2014/02/private-attorney-general-morgan-v-imperial-irrigation-district-now-published.html\",\"https://www.waterlawjournal.com/blog/the-problem-with-proportionality-the-effect-of-proposition-218-on-retail-water-rates-for-community-gardens-in-los-angeles\"]}",
+  "data": {
+    "status": "MISCHARACTERIZED",
+    "canonical_cite": "Morgan v. Imperial Irrigation Dist. (2014) 223 Cal.App.4th 892 (Fourth Dist., Div. One; consol. Nos. D060146, D061087; orig. filed Jan. 17, 2014, certified for pub. Feb. 4, 2014)",
+    "note": "The case exists and the reporter cite (223 Cal.App.4th 892) is correct; it upheld an IID cost-of-service-based tiered water rate structure and an omnibus Prop. 218 protest procedure covering multiple customer classes, consistent with the dialectic/naive_fable use for aggregate rather than parcel-level cost matching. However, the steelman snippet's parenthetical calling it a \"Prop 26 context\" case is wrong — Morgan is exclusively a Proposition 218 (Article XIII D, §6) case with no Prop. 26 issue, so that characterization misattributes the case's legal framework.",
+    "source_urls": [
+      "https://caselaw.findlaw.com/ca-court-of-appeal/1656571.html",
+      "https://somachlaw.com/policy-alert/unpublished-opinion-from-the-fourth-district-addresses-proposition-218-fee-protest-procedures-for-water-rate-increases-involving-multiple-classes-of-customers/",
+      "https://www.calattorneysfees.com/2014/02/private-attorney-general-morgan-v-imperial-irrigation-district-now-published.html",
+      "https://www.waterlawjournal.com/blog/the-problem-with-proportionality-the-effect-of-proposition-218-on-retail-water-rates-for-community-gardens-in-los-angeles"
+    ]
+  }
+}

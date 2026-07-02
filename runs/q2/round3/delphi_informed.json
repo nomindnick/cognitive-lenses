@@ -1,0 +1,162 @@
+{
+  "stats_informed": {
+    "n": 7,
+    "median": 70.0,
+    "mean": 69.7,
+    "stdev": 2.0,
+    "min": 68.0,
+    "max": 74.0,
+    "q1": 68.0,
+    "q3": 70.0,
+    "iqr": 2.0
+  },
+  "stats_baseline_rounds": [
+    {
+      "n": 7,
+      "median": 70.0,
+      "mean": 71.4,
+      "stdev": 2.8,
+      "min": 70.0,
+      "max": 78.0,
+      "q1": 70.0,
+      "q3": 72.0,
+      "iqr": 2.0
+    },
+    {
+      "n": 7,
+      "median": 73.0,
+      "mean": 74.1,
+      "stdev": 2.5,
+      "min": 72.0,
+      "max": 80.0,
+      "q1": 73.0,
+      "q3": 75.0,
+      "iqr": 2.0
+    }
+  ],
+  "panel": [
+    {
+      "probability": 70,
+      "confidence": "medium",
+      "position_summary": "More likely than not that a court finds at least a substantial part of the Water Resilience Surcharge invalid under art. XIII D, §6(b) — most likely by severing the increment attributable to \"conservation-incentive pricing\" above the documented 1.6x cost differential and/or the rebate-funded share benefiting non-payers — though full, wholesale invalidation is less certain given the partial cost-of-service anchor in the rate study.",
+      "rationales": [
+        "The text of art. XIII D §6(b)(3) caps a parcel's fee at 'the proportional cost of the service attributable to the parcel,' and the rate study's own admission that the $0.85 figure was derived 'in part' from conservation-incentive pricing rather than strict cost allocation — apparently exceeding the documented 1.6x marginal-cost differential — creates a direct textual mismatch that the district, bearing the burden under 6(b), will struggle to overcome.",
+        "Capistrano Taxpayers Assn. v. City of San Juan Capistrano (235 Cal.App.4th 1493) and City of Palmdale v. Palmdale Water Dist. (per the verified annex, both actually invalidated tiered rate structures resting on conservation/usage-budget goals rather than proven cost-of-service differences) are squarely on point and cut against a surcharge partly justified by an 'incentive pricing' rationale rather than cost data alone.",
+        "Under 6(b)(2), fee revenue 'shall not be used for any purpose other than that for which the fee ... was imposed,' and the district's concession that the 55% rebate allocation mostly benefits customers other than the surcharge-payers is an independent, self-inflicted cross-subsidization vulnerability that reinforces (and is analytically distinct from) the proportionality problem.",
+        "Because Bighorn-Desert View Water Agency v. Verjil (39 Cal.4th 205) holds that volumetric/metered water charges are 'property-related fees,' the district's fallback argument that the surcharge is not a property-related fee at all is unlikely to succeed, which keeps the surcharge inside 6(b)'s stricter, agency-bears-the-burden framework rather than Prop 26's more forgiving 'reasonable relationship' standard, increasing invalidation risk.",
+        "Countervailing: a documented 1.6x cost differential and a debt-service component (30%) plausibly tied to peaking/drought-reserve infrastructure give the district a genuine cost-of-service core (paralleling the upheld cost-based tiered rate in the IID case, 223 Cal.App.4th 892), so a court applying severability principles may well preserve the cost-justified portion of the surcharge and strike only the incentive-pricing excess and rebate-funded share, making full invalidation less likely than partial invalidation."
+      ],
+      "biggest_uncertainty": "Whether the \"conservation-incentive pricing\" language in the rate study reflects an actual quantifiable dollar excess over the 1.6x cost-based figure (which would doom that increment) or is merely rhetorical framing around a rate that in fact approximates the cost differential (which could allow the whole surcharge to survive) — the hypothetical does not specify the numeric relationship between the incentive-derived $0.85 and the strictly cost-derived rate, and that gap is the crux of how much of the surcharge, if any, a court would actually strike.",
+      "authorities": [
+        "Cal. Const. art. XIII D, § 6(b)(1)-(3)",
+        "Capistrano Taxpayers Assn. v. City of San Juan Capistrano, 235 Cal.App.4th 1493",
+        "City of Palmdale v. Palmdale Water Dist. (Cal. Ct. App.) — cite/holding to be verified",
+        "Bighorn-Desert View Water Agency v. Verjil, 39 Cal.4th 205",
+        "Imperial Irrigation District tiered-rate case, 223 Cal.App.4th 892 — cite/holding to be verified",
+        "Cal. Const. art. XIII C, § 1(e) (Prop 26) — for the alternative tax-characterization argument",
+        "Water Code § 375",
+        "Cal. Const. art. X, § 2"
+      ]
+    },
+    {
+      "probability": 74,
+      "confidence": "medium",
+      "position_summary": "More likely than not a court finds at least a substantial part of the surcharge invalid under art. XIII D §6(b) — most likely the revenue-use/cross-subsidy piece (the 55% rebate allocation) and any increment of the $0.85 figure attributable to \"conservation-incentive pricing\" rather than the 1.6x cost differential — while the portion of the surcharge tracking the 1.6x marginal-cost study and the debt-service allocation has a real chance of surviving, making \"whole\" invalidation less certain than \"substantial part\" invalidation.",
+      "rationales": [
+        "The district's own concession that $0.85 is derived 'in part' from conservation-incentive pricing rather than strictly cost allocation mirrors the precise defect condemned in Capistrano Taxpayers Assn. v. City of San Juan Capistrano (235 Cal.App.4th 1493), and under art. XIII D §6(b)'s burden-shifting framework the agency, not the ratepayers, must affirmatively prove the fee tracks cost of service — a burden this record does not clearly meet.",
+        "The concession that the 55%-of-revenue rebate program mostly benefits non-payors creates an independent and likely serious problem under §6(b)(2)'s bar on using fee revenue for any purpose other than that for which the fee was imposed, effectively redirecting money collected from top-tier users to subsidize other customers' appliances/turf rather than the cost of serving the payors.",
+        "The 1.6x marginal-cost differential is a genuinely favorable fact that meaningfully distinguishes this case from Capistrano and City of Palmdale v. Palmdale Water Dist. (198 Cal.App.4th 926), where the agencies had essentially no cost-of-service study behind their tiers at all, giving the district a plausible partial defense for the cost-tracking portion of the surcharge and the 30% debt-service allocation tied to peaking/drought-reserve costs.",
+        "Article X, §2's conservation mandate is unlikely to rescue the non-cost-justified increment because Capistrano already held conservation goals must be pursued through genuinely cost-based rate design rather than price-signaling alone, so the district's primary defense is weak precisely where the rate departs from the 1.6x cost study.",
+        "The district's fallback 'not a property-related fee' argument is very likely foreclosed by Bighorn-Desert View Water Agency v. Verjil (39 Cal.4th 205), which holds volumetric charges for metered domestic water delivery are property-related fees, so the dispute will almost certainly be adjudicated under (and likely partly lost under) the §6(b) cost-of-service framework rather than escaping it."
+      ],
+      "biggest_uncertainty": "Whether the $0.85/HCF figure actually exceeds the cost-justified rate implied by the 1.6x marginal-cost differential — the facts establish a qualitative admission of incentive-pricing influence but not the quantitative gap, and that magnitude question is likely dispositive of how much (versus whether any) of the surcharge survives."
+    },
+    {
+      "probability": 70,
+      "confidence": "medium",
+      "position_summary": "More likely than not that a reviewing court invalidates the Water Resilience Surcharge in at least substantial part — most probably the revenue-use/cross-subsidy piece (the 55% rebate allocation benefiting non-payors) and/or the increment of the $0.85 rate attributable to \"conservation-incentive pricing\" beyond the district's own proven 1.6x cost differential — even though the district's genuine marginal-cost study gives it a materially stronger record than the agencies that lost in Capistrano and Palmdale.",
+      "rationales": [
+        "The rate study's own admission that $0.85 derives 'in part' from conservation-incentive pricing rather than strictly cost allocation closely tracks the defect Capistrano (235 Cal.App.4th 1493) condemned — tiered/inclining rates must be justified by actual cost-of-service differences, not conservation goals as an independent pricing rationale.",
+        "Article XIII D §6(b)(5) places the burden of proof on the agency in any enforcement action, and courts applying rigorous (non-deferential) review to that burden have struck down rate structures on records far more ambiguous than one containing an explicit non-cost pricing admission.",
+        "The district's concession that ~55% of surcharge revenue funds rebates mostly benefiting customers other than the payors raises a distinct cross-subsidization problem — revenue collected from one class arguably cannot exceed or be diverted to fund benefits primarily for a different class — and this alone plausibly satisfies 'substantial part' invalidation even if the cost-justified core of the tier differential survives.",
+        "Cutting the other way, Sierra Vista (unlike Palmdale's water-budget scheme or Capistrano's undifferentiated tiers) has an actual engineering/marginal-cost study showing a real 1.6x cost differential tied to peaking capacity and drought-reserve purchases — the kind of cost linkage Capistrano itself suggested could validate a tiered structure — giving a court a basis to sever and preserve a cost-justified rate rather than void the whole surcharge.",
+        "Bighorn-Desert View Water Agency v. Verjil (39 Cal.4th 205) forecloses the district's fallback 'not a property-related fee' argument for volumetric water delivery charges, meaning the dispute will almost certainly be resolved on strict Article XIII D §6(b) cost-of-service grounds rather than escaping heightened scrutiny altogether, which increases the odds some portion of the surcharge is found non-compliant."
+      ],
+      "biggest_uncertainty": "Whether a court would treat the admitted \"conservation-incentive pricing\" component and the rebate cross-subsidy as grounds to void the entire $0.85 surcharge/fund allocation, or would instead order a narrower reformation (paring the rate back to the 1.6x cost-justified level and/or redirecting rebate spending) that a reviewer might not characterize as invalidation \"in substantial part.\""
+    },
+    {
+      "probability": 68,
+      "confidence": "medium",
+      "position_summary": "Starting from the strongest lawful defense: the rate study's finding that high-tier marginal supply costs run ~1.6x base-tier costs (peaking capacity, drought-reserve purchases) supplies a genuine cost-causation nexus, and cases like Morgan v. Imperial Irrigation Dist. (223 Cal.App.4th 892) confirm cost-justified inclining-block tiers can survive Article XIII D §6(b). But that defense is significantly undercut by the district's own admission that the $0.85 figure is derived \"in part\" from conservation-incentive pricing rather than strict cost allocation — close to the defect Capistrano (235 Cal.App.4th 1493) and Palmdale (198 Cal.App.4th 926) condemned — and §6(b) puts the burden of proof on the district, not the challengers. A second, largely independent vulnerability is the 55% rebate allocation that the district concedes mostly benefits non-payers, which invites a separate §6(b)(3) \"proportional cost attributable to the parcel\" challenge regardless of how the tiered-pricing dispute comes out. The district's fallback \"not a property-related fee\" argument is very likely foreclosed by Bighorn-Desert View Water Agency v. Verjil (39 Cal.4th 205), pushing the case onto the 6(b) merits where the record has real soft spots. Because the proposition only requires invalidation \"in whole or substantial part,\" and there are two largely independent doctrinal paths to at least a partial plaintiff win, I lean toward invalidation being more likely than not, while recognizing a court crediting the 1.6x cost study as adequately supporting the bulk of the rate could uphold most of it.",
+      "rationales": [
+        "Capistrano and Palmdale (198 Cal.App.4th 926, which the annex confirms actually struck down the district's tiered rate for lacking cost-of-service support) establish that tiered water rates must be justified strictly by cost-of-service rather than conservation-goal-derived pricing, and the district's own study admits the $0.85 figure is 'in part' conservation-incentive pricing — a damaging concession under this precedent.",
+        "Article XIII D §6(b) places the burden of proof on the agency to demonstrate compliance, which is a demanding posture given the study's internal concession that a component of the surcharge is not cost-derived, making partial invalidation more likely than a deferential-review regime would.",
+        "The concession that the 55% rebate allocation 'mostly benefits customers other than those paying the surcharge' creates an independent cross-subsidization vulnerability under §6(b)(3)'s parcel-attributable-cost requirement, giving plaintiffs a second avenue to a partial win even if the tiered-rate dispute alone were resolved for the district.",
+        "Countervailing strength for the district: the ~1.6x marginal-cost differential (peaking capacity, drought reserves) is a legitimate, recognized cost driver distinguishing this case from the purely budget-based, non-cost-linked designs struck down in Capistrano/Palmdale, and Morgan v. Imperial Irrigation Dist. (223 Cal.App.4th 892) shows cost-justified tiered rates can be upheld, so full invalidation is not assured.",
+        "The district's alternative 'not a property-related fee' defense is very likely foreclosed by Bighorn-Desert View Water Agency v. Verjil (39 Cal.4th 205), which held volumetric charges for metered water delivery to a parcel are property-related fees, meaning the case will likely turn entirely on the harder §6(b) cost-of-service merits rather than a threshold escape hatch."
+      ],
+      "authorities": [
+        "Cal. Const. art. XIII D, §6(b)",
+        "Capistrano Taxpayers Assn. v. City of San Juan Capistrano (2015) 235 Cal.App.4th 1493",
+        "City of Palmdale v. Palmdale Water Dist. (2011) 198 Cal.App.4th 926",
+        "Bighorn-Desert View Water Agency v. Verjil (2006) 39 Cal.4th 205",
+        "Morgan v. Imperial Irrigation Dist. (2014) 223 Cal.App.4th 892 (case name per recollection; verify)",
+        "Griffith v. Pajaro Valley Water Mgmt. Agency (2013) 220 Cal.App.4th 586 (case name per recollection; verify) — confirms water-service fees remain subject to §6(b)'s substantive cost limits even where exempt from the voter-approval carve-out",
+        "Plantier v. Ramona Municipal Water Dist. (2019) 7 Cal.5th 372 — narrows exhaustion defense for method-of-allocation challenges, easing plaintiffs' procedural path to the merits",
+        "Cal. Const. art. X, §2; Water Code §375 (conservation mandate/authority, likely subordinate to the more specific and later-enacted Prop 218 cost limits per Capistrano's reasoning)"
+      ],
+      "biggest_uncertainty": "Whether the actual dollar amount of the surcharge, despite the study's 'conservation-incentive' framing, can be shown to fall within (rather than exceed) the ceiling justified by the 1.6x marginal-cost differential — the facts as given don't disclose the base-tier rate or the precise cost-allocation math, and that quantitative question likely drives the real outcome (and the scope of any remedy) more than the rhetorical framing in the rate study."
+    },
+    {
+      "probability": 70,
+      "confidence": "medium",
+      "position_summary": "More likely than not a reviewing court finds the surcharge — or at least a substantial part of it (the \"conservation-incentive\" increment above the cost-justified differential, and/or the rebate-funded cross-subsidy) — fails article XIII D, §6(b), even though the district's genuine 1.6x cost-differential study gives it a non-frivolous defense that could save a corrected version of the tiered structure on remand.",
+      "rationales": [
+        "Capistrano Taxpayers Assn. v. City of San Juan Capistrano (235 Cal.App.4th 1493) requires that tiered/inclining rates be justified by actual cost-of-service differences at each tier rather than by conservation policy, and the district's own study admits $0.85 was set 'in part' from conservation-incentive pricing rather than strict cost allocation — an admission that tracks the precise defect Capistrano condemned.",
+        "The concession that the 55%-funded rebate program mostly benefits non-payors is an independent and arguably more damaging problem: routing surcharge revenue to subsidize other customers' turf-replacement/appliance costs looks like cross-subsidization/wealth transfer rather than cost recovery, implicating §6(b)(2)'s bar on using fee revenue for other purposes and §6(b)(3)'s parcel-proportionality requirement.",
+        "Bighorn-Desert View Water Agency v. Verjil (39 Cal.4th 205) forecloses the district's fallback 'not a property-related fee' theory, since metered/volumetric charges for ongoing water delivery to a parcel are property-related fees under art. XIII D — the district cannot avoid §6(b) merits scrutiny by recharacterization, only avoid Prop 218's separate voter-approval step via the §6(c) water-service carve-out (cf. Griffith, 220 Cal.App.4th 586).",
+        "Countervailing factor: unlike Palmdale (198 Cal.App.4th 926) or the actual Capistrano district, this district has produced real cost-causation evidence (a 1.6x marginal-cost differential tied to peaking capacity and drought-reserve purchases), and IID (223 Cal.App.4th 892) shows a genuinely cost-based inclining-tier structure can survive — giving the district a colorable basis to defend at least the portion of the surcharge that tracks the 1.6x figure.",
+        "Because Prop 218 places the burden of proof on the agency under independent (non-deferential) judicial review, and courts in this line (Capistrano, Palmdale) have tended to invalidate the tainted rate as adopted rather than surgically severing the cost-justified fraction from the incentive-priced fraction, a mixed record like this one is more likely to produce at least a substantial partial invalidation plus a refund/remand order than a clean win for the district."
+      ],
+      "biggest_uncertainty": "Whether a court would treat the study's 'in part conservation-incentive pricing' language as merely an ancillary policy rationale layered atop an amount that still falls within (or below) the cost-justified range derived from the 1.6x differential — which would likely save the fee — versus as proof that $0.85 affirmatively exceeds the cost-justified amount, which would likely doom it; the hypothetical doesn't quantify base-tier price or show the arithmetic, so this is an unresolved, outcome-determinative factual question."
+    },
+    {
+      "probability": 68,
+      "confidence": "medium",
+      "position_summary": "More likely than not that a court invalidates the surcharge in whole or substantial part — most probably by striking the revenue-use/cross-subsidy structure (the 55% rebate allocation to non-payors) under §6(b)(2) and/or finding the $0.85 figure exceeds proportional cost under §6(b)(3) because it was admittedly set \"in part\" by incentive pricing rather than strictly derived from the 1.6x cost study — but the district's actual marginal-cost analysis (absent in Capistrano/Palmdale) gives it a genuine, non-frivolous defense that could save at least a cost-justified core of the surcharge.",
+      "rationales": [
+        "Capistrano and Palmdale establish that tiered/inclining water rates must be justified by demonstrated cost-of-service differentials rather than conservation policy alone, and the admitted 'in part' derivation of $0.85 from incentive pricing (not strictly the 1.6x cost figure) creates real §6(b)(3) exposure for the increment above cost.",
+        "Article XIIID §6(b) shifts the burden of proof to the agency to demonstrate compliance, so the ambiguity in how much of $0.85 is cost-derived versus incentive-inflated will likely be construed against the district at trial.",
+        "The district's concession that 55% of surcharge revenue (rebates) mostly benefits customers other than the payors is an independent and arguably stronger §6(b)(2) 'funds used for a purpose other than that for which the fee was imposed' problem that alone could satisfy 'substantial part' invalidation even if the base rate survives.",
+        "Unlike Capistrano/Palmdale where no cost study existed at all, the district here has an actual marginal-cost analysis showing a 1.6x differential, which under IID (223 Cal.App.4th 892)-style reasoning gives it a materially stronger defense that could preserve at least a cost-anchored core of the surcharge.",
+        "The conservation mandate (Art. X §2; Water Code §375) is unlikely to independently rescue the rate because Capistrano treated conservation as a legitimate but subordinate policy that does not substitute for cost-of-service proof under Article XIIID."
+      ],
+      "biggest_uncertainty": "Whether the actual numeric relationship between the $0.85 charge and the 1.6x-cost-justified figure shows the surcharge merely equals (or falls under) cost-justified levels — in which case the 'conservation-incentive' language may be non-fatal surplus rhetoric — or whether it demonstrably exceeds that cost-derived amount, which is the pivotal unresolved factual question the hypothetical does not specify."
+    },
+    {
+      "probability": 68,
+      "confidence": "medium",
+      "position_summary": "More likely than not that a court invalidates at least a substantial part of the surcharge under art. XIII D section 6(b) -- most plausibly the \"conservation-incentive\" increment layered above the cost-justified 1.6x differential, and/or the 55%-of-revenue rebate allocation that the District concedes flows mainly to non-payers -- even though the 1.6x marginal-cost finding gives the District a genuine (if partial) cost-of-service anchor that the Capistrano/Palmdale line of cases lacked entirely.",
+      "rationales": [
+        "Capistrano (235 Cal.App.4th 1493) requires tiered water rates to track actual cost-of-service differentials rather than conservation policy, and the District's own admission that the $0.85 figure rests 'in part' on conservation-incentive pricing rather than strict cost allocation is close to a self-inflicted violation of section 6(b)(3)'s 'shall not exceed proportional cost' text.",
+        "Under Prop 218 the agency bears the burden of proof and courts apply independent judgment with no presumption of validity, so a rate study that itself concedes departure from pure cost allocation is a materially weaker litigation posture than most agencies defend from.",
+        "The concession that 55% of surcharge revenue (rebates) mostly benefits customers other than the payors is an independent, arguably more serious cross-subsidization defect under section 6(b)(3)'s parcel-proportionality requirement, and Plantier (7 Cal.5th 372) confirms that fee-allocation-methodology challenges are cognizable separately from rate-amount challenges and are not barred by failure to exhaust the section 6(a) protest hearing.",
+        "Countervailing: the rate study's 1.6x marginal-cost finding (peaking capacity, drought-reserve purchases) is a genuine cost-of-service anchor absent in Capistrano/Palmdale, giving the District a colorable severability argument that a court could uphold the cost-justified portion of the tier differential while invalidating only the incremental incentive-priced excess and the rebate cross-subsidy, which would still likely qualify as invalidation 'in substantial part' given the dollar amounts (55% of $4.1M) at stake.",
+        "The District's alternative 'not a property-related fee' defense is weak given Bighorn/Verjil (39 Cal.4th 205) and Griffith (220 Cal.App.4th 586), which treat volumetric retail water charges as property-related fees subject to section 6(b), so the District is unlikely to escape 6(b) scrutiny entirely by recharacterizing the surcharge."
+      ],
+      "biggest_uncertainty": "Whether a court applying Capistrano's cost-of-service framework would sever and strike only the incentive-pricing excess and rebate-funded portion (partial/substantial invalidation) versus accepting the District's blended cost-plus-conservation rationale wholesale in light of the 1.6x cost study and Water Code 375's conservation-rate authority -- i.e., how much daylight exists between 'some cost basis' and 'cost basis sufficient under 6(b)(3)'s strict proportionality standard' is unresolved on this record and would likely turn on expert/record evidence not given in the hypothetical.",
+      "authorities": [
+        "Cal. Const. art. XIII D, section 6(b)(3)",
+        "Capistrano Taxpayers Assn. v. City of San Juan Capistrano, 235 Cal.App.4th 1493",
+        "City of Palmdale v. Palmdale Water Dist. (tiered water-budget rate struck for lack of cost-of-service showing)",
+        "Bighorn-Desert View Water Agency v. Verjil, 39 Cal.4th 205",
+        "Griffith v. Pajaro Valley Water Mgmt. Agency, 220 Cal.App.4th 586",
+        "Plantier v. Ramona Municipal Water Dist., 7 Cal.5th 372",
+        "Imperial Irrigation Dist. case, 223 Cal.App.4th 892 (upholding cost-of-service-based tiered rates)",
+        "Water Code section 375",
+        "Cal. Const. art. X, section 2",
+        "Cal. Const. art. XIII C, section 1(e) (Prop 26)"
+      ]
+    }
+  ]
+}
