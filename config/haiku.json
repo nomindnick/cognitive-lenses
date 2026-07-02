@@ -1,5 +1,5 @@
 {
-  "worker_model": "claude-sonnet-5",
+  "worker_model": "claude-haiku-4-5-20251001",
   "judge_model": "claude-fable-5",
   "fallback_judge_model": "claude-opus-4-8",
   "max_parallel_calls": 6,

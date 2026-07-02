@@ -66,13 +66,39 @@ honestly; if none, say so)""")
     return "\n".join(parts)
 
 
+COMPLETENESS_SYSTEM = """You are the completeness checker for the neutral aggregation step of a \
+legal-exploration pipeline. Round-1 instrumentation proved the single-pass aggregator drops real \
+material: substantive angles present in lens outputs never reached the aggregate. Your job is to \
+recover exactly that. Compare the DRAFT aggregate against the raw lens outputs and list every \
+substantive angle, warning, authority, deadline, or actionable item that appears in a lens output \
+but is absent from (or materially weakened in) the draft. Rules:
+- Output ONLY the addendum bullets. Do not rewrite, summarize, or praise the draft.
+- Every bullet ends with provenance tags naming its source lens(es), e.g. [premortem].
+- Substantive means a practicing lawyer would act on it; do not recover padding or restatement.
+- If nothing material is missing, output exactly: "Nothing material was dropped."
+"""
+
+
 def run_aggregate(q: Question, lens_outputs: dict[str, str], backend, cfg: dict,
-                  label: str = "aggregate") -> str:
-    c = backend.complete(
+                  label: str = "aggregate", two_pass: bool | None = None) -> str:
+    if two_pass is None:
+        two_pass = bool(cfg.get("aggregate_two_pass", False))
+    judge = cfg.get("judge_model", "claude-fable-5")
+    fallback = cfg.get("fallback_judge_model")
+    draft = backend.complete(
         aggregator_prompt(q, lens_outputs),
-        model=cfg.get("judge_model", "claude-fable-5"),
-        system=AGGREGATOR_SYSTEM,
-        fallback_model=cfg.get("fallback_judge_model"),
-        label=label,
-    )
-    return c.text
+        model=judge, system=AGGREGATOR_SYSTEM, fallback_model=fallback, label=label,
+    ).text
+    if not two_pass:
+        return draft
+    parts = [q.block(), "## DRAFT aggregate\n", draft, "\n## Raw lens outputs\n"]
+    for name, md in lens_outputs.items():
+        parts.append(f"\n---\n\n# [LENS: {name}]\n\n{md}")
+    parts.append("\n---\n\nList what the draft dropped, per your rules.")
+    addendum = backend.complete(
+        "\n".join(parts), model=judge, system=COMPLETENESS_SYSTEM,
+        fallback_model=fallback, label=f"{label}-completeness",
+    ).text
+    return (draft + "\n\n## 5. Completeness addendum "
+            "(second pass — recovered from lens outputs after the draft dropped it)\n\n"
+            + addendum)
