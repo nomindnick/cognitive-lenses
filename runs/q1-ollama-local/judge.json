@@ -1,0 +1,168 @@
+{
+  "angles": [
+    {
+      "summary": "Whether AI Shared Memory constitutes a prohibited 'Intermediary' under Gov Code § 54952.2(b)(1)",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "tetlock",
+        "dialectic",
+        "steelman"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Strict Liability for Violation vs. Willful Intent for Criminal Penalties (Gov Code § 54960/§ 54961)",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "premortem",
+        "structural"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Staff Safe Harbor (§ 54952.2(b)(2)) Failure due to Aggregation of Member Positions ('Points of Alignment' Brief)",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "steelman",
+        "dialectic"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Remedy Strategy: Reset Hearing/Recusal vs. Proceeding with Public Disavowal ('Cure without Voidance')",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "dialectic",
+        "machinery",
+        "premortem"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Risk of Judicial Voidance if Vote Relies on Tainted AI Deliberation (Fruit of Poisonous Tree)",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "premortem",
+        "machinery"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Vendor Contract Indemnification/Ownership Clauses shifting Liability from City to AI Provider",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "structural"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Privacy/CCPA Class Action Risk from Incidental PII Storage in Shared Memory",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "premortem"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "FPPC Ethics/Conflict of Interest Exposure Independent of Brown Act (Gov Code § 87100)",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "structural"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Shadow IT Risk: Banning Shared Memory driving Council to Personal/Unmonitored AI Tools",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "structural"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Automatic Stay Risk: Filing Writ to Void Action Triggers Delay Under § 54960(c)(1)",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "machinery"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Statutory Deadline Verification (3-week hearing window vs 90-day voiding timeline vs 30-day Cure demand)",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "machinery"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Case Law Citation Reliability (Uncertainty of 'Stockton', 'Kroninger' holdings/dates)",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "delphi",
+        "steelman"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Mathematical Probability of Violation (~32% via Crux Multiplication)",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "tetlock"
+      ],
+      "quality": "noise"
+    },
+    {
+      "summary": "'18 Months Post-Incident' Narrative Simulation for Risk Modeling",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "premortem"
+      ],
+      "quality": "noise"
+    },
+    {
+      "summary": "Specific Drafting Language for Cure-and-Correct Response Letter",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "dialectic"
+      ],
+      "quality": "marginal"
+    }
+  ],
+  "panel_unique_assessment": "The PANEL report surfaces significant substantive risks absent from the single-pass documents (CCPA liability, Vendor Indemnification, Shadow IT policy blowback, Automatic Stay mechanics). However, it dilutes these with procedural 'noise' (mathematical probability scoring, narrative simulations) and admits to unverified legal authorities in multiple lenses. The completeness addendum recovers unique angles missed in the main argument map.",
+  "noise_assessment": "Tetlock's probability calculation is legally irrelevant word-salad for binary compliance questions. Premortem's timeline simulation adds volume without authority. Case law citation inconsistencies across PANEL lenses require verification before reliance, whereas NAIVE-SONNET and FABLE present uncertain citations as settled fact.",
+  "verdict": "PANEL provides broader risk coverage (unique substantive angles) but suffers from higher noise-to-signal ratio regarding procedural certainty. NAIVE-FABLE is the cleanest actionable memo, though it misses unique liability vectors found in PANEL."
+}

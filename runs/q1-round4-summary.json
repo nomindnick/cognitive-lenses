@@ -1,0 +1,335 @@
+{
+  "claude-v4": {
+    "angles_total": 61,
+    "angles_substantive": 43,
+    "panel_found": 57,
+    "naive_sonnet_found": 27,
+    "naive_fable_found": 34,
+    "panel_substantive": 41,
+    "naive_sonnet_substantive": 23,
+    "naive_fable_substantive": 32,
+    "panel_only_substantive": 8,
+    "panel_beats_own_model": 18,
+    "missed_by_panel_substantive": 2,
+    "panel_noise": 0,
+    "panel_noise_rate": 0.0,
+    "per_lens": {
+      "delphi": {
+        "angles": 13,
+        "substantive": 13,
+        "unique_substantive": 0,
+        "noise": 0
+      },
+      "dialectic": {
+        "angles": 24,
+        "substantive": 23,
+        "unique_substantive": 1,
+        "noise": 0
+      },
+      "machinery": {
+        "angles": 27,
+        "substantive": 20,
+        "unique_substantive": 1,
+        "noise": 0
+      },
+      "premortem": {
+        "angles": 18,
+        "substantive": 16,
+        "unique_substantive": 2,
+        "noise": 0
+      },
+      "steelman": {
+        "angles": 16,
+        "substantive": 15,
+        "unique_substantive": 0,
+        "noise": 0
+      },
+      "structural": {
+        "angles": 23,
+        "substantive": 18,
+        "unique_substantive": 0,
+        "noise": 0
+      },
+      "tetlock": {
+        "angles": 22,
+        "substantive": 19,
+        "unique_substantive": 0,
+        "noise": 0
+      }
+    }
+  },
+  "hybrid": {
+    "angles_total": 60,
+    "angles_substantive": 33,
+    "panel_found": 48,
+    "naive_sonnet_found": 32,
+    "naive_fable_found": 35,
+    "panel_substantive": 22,
+    "naive_sonnet_substantive": 25,
+    "naive_fable_substantive": 29,
+    "panel_only_substantive": 1,
+    "panel_beats_own_model": 3,
+    "missed_by_panel_substantive": 11,
+    "panel_noise": 2,
+    "panel_noise_rate": 0.042,
+    "per_lens": {
+      "(merge-layer blind-spot flag only — no lens developed it)": {
+        "angles": 1,
+        "substantive": 1,
+        "unique_substantive": 0,
+        "noise": 0
+      },
+      "delphi": {
+        "angles": 12,
+        "substantive": 8,
+        "unique_substantive": 0,
+        "noise": 0
+      },
+      "dialectic": {
+        "angles": 16,
+        "substantive": 12,
+        "unique_substantive": 0,
+        "noise": 0
+      },
+      "machinery": {
+        "angles": 12,
+        "substantive": 8,
+        "unique_substantive": 0,
+        "noise": 1
+      },
+      "premortem": {
+        "angles": 21,
+        "substantive": 12,
+        "unique_substantive": 0,
+        "noise": 0
+      },
+      "steelman": {
+        "angles": 14,
+        "substantive": 10,
+        "unique_substantive": 0,
+        "noise": 0
+      },
+      "structural": {
+        "angles": 19,
+        "substantive": 10,
+        "unique_substantive": 0,
+        "noise": 1
+      },
+      "tetlock": {
+        "angles": 16,
+        "substantive": 12,
+        "unique_substantive": 0,
+        "noise": 0
+      }
+    }
+  },
+  "hybrid-withinrun": {
+    "angles_total": 48,
+    "angles_substantive": 32,
+    "panel_found": 38,
+    "naive_sonnet_found": 15,
+    "naive_fable_found": 31,
+    "panel_substantive": 23,
+    "naive_sonnet_substantive": 12,
+    "naive_fable_substantive": 27,
+    "panel_only_substantive": 4,
+    "panel_beats_own_model": 13,
+    "missed_by_panel_substantive": 9,
+    "panel_noise": 3,
+    "panel_noise_rate": 0.079,
+    "per_lens": {
+      "delphi": {
+        "angles": 10,
+        "substantive": 8,
+        "unique_substantive": 0,
+        "noise": 0
+      },
+      "dialectic": {
+        "angles": 15,
+        "substantive": 13,
+        "unique_substantive": 0,
+        "noise": 0
+      },
+      "machinery": {
+        "angles": 12,
+        "substantive": 10,
+        "unique_substantive": 0,
+        "noise": 1
+      },
+      "premortem": {
+        "angles": 20,
+        "substantive": 14,
+        "unique_substantive": 1,
+        "noise": 0
+      },
+      "steelman": {
+        "angles": 11,
+        "substantive": 9,
+        "unique_substantive": 0,
+        "noise": 0
+      },
+      "structural": {
+        "angles": 20,
+        "substantive": 12,
+        "unique_substantive": 0,
+        "noise": 1
+      },
+      "tetlock": {
+        "angles": 14,
+        "substantive": 11,
+        "unique_substantive": 0,
+        "noise": 1
+      }
+    },
+    "wall_s": 7089.2,
+    "run_stats": {
+      "calls": 39,
+      "cost_usd": 9.1289,
+      "by_model": {
+        "qwen3.5:122b": {
+          "calls": 31,
+          "input_tokens": 127663,
+          "output_tokens": 53500,
+          "cost_usd": 0.0
+        },
+        "claude-fable-5": {
+          "calls": 8,
+          "input_tokens": 141919,
+          "output_tokens": 123862,
+          "cost_usd": 9.1289
+        }
+      }
+    }
+  },
+  "local": {
+    "angles_total": 44,
+    "angles_substantive": 27,
+    "panel_found": 27,
+    "naive_sonnet_found": 25,
+    "naive_fable_found": 29,
+    "panel_substantive": 14,
+    "naive_sonnet_substantive": 23,
+    "naive_fable_substantive": 26,
+    "panel_only_substantive": 0,
+    "panel_beats_own_model": 0,
+    "missed_by_panel_substantive": 13,
+    "panel_noise": 8,
+    "panel_noise_rate": 0.296,
+    "per_lens": {
+      "delphi": {
+        "angles": 9,
+        "substantive": 7,
+        "unique_substantive": 0,
+        "noise": 2
+      },
+      "dialectic": {
+        "angles": 8,
+        "substantive": 8,
+        "unique_substantive": 0,
+        "noise": 0
+      },
+      "machinery": {
+        "angles": 7,
+        "substantive": 3,
+        "unique_substantive": 0,
+        "noise": 2
+      },
+      "premortem": {
+        "angles": 11,
+        "substantive": 8,
+        "unique_substantive": 0,
+        "noise": 2
+      },
+      "steelman": {
+        "angles": 9,
+        "substantive": 5,
+        "unique_substantive": 0,
+        "noise": 3
+      },
+      "structural": {
+        "angles": 9,
+        "substantive": 6,
+        "unique_substantive": 0,
+        "noise": 1
+      },
+      "tetlock": {
+        "angles": 6,
+        "substantive": 5,
+        "unique_substantive": 0,
+        "noise": 1
+      }
+    }
+  },
+  "local-withinrun": {
+    "angles_total": 15,
+    "angles_substantive": 12,
+    "panel_found": 15,
+    "naive_sonnet_found": 6,
+    "naive_fable_found": 6,
+    "panel_substantive": 12,
+    "naive_sonnet_substantive": 5,
+    "naive_fable_substantive": 6,
+    "panel_only_substantive": 6,
+    "panel_beats_own_model": 7,
+    "missed_by_panel_substantive": 0,
+    "panel_noise": 2,
+    "panel_noise_rate": 0.133,
+    "per_lens": {
+      "delphi": {
+        "angles": 4,
+        "substantive": 4,
+        "unique_substantive": 0,
+        "noise": 0
+      },
+      "dialectic": {
+        "angles": 4,
+        "substantive": 3,
+        "unique_substantive": 0,
+        "noise": 0
+      },
+      "machinery": {
+        "angles": 4,
+        "substantive": 4,
+        "unique_substantive": 1,
+        "noise": 0
+      },
+      "premortem": {
+        "angles": 5,
+        "substantive": 4,
+        "unique_substantive": 1,
+        "noise": 1
+      },
+      "steelman": {
+        "angles": 3,
+        "substantive": 3,
+        "unique_substantive": 0,
+        "noise": 0
+      },
+      "structural": {
+        "angles": 4,
+        "substantive": 4,
+        "unique_substantive": 3,
+        "noise": 0
+      },
+      "tetlock": {
+        "angles": 2,
+        "substantive": 1,
+        "unique_substantive": 0,
+        "noise": 1
+      }
+    },
+    "wall_s": 1573.1,
+    "run_stats": {
+      "calls": 42,
+      "cost_usd": 0.0,
+      "by_model": {
+        "qwen3.5:122b": {
+          "calls": 42,
+          "input_tokens": 220412,
+          "output_tokens": 112135,
+          "cost_usd": 0.0
+        }
+      }
+    }
+  }
+}

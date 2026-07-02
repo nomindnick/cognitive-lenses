@@ -6,7 +6,7 @@
   "verify_model": "claude-sonnet-5",
   "max_parallel_calls": 6,
   "ollama_max_parallel": 2,
-  "ollama_num_ctx": 32768,
+  "ollama_num_ctx": 65536,
   "ollama_timeout_s": 3600,
   "call_timeout_s": 900,
   "retries": 2,

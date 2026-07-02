@@ -165,3 +165,39 @@ q1's v4 is the best panel result of all three rounds — the seventh lens stoppe
 ## Round 3 bottom line
 
 The pipeline's best component is no longer manual. Full-night arc, one line per round: Round 1 proved the discipline layer (flag-then-verify) beats every model opinion in the loop; Round 2 proved the panel's apparent ceiling was mostly self-inflicted aggregation loss; Round 3 automated the discipline layer and showed its real product — for ~$3/question and two minutes, a strengthened/weakened/re-argue map over verified authority — while exposing that the panel's probability numbers barely respond to it. Total spend across all three rounds: ~311 calls, ~$188 API-equivalent, one evening of expiring subscription budget. What ships: a runnable tool whose defaults are the best-tested configuration from each experiment, and a findings trail where every design claim has a number attached.
+
+---
+
+# Round 4 — local models: the price of privacy, measured
+
+*Next day (2026-07-02), new question: the panel's structural discipline is model-agnostic on paper — does it survive workers that run on the machine under the desk? Motivation is not cost, it's confidentiality: a local panel could be pointed at privileged material. Backend now routes per call on an `ollama:` model prefix (`config/ollama-hybrid.json` = local workers + Fable judge; `config/ollama-local.json` = all-local, fallback deliberately kept local so a hiccup can't silently un-local the condition). Hardware: Ryzen AI Max+ 395, 126GB unified memory, ~200GB/s. Artifacts: `experiments/ollama-bench/`, `runs/q1-ollama-{hybrid,local}/`, `runs/q1-round4-summary.json`. Method: variant aggregates re-judged by the same Fable judge against the frozen round-1 baselines (the round-2 protocol); within-run numbers shown only for drift.*
+
+## 1. Feasibility: one model on this box is a workhorse, most are not
+
+Benchmark over six candidates with the real q1 Delphi panelist prompt (`experiments/ollama-bench/results.md`): **qwen3.5:122b is the only big model that serves** — loads 81GB in 26s, 22.8 tok/s decode, clean grammar-constrained panelist output with real authorities. gpt-oss:120b and mistral-medium-3.5:128b never start (llama-server initialization exceeds Ollama's 5-minute load window on every attempt — apparently ROCm kernel compilation for their quant formats; untested remedy: `OLLAMA_LOAD_TIMEOUT=30m`). gemma4:31b emitted corrupted tokens ("to bectors as a") and malformed JSON *under grammar constraint* — slow and unreliable. gemma4:12b was the surprise: 21.9 tok/s, as fast as the 122B MoE, clean output; the candidate for a below-Haiku-floor probe. One engineering note that earned its keep immediately: the backend refuses prompts near `num_ctx` instead of letting Ollama truncate silently — it caught the all-local completeness pass at ~31.7k tokens against a 32k window, which would otherwise have quietly aggregated half-blind (config D now runs 64k).
+
+## 2. Config C (local workers + Fable aggregation): the mechanism transfers, the value mostly doesn't
+
+Within-run, the pattern of every prior round replicates: panel 23 substantive vs its own naive pass at 12 — the harness still nearly doubles what its worker produces unaided. But matched-judged against the frozen baselines, the ceiling is stark:
+
+| q1, same Fable judge, same frozen baselines | panel | naive Sonnet | naive Fable | panel-only | missed | noise |
+|---|---|---|---|---|---|---|
+| Claude v4 (round 3, hierarchical) | **41** | 23 | 32 | 8 | 2 | 0% |
+| C: qwen workers + Fable aggregation | 22 | 25 | 29 | 1 | 11 | 4% |
+| D: all-qwen | 14 | 23 | 26 | **0** | 13 | **30%** |
+
+**Local workers halve panel coverage (41 → 22), and the 31-call local panel loses to a single frozen Sonnet pass (22 vs 25).** Panel-only collapses 8 → 1: nearly everything that looked novel within-run was novel only against a weak local baseline. The judge called the panel's citation list "hallucination-riddled" — the niche-doctrine weakness predicted in advance, and the third consecutive round confirming the round-3 lesson: coverage gaps of this kind are worker-knowledge-bound, unfixable by structure. Round 2's headline ran the other direction (the Sonnet panel's gap was aggregation loss, not knowledge) — both are true, and the boundary is now measured: structure recovers what workers know and drop; it cannot recover what workers never knew.
+
+## 3. Config D (all-local): aggregation degrades, and the pipeline goes blind to itself
+
+All-qwen dropped panel coverage another third (22 → 14, zero unique angles, noise 4% → 30%), with the re-judge verdict reading: the panel "did not out-cover the naive passes in any way a lawyer would pay for." Crux-finding — the predicted failure point — degraded but did not fail outright: the qwen facilitator found the same § 54952.2(b)(1) fork the Fable facilitator found, at less than half the depth. (Caveat: C and D grew their lens documents in separate runs, so 22 → 14 conflates the aggregator change with worker-run variance; the clean isolation — locally re-aggregating C's frozen lens docs — is a cheap follow-up.)
+
+The finding that matters more than either count: **D's own local judge scored its panel panel-only=6, missed=0; the Fable re-judge of the same documents scored panel-only=0, missed=13.** An all-local pipeline doesn't just produce less — it loses the ability to see what it's missing. Any local deployment needs an external evaluation pass on principle, which partially defeats the confidentiality motivation unless the eval sees only the panel's output, not the source material.
+
+## 4. Local panels run hot and tight
+
+Delphi medians 78–79 with round-1 range 70–85 converging to IQR 5, where the Claude panels sat ~64–70 with genuine dispersion, on the identical proposition. Hot *and* tight is the bad quadrant: the spread statistics that round 1 treated as signal (persistent disagreement = unsettled question) are not interchangeable across model families — a local panel's confidence interval measures the model's self-agreement, not the question's difficulty. Cross-family probability comparisons are off the table; within-family trajectories may still be usable.
+
+## Round 4 bottom line
+
+The discipline layer transfers; the knowledge doesn't. On this hardware today, the honest price of keeping privileged material on-box is roughly half the panel's coverage (hybrid) or two-thirds of it plus a 30% noise rate and no trustworthy self-assessment (all-local) — against a hybrid bill that still runs ~$9/question, because Fable aggregation was always where the money went. What survives unqualified: the harness amplifies whatever worker it's given (panel ≈ 2× its own naive in every configuration ever tested), the UNVERIFIED/cite-check design absorbs a hallucination-heavy worker exactly as intended, and the run cost $0 in worker tokens at 2 hours/question wall-clock. The right local use found by this round is narrower than hoped: local panels as a *breadth pre-pass* on confidential facts, feeding angles (not authorities) to a lawyer or a Claude-side verification stage — not as a replacement for the frontier panel. Wrong-in-an-instructive-way: the pre-registered prediction had config C "retaining most of the panel's value" — it retains the mechanism, not the value.
