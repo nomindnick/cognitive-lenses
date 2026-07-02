@@ -1,0 +1,104 @@
+<!doctype html><html><head><meta charset='utf-8'><meta name='viewport' content='width=device-width, initial-scale=1'><title>FINDINGS — cognitive-lenses</title><style>
+:root { --ink:#1a1e23; --sub:#5b6470; --line:#e3e6ea; --accent:#7a4dd8; --warn-bg:#fff7e0;
+        --warn-line:#e8c76a; --card:#fafbfc; }
+* { box-sizing:border-box; }
+body { font:16px/1.6 -apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif;
+       color:var(--ink); max-width:62rem; margin:0 auto; padding:2rem 1.2rem 6rem; }
+h1 { font-size:1.7rem; line-height:1.25; } h2 { margin-top:2.2em; border-bottom:2px solid var(--line);
+padding-bottom:.3em; } h3 { margin-top:1.6em; } h4 { margin-top:1.3em; }
+a { color:var(--accent); } code { background:#f1f0f7; padding:.1em .35em; border-radius:4px;
+font-size:.9em; } pre { background:#f6f6f9; border:1px solid var(--line); border-radius:8px;
+padding:1em; overflow-x:auto; } pre code { background:none; padding:0; }
+blockquote { margin:1em 0; padding:.6em 1em; border-left:4px solid var(--accent);
+background:var(--card); border-radius:0 8px 8px 0; }
+table { border-collapse:collapse; width:100%; margin:1em 0; font-size:.92em; }
+th,td { border:1px solid var(--line); padding:.45em .6em; text-align:left; vertical-align:top; }
+th { background:var(--card); }
+details { border:1px solid var(--line); border-radius:8px; padding:.6em 1em; margin:.8em 0;
+background:var(--card); } summary { cursor:pointer; font-weight:600; color:var(--sub); }
+details[open] summary { margin-bottom:.6em; }
+.banner { background:var(--warn-bg); border:1px solid var(--warn-line); border-radius:8px;
+padding: .8em 1em; margin:1.2em 0; }
+.meta { color:var(--sub); font-size:.9em; }
+.chip { display:inline-block; background:#efe9fb; color:#5b3aa8; border-radius:999px;
+padding:.1em .7em; font-size:.8em; margin-right:.4em; }
+.card { border:1px solid var(--line); border-radius:10px; padding:1em 1.2em; margin:1em 0;
+background:var(--card); }
+</style></head><body><h1>FINDINGS — the honest verdict</h1>
+<p><em>Written 2026-07-01 after the full instrumented run: 5 contested CA public-agency hypotheticals × (6-lens panel + naive Sonnet pass + naive Fable pass), scored by a Fable coverage judge instructed to be adversarial toward the panel; leave-one-out ablation on q1; live FPPC cite-check on q3. 180 model calls, ~$67 API-equivalent, ~30 min wall-clock per question. All numbers below come from <code>runs/</em>/metrics.json</code>; quotes from the judge outputs.*</p>
+<h2>TL;DR</h2>
+<ol>
+<li><strong>The panel reliably beats its own worker model.</strong> On all five questions, the Sonnet-worker panel out-covered naive Sonnet on substantive angles (138 vs 113 total; +2 to +8 per question). Structure buys a mid-tier model real coverage.</li>
+<li><strong>The panel roughly ties a naive frontier pass</strong> (138 vs 139 for naive Fable) — but they win <em>different territory</em>. The panel wins risk-surface, adversarial symmetry, and investigation/negotiation moves; Fable wins black-letter depth, statutory machinery, and deal design. A Sonnet panel is not a substitute for a strong doctrinal pass; it is a different instrument.</li>
+<li><strong>The panel found 26 substantive angles that BOTH naive passes missed</strong> — mostly from premortem and structural. That's the exploration payoff: ~5 genuinely new lines of inquiry per question that a lawyer reading two strong memos would still not have.</li>
+<li><strong>The night's best result is the guardrail, not the panel.</strong> On q3, naive Fable confidently asserted § 1091.5(a)(6) as the case-deciding safe harbor; the coverage judge (also Fable) crowned it "the fact that decides the case." The FPPC cite-check found the subsection's scope is at best contested — and surfaced the actually-on-point authority (FPPC 15-059-1090, § 1091(b)(1) remote interest) which cuts the other way <em>and</em> undercuts the panel's own Delphi median. The flag-then-verify architecture out-performed every model in the pipeline on the single highest-stakes citation of the night.</li>
+<li><strong>Word-salad exists and is quantifiable but modest</strong>: judge-rated noise was 0–8% of panel angles per question. The real inefficiency is redundancy, not nonsense (≈70% of Delphi's final-round text is restatement; q2's verdict: "a poor signal-to-text ratio").</li>
+<li><strong>Would I run it again?</strong> As a <em>pre-work risk-and-angle sweep feeding a verification list</em>, yes — that's what it's actually good at. As a replacement for one strong analytical pass, no, and it was never supposed to be that.</li>
+</ol>
+<h2>The coverage experiment</h2>
+<p>Angle extraction and classification by a Fable judge told to count an angle only where a document actually develops it, and to be adversarial toward the panel's volume.</p>
+<table><thead><tr><th>Q</th><th>Substantive angles (total)</th><th>Panel</th><th>Naive Sonnet</th><th>Naive Fable</th><th>Panel-only</th><th>Panel missed</th><th>Panel noise</th></tr></thead><tbody>
+<tr><td>q1 Brown Act / AI intermediary</td><td>38</td><td>31</td><td>23</td><td>32</td><td>4</td><td>7</td><td>0%</td></tr>
+<tr><td>q2 Prop 218 surcharge</td><td>32</td><td>29</td><td>23</td><td>26</td><td>5</td><td>3</td><td>5%</td></tr>
+<tr><td>q3 § 1090 / spouse's nonprofit</td><td>27</td><td>21</td><td>19</td><td>23</td><td>1</td><td>6</td><td>8%</td></tr>
+<tr><td>q4 CPRA / Signal chats</td><td>34</td><td>27</td><td>25</td><td>26</td><td>7</td><td>7</td><td>2%</td></tr>
+<tr><td>q5 Surplus Land / $1 deal</td><td>43</td><td>30</td><td>23</td><td>32</td><td>9</td><td>13</td><td>8%</td></tr>
+<tr><td><strong>Total</strong></td><td><strong>174</strong></td><td><strong>138</strong></td><td><strong>113</strong></td><td><strong>139</strong></td><td><strong>26</strong></td><td><strong>36</strong></td><td>—</td></tr>
+</tbody></table>
+<p>Reading the pattern honestly:</p>
+<ul>
+<li>The panel's edge is <strong>largest where the question is novel or sprawls across doctrines</strong> (q4, q5, q1 — no controlling authority, many interacting exposures) and <strong>smallest where the question is doctrine-dense</strong> (q3 — conflicts law, where the analysis is a catalog of statutory exceptions the worker model simply doesn't hold as reliably as Fable does). Procedure cannot conjure missing knowledge.</li>
+<li>The 36 substantive angles the panel <em>missed</em> are not all Fable's doctrinal depth: the q3 judge caught the aggregator failing to retain angles Sonnet's own naive pass had produced ("the panel failed to retain angles its own worker model produced unstructured"). <strong>Aggregation is a lossy bottleneck</strong> — the neutral aggregator compresses ~30k words of lens output and drops real material. This is the clearest tool defect the experiment exposed (see "What I'd change").</li>
+<li>Judge verdicts, condensed: q1 "a risk-spotting supplement to a strong single-pass memo, not a replacement"; q2 "yes, but narrowly and at a poor signal-to-text ratio"; q3 "no — not in the way a lawyer would pay for"; q4 "partial yes… the panel's real, payable edge is adversarial symmetry — both naive passes wrote one-sided 'city loses' memos"; q5 "the panel earned its keep on strategic and operational risk but lost on law."</li>
+</ul>
+<h2>The verification loop (q3) — the finding that matters most</h2>
+<p>The chain of events, verbatim from the artifacts:</p>
+<ol>
+<li>Panel lenses cited the § 1091/1091.5 exception catalog but <strong>queued it as a must-verify item</strong> rather than asserting how it resolves ("numbering to be confirmed"; "cite unverified" appears <em>inside</em> lens outputs — the preamble discipline held).</li>
+<li><strong>Naive Fable asserted</strong> § 1091.5(a)(6) as a hire-date safe harbor making the spouse's salary a noninterest — presented as dispositive.</li>
+<li><strong>The Fable coverage judge endorsed it</strong> as "the § 1091.5(a)(6) hire-date safe harbor (the fact that decides the case)" and scored the panel down for not having it.</li>
+<li>The <strong>verifier adapter</strong> (me + the real FPPC corpus) found: every located application of (a)(6) involves a spouse employed by a <em>public agency</em>; the on-point nonprofit-spouse case — FPPC 15-059-1090, a councilmember whose spouse was salaried Development Director of a 501(c)(3) seeking city funds — was analyzed under the <strong>§ 1091(b)(1) remote interest</strong> instead: the member "stands in the shoes of his spouse," and with disclosure + noting + abstention <em>the city may contract</em>. So the "decisive" cite is at best contested, and the actually-verified authority also refutes the Delphi panel's 75-median position that the contract is void even with recusal.</li>
+</ol>
+<p>Every layer of pure model opinion — worker panel, frontier baseline, frontier judge — was wrong or miscalibrated about the decisive point in some direction. The only component that produced reliable movement was the <strong>flag → check against primary sources → annotate</strong> loop. Design principle 3 wasn't a disclaimer; it was the value.</p>
+<p>(Also caught: one lens characterized <em>Fraser-Yamor</em> as a spouse's-employer case — it isn't — while itself flagging the cite unverified. Verified solid: <em>Thomson v. Call</em>'s no-cure-by-abstention holding, <em>Stigall</em>, <em>Honig</em>, § 1091.5(a)(8) for the uncompensated board seat. Full table in <code>runs/q3/report.html</code>.)</p>
+<h2>Which lenses pull their weight</h2>
+<p>Two instruments, which disagree in an instructive way.</p>
+<p><strong>Coverage-judge attribution</strong> (which lenses sourced substantive angles; "unique" = no other lens and no naive pass had it), summed over 5 questions:</p>
+<table><thead><tr><th>Lens</th><th>Substantive angles</th><th>Unique-substantive</th><th>Judge-rated noise</th></tr></thead><tbody>
+<tr><td>dialectic</td><td>94</td><td>2</td><td>1</td></tr>
+<tr><td>tetlock</td><td>91</td><td>0</td><td>4</td></tr>
+<tr><td>premortem</td><td>77</td><td><strong>5</strong></td><td>1</td></tr>
+<tr><td>steelman</td><td>69</td><td>1</td><td>0</td></tr>
+<tr><td>delphi</td><td>57</td><td>0</td><td>3</td></tr>
+<tr><td>structural</td><td>45</td><td>2</td><td>4</td></tr>
+</tbody></table>
+<p><strong>Leave-one-out ablation</strong> (q1): removing <em>any</em> lens was rated a significant loss, but of different kinds — remove premortem and you lose the action items (litigation hold <em>before</em> disabling the AI feature, fee-release before voluntary cure); remove structural and you lose the only incentive/game-theoretic layer (who's actually driving the suit, what the DA letter is for); remove tetlock and "the report reads ~2:1 toward violation while the full aggregate is near even odds" (calibration!); remove steelman and the entire contest-instead-of-cure strategic branch disappears; remove dialectic and contested questions silently become consensus; remove delphi and the risk quantification and its authority-conflict flags go.</p>
+<p>Reconciled: <strong>premortem and structural are the unique-coverage engines</strong> (7 of 12 attributed panel-unique angles; they generate what memo-shaped analysis structurally omits). <strong>Dialectic and tetlock are volume workhorses</strong> that mostly overlap with what strong naive passes also find — but they carry the <em>calibration and contest-preservation</em> function the ablation exposes. <strong>Delphi contributed zero unique angles</strong> — its value is not coverage at all (see below). <strong>Steelman overlaps heavily with dialectic's antithesis</strong> and is the first candidate to cut if trimming; the ablation's counter-argument is that it was the only lens producing a <em>developed strategic alternative</em> on q1.</p>
+<h2>Delphi, featured lens: worth it, but not for the number</h2>
+<ul>
+<li><strong>Panelists are correlated samples, not independent experts.</strong> Round-1 IQRs were already 2–10 points wide on a 100-point scale. Seven samples of one model with varied analytical entry points is not seven judgments; the classic Delphi rationale (aggregate diverse private information) mostly doesn't apply.</li>
+<li><strong>Convergence is therefore cheap and fast</strong> — every question stopped at 2 rounds under the stall/settle rule; IQR collapsed (10→3 on q3, 3→1 on q5). Movement between rounds was small and mostly toward the median, i.e., consensus-seeking, not information exchange.</li>
+<li><strong>The medians drifted high.</strong> All five propositions were "the conduct/measure would be held unlawful" framings, and the panel put every one of them at 65–82. On the one question with a checkable answer (q3), FPPC practice says the conservative reading was wrong. I read this as the known LLM conservatism/agreeableness bias showing through — treat Delphi probabilities as <em>relative</em> signals between questions, never as calibrated risk numbers for advice.</li>
+<li><strong>What actually earned the tokens:</strong> the facilitator's <em>persistent-disagreement</em> analysis. On q1 it isolated the volitional-"use"-vs-objective-reading fork, showed the 62–63 vs 66–68 clusters rest on incompatible readings of the same text, tagged the split as "genuinely unsettled legal question," and specified what would resolve it. That is a crux-finding machine, and the aggregator built on it. If I kept only part of Delphi, I'd keep round 1 + facilitation and drop the revision rounds.</li>
+</ul>
+<h2>Where it degrades into word-salad</h2>
+<p>Named honestly, with the judge's receipts:</p>
+<ul>
+<li><strong>Redundancy is the dominant failure, not nonsense.</strong> ~70% of Delphi's final-round text is restatement of round 1; q2's overall verdict was "a poor signal-to-text ratio." Panel artifacts are ~30k words/question before aggregation; nobody should read them raw (that's what the aggregate is for).</li>
+<li><strong>Tetlock attaches pseudo-probabilities to non-propositions.</strong> "P=8" on <em>what are the city's procedural deadlines</em> is a category error — the decompose step doesn't force its sub-questions to be propositions, so some estimates are decoration. Real procedure bug; fixable in the decompose schema.</li>
+<li><strong>Steelman/antithesis double-counting</strong>: the judge repeatedly noted the pair "invites double-count" in apparent coverage.</li>
+<li><strong>One degenerate schema submission</strong> made it into q1's round-1 Delphi stats (a panelist emitted a literal "test … for schema validation purposes" answer that validated; the revision round self-healed it). I added an application-level sanity gate + retry mid-run; later questions ran clean. Lesson: schema validation ≠ content validation.</li>
+<li><strong>Structural has the worst signal-to-noise ratio of the set</strong> (45 substantive / 4 noise, and its q3 output was mostly generic) — but when it hits (q1's vendor-exposure and fee-economics analysis, q5's intent-escalation dynamics), it's material nothing else produces. High-variance lens.</li>
+</ul>
+<h2>Economics</h2>
+<p>~$13.50 API-equivalent and ~30 wall-minutes per question (36 calls: 31 Sonnet, 5 Fable; ~450k output tokens). Per <em>panel-only substantive angle</em>, that's roughly $2.60 of API-equivalent spend — cheap against lawyer time if even one angle matters, expensive if you only needed the doctrinal answer (in which case: one Fable pass + a citator).</p>
+<h2>What I'd change first</h2>
+<ol>
+<li><strong>Fix the aggregation bottleneck</strong> — the aggregator provably drops angles the lenses had. Give it a second pass with an explicit completeness check against a bullet-inventory of lens outputs, or aggregate hierarchically.</li>
+<li><strong>Make verification a pipeline stage, not an annex.</strong> The q3 loop was the tool's best moment and it was manual. A verifier adapter interface exists (<code>verification.json</code>); wire a citator/corpus API in as a first-class stage that runs on the aggregate's "Must verify" list before the report renders.</li>
+<li><strong>Force tetlock sub-questions to be propositions</strong> (schema-level), killing the pseudo-probability noise.</li>
+<li><strong>Trim</strong>: steelman → optional (dialectic's antithesis covers ~80% of it); Delphi → round 1 + facilitation by default.</li>
+<li><strong>Add the missing lens</strong>: a pure "statutory-machinery inventory" operation (deadlines, procedures, penalty provisions) — most of what naive Fable beat the panel with was exactly this, and it's a procedure, not a persona.</li>
+</ol>
+<h2>Bottom line</h2>
+<p>The hypothesis mostly survives contact: <strong>an exploration harness on a mid-tier model buys real, measurable coverage a strong single pass doesn't have — but its durable value is the discipline layer (independent generation, provenance, flag-then-verify), not the panel's opinions.</strong> The tool as specced — angles to pursue and things to verify, never conclusions to rely on — turns out to be not just the safe framing but the accurate one: on the one occasion the night produced a checkable "decisive" legal conclusion, every model-opinion layer got it wrong and the verification loop got it right.</p></body></html>

@@ -2,6 +2,8 @@
 
 > **⚠️ Exploration output — angles, not answers.** This tool surfaces the argument space; it does not state the law. **Every authority cited anywhere below is UNVERIFIED** unless explicitly marked verified by a human or a verifier adapter. Assume citations may be wrong, mischaracterized, or invented until checked.
 
+**[Read FINDINGS — the honest verdict](../FINDINGS.html)**
+
 Each question was run through the full lens panel (Sonnet 5 workers), a neutral Fable 5 aggregator, and two naive baseline passes; a Fable 5 judge scored coverage. Click through for the full report.
 
 ## [q1 — The AI assistant as serial-meeting intermediary (Brown Act)](q1/report.html)

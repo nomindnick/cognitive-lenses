@@ -309,6 +309,7 @@ def build_question_report(qid: str, run_dir: Path | None = None) -> Path:
 def build_index(qids: list[str]) -> Path:
     cards = ["# cognitive-lenses — run index", "",
              UNVERIFIED_BANNER, "",
+             "**[Read FINDINGS — the honest verdict](../FINDINGS.html)**", "",
              "Each question was run through the full lens panel (Sonnet 5 workers), a "
              "neutral Fable 5 aggregator, and two naive baseline passes; a Fable 5 judge "
              "scored coverage. Click through for the full report.", ""]
@@ -343,4 +344,9 @@ def build_index(qids: list[str]) -> Path:
     md = "\n".join(cards)
     write_text(RUNS_DIR / "index.md", md)
     write_text(RUNS_DIR / "index.html", page("cognitive-lenses — runs", md2html(md)))
+    findings = RUNS_DIR.parent / "FINDINGS.md"
+    if findings.exists():
+        write_text(RUNS_DIR.parent / "FINDINGS.html",
+                   page("FINDINGS — cognitive-lenses",
+                        md2html(findings.read_text(encoding="utf-8"))))
     return RUNS_DIR / "index.html"
