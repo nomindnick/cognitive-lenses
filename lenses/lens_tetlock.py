@@ -22,7 +22,8 @@ DECOMP_SCHEMA = {
                 "type": "object",
                 "properties": {
                     "id": {"type": "string"},
-                    "text": {"type": "string", "description": "a crisply answerable sub-question"},
+                    "text": {"type": "string",
+                             "description": "a crisply answerable sub-question phrased as a PROPOSITION that is true or false (e.g. 'A court would hold X'), so that a probability estimate is meaningful — never an open 'what/which/how' question"},
                     "why_it_matters": {"type": "string"},
                     "what_would_have_to_be_true": {"type": "string"},
                 },
@@ -48,8 +49,11 @@ DECOMP_SYSTEM = WORKER_PREAMBLE + """
 Operation: forecasting-tournament DECOMPOSITION only. Break the big contested
 question into the smallest set of separately-answerable sub-questions (cruxes)
 such that answering all of them substantially answers the big question. Each
-sub-question must be something a researcher could investigate on its own. Do
-not answer any of them."""
+sub-question must be something a researcher could investigate on its own, and
+each MUST be phrased as a proposition that is true or false — a probability on
+an open 'what/which/how' question is meaningless, and instrumentation showed
+earlier versions of this lens producing exactly that noise. Do not answer any
+of them."""
 
 ESTIMATE_SYSTEM = WORKER_PREAMBLE + """
 

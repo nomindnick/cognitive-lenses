@@ -74,23 +74,26 @@ class ClaudeCLIBackend:
     def complete(self, prompt: str, *, model: str, system: str | None = None,
                  schema: dict | None = None, label: str = "call",
                  fallback_model: str | None = None,
-                 timeout_s: int | None = None) -> Completion:
+                 timeout_s: int | None = None, tools: str | None = None) -> Completion:
         last = None
         for attempt in range(self.retries + 1):
             try:
                 return self._once(prompt, model=model, system=system, schema=schema,
                                   label=label, fallback_model=fallback_model,
-                                  timeout_s=timeout_s or self.timeout_s, attempt=attempt)
+                                  timeout_s=timeout_s or self.timeout_s, attempt=attempt,
+                                  tools=tools)
             except BackendError as e:
                 last = e
                 time.sleep(min(45, 8 * (attempt + 1)))
         raise BackendError(f"{label}: failed after {self.retries + 1} attempts: {last}")
 
     def _once(self, prompt, *, model, system, schema, label, fallback_model,
-              timeout_s, attempt) -> Completion:
+              timeout_s, attempt, tools=None) -> Completion:
         cmd = ["claude", "-p", "--model", model, "--output-format", "json",
-               "--tools", "", "--no-session-persistence", "--strict-mcp-config",
-               "--disable-slash-commands"]
+               "--tools", tools or "", "--no-session-persistence",
+               "--strict-mcp-config", "--disable-slash-commands"]
+        if tools:
+            cmd += ["--allowedTools", tools]
         if system:
             cmd += ["--system-prompt", system]
         if schema:

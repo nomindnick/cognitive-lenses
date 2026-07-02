@@ -25,6 +25,11 @@ def main(argv=None) -> int:
     p.add_argument("--force", action="store_true")
     p.add_argument("--config", default=None)
 
+    p = sub.add_parser("verify", help="auto cite-check flagged authorities via search-enabled workers")
+    p.add_argument("qid")
+    p.add_argument("--max", type=int, default=14, help="max authority groups to check")
+    p.add_argument("--config", default=None)
+
     sub.add_parser("selftest", help="exercise the full pipeline offline (mock backend)")
 
     args = ap.parse_args(argv)
@@ -60,6 +65,16 @@ def main(argv=None) -> int:
         run_ablation(args.qid, cfg, force=args.force)
         from .report import build_index
         build_index(all_question_ids())
+        return 0
+
+    if args.cmd == "verify":
+        from .backend import make_backend
+        from .report import build_question_report
+        from .verify import run_verify
+        cfg = load_config(args.config)
+        backend = make_backend(cfg, RUNS_DIR / args.qid / "verify-calls")
+        run_verify(args.qid, cfg, backend, max_targets=args.max)
+        build_question_report(args.qid)
         return 0
 
     if args.cmd == "selftest":

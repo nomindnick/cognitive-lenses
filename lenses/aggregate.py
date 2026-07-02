@@ -66,6 +66,15 @@ honestly; if none, say so)""")
     return "\n".join(parts)
 
 
+MERGE_SYSTEM = """You merge two partial aggregates produced by the same neutral aggregation \
+step over different subsets of lenses. Produce ONE report in exactly the same section \
+structure (Argument map with Convergent/Contested/Unique, Blind spots, For the lawyer, \
+Noise audit). Rules: de-duplicate across the two partials; preserve every provenance tag; \
+a point Convergent in either partial stays Convergent, and a point appearing in both \
+partials from different lenses becomes Convergent; add NO new analysis of your own. \
+Prioritize keeping content over compressing — dropping a tagged point is worse than a \
+longer report."""
+
 COMPLETENESS_SYSTEM = """You are the completeness checker for the neutral aggregation step of a \
 legal-exploration pipeline. Round-1 instrumentation proved the single-pass aggregator drops real \
 material: substantive angles present in lens outputs never reached the aggregate. Your job is to \
@@ -100,5 +109,42 @@ def run_aggregate(q: Question, lens_outputs: dict[str, str], backend, cfg: dict,
         fallback_model=fallback, label=f"{label}-completeness",
     ).text
     return (draft + "\n\n## 5. Completeness addendum "
+            "(second pass — recovered from lens outputs after the draft dropped it)\n\n"
+            + addendum)
+
+
+def run_aggregate_hierarchical(q: Question, lens_outputs: dict[str, str], backend,
+                               cfg: dict, label: str = "aggregate-hier") -> str:
+    """Capacity-constrained aggregation fix: aggregate lens groups separately
+    (smaller inputs, less compression pressure), merge, then completeness-check
+    against ALL raw outputs."""
+    judge = cfg.get("judge_model", "claude-fable-5")
+    fallback = cfg.get("fallback_judge_model")
+    names = list(lens_outputs)
+    # Split doctrine-leaning vs action/incentive-leaning lenses; fall back to halves.
+    g1_pref = [n for n in ("delphi", "tetlock", "dialectic", "steelman") if n in names]
+    g2_pref = [n for n in names if n not in g1_pref]
+    if not g1_pref or not g2_pref:
+        mid = len(names) // 2
+        g1_pref, g2_pref = names[:mid], names[mid:]
+    partials = []
+    for i, group in enumerate((g1_pref, g2_pref), 1):
+        partials.append(backend.complete(
+            aggregator_prompt(q, {n: lens_outputs[n] for n in group}),
+            model=judge, system=AGGREGATOR_SYSTEM, fallback_model=fallback,
+            label=f"{label}-g{i}").text)
+    merged = backend.complete(
+        f"{q.block()}\n\n# PARTIAL A (lenses: {', '.join(g1_pref)})\n\n{partials[0]}\n\n---\n\n"
+        f"# PARTIAL B (lenses: {', '.join(g2_pref)})\n\n{partials[1]}\n\n---\n\nMerge per your rules.",
+        model=judge, system=MERGE_SYSTEM, fallback_model=fallback,
+        label=f"{label}-merge").text
+    parts = [q.block(), "## DRAFT aggregate\n", merged, "\n## Raw lens outputs\n"]
+    for name, md in lens_outputs.items():
+        parts.append(f"\n---\n\n# [LENS: {name}]\n\n{md}")
+    parts.append("\n---\n\nList what the draft dropped, per your rules.")
+    addendum = backend.complete(
+        "\n".join(parts), model=judge, system=COMPLETENESS_SYSTEM,
+        fallback_model=fallback, label=f"{label}-completeness").text
+    return (merged + "\n\n## 5. Completeness addendum "
             "(second pass — recovered from lens outputs after the draft dropped it)\n\n"
             + addendum)
