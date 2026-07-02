@@ -1,0 +1,16 @@
+{
+  "worker_model": "claude-sonnet-5",
+  "judge_model": "claude-fable-5",
+  "fallback_judge_model": "claude-opus-4-8",
+  "max_parallel_calls": 4,
+  "call_timeout_s": 900,
+  "retries": 2,
+  "lenses": {
+    "delphi": {"panelists": 7, "max_rounds": 3, "vary_entry_points": true},
+    "tetlock": {"max_subquestions": 6},
+    "dialectic": {},
+    "premortem": {},
+    "steelman": {},
+    "structural": {}
+  }
+}
