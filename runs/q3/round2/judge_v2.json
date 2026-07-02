@@ -1,0 +1,590 @@
+{
+  "angles": [
+    {
+      "summary": "Recusal by a member does not cure § 1090 — the prohibition attaches to the whole body (Thomson/Stigall), the rule is per se/prophylactic, fairness of price and good faith are non-defenses, and informal influence counts.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "dialectic",
+        "premortem",
+        "steelman",
+        "tetlock"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "The spouse's ~$95K salary is imputed to Okafor via community property (Fam. Code §§ 751/760) and is the central candidate disqualifying § 1090 interest, distinct from the board seat.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "dialectic",
+        "premortem",
+        "steelman",
+        "tetlock"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Classification of the uncompensated board seat under § 1091(b)(1) remote interest vs. § 1091.5(a)(8) noninterest, plus the resign-the-seat-anyway recommendation (Fable uniquely resolves it correctly: (b)(1) applies, (a)(8) fails its primary-purpose condition).",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "dialectic",
+        "steelman",
+        "tetlock"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "The decisive crux: whether any enumerated § 1091(b)/§ 1091.5(a) category reaches a spouse's salaried employment with the contracting nonprofit, including searching AG/FPPC guidance on the recurring pattern.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "dialectic",
+        "tetlock"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "The actual answer to that crux: § 1091.5(a)(6) spouse-employment safe harbor keyed to whether the spouse's employment predates Okafor's first election by ≥1 year — including the promotion problem, the direct-funding limitation on (a)(6), and the point that § 1091(b)(2) covers only the officer's own employment so no remote-interest category exists for a spouse.",
+      "in_panel": false,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Adopting the RFP framework/scoring criteria is itself 'making' the contract under § 1090's expansive construction (Stigall/Millbrae), so disqualification runs from the first agenda-setting step, not just the award vote.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "dialectic",
+        "premortem",
+        "tetlock"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Lexin-based segmentation counterargument: bidder-neutral criteria adoption may be characterizable as a general legislative/policy act rather than 'making' the Harbor Light contract, turning on participation intensity.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "tetlock"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Developed threshold counterargument that the attenuated interest (general operating budget, 40% minority share, 60%-not-100% win rate) may fail to constitute a § 1090 'financial interest' at all, leaving only a PRA problem recusal cures.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "delphi",
+        "dialectic"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Whether the fixed/non-contingent character of the salary matters: contingency-on-this-contract vs. employment-security/continuity as the test for direct vs. remote (panel's steelman argues it pro; Fable rebuts; Sonnet flags a possible fixed-salary provision to check).",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "steelman",
+        "dialectic",
+        "tetlock",
+        "premortem"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "People v. Honig as the closest spousal-nonprofit § 1090 analog, including its precedential weight and distinguishability (active steering, limitations reversal).",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "dialectic",
+        "steelman"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "The revenue-dependence nexus (40% city funding, 60% historical win rate, Director-level role matching the RFP's subject matter) as the facts driving the interest toward direct/material.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "dialectic",
+        "tetlock"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "PRA source-of-income analysis: spouse's income is community-property income to Okafor (§ 87103(c), § 82030) far exceeding the disqualification threshold, making Harbor Light a source of income.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "dialectic",
+        "steelman",
+        "tetlock"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "PRA materiality/foreseeability staging: at the award stage Harbor Light is a directly-involved/named party (per se material); at the framework stage the effect is still reasonably foreseeable/'realistic possibility' given three known bidders.",
+      "in_panel": false,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [],
+      "quality": "substantive"
+    },
+    {
+      "summary": "PRA business-position hook (§ 87103(d)) and the § 82005 'operated for profit' definitional wrinkle — Fable resolves that the nonprofit board seat is not a PRA interest, so the income prong does all the work.",
+      "in_panel": false,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Public-generally exception (§ 87103) is inapplicable to a targeted competitive award among three identifiable bidders (panel's steelman alone keeps it alive for the framework vote).",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "dialectic",
+        "tetlock",
+        "steelman"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "PRA recusal, done with full procedural compliance (§ 87105/Reg. 18707: identify the interest on the record, leave the room, no behind-the-scenes contact, quorum non-counting), genuinely cures the PRA problem — but PRA compliance is necessary, not sufficient, where § 1090 applies.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "dialectic",
+        "premortem",
+        "steelman",
+        "tetlock"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Rule of necessity is unavailable given a disinterested quorum and other realistic bidders.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "premortem",
+        "tetlock"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "§ 84308/SB 1439 Levine Act screen: post-2023 the pay-to-play rules reach elected city officials and discretionary RFP contracts — check contributions over $250 from Harbor Light officers/directors/agents to any councilmember, with disclosure/disqualification and a contribution ban.",
+      "in_panel": false,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [],
+      "quality": "substantive"
+    },
+    {
+      "summary": "§ 1092 consequences machinery: contract void, city recovers all payments while keeping benefits, no quantum meruit offset, four-year-from-discovery limitations, broad standing including taxpayers.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "dialectic",
+        "premortem",
+        "structural",
+        "tetlock"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "§ 1097 criminal exposure: willful violation is a felony, 'willful' requires only knowledge of the facts (not the law), and conviction carries forfeiture of office and permanent disqualification.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "dialectic",
+        "premortem",
+        "structural",
+        "tetlock"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "The FPPC has held administrative/civil enforcement authority over § 1090 itself since 2014 (§§ 1097.1–1097.5), and § 1097.1 formal written advice is the concrete safe-harbor mechanism for the exception question (Sonnet affirmatively states the opposite; the panel is silent).",
+      "in_panel": false,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Obtain contemporaneous, pre-decision written advice (AG opinion, FPPC advice letter, reasoned counsel opinion) to blunt § 1097 willfulness and lower the enforcement tier, with immunity scope caveats.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "dialectic",
+        "premortem",
+        "steelman",
+        "structural"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "HHAP pass-through overlay: state clawback/disallowance risk layered on local voidness, plus grant-specific conflict-of-interest certification requirements to check separately.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "premortem",
+        "tetlock"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Proactively notify the state grantor that a conflict is under legal review — silence reads as concealment if it surfaces later via press.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "premortem"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Challenge vectors from losing bidders and taxpayers: bid protest/writ on a tainted-process theory, CCP § 526a, § 1021.5 fee exposure, grand jury and press interest.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi",
+        "dialectic",
+        "premortem",
+        "structural",
+        "tetlock"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Enforcement economics and latency: regulators are complaint-driven and favor easy cases, losing bidders need future cycles, and the dangerous § 1090 channel can lie dormant and fire years later.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "structural",
+        "dialectic"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Nonprofit budget fungibility defeats paper walls/ring-fencing between city dollars and the spouse's salary line — both regimes look at practical economic reality, not budget-line formalism.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "dialectic",
+        "premortem",
+        "structural",
+        "tetlock"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Upstream taint via criteria drafting: staff who know the incumbent's profile may pre-shape scoring before any vote — fixed via outside-consultant/neutral-model rubrics and independent or blind evaluation panels with published objective criteria.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "structural",
+        "tetlock",
+        "steelman"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "A written, documented screening protocol effective from the moment the item is noticed: staff instructed in writing not to brief Okafor, no evaluation materials or closed-session access, all documented.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "premortem"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Advice-execution failure modes: hedged parallel recommendations get 'rounded down' by a time-pressured client to recusal-only, so convert advice into an ordered, dated checklist calendared against the HHAP deadline with an on-record council acknowledgment of residual risk.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "premortem",
+        "structural"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Cure-timing mechanics: a cure arriving after 'making' has begun is ineffective (late board resignation wasted; mid-procurement spousal exit requires restarting/re-adopting the framework), and a void contract cannot be ratified by a later clean re-vote.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "premortem",
+        "dialectic"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Core remedy menu: Harbor Light sits out the cycle / award to another bidder, or the spouse's employment genuinely ends before the process (with sham-timing scrutiny).",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "dialectic",
+        "tetlock",
+        "premortem"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Okafor resigning the council seat as the drastic-but-honest third option the client should hear.",
+      "in_panel": false,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Delegation to a genuinely independent awarding body and its limits: council approval/appropriation is still 'making,' cosmetic delegation fails, courts/AG are skeptical, though truly external routing (e.g., county continuum of care), multi-year insulation, or RFP redesign are conceptually different.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "tetlock",
+        "steelman",
+        "structural"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Rescind or restructure the 2019 liaison resolution itself (non-director/non-voting observer, or a different councilmember) — the liaison model is the systemic design flaw.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "tetlock",
+        "structural"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Manage the conflict on Harbor Light's side too: wall Okafor off from board discussions of the bid and the spouse from bid preparation, as a record-strengthener against bias/appearance challenges.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "dialectic"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Factual investigation package: spouse's hire date (Fable), whether the Director-of-Programs duties touch the RFP-funded programs or bid prep, how the position is funded, fund-accounting capacity, prior informal participation, quorum status.",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "steelman",
+        "premortem",
+        "tetlock",
+        "dialectic"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Interspousal transmutation agreement (Fam. Code § 850) converting earnings to separate property as a meaningful PRA fix but not a standalone § 1090 cure given § 1090's functional reading.",
+      "in_panel": false,
+      "in_naive_sonnet": true,
+      "in_naive_fable": false,
+      "panel_lenses": [],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Common-law conflict doctrine as an independent constraint (Clark v. Hermosa Beach; Noble): personal interest financial or otherwise, plus the fiduciary-duty collision from Corp. Code § 5231 director duties — the panel expressly admits no lens analyzed it and Sonnet deflects it into § 1090.",
+      "in_panel": false,
+      "in_naive_sonnet": false,
+      "in_naive_fable": true,
+      "panel_lenses": [],
+      "quality": "substantive"
+    },
+    {
+      "summary": "Gov. Code § 1099 incompatible-offices doctrine disposed of: a private nonprofit directorship is not a public office despite the council-liaison designation.",
+      "in_panel": false,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [],
+      "quality": "marginal"
+    },
+    {
+      "summary": "The 'stacking'/totality theory that board seat plus spousal salary intertwine into a single structural double-loyalty interest, raised and then rejected in favor of leg-by-leg analysis.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "dialectic",
+        "tetlock"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Pro-exception interpretive garnish: the surplusage canon (per se incurability would render §§ 1091/1091.5 dead letters) and the council's own 2019 resolution as evidence the seat was institutionally designed.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "dialectic",
+        "steelman"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Cost-allocation asymmetry: the spouse, who bears the highest concentrated cost of the cleanest fix, has no vote or formal role in the decision.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "structural"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Advice-seeking as liability-shifting: the request for counsel builds Okafor a personal mens rea shield that protects her more than it protects the city's contract from voidness.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "structural"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Adaptive-behavior forecasts of how actors respond to each candidate legal rule (recusal-sufficient → more entanglement; never-cures → disentanglement; walls-suffice → compliance-paperwork industry).",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "structural"
+      ],
+      "quality": "noise"
+    },
+    {
+      "summary": "Legislative/policy gap flag proposing a prospective relative-employment remote-interest category with a revenue safe harbor.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "dialectic"
+      ],
+      "quality": "noise"
+    },
+    {
+      "summary": "Quantified probability apparatus (delphi median 75% void; tetlock 20/16/64 decomposition and coherence check) — correlated readings of unverified doctrine dressed as numerical precision.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "delphi",
+        "tetlock"
+      ],
+      "quality": "noise"
+    },
+    {
+      "summary": "Political/press exposure planning: two-sided scandal narrative, whistleblower-triggered criminal referral scenario, and a pre-built communications plan for the low-probability/high-visibility event.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "premortem"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Route the § 1090 opinion to independent outside counsel because the city attorney's office has an asymmetric incentive structure (permissive answers cost nothing now; conservative answers cost friction now).",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "structural",
+        "dialectic"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Declaratory-relief/validation action as a definitive pre-reliance procedural path to resolve the exception crux absent controlling authority.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "dialectic"
+      ],
+      "quality": "substantive"
+    },
+    {
+      "summary": "The § 1091(a) cure's third statutory element — approval by the remaining disinterested members in good faith by sufficient vote without counting the interested member — as an execution step to build into the hearing record.",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "steelman",
+        "tetlock",
+        "dialectic"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Thorpe v. Long Beach CCD flagged as possibly the closest relative-employment authority, direction unresolved (Fable cites it only in a disgorgement string-cite).",
+      "in_panel": true,
+      "in_naive_sonnet": false,
+      "in_naive_fable": false,
+      "panel_lenses": [
+        "dialectic"
+      ],
+      "quality": "marginal"
+    },
+    {
+      "summary": "Citation-verification discipline: explicit must-verify lists and the Fraser-Yamor fragility warning that panel confidence collapses if the recalled holding is wrong (Sonnet and Fable carry only brief verify-before-relying caveats).",
+      "in_panel": true,
+      "in_naive_sonnet": true,
+      "in_naive_fable": true,
+      "panel_lenses": [
+        "delphi"
+      ],
+      "quality": "marginal"
+    }
+  ],
+  "panel_unique_assessment": "The panel surfaced ~17 angles neither naive pass developed. Genuinely valuable to a practicing lawyer: (1) the execution/sequencing failure analysis — hedged advice gets rounded down to recusal-only, so deliver an ordered dated checklist calendared against the HHAP deadline with on-record acknowledgment of residual risk (premortem/structural; this is real public-agency practice craft); (2) the Lexin segmentation counterargument that framework adoption might be a general policy act rather than 'making'; (3) the developed threshold counterargument that the attenuated interest may fail § 1090 entirely — the defense-side map neither naive pass built; (4) the declaratory/validation pre-reliance action; and smaller but real: the § 1091(a) disinterested-approval element, proactive grantor notification, the outside-counsel routing point, and the no-ratification rule. Padding or near-padding: the quantified probability apparatus (the panel's own audit concedes it confirms rather than changes anything), adaptive-behavior forecasts, the legislative-fix proposal, the stacking theory raised only to be rejected, the surplusage/2019-resolution advocacy garnish, the spouse-as-voiceless-cost-bearer and advice-as-mens-rea-shield sociology, and the press-narrative material. Crucially, the panel's single highest-billed output — 'pull §§ 1091(b)/1091.5(a) and check for a spousal-employment category' — is a research assignment, not an answer; Fable answered it in one pass (§ 1091.5(a)(6), hire-date crux, promotion problem, direct-funding limitation), and also uniquely delivered the SB 1439/§ 84308 screen and the FPPC's post-2014 § 1090 enforcement/§ 1097.1 advice mechanism, all three of which are current-law items the panel never touched.",
+  "noise_assessment": "The panel's noise is mostly structured repetition rather than word-salad, and its self-audit candidly admits it: delphi recites the same reasoning chain seven times to move a median three points; dialectic stages adversarial theater over consequences both sides concede; tetlock's coherence arithmetic is elaborate confirmation; structural repeats fungibility and enforcement-economics points across sections. Two subtler noise patterns matter more. First, the UNVERIFIED apparatus inflates apparent rigor: the panel converts its inability to check one statute into sprawling verification lists, while Fable simply supplied the specific (and, where checkable, accurate) provisions with a one-line caveat — cataloguing uncertainty is not coverage. Second, the 'completeness addendum' recovering a dozen dropped items reveals aggregation lossiness — material the pipeline generated and then lost from its own draft. Structural's sociology (adaptive-behavior forecasts, cost-asymmetry, regulator incentive maps) is coherent but largely non-actionable for counsel. Relative to the naive passes the panel also has coverage holes disguised by volume: PRA materiality staging is admittedly 'developed nowhere,' common-law doctrine — expressly part of the question — is flagged as a gap rather than analyzed, and the board-seat classification is left as an unresolved subsection hedge that Fable resolved in two sentences. For calibration: Sonnet's one clear error (denying FPPC § 1090 jurisdiction) shows the naive worker pass has its own noise floor; the panel avoided that error only by asserting less.",
+  "verdict": "Against its own worker model, yes: the panel out-covers naive Sonnet with genuinely billable additions — the sequencing/rounded-down execution analysis, the Lexin segmentation counter, the developed no-interest counterargument, declaratory relief, and cure-timing mechanics — so the pipeline demonstrably extracts more from Sonnet than Sonnet gives unprompted. Against the stronger naive model, no: Fable single-handedly resolved the panel's self-declared decisive crux (§ 1091.5(a)(6) and the hire-date fact that flips the entire recommendation) and added two current-law screens (SB 1439/§ 84308; FPPC § 1090 enforcement and § 1097.1 advice) plus the only real common-law analysis, while the panel could only assign homework and label everything UNVERIFIED. A lawyer would pay a modest premium for the panel's process-risk and counterargument material layered on top of Fable's memo, but would not trade Fable's memo for the panel report — the panel widens the checklist; Fable answers the question."
+}

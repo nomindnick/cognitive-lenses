@@ -1,0 +1,178 @@
+{
+  "q1": {
+    "v1": {
+      "panel_substantive": 31,
+      "naive_sonnet_substantive": 23,
+      "naive_fable_substantive": 32,
+      "panel_only_substantive": 4,
+      "missed_by_panel_substantive": 7,
+      "panel_noise_rate": 0.0
+    },
+    "v2": {
+      "panel_substantive": 34,
+      "naive_sonnet_substantive": 23,
+      "naive_fable_substantive": 28,
+      "panel_only_substantive": 9,
+      "missed_by_panel_substantive": 7,
+      "panel_noise_rate": 0.021
+    },
+    "v3": {
+      "panel_substantive": 29,
+      "naive_sonnet_substantive": 20,
+      "naive_fable_substantive": 24,
+      "panel_only_substantive": 5,
+      "missed_by_panel_substantive": 3,
+      "panel_noise_rate": 0.02
+    },
+    "v3_machinery_per_lens": {
+      "angles": 19,
+      "substantive": 10,
+      "unique_substantive": 0,
+      "noise": 0
+    },
+    "v1_opus": {
+      "panel_substantive": 33,
+      "naive_sonnet_substantive": 27,
+      "naive_fable_substantive": 32,
+      "panel_only_substantive": 4,
+      "missed_by_panel_substantive": 6,
+      "panel_noise_rate": 0.049
+    }
+  },
+  "q2": {
+    "v1": {
+      "panel_substantive": 29,
+      "naive_sonnet_substantive": 23,
+      "naive_fable_substantive": 26,
+      "panel_only_substantive": 5,
+      "missed_by_panel_substantive": 3,
+      "panel_noise_rate": 0.049
+    },
+    "v2": {
+      "panel_substantive": 29,
+      "naive_sonnet_substantive": 23,
+      "naive_fable_substantive": 27,
+      "panel_only_substantive": 4,
+      "missed_by_panel_substantive": 2,
+      "panel_noise_rate": 0.023
+    },
+    "v3": {
+      "panel_substantive": 31,
+      "naive_sonnet_substantive": 19,
+      "naive_fable_substantive": 23,
+      "panel_only_substantive": 10,
+      "missed_by_panel_substantive": 2,
+      "panel_noise_rate": 0.042
+    },
+    "v3_machinery_per_lens": {
+      "angles": 17,
+      "substantive": 13,
+      "unique_substantive": 4,
+      "noise": 0
+    }
+  },
+  "q3": {
+    "v1": {
+      "panel_substantive": 21,
+      "naive_sonnet_substantive": 19,
+      "naive_fable_substantive": 23,
+      "panel_only_substantive": 1,
+      "missed_by_panel_substantive": 6,
+      "panel_noise_rate": 0.079
+    },
+    "v2": {
+      "panel_substantive": 27,
+      "naive_sonnet_substantive": 21,
+      "naive_fable_substantive": 26,
+      "panel_only_substantive": 4,
+      "missed_by_panel_substantive": 6,
+      "panel_noise_rate": 0.068
+    },
+    "v3": {
+      "panel_substantive": 20,
+      "naive_sonnet_substantive": 22,
+      "naive_fable_substantive": 24,
+      "panel_only_substantive": 1,
+      "missed_by_panel_substantive": 8,
+      "panel_noise_rate": 0.049
+    },
+    "v3_machinery_per_lens": {
+      "angles": 24,
+      "substantive": 12,
+      "unique_substantive": 0,
+      "noise": 1
+    }
+  },
+  "q4": {
+    "v1": {
+      "panel_substantive": 27,
+      "naive_sonnet_substantive": 25,
+      "naive_fable_substantive": 26,
+      "panel_only_substantive": 7,
+      "missed_by_panel_substantive": 7,
+      "panel_noise_rate": 0.022
+    },
+    "v2": {
+      "panel_substantive": 35,
+      "naive_sonnet_substantive": 27,
+      "naive_fable_substantive": 29,
+      "panel_only_substantive": 10,
+      "missed_by_panel_substantive": 5,
+      "panel_noise_rate": 0.059
+    },
+    "v3": {
+      "panel_substantive": 34,
+      "naive_sonnet_substantive": 26,
+      "naive_fable_substantive": 28,
+      "panel_only_substantive": 11,
+      "missed_by_panel_substantive": 8,
+      "panel_noise_rate": 0.02
+    },
+    "v3_machinery_per_lens": {
+      "angles": 23,
+      "substantive": 16,
+      "unique_substantive": 2,
+      "noise": 1
+    }
+  },
+  "q5": {
+    "v1": {
+      "panel_substantive": 30,
+      "naive_sonnet_substantive": 23,
+      "naive_fable_substantive": 32,
+      "panel_only_substantive": 9,
+      "missed_by_panel_substantive": 13,
+      "panel_noise_rate": 0.085
+    },
+    "v2": {
+      "panel_substantive": 37,
+      "naive_sonnet_substantive": 24,
+      "naive_fable_substantive": 35,
+      "panel_only_substantive": 10,
+      "missed_by_panel_substantive": 11,
+      "panel_noise_rate": 0.107
+    },
+    "v3": {
+      "panel_substantive": 40,
+      "naive_sonnet_substantive": 23,
+      "naive_fable_substantive": 36,
+      "panel_only_substantive": 14,
+      "missed_by_panel_substantive": 13,
+      "panel_noise_rate": 0.075
+    },
+    "v3_machinery_per_lens": {
+      "angles": 23,
+      "substantive": 15,
+      "unique_substantive": 2,
+      "noise": 0
+    },
+    "v1_opus": {
+      "panel_substantive": 38,
+      "naive_sonnet_substantive": 22,
+      "naive_fable_substantive": 33,
+      "panel_only_substantive": 14,
+      "missed_by_panel_substantive": 10,
+      "panel_noise_rate": 0.042
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "seq": 4,
+  "label": "tetlock-decompose",
+  "model": "claude-haiku-4-5-20251001",
+  "attempt": 0,
+  "duration_s": 76.6,
+  "cost_usd": 0.038574000000000004,
+  "usage": {
+    "input_tokens": 1971,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 7094,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 1971,
+        "output_tokens": 7094,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "system": "You are performing one specific cognitive operation as an isolated component of a legal-exploration pipeline. You never see the other components' outputs, and nobody sees yours until a separate neutral aggregation step. Ground rules for every component:\n- The scenario is an invented hypothetical; there is no real client. Your output goes to a licensed California attorney who will do the actual legal reasoning. You generate angles to pursue and things to verify — not advice to be relied on.\n- Cite specific authorities (statutes, cases, regulations) when they genuinely support a point. Every citation is automatically flagged UNVERIFIED for human checking, so cite what you believe is correct, but never fabricate quotations or pinpoint holdings you are unsure of. When unsure, write \"verify whether X holds Y\" instead of asserting it.\n- Perform ONLY the operation described below. Do not produce a general-purpose legal memo.\n\nOperation: forecasting-tournament DECOMPOSITION only. Break the big contested\nquestion into the smallest set of separately-answerable sub-questions (cruxes)\nsuch that answering all of them substantially answers the big question. Each\nsub-question must be something a researcher could investigate on its own. Do\nnot answer any of them.",
+  "prompt": "## Facts (invented hypothetical — no real parties)\n\nThe City of Alvarado Shores (pop. ~92,000, invented) licensed \"CivicAssist,\" an AI assistant, city-wide. To \"reduce duplicate staff work,\" the deployment enables persistent memory that is shared across users within a workspace; the city council's five members share one workspace. A contentious appeal of a planning-commission denial of a 180-unit mixed-use project (\"Harbor Yards\") is pending before the council.\n\nOver the two weeks before the hearing, four of the five councilmembers separately and privately used CivicAssist to analyze the appeal. Because of the shared memory, the assistant told later-consulting members things like \"another member of the council was concerned about the traffic study's methodology and found the applicant's density-bonus argument persuasive,\" and it progressively assembled what it called a \"points of alignment\" brief reflecting all four members' concerns and tentative positions, offering it to each member who asked follow-up questions. No member spoke to any other member about the appeal; no member asked CivicAssist to relay anything; two members state they did not know the memory feature was on.\n\nA local journalist obtained the CivicAssist logs through a Public Records Act request and published a story alleging an illegal serial meeting. A demand to \"cure and correct\" under Government Code § 54960.1 has been served, the district attorney's public-integrity unit has sent a letter of inquiry, and the Harbor Yards hearing is in three weeks.\n\n## The question\n\nDid the four members' use of CivicAssist constitute a serial meeting prohibited by Government Code § 54952.2(b)(1) — i.e., did a majority of the body use \"a series of communications of any kind, directly or through intermediaries,\" to \"discuss, deliberate, or take action\" on an item within its jurisdiction? Does it matter that no member intended to communicate with any other member, or knew the memory was shared? Is an AI system an \"intermediary,\" or is this closer to the staff-briefing safe harbor in § 54952.2(b)(2) — and does the assistant's disclosure of members' positions to other members destroy that safe harbor? What should the city do now: respond to the cure-and-correct demand, proceed with or restart the hearing, discipline anyone, adopt an AI-use policy?\n\nDecompose this into sub-questions/cruxes.",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "subquestions": {
+        "type": "array",
+        "minItems": 3,
+        "maxItems": 6,
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "text": {
+              "type": "string",
+              "description": "a crisply answerable sub-question"
+            },
+            "why_it_matters": {
+              "type": "string"
+            },
+            "what_would_have_to_be_true": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "text",
+            "why_it_matters",
+            "what_would_have_to_be_true"
+          ]
+        }
+      }
+    },
+    "required": [
+      "subquestions"
+    ]
+  },
+  "text": "{\"subquestions\":[{\"id\":\"1\",\"text\":\"Does Government Code § 54952.2(b)(1) require that council members intend to communicate with each other, or be aware that their input will be visible to other members, or is inadvertent/unintended visibility sufficient to constitute a 'series of communications'?\",\"why_it_matters\":\"Two members claim ignorance of shared memory; none intended inter-member communication. If intent or knowledge is a statutory element, these facts could negate liability or substantially weaken it. If the statute is strict-liability on the communication point, these facts are irrelevant.\",\"what_would_have_to_be_true\":\"Decided cases interpreting § 54952.2(b)(1) must address the role of intent and actual knowledge; or the statute's plain language must clearly settle the question.\"},{\"id\":\"2\",\"text\":\"Is an AI system with shared persistent memory—particularly one that actively synthesizes and discloses user-generated content to subsequent users—an 'intermediary' within the meaning of § 54952.2(b)(1)'s phrase 'communications...directly or through intermediaries'?\",\"why_it_matters\":\"If AI qualifies as an intermediary, members' separate CivicAssist consultations constitute communications through an intermediary about a council matter, satisfying the core 'series of communications' prong. If not, the violation must rest on a different legal theory (e.g., that shared awareness itself is a communication), making liability harder to establish.\",\"what_would_have_to_be_true\":\"Case law or statutory interpretation must address whether intelligent agents, software systems, or AI systems count as 'intermediaries' in the context of Government Code § 54952.2; or existing case law on human intermediaries must clearly extend or exclude technological systems.\"},{\"id\":\"3\",\"text\":\"Does § 54952.2(b)(2)'s safe harbor for 'staff briefings' apply to AI-assisted analysis in a shared council workspace, and if it does apply, is that safe harbor destroyed when the AI unprompted discloses individual members' positions, concerns, and tentative conclusions to other members?\",\"why_it_matters\":\"If the safe harbor applies and survives the disclosure issue, members' reliance on CivicAssist analysis is per se lawful and cannot be a serial meeting. If the safe harbor does not apply or is negated by AI-to-member disclosures, it cannot shelter the conduct, and liability must rest on other grounds.\",\"what_would_have_to_be_true\":\"Case law or statute must define 'staff briefing' broadly enough (or narrowly enough) to include (or exclude) AI-generated research; and must address whether knowing disclosure of members' individual positions violates the safe harbor's underlying purpose and availability.\"},{\"id\":\"4\",\"text\":\"Does § 54952.2(b)(1)'s reference to 'discuss, deliberate, or take action' require evidence that members actually engaged in exchange or made decisions based on each other's positions, or can inadvertent exposure to an AI's synthesized summary of the item—without evidence of reliance or inter-member influence—satisfy the 'deliberate' prong?\",\"why_it_matters\":\"If 'deliberate' requires actual back-and-forth or demonstrated interdependence, the members' separate (and unintended) visibility into each other's analysis might not rise to deliberation. If mere exposure to shared analysis suffices, the threshold is much lower and liability is more likely.\",\"what_would_have_to_be_true\":\"Case law must clarify what 'discuss,' 'deliberate,' and 'take action' require in the serial-meeting context—specifically, whether unknowing, passive exposure to others' views satisfies the term or whether some element of awareness and exchange is necessary.\"},{\"id\":\"5\",\"text\":\"If a serial-meeting violation is established, what is the legal consequence to the council vote on Harbor Yards (void ab initio, voidable at the city's election, or valid but subject to equitable remedies), and what specific actions does Government Code § 54960.1's 'cure and correct' process require or permit (e.g., must the hearing be restarted de novo, must the vote be retaken after public re-deliberation, can staff cure by document the open process)?\",\"why_it_matters\":\"This determines the city's immediate obligations and whether the Harbor Yards vote stands or must be restarted. The cure-and-correct demand has strict procedural rules; the city's response strategy depends critically on whether the vote is void or merely voidable.\",\"what_would_have_to_be_true\":\"Statutes § 54952.2 and § 54960.1, case law interpreting them, and any regulatory guidance must establish the remedy framework, the effect on prior votes, and what 'cure and correct' requires.\"},{\"id\":\"6\",\"text\":\"Can council members who did not know about the shared-memory feature (or who did not intend to communicate with each other) be individually disciplined or held personally liable for unknowing participation in a serial meeting, or does statutory liability require individual knowledge and intent?\",\"why_it_matters\":\"Two members claim ignorance. If serial-meeting violations are strict-liability irrespective of individual knowledge, both are exposed to potential discipline despite their ignorance. If individual knowledge or intent is required, they may be protected, narrowing the city's and DA's exposure.\",\"what_would_have_to_be_true\":\"Case law or statute must establish whether serial-meeting liability attaches to individual members based solely on their participation in the body's acts, or whether it requires individual knowledge of the unlawful communication mechanism.\"}]}",
+  "data": {
+    "subquestions": [
+      {
+        "id": "1",
+        "text": "Does Government Code § 54952.2(b)(1) require that council members intend to communicate with each other, or be aware that their input will be visible to other members, or is inadvertent/unintended visibility sufficient to constitute a 'series of communications'?",
+        "why_it_matters": "Two members claim ignorance of shared memory; none intended inter-member communication. If intent or knowledge is a statutory element, these facts could negate liability or substantially weaken it. If the statute is strict-liability on the communication point, these facts are irrelevant.",
+        "what_would_have_to_be_true": "Decided cases interpreting § 54952.2(b)(1) must address the role of intent and actual knowledge; or the statute's plain language must clearly settle the question."
+      },
+      {
+        "id": "2",
+        "text": "Is an AI system with shared persistent memory—particularly one that actively synthesizes and discloses user-generated content to subsequent users—an 'intermediary' within the meaning of § 54952.2(b)(1)'s phrase 'communications...directly or through intermediaries'?",
+        "why_it_matters": "If AI qualifies as an intermediary, members' separate CivicAssist consultations constitute communications through an intermediary about a council matter, satisfying the core 'series of communications' prong. If not, the violation must rest on a different legal theory (e.g., that shared awareness itself is a communication), making liability harder to establish.",
+        "what_would_have_to_be_true": "Case law or statutory interpretation must address whether intelligent agents, software systems, or AI systems count as 'intermediaries' in the context of Government Code § 54952.2; or existing case law on human intermediaries must clearly extend or exclude technological systems."
+      },
+      {
+        "id": "3",
+        "text": "Does § 54952.2(b)(2)'s safe harbor for 'staff briefings' apply to AI-assisted analysis in a shared council workspace, and if it does apply, is that safe harbor destroyed when the AI unprompted discloses individual members' positions, concerns, and tentative conclusions to other members?",
+        "why_it_matters": "If the safe harbor applies and survives the disclosure issue, members' reliance on CivicAssist analysis is per se lawful and cannot be a serial meeting. If the safe harbor does not apply or is negated by AI-to-member disclosures, it cannot shelter the conduct, and liability must rest on other grounds.",
+        "what_would_have_to_be_true": "Case law or statute must define 'staff briefing' broadly enough (or narrowly enough) to include (or exclude) AI-generated research; and must address whether knowing disclosure of members' individual positions violates the safe harbor's underlying purpose and availability."
+      },
+      {
+        "id": "4",
+        "text": "Does § 54952.2(b)(1)'s reference to 'discuss, deliberate, or take action' require evidence that members actually engaged in exchange or made decisions based on each other's positions, or can inadvertent exposure to an AI's synthesized summary of the item—without evidence of reliance or inter-member influence—satisfy the 'deliberate' prong?",
+        "why_it_matters": "If 'deliberate' requires actual back-and-forth or demonstrated interdependence, the members' separate (and unintended) visibility into each other's analysis might not rise to deliberation. If mere exposure to shared analysis suffices, the threshold is much lower and liability is more likely.",
+        "what_would_have_to_be_true": "Case law must clarify what 'discuss,' 'deliberate,' and 'take action' require in the serial-meeting context—specifically, whether unknowing, passive exposure to others' views satisfies the term or whether some element of awareness and exchange is necessary."
+      },
+      {
+        "id": "5",
+        "text": "If a serial-meeting violation is established, what is the legal consequence to the council vote on Harbor Yards (void ab initio, voidable at the city's election, or valid but subject to equitable remedies), and what specific actions does Government Code § 54960.1's 'cure and correct' process require or permit (e.g., must the hearing be restarted de novo, must the vote be retaken after public re-deliberation, can staff cure by document the open process)?",
+        "why_it_matters": "This determines the city's immediate obligations and whether the Harbor Yards vote stands or must be restarted. The cure-and-correct demand has strict procedural rules; the city's response strategy depends critically on whether the vote is void or merely voidable.",
+        "what_would_have_to_be_true": "Statutes § 54952.2 and § 54960.1, case law interpreting them, and any regulatory guidance must establish the remedy framework, the effect on prior votes, and what 'cure and correct' requires."
+      },
+      {
+        "id": "6",
+        "text": "Can council members who did not know about the shared-memory feature (or who did not intend to communicate with each other) be individually disciplined or held personally liable for unknowing participation in a serial meeting, or does statutory liability require individual knowledge and intent?",
+        "why_it_matters": "Two members claim ignorance. If serial-meeting violations are strict-liability irrespective of individual knowledge, both are exposed to potential discipline despite their ignorance. If individual knowledge or intent is required, they may be protected, narrowing the city's and DA's exposure.",
+        "what_would_have_to_be_true": "Case law or statute must establish whether serial-meeting liability attaches to individual members based solely on their participation in the body's acts, or whether it requires individual knowledge of the unlawful communication mechanism."
+      }
+    ]
+  }
+}

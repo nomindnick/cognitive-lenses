@@ -36,6 +36,7 @@ LLMs give cheap, fast breadth — you can run many genuinely different reasoning
 | **premortem** | Fresh call establishes the position the agency would most likely adopt → second call: "18 months later it failed badly — write the retrospective," enumerate distinct failure causes ranked by likelihood × severity. |
 | **steelman** | Fresh call identifies which pole conventional analysis disfavors → second fresh call constructs that disfavored position to pass an ideological Turing test. |
 | **structural** | Single call, *forbidden* from doctrinal argument: actors, incentives, power, repeat-player dynamics, enforcement economics, who wins under ambiguity. Surfaces non-doctrinal drivers. |
+| **machinery** *(added in Round 2)* | Single call, *forbidden* from merits analysis: exhaustive inventory of clocks/deadlines, procedural vehicles, penalty/fee provisions, safe harbors, and forums — the checklist a lawyer could calendar and verify from. Added after Round-1 instrumentation showed this was most of a naive frontier pass's edge over the panel. |
 
 ## The neutral aggregator (not a lens)
 

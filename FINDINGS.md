@@ -5,7 +5,7 @@
 ## TL;DR
 
 1. **The panel reliably beats its own worker model.** On all five questions, the Sonnet-worker panel out-covered naive Sonnet on substantive angles (138 vs 113 total; +2 to +8 per question). Structure buys a mid-tier model real coverage.
-2. **The panel roughly ties a naive frontier pass** (138 vs 139 for naive Fable) — but they win *different territory*. The panel wins risk-surface, adversarial symmetry, and investigation/negotiation moves; Fable wins black-letter depth, statutory machinery, and deal design. A Sonnet panel is not a substitute for a strong doctrinal pass; it is a different instrument.
+2. **The panel roughly ties a naive frontier pass** (138 vs 139 for naive Fable) — but they win *different territory*. *(Round 2 update: after fixing the aggregation bottleneck, the panel beats the naive Fable pass within-run on all five questions — see [Round 2](#round-2--same-night-the-fixes-tested) below.)* The panel wins risk-surface, adversarial symmetry, and investigation/negotiation moves; Fable wins black-letter depth, statutory machinery, and deal design. A Sonnet panel is not a substitute for a strong doctrinal pass; it is a different instrument.
 3. **The panel found 26 substantive angles that BOTH naive passes missed** — mostly from premortem and structural. That's the exploration payoff: ~5 genuinely new lines of inquiry per question that a lawyer reading two strong memos would still not have.
 4. **The night's best result is the guardrail, not the panel.** On q3, naive Fable confidently asserted § 1091.5(a)(6) as the case-deciding safe harbor; the coverage judge (also Fable) crowned it "the fact that decides the case." The FPPC cite-check found the subsection's scope is at best contested — and surfaced the actually-on-point authority (FPPC 15-059-1090, § 1091(b)(1) remote interest) which cuts the other way *and* undercuts the panel's own Delphi median. The flag-then-verify architecture out-performed every model in the pipeline on the single highest-stakes citation of the night.
 5. **Word-salad exists and is quantifiable but modest**: judge-rated noise was 0–8% of panel angles per question. The real inefficiency is redundancy, not nonsense (≈70% of Delphi's final-round text is restatement; q2's verdict: "a poor signal-to-text ratio").
@@ -94,3 +94,40 @@ Named honestly, with the judge's receipts:
 ## Bottom line
 
 The hypothesis mostly survives contact: **an exploration harness on a mid-tier model buys real, measurable coverage a strong single pass doesn't have — but its durable value is the discipline layer (independent generation, provenance, flag-then-verify), not the panel's opinions.** The tool as specced — angles to pursue and things to verify, never conclusions to rely on — turns out to be not just the safe framing but the accurate one: on the one occasion the night produced a checkable "decisive" legal conclusion, every model-opinion layer got it wrong and the verification loop got it right.
+
+---
+
+# Round 2 — same night, the fixes tested
+
+*Remaining budget went to testing the four changes Round 1 recommended, instrumented the same way. Artifacts under `runs/<q>/round2/` and `runs/q1-haiku/`; comparison table in `runs/round2-summary.json`. Method note: each judge run re-extracts its own angle universe, so absolute counts jitter between runs — the Opus re-judges below measure that jitter at roughly ±2–8 per count. Only deltas above ~5, consistent in direction across questions, are treated as real.*
+
+## 1. The aggregation fix works — and it changes the headline conclusion
+
+v2 = the same six Round-1 lens outputs, aggregated with a second **completeness pass** that diffs the draft against the raw lens outputs and appends what was dropped (as an auditable addendum, provenance-tagged, not a rewrite).
+
+| Panel vs naive-Fable (same judge run) | q1 | q2 | q3 | q4 | q5 | Σ gap |
+|---|---|---|---|---|---|---|
+| v1 (single-pass aggregate) | −1 | +3 | −2 | +1 | −2 | **−1** |
+| v2 (two-pass aggregate) | +6 | +2 | +1 | +6 | +2 | **+17** |
+
+Panel-only substantive angles rose 26 → 37; substantive angles the panel missed fell 36 → 31; noise held ~5%. The swing is 2–3× the measured judge jitter and positive on all five questions. **Round 1's "panel ties naive Fable" was substantially an artifact of a lossy aggregator, not a limit of the panel** — the lenses had the material; the summary was dropping it (on q3 the addendum recovered, among other things, the § 1091(a) cure's third statutory element and § 1097's office-forfeiture consequence). Two-pass aggregation is now the tool default.
+
+## 2. The machinery lens: real content, conditional payoff
+
+v3 = v2 + the new statutory-machinery inventory lens. Its output judged substantive at a high rate (66 substantive angles attributed across the five questions, 8 uniquely its own), and on the procedure-heavy questions it delivered exactly as predicted — q2's panel-only count doubled (4 unique to machinery), q5's panel hit its best score of any run (40 vs Fable's 36). But v3 did **not** reliably stack on v2's gains (q1 and q3 came in below v2, within-jitter). Reading: the aggregate is *capacity-constrained* — a seventh lens competes with the other six for the same summary budget. The lens stays (its content targets precisely what naive Fable used to win with), but the next improvement is hierarchical aggregation, not more lenses.
+
+## 3. Judge robustness: conclusions replicate, counts jitter
+
+Opus 4.8 re-scored the untouched Round-1 artifacts for q1 and q5. Every directional conclusion replicated (panel > own-model naive on both; v1 panel ≈ naive Fable on both; premortem/structural as unique-angle sources), while absolute counts moved ±2–8 and panel-only by up to +5. All coverage tables in this document should be read with that error bar; nothing in the Round 1 or Round 2 conclusions rests on a delta smaller than it.
+
+## 4. The Haiku floor: the harness works harder, the failure mode gets scarier
+
+q1 rerun with Haiku 4.5 workers (Fable judge unchanged): panel 25 substantive vs its own naive pass at 15 (+67% relative — the harness lift is *bigger* at the weaker tier) and within 2 of naive Fable's 27. But the failure mode changed in kind, not degree: **two Haiku lenses fabricated a factual premise** (analyzing rescission of a council decision that was never made), where Sonnet workers had only ever been wrong about *law*, never about the given facts. The aggregator flagged the inconsistency as a blind spot, and the judge notes the panel's no-admission response strategy corrected naive-Haiku's actively risky "acknowledge the violation candidly" advice — so the harness contained the damage — but fact-fidelity failure is far more dangerous in legal work than missing depth. Verdict: Sonnet is the worker sweet spot; Haiku is usable for breadth with a mandatory facts-check stage; cost savings were modest anyway ($9.82 vs $13.74, because the Fable judge dominates).
+
+## 5. Delphi revision rounds: consensus polish, not information
+
+Head-to-head on q2 (full two-round Delphi vs round-1-plus-facilitation only, diff-judged): the revision round's contribution was "two marginally actionable sharpenings, both present in embryo in round 1" — while the median drifted +3 *in unison* after panelists admitted the feedback "reproduced my own reasoning." That is social anchoring, the exact pathology Delphi exists to prevent, reproduced inside a model panel whose members were never diverse to begin with. Default is now `max_rounds: 2` with the stall rule, and the honest recommendation is round-1-only unless round 1 shows real dispersion (the diff judge's suggested rule, adopted). The higher-leverage spend, per the diff judge and consistent with Round 1's central finding: a citation-verification pass, which "would move the estimate more than the revision rounds did."
+
+## Round 2 bottom line
+
+Three of four recommended changes survived testing (two-pass aggregation: clear win, now default; machinery lens: keep, conditional value; Delphi trim: confirmed, default changed). One prediction was wrong in an instructive way: the gap with naive Fable was never mostly about worker-model knowledge — it was the tool throwing away its own work at the aggregation step. After the fix, **a $13/question Sonnet panel out-covers a frontier single pass on every question tested, with ~5% noise and an audit trail.** The durable lesson of both rounds is the same: the wins come from the pipeline's discipline — independence, provenance, completeness checking, verification — and the losses come wherever a single model call is trusted to be complete or correct on its own.

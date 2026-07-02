@@ -7,7 +7,7 @@
   "retries": 2,
   "aggregate_two_pass": true,
   "lenses": {
-    "delphi": {"panelists": 7, "max_rounds": 3, "vary_entry_points": true},
+    "delphi": {"panelists": 7, "max_rounds": 2, "vary_entry_points": true},
     "tetlock": {"max_subquestions": 6},
     "dialectic": {},
     "premortem": {},

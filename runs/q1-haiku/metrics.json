@@ -1,0 +1,96 @@
+{
+  "angles_total": 51,
+  "angles_substantive": 30,
+  "panel_found": 43,
+  "naive_sonnet_found": 18,
+  "naive_fable_found": 35,
+  "panel_substantive": 25,
+  "naive_sonnet_substantive": 15,
+  "naive_fable_substantive": 27,
+  "panel_only_substantive": 3,
+  "panel_beats_own_model": 10,
+  "missed_by_panel_substantive": 5,
+  "panel_noise": 2,
+  "panel_noise_rate": 0.047,
+  "per_lens": {
+    "aggregator (blind-spots flag)": {
+      "angles": 1,
+      "substantive": 1,
+      "unique_substantive": 0,
+      "noise": 0
+    },
+    "delphi": {
+      "angles": 15,
+      "substantive": 9,
+      "unique_substantive": 0,
+      "noise": 1
+    },
+    "dialectic": {
+      "angles": 18,
+      "substantive": 15,
+      "unique_substantive": 0,
+      "noise": 0
+    },
+    "machinery": {
+      "angles": 12,
+      "substantive": 6,
+      "unique_substantive": 1,
+      "noise": 0
+    },
+    "machinery (verify item only; premortem and machinery analyzed the opposite premise)": {
+      "angles": 1,
+      "substantive": 1,
+      "unique_substantive": 0,
+      "noise": 0
+    },
+    "premortem": {
+      "angles": 13,
+      "substantive": 12,
+      "unique_substantive": 0,
+      "noise": 0
+    },
+    "premortem (passing mention only; expressly flagged as undeveloped in blind-spots)": {
+      "angles": 1,
+      "substantive": 1,
+      "unique_substantive": 0,
+      "noise": 0
+    },
+    "steelman": {
+      "angles": 9,
+      "substantive": 6,
+      "unique_substantive": 0,
+      "noise": 0
+    },
+    "structural": {
+      "angles": 10,
+      "substantive": 7,
+      "unique_substantive": 0,
+      "noise": 1
+    },
+    "tetlock": {
+      "angles": 16,
+      "substantive": 11,
+      "unique_substantive": 0,
+      "noise": 0
+    }
+  },
+  "wall_s": 1349.9,
+  "run_stats": {
+    "calls": 38,
+    "cost_usd": 9.8236,
+    "by_model": {
+      "claude-haiku-4-5-20251001": {
+        "calls": 32,
+        "input_tokens": 91920,
+        "output_tokens": 230130,
+        "cost_usd": 1.3674
+      },
+      "claude-fable-5": {
+        "calls": 6,
+        "input_tokens": 201107,
+        "output_tokens": 86383,
+        "cost_usd": 8.4562
+      }
+    }
+  }
+}

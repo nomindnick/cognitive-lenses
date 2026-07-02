@@ -1,0 +1,59 @@
+{
+  "angles_total": 60,
+  "angles_substantive": 40,
+  "panel_found": 51,
+  "naive_sonnet_found": 29,
+  "naive_fable_found": 33,
+  "panel_substantive": 35,
+  "naive_sonnet_substantive": 27,
+  "naive_fable_substantive": 29,
+  "panel_only_substantive": 10,
+  "panel_beats_own_model": 12,
+  "missed_by_panel_substantive": 5,
+  "panel_noise": 3,
+  "panel_noise_rate": 0.059,
+  "per_lens": {
+    "aggregator blind-spot note only — no lens developed it": {
+      "angles": 1,
+      "substantive": 1,
+      "unique_substantive": 0,
+      "noise": 0
+    },
+    "delphi": {
+      "angles": 12,
+      "substantive": 9,
+      "unique_substantive": 0,
+      "noise": 0
+    },
+    "dialectic": {
+      "angles": 32,
+      "substantive": 27,
+      "unique_substantive": 0,
+      "noise": 0
+    },
+    "premortem": {
+      "angles": 19,
+      "substantive": 16,
+      "unique_substantive": 1,
+      "noise": 0
+    },
+    "steelman": {
+      "angles": 20,
+      "substantive": 17,
+      "unique_substantive": 1,
+      "noise": 0
+    },
+    "structural": {
+      "angles": 17,
+      "substantive": 13,
+      "unique_substantive": 2,
+      "noise": 3
+    },
+    "tetlock": {
+      "angles": 22,
+      "substantive": 18,
+      "unique_substantive": 0,
+      "noise": 0
+    }
+  }
+}
