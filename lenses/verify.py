@@ -120,7 +120,10 @@ def run_verify(qid: str, cfg: dict, backend, max_targets: int = 14,
             f"## Context\n\nThe underlying question is a California public-agency "
             f"hypothetical: {q.title}.\n\nVerify this authority per your instructions."
         )
-        c = backend.complete(prompt, model=cfg.get("worker_model", "claude-sonnet-5"),
+        # verify_model overrides worker_model here: cite-check needs web tools,
+        # which local (ollama:*) workers don't have.
+        c = backend.complete(prompt,
+                             model=cfg.get("verify_model") or cfg.get("worker_model", "claude-sonnet-5"),
                              system=VERIFIER_SYSTEM, schema=VERIFY_SCHEMA,
                              tools="WebSearch,WebFetch",
                              label=f"verify-{re.sub(r'[^a-z0-9]+', '-', t['key'])[:40]}")

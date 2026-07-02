@@ -1,0 +1,160 @@
+[
+  {
+    "model": "gpt-oss:120b",
+    "warmup": {
+      "ok": false,
+      "error": "did not load within 3 server load-timeout windows",
+      "cold_load_s": 2190.7
+    },
+    "speed": {
+      "ok": false,
+      "error": "warmup failed"
+    },
+    "schema": {
+      "ok": false,
+      "error": "warmup failed"
+    }
+  },
+  {
+    "model": "qwen3.5:122b",
+    "warmup": {
+      "ok": true,
+      "cold_load_s": 25.7
+    },
+    "speed": {
+      "ok": true,
+      "wall_s": 34.3,
+      "input_tokens": 895,
+      "output_tokens": 700,
+      "prompt_tps": 271.6,
+      "decode_tps": 22.8,
+      "load_s": 0.2,
+      "thinking_chars": 2976,
+      "done_reason": "length",
+      "cold_load_s": 25.7
+    },
+    "schema": {
+      "ok": true,
+      "wall_s": 181.3,
+      "input_tokens": 4513,
+      "output_tokens": 467,
+      "prompt_tps": 442.7,
+      "decode_tps": 22.7,
+      "load_s": 0.2,
+      "thinking_chars": 15644,
+      "done_reason": "stop",
+      "schema_valid": true,
+      "sane": true,
+      "probability": 82,
+      "n_authorities": 4
+    }
+  },
+  {
+    "model": "mistral-medium-3.5:128b",
+    "warmup": {
+      "ok": false,
+      "error": "did not load within 3 server load-timeout windows",
+      "cold_load_s": 1341.6
+    },
+    "speed": {
+      "ok": false,
+      "error": "warmup failed"
+    },
+    "schema": {
+      "ok": false,
+      "error": "warmup failed"
+    }
+  },
+  {
+    "model": "gemma4:31b",
+    "warmup": {
+      "ok": true,
+      "cold_load_s": 9.2
+    },
+    "speed": {
+      "ok": true,
+      "wall_s": 78.1,
+      "input_tokens": 894,
+      "output_tokens": 700,
+      "prompt_tps": 303.4,
+      "decode_tps": 9.4,
+      "load_s": 0.3,
+      "thinking_chars": 2994,
+      "done_reason": "length",
+      "cold_load_s": 9.2
+    },
+    "schema": {
+      "ok": false,
+      "error": "bench-gemma4:31b-schema: failed after 1 attempts: bench-gemma4:31b-schema: structured output not parseable (done_reason='stop'): '{\\n  \"probability\": 75,\\n  \"confidence\": \"high\",\\n  \"position_summary\": \"The use of a shared-memory AI is more likely than not to bectors as a \\'communication\\' via an in",
+      "wall_s": 187.0
+    }
+  },
+  {
+    "model": "qwen3.6:27b",
+    "warmup": {
+      "ok": true,
+      "cold_load_s": 8.3
+    },
+    "speed": {
+      "ok": true,
+      "wall_s": 63.2,
+      "input_tokens": 895,
+      "output_tokens": 700,
+      "prompt_tps": 237.9,
+      "decode_tps": 11.8,
+      "load_s": 0.2,
+      "thinking_chars": 3274,
+      "done_reason": "length",
+      "cold_load_s": 8.3
+    },
+    "schema": {
+      "ok": true,
+      "wall_s": 348.3,
+      "input_tokens": 4590,
+      "output_tokens": 309,
+      "prompt_tps": 402.8,
+      "decode_tps": 11.8,
+      "load_s": 0.2,
+      "thinking_chars": 16186,
+      "done_reason": "stop",
+      "schema_valid": true,
+      "sane": true,
+      "probability": 75,
+      "n_authorities": 0
+    }
+  },
+  {
+    "model": "gemma4:12b",
+    "warmup": {
+      "ok": true,
+      "cold_load_s": 6.4
+    },
+    "speed": {
+      "ok": true,
+      "wall_s": 33.3,
+      "input_tokens": 894,
+      "output_tokens": 700,
+      "prompt_tps": 781.2,
+      "decode_tps": 21.9,
+      "load_s": 0.2,
+      "thinking_chars": 2897,
+      "done_reason": "length",
+      "cold_load_s": 6.4
+    },
+    "schema": {
+      "ok": true,
+      "wall_s": 82.2,
+      "input_tokens": 899,
+      "output_tokens": 408,
+      "prompt_tps": 5914.6,
+      "decode_tps": 21.5,
+      "load_s": 0.2,
+      "thinking_chars": 5793,
+      "done_reason": "stop",
+      "schema_valid": true,
+      "sane": true,
+      "probability": 90,
+      "n_authorities": 2
+    }
+  }
+]

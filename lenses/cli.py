@@ -16,6 +16,10 @@ def main(argv=None) -> int:
     p.add_argument("--force", action="store_true", help="redo stages even if artifacts exist")
     p.add_argument("--mock", action="store_true", help="use the offline MockBackend")
     p.add_argument("--config", default=None)
+    p.add_argument("--run-dir", default=None,
+                   help="write artifacts here instead of runs/<qid> — for variant runs "
+                        "(e.g. runs/q1-ollama-hybrid) that must not touch the originals; "
+                        "single qid only")
 
     p = sub.add_parser("report", help="rebuild question reports + index from artifacts")
     p.add_argument("qids", nargs="*", help="default: all")
@@ -35,13 +39,19 @@ def main(argv=None) -> int:
     args = ap.parse_args(argv)
 
     if args.cmd == "run":
+        from pathlib import Path
+
         from .runner import run_question
         cfg = load_config(args.config)
         qids = all_question_ids() if args.qids == ["all"] else args.qids
+        if args.run_dir and len(qids) > 1:
+            log("--run-dir needs a single qid (one dir, one run)")
+            return 2
         failed = []
         for qid in qids:
             try:
-                run_question(qid, cfg, force=args.force, mock=args.mock)
+                run_question(qid, cfg, force=args.force, mock=args.mock,
+                             run_dir=Path(args.run_dir) if args.run_dir else None)
             except Exception as e:
                 log(f"[{qid}] RUN FAILED: {e}")
                 failed.append(qid)

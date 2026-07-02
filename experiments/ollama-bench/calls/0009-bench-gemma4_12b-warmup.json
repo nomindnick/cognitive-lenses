@@ -1,0 +1,22 @@
+{
+  "seq": 9,
+  "label": "bench-gemma4:12b-warmup",
+  "model": "gemma4:12b",
+  "attempt": 0,
+  "duration_s": 6.4,
+  "cost_usd": 0.0,
+  "usage": {
+    "input_tokens": 19,
+    "output_tokens": 8,
+    "prompt_tps": 16.8,
+    "decode_tps": 26.9,
+    "load_s": 5.0,
+    "thinking_chars": 18,
+    "done_reason": "length"
+  },
+  "system": null,
+  "prompt": "Say OK.",
+  "schema": null,
+  "text": "",
+  "data": null
+}

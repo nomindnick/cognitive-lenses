@@ -1,0 +1,24 @@
+{
+  "_comment": "Config C: local workers + Claude judge/aggregator. Tests whether cheap local angle-generation can feed a strong aggregator. Worker = qwen3.5:122b per experiments/ollama-bench/results.md (only big model that serves on this box; 22.8 tok/s). verify_model pins the search-enabled cite-check to Claude (local models have no web tools).",
+  "worker_model": "ollama:qwen3.5:122b",
+  "judge_model": "claude-fable-5",
+  "fallback_judge_model": "claude-opus-4-8",
+  "verify_model": "claude-sonnet-5",
+  "max_parallel_calls": 6,
+  "ollama_max_parallel": 2,
+  "ollama_num_ctx": 32768,
+  "ollama_timeout_s": 3600,
+  "call_timeout_s": 900,
+  "retries": 2,
+  "aggregate_two_pass": true,
+  "aggregate_hierarchical": true,
+  "lenses": {
+    "delphi": {"panelists": 7, "max_rounds": 2, "vary_entry_points": true},
+    "tetlock": {"max_subquestions": 6},
+    "dialectic": {},
+    "premortem": {},
+    "steelman": {},
+    "structural": {},
+    "machinery": {}
+  }
+}

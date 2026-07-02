@@ -1,0 +1,22 @@
+{
+  "seq": 6,
+  "label": "bench-qwen3.6:27b-warmup",
+  "model": "qwen3.6:27b",
+  "attempt": 0,
+  "duration_s": 8.3,
+  "cost_usd": 0.0,
+  "usage": {
+    "input_tokens": 13,
+    "output_tokens": 8,
+    "prompt_tps": 52.2,
+    "decode_tps": 13.5,
+    "load_s": 7.4,
+    "thinking_chars": 29,
+    "done_reason": "length"
+  },
+  "system": null,
+  "prompt": "Say OK.",
+  "schema": null,
+  "text": "",
+  "data": null
+}

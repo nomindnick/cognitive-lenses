@@ -1,0 +1,24 @@
+{
+  "_comment": "Config D: all-local (workers AND judge/aggregator). Tests whether crux-finding survives without a frontier aggregator. Fallback judge is deliberately ANOTHER LOCAL MODEL — a Claude fallback would silently contaminate the all-local condition (qwen3.6:27b passed the bench schema probe; weak, but it only fires on error and is audit-logged). Models chosen per experiments/ollama-bench/results.md. verify_model pins the search-enabled cite-check to Claude; run `python3 -m lenses verify` separately if strict isolation matters for a comparison.",
+  "worker_model": "ollama:qwen3.5:122b",
+  "judge_model": "ollama:qwen3.5:122b",
+  "fallback_judge_model": "ollama:qwen3.6:27b",
+  "verify_model": "claude-sonnet-5",
+  "max_parallel_calls": 6,
+  "ollama_max_parallel": 2,
+  "ollama_num_ctx": 32768,
+  "ollama_timeout_s": 3600,
+  "call_timeout_s": 900,
+  "retries": 2,
+  "aggregate_two_pass": true,
+  "aggregate_hierarchical": true,
+  "lenses": {
+    "delphi": {"panelists": 7, "max_rounds": 2, "vary_entry_points": true},
+    "tetlock": {"max_subquestions": 6},
+    "dialectic": {},
+    "premortem": {},
+    "steelman": {},
+    "structural": {},
+    "machinery": {}
+  }
+}
